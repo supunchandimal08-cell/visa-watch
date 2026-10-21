@@ -23,7 +23,70 @@ footer{margin-top:30px;color:#8291a2;font-size:10px;display:flex;justify-content
 @media(max-width:760px){.layout{grid-template-columns:1fr}.sidebar{position:relative;height:auto;padding:14px;gap:13px}.brand{padding:0 5px}.nav-label,.sidebar-bottom{display:none}.nav{display:flex;overflow:auto}.nav button{width:auto;white-space:nowrap;padding:9px 12px}.nav button .count{display:none}.topbar{height:60px;padding:0 15px}.search input{width:145px}.top-actions .smallbtn{display:none}.content{padding:22px 14px}.welcome{display:block}.date-pill{display:inline-block;margin-top:14px}.stats{gap:9px}.stat{padding:13px}.stat strong{font-size:24px}.countries{gap:9px}.country-card{padding:12px}.country-card p{min-height:0}.source-grid,.checklist{grid-template-columns:1fr}.update-list{padding:0 13px}.panel-head{padding:14px}.welcome h1{font-size:27px}}
 </style>
 </head>
-<body>
+
+<section id="monitor-status" style="padding:20px;margin:20px;border:1px solid #ccc;border-radius:12px">
+  <h2>VisaWatch Monitoring Status</h2>
+  <p id="monitor-message">Loading monitoring results...</p>
+  <div id="monitor-results"></div>
+</section>
+
+<script>
+async function loadVisaWatchUpdates() {
+  const message = document.getElementById("monitor-message");
+  const results = document.getElementById("monitor-results");
+
+  try {
+    const response = await fetch("./data/updates.json", {
+      cache: "no-store"
+    });
+
+    if (!response.ok) {
+      throw new Error("Could not load updates.json");
+    }
+
+    const data = await response.json();
+
+    message.textContent = "Last checked: " +
+      (data.generated_at || "Time not available");
+
+    if (!Array.isArray(data.items) || data.items.length === 0) {
+      results.textContent = "No source results available yet.";
+      return;
+    }
+
+    results.replaceChildren();
+
+    data.items.forEach(item => {
+      const card = document.createElement("div");
+      card.style.cssText =
+        "padding:12px;margin:10px 0;border:1px solid #ddd;border-radius:8px";
+
+      const title = document.createElement("h3");
+      title.textContent = item.country + " — " + item.name;
+
+      const status = document.createElement("p");
+      status.textContent = "Source status: " + item.status;
+
+      const link = document.createElement("a");
+      link.href = item.url;
+      link.textContent = "Open official source";
+      link.target = "_blank";
+      link.rel = "noopener noreferrer";
+
+      card.append(title, status, link);
+      results.appendChild(card);
+    });
+  } catch (error) {
+    message.textContent =
+      "Monitoring results could not be loaded. Check website hosting and data path.";
+    results.textContent = "";
+  }
+}
+
+loadVisaWatchUpdates();
+</script>
+
+ <body>
 <div class="layout">
 <aside class="sidebar">
  <div class="brand"><div class="logo">V</div><div><b>VisaWatch</b><small>Immigration intelligence</small></div></div>
