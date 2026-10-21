@@ -1,0 +1,227 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1">
+<meta name="theme-color" content="#102b46">
+<title>VisaWatch | Immigration Intelligence</title>
+<style>
+:root{--navy:#102b46;--navy2:#193d5b;--teal:#1bb6a3;--teal2:#dff8f3;--bg:#f4f7fb;--paper:#fff;--ink:#1a2d42;--muted:#6e8094;--line:#e2eaf1;--gold:#f0b64b;--red:#c84f58;--green:#168565;--shadow:0 12px 36px rgba(22,49,75,.07)}
+*{box-sizing:border-box}html{scroll-behavior:smooth}body{margin:0;background:var(--bg);color:var(--ink);font:14px/1.55 Inter,ui-sans-serif,system-ui,-apple-system,"Segoe UI",sans-serif}
+button,input,select{font:inherit}button,a{cursor:pointer}a{color:inherit;text-decoration:none}
+.layout{min-height:100vh;display:grid;grid-template-columns:252px minmax(0,1fr)}
+.sidebar{background:linear-gradient(170deg,var(--navy),#0b2037);color:#d8e5f1;padding:24px 16px;display:flex;flex-direction:column;gap:24px;position:sticky;top:0;height:100vh}
+.brand{display:flex;align-items:center;gap:11px;padding:0 9px}.logo{width:40px;height:40px;border-radius:13px;background:linear-gradient(135deg,#35d1bc,#0e8c95);display:grid;place-items:center;color:#072b3d;font-size:21px;font-weight:900;box-shadow:0 7px 20px #0c7b7770}.brand b{font-size:18px;letter-spacing:-.5px;color:#fff}.brand small{display:block;color:#8fa8bf;font-size:10px;letter-spacing:1.6px;text-transform:uppercase}
+.nav-label{padding:0 12px;color:#7791a8;text-transform:uppercase;letter-spacing:1.5px;font-size:10px;font-weight:800}.nav{display:grid;gap:5px}.nav button{display:flex;align-items:center;gap:12px;border:0;background:transparent;color:#afc2d4;padding:12px;border-radius:10px;text-align:left;width:100%;transition:.2s}.nav button:hover,.nav button.active{background:#ffffff13;color:white}.nav button.active{box-shadow:inset 3px 0 var(--teal)}.nav .ico{width:20px;text-align:center;font-size:16px}.nav .count{margin-left:auto;font-size:11px;background:#234763;padding:2px 7px;border-radius:20px}.sidebar-bottom{margin-top:auto;border:1px solid #ffffff1a;border-radius:14px;padding:14px;background:#ffffff08}.status-dot{display:inline-block;width:7px;height:7px;border-radius:50%;background:var(--gold);margin-right:6px}.sidebar-bottom strong{font-size:12px;color:#fff}.sidebar-bottom p{font-size:11px;color:#91a8bc;margin:8px 0 0}
+main{min-width:0}.topbar{height:72px;background:#ffffffd9;backdrop-filter:blur(14px);border-bottom:1px solid var(--line);display:flex;align-items:center;justify-content:space-between;padding:0 clamp(18px,3vw,38px);position:sticky;top:0;z-index:4}.crumb{font-size:12px;color:var(--muted)}.crumb b{color:var(--ink)}.top-actions{display:flex;align-items:center;gap:10px}.search{position:relative}.search input{width:min(28vw,290px);border:1px solid var(--line);background:#f7f9fc;border-radius:10px;padding:10px 12px 10px 34px;outline:none}.search:before{content:"⌕";position:absolute;left:12px;top:6px;font-size:20px;color:#789}.smallbtn{border:1px solid var(--line);background:#fff;border-radius:10px;padding:9px 12px;color:var(--ink)}.avatar{width:34px;height:34px;border-radius:50%;background:#d9f3ef;color:#126b69;display:grid;place-items:center;font-weight:800}
+.content{max-width:1500px;margin:auto;padding:28px clamp(18px,3vw,38px) 50px}.welcome{display:flex;align-items:flex-start;justify-content:space-between;gap:20px;margin-bottom:22px}.eyebrow{color:#168f88;font-size:11px;text-transform:uppercase;letter-spacing:1.6px;font-weight:850}.welcome h1{font-size:clamp(26px,3vw,35px);letter-spacing:-1.2px;line-height:1.15;margin:8px 0}.welcome p{color:var(--muted);margin:0;max-width:680px}.date-pill{border:1px solid var(--line);background:#fff;border-radius:11px;padding:10px 13px;white-space:nowrap;color:#5e7288;font-size:12px}
+.banner{border-radius:16px;padding:16px 19px;display:flex;gap:13px;align-items:flex-start;background:linear-gradient(105deg,#e5faf6,#f3fbfd);border:1px solid #ccefe8;margin:22px 0}.banner-icon{width:34px;height:34px;flex:none;border-radius:10px;background:#c5f1e8;display:grid;place-items:center;font-size:17px}.banner b{display:block;color:#145d5b;font-size:13px;margin-bottom:3px}.banner p{margin:0;color:#4b7778;font-size:12px}.stats{display:grid;grid-template-columns:repeat(4,minmax(0,1fr));gap:14px;margin:18px 0 26px}.stat{background:var(--paper);border:1px solid var(--line);border-radius:15px;padding:17px;box-shadow:0 3px 12px #193d5b05}.stat-head{display:flex;align-items:center;justify-content:space-between;color:var(--muted);font-size:12px}.stat-icon{width:34px;height:34px;border-radius:10px;display:grid;place-items:center;font-size:17px;background:#edf3fb}.stat strong{font-size:29px;display:block;letter-spacing:-1px;margin:10px 0 2px}.stat small{color:var(--muted);font-size:11px}.section-head{display:flex;align-items:center;justify-content:space-between;gap:12px;margin:28px 0 13px}.section-head h2{margin:0;font-size:18px;letter-spacing:-.4px}.section-head p{margin:4px 0 0;color:var(--muted);font-size:12px}.text-link{font-size:12px;color:#138b86;font-weight:750}
+.countries{display:grid;grid-template-columns:repeat(4,minmax(0,1fr));gap:13px}.country-card{background:white;border:1px solid var(--line);border-radius:15px;padding:16px;transition:transform .2s,box-shadow .2s;cursor:pointer}.country-card:hover{transform:translateY(-3px);box-shadow:var(--shadow)}.country-top{display:flex;align-items:center;gap:10px}.flag{height:42px;width:42px;border-radius:13px;background:#edf3fa;display:grid;place-items:center;font-size:22px}.country-top h3{font-size:14px;margin:0}.country-top small{color:var(--muted);font-size:11px}.country-card p{font-size:12px;color:var(--muted);min-height:36px;margin:13px 0}.country-foot{display:flex;align-items:center;justify-content:space-between;border-top:1px solid #edf1f5;padding-top:11px;font-size:11px}.source-count{color:var(--muted)}.mini-status{color:#8a671b;background:#fff5db;padding:4px 7px;border-radius:20px}
+.columns{display:grid;grid-template-columns:minmax(0,1.5fr) minmax(270px,.8fr);gap:16px;align-items:start}.panel{background:white;border:1px solid var(--line);border-radius:16px;overflow:hidden}.panel-head{display:flex;justify-content:space-between;align-items:center;padding:17px 18px;border-bottom:1px solid var(--line)}.panel-head h3{font-size:14px;margin:0}.panel-head span{font-size:11px;color:var(--muted)}.update-list{padding:0 18px}.update{display:grid;grid-template-columns:40px minmax(0,1fr);gap:12px;padding:16px 0;border-bottom:1px solid #edf1f5}.update:last-child{border-bottom:0}.update-icon{width:38px;height:38px;border-radius:12px;background:#edf7f6;display:grid;place-items:center;font-size:17px}.update h4{font-size:13px;margin:0 0 5px}.update p{font-size:11px;color:var(--muted);margin:0 0 8px}.meta{display:flex;flex-wrap:wrap;gap:7px;align-items:center}.tag{display:inline-flex;align-items:center;border-radius:5px;padding:3px 7px;font-size:10px;font-weight:750;background:#f0f3f7;color:#617286}.tag.review{background:#fff2d5;color:#8a6214}.tag.info{background:#e8f3ff;color:#315f98}.tag.effective{background:#e4f7ed;color:#17734f}.source-anchor{font-size:11px;color:#148b86;font-weight:750}
+.queue-body{padding:17px}.queue-number{display:flex;align-items:center;justify-content:space-between;margin-bottom:13px}.queue-number strong{font-size:31px;letter-spacing:-1px}.queue-number span{font-size:11px;color:var(--muted)}.queue-item{border:1px solid var(--line);border-radius:11px;padding:12px;margin-bottom:10px}.queue-item b{display:block;font-size:12px;margin-bottom:4px}.queue-item p{font-size:11px;color:var(--muted);margin:0 0 8px}.queue-item a{font-size:11px;color:#138b86;font-weight:750}.safe-note{padding:14px;background:#fff8e9;border-top:1px solid #f2e4c4;font-size:11px;color:#7e622b}.source-grid{display:grid;grid-template-columns:repeat(2,minmax(0,1fr));gap:12px}.source-card{background:#fff;border:1px solid var(--line);border-radius:13px;padding:15px}.source-card h3{font-size:13px;margin:8px 0 6px}.source-card p{font-size:11px;color:var(--muted);margin:0 0 10px}.source-card a{font-size:11px;color:#148b86;font-weight:750}.page{display:none}.page.active{display:block}.filterbar{display:flex;flex-wrap:wrap;gap:9px;margin:12px 0 16px}.filterbar select,.filterbar input{border:1px solid var(--line);border-radius:9px;padding:9px 11px;background:white}.filterbar input{flex:1;min-width:190px}.table-wrap{overflow:auto;background:#fff;border:1px solid var(--line);border-radius:14px}.data-table{width:100%;border-collapse:collapse;min-width:720px}.data-table th,.data-table td{text-align:left;padding:13px 14px;border-bottom:1px solid #edf1f5;font-size:12px;vertical-align:top}.data-table th{background:#f8fafc;color:#617286;font-size:10px;text-transform:uppercase;letter-spacing:.8px}.data-table td small{display:block;color:var(--muted);margin-top:4px}.data-table tr:last-child td{border-bottom:0}.checklist{display:grid;grid-template-columns:repeat(2,minmax(0,1fr));gap:12px}.check-item{display:flex;gap:11px;background:#fff;border:1px solid var(--line);border-radius:12px;padding:14px}.check-item input{margin-top:4px;accent-color:#168f88}.check-item b{font-size:12px;display:block}.check-item span{font-size:11px;color:var(--muted);display:block;margin-top:4px}.progress{height:6px;background:#e7edf2;border-radius:8px;overflow:hidden;margin:12px 0}.progress div{height:100%;width:0;background:var(--teal);transition:width .2s}.empty{color:var(--muted);font-size:12px;padding:20px}
+footer{margin-top:30px;color:#8291a2;font-size:10px;display:flex;justify-content:space-between;gap:15px;flex-wrap:wrap}
+@media(max-width:1150px){.countries{grid-template-columns:repeat(2,minmax(0,1fr))}.stats{grid-template-columns:repeat(2,minmax(0,1fr))}.columns{grid-template-columns:1fr}}
+@media(max-width:760px){.layout{grid-template-columns:1fr}.sidebar{position:relative;height:auto;padding:14px;gap:13px}.brand{padding:0 5px}.nav-label,.sidebar-bottom{display:none}.nav{display:flex;overflow:auto}.nav button{width:auto;white-space:nowrap;padding:9px 12px}.nav button .count{display:none}.topbar{height:60px;padding:0 15px}.search input{width:145px}.top-actions .smallbtn{display:none}.content{padding:22px 14px}.welcome{display:block}.date-pill{display:inline-block;margin-top:14px}.stats{gap:9px}.stat{padding:13px}.stat strong{font-size:24px}.countries{gap:9px}.country-card{padding:12px}.country-card p{min-height:0}.source-grid,.checklist{grid-template-columns:1fr}.update-list{padding:0 13px}.panel-head{padding:14px}.welcome h1{font-size:27px}}
+</style>
+</head>
+<body>
+<div class="layout">
+<aside class="sidebar">
+ <div class="brand"><div class="logo">V</div><div><b>VisaWatch</b><small>Immigration intelligence</small></div></div>
+ <div><div class="nav-label">Workspace</div><nav class="nav" id="nav">
+  <button class="active" data-page="overview"><span class="ico">▦</span>Overview</button>
+  <button data-page="updates"><span class="ico">◷</span>Update monitor <span class="count">3</span></button>
+  <button data-page="rules"><span class="ico">▤</span>Rules library</button>
+  <button data-page="sources"><span class="ico">◎</span>Official sources</button>
+  <button data-page="checklist"><span class="ico">✓</span>Counsellor checklist</button>
+ </nav></div>
+ <div><div class="nav-label">Destinations</div><nav class="nav" id="countryNav">
+  <button data-country="UK"><span class="ico">🇬🇧</span>United Kingdom</button>
+  <button data-country="Canada"><span class="ico">🇨🇦</span>Canada</button>
+  <button data-country="Australia"><span class="ico">🇦🇺</span>Australia</button>
+  <button data-country="UAE / Dubai"><span class="ico">🇦🇪</span>UAE / Dubai</button>
+  <button data-country="New Zealand"><span class="ico">🇳🇿</span>New Zealand</button>
+  <button data-country="Europe / Schengen"><span class="ico">🇪🇺</span>Europe / Schengen</button>
+  <button data-country="USA"><span class="ico">🇺🇸</span>United States</button>
+ </nav></div>
+ <div class="sidebar-bottom"><span class="status-dot"></span><strong>Prototype mode</strong><p>Local preview · Daily monitor not connected to this screen yet.</p></div>
+</aside>
+<main>
+ <div class="topbar"><div class="crumb">VisaWatch <span style="color:#b5c0ca">/</span> <b id="crumb">Overview</b></div><div class="top-actions"><div class="search"><input id="globalSearch" placeholder="Search rules & sources…"></div><button class="smallbtn" id="langBtn">සිංහල</button><div class="avatar">VW</div></div></div>
+ <div class="content">
+ <section class="page active" id="page-overview">
+  <div class="welcome"><div><div class="eyebrow">Your immigration intelligence desk</div><h1>Good morning, counsellor.</h1><p>One workspace for official immigration guidance, policy changes and safer student counselling across seven destinations.</p></div><div class="date-pill" id="today">◷ Loading date…</div></div>
+  <div class="banner"><div class="banner-icon">✦</div><div><b>Accuracy first. Always verify before advising.</b><p>A webpage change is a signal, not proof of a legal change. Check the original government source, dates, affected applicants and exceptions before using any update with a client.</p></div></div>
+  <div class="stats">
+   <div class="stat"><div class="stat-head">Destinations covered <span class="stat-icon">🌍</span></div><strong>07</strong><small>Country and regional groups</small></div>
+   <div class="stat"><div class="stat-head">Official source links <span class="stat-icon">🔗</span></div><strong id="sourceStat">14</strong><small>Curated starting points</small></div>
+   <div class="stat"><div class="stat-head">Updates to review <span class="stat-icon">⌛</span></div><strong>03</strong><small>Sample official records in this demo</small></div>
+   <div class="stat"><div class="stat-head">Monitor status <span class="stat-icon">◉</span></div><strong style="font-size:21px;color:#a2761a">Setup needed</strong><small>Scheduled checks not live yet</small></div>
+  </div>
+  <div class="section-head"><div><h2>Explore destinations</h2><p>Choose a destination to filter official guidance and updates.</p></div><a class="text-link" href="#" data-goto="sources">All official sources ↗</a></div>
+  <div class="countries" id="countries"></div>
+  <div class="columns">
+   <div><div class="section-head"><div><h2>Latest official signals</h2><p>Examples with a source link and date context.</p></div><a class="text-link" href="#" data-goto="updates">View all →</a></div><div class="panel"><div class="update-list" id="latestUpdates"></div></div></div>
+   <div><div class="section-head"><div><h2>Review queue</h2><p>Human verification before counselling use.</p></div></div><div class="panel"><div class="queue-body"><div class="queue-number"><strong>03</strong><span>Needs review</span></div><div id="queueItems"></div></div><div class="safe-note">⚠ Never promise visa approval, jobs, or guaranteed work hours. Verify eligibility for the specific applicant.</div></div></div>
+  </div>
+  <footer><span>VisaWatch · Internal counselling workspace concept</span><span>Demo data · Not legal advice · Official sources take precedence</span></footer>
+ </section>
+ <section class="page" id="page-updates">
+  <div class="welcome"><div><div class="eyebrow">Change detection & review</div><h1>Update monitor</h1><p>Track official announcements, separate page updates from policy changes, and review each item before counselling use.</p></div></div>
+  <div class="banner"><div class="banner-icon">⌕</div><div><b>Detection is not confirmation</b><p>These are curated example records, not a live feed. The scheduled monitor must be installed and connected before automatic detections appear.</p></div></div>
+  <div class="filterbar"><input id="updateSearch" placeholder="Search update title, category or country…"><select id="updateCountry"><option value="">All destinations</option></select><select id="updateStatus"><option value="">All statuses</option><option>Needs review</option><option>Official guidance updated</option><option>Effective rule change</option></select></div>
+  <div class="table-wrap"><table class="data-table"><thead><tr><th>Update / source</th><th>Destination</th><th>Publication / page date</th><th>Effective date</th><th>Status</th></tr></thead><tbody id="updateRows"></tbody></table></div>
+  <footer><span>Review each source and preserve evidence before approving an update.</span><span>Dates are kept separate by design.</span></footer>
+ </section>
+ <section class="page" id="page-rules">
+  <div class="welcome"><div><div class="eyebrow">Verified knowledge base</div><h1>Rules library</h1><p>A structured starting point for student visa, work rights, funds, dependants and post-study pathways. Use the official page as the authority.</p></div></div>
+  <div class="banner"><div class="banner-icon">▤</div><div><b>Do not treat every source note as a confirmed rule.</b><p>Each rule should store its jurisdiction, visa type, who it applies to, exceptions, publication date, effective date, source evidence, reviewer and last verification date.</p></div></div>
+  <div class="filterbar"><input id="ruleSearch" placeholder="Search rule topics…"><select id="ruleCountry"><option value="">All destinations</option></select><select id="ruleCategory"><option value="">All topics</option><option>Student visa</option><option>Work rights</option><option>Post-study work</option><option>Student placements</option><option>Residence permit</option><option>Border systems</option></select></div>
+  <div class="table-wrap"><table class="data-table"><thead><tr><th>Topic</th><th>Destination</th><th>What counsellors should check</th><th>Evidence</th><th>Status</th></tr></thead><tbody id="ruleRows"></tbody></table></div>
+  <footer><span>Production version should add edit permissions and an immutable audit trail.</span><span>Prototype stores no client personal data.</span></footer>
+ </section>
+ <section class="page" id="page-sources">
+  <div class="welcome"><div><div class="eyebrow">Primary evidence</div><h1>Official source registry</h1><p>Direct links to government immigration authorities. The source owner and jurisdiction matter: a federal overview may not replace a Dubai-specific or destination-country rule.</p></div></div>
+  <div class="filterbar"><input id="sourceSearch" placeholder="Find official source…"><select id="sourceCountry"><option value="">All destinations</option></select></div><div class="source-grid" id="sourceGrid"></div>
+  <footer><span>Source registry should be reviewed periodically for changed URLs and jurisdiction.</span><span>Links open official websites in a new tab.</span></footer>
+ </section>
+ <section class="page" id="page-checklist">
+  <div class="welcome"><div><div class="eyebrow">Counsellor safety workflow</div><h1>Client guidance checklist</h1><p>Use this before explaining visa eligibility or making a recommendation. Tick items only after checking the applicant’s actual documents and current official rules.</p></div></div>
+  <div class="banner"><div class="banner-icon">✓</div><div><b>Client-specific verification matters.</b><p>This is a generic workflow checklist, not an eligibility decision. A tick does not guarantee visa approval.</p></div></div>
+  <div class="panel" style="padding:18px;margin-bottom:15px"><div style="display:flex;justify-content:space-between;gap:10px"><b>Pre-counselling review progress</b><span id="checkProgressText" class="muted">0 of 10 complete</span></div><div class="progress"><div id="checkProgress"></div></div><button class="smallbtn" id="resetChecks">Reset checklist</button></div>
+  <div class="checklist" id="checklistItems"></div>
+  <footer><span>Never guarantee a visa, a job, or a particular outcome.</span><span>Confirm rules again before submitting an application.</span></footer>
+ </section>
+ </div>
+</main>
+</div>
+<script>
+const countries=[
+ {name:"UK",full:"United Kingdom",flag:"🇬🇧",sub:"Student route & Graduate route",desc:"Student visa, finance, work conditions and post-study options.",sources:2},
+ {name:"Canada",full:"Canada",flag:"🇨🇦",sub:"Study permit & work rules",desc:"Study permits, work eligibility, placements and PGWP.",sources:2},
+ {name:"Australia",full:"Australia",flag:"🇦🇺",sub:"Student visa subclass 500",desc:"Student visa conditions, work limits and application rules.",sources:2},
+ {name:"UAE / Dubai",full:"UAE / Dubai",flag:"🇦🇪",sub:"Student residence permit",desc:"Dubai GDRFA services plus UAE federal student guidance.",sources:2},
+ {name:"New Zealand",full:"New Zealand",flag:"🇳🇿",sub:"Study & post-study pathways",desc:"Student visa conditions, funds, work and post-study options.",sources:2},
+ {name:"Europe / Schengen",full:"Europe / Schengen",flag:"🇪🇺",sub:"National student residence rules",desc:"Use EU portal as a starting point; confirm national authority.",sources:2},
+ {name:"USA",full:"United States",flag:"🇺🇸",sub:"F-1 / M-1 student visas",desc:"Student visa guidance and official visa policy notices.",sources:2}
+];
+const initialSources=[
+ {id:"uae1",country:"UAE / Dubai",title:"GDRFA Dubai — official portal",category:"Dubai immigration",url:"https://www.gdrfad.gov.ae/en",note:"Dubai immigration services, residence permits and official service guidance."},
+ {id:"uae2",country:"UAE / Dubai",title:"GDRFA — student residence service",category:"Residence permit",url:"https://gdrfad.gov.ae/en/services/f52024e0-b812-11ed-5210-4cd98f768936",note:"Check current sponsor, documents, service fees and conditions directly."},
+ {id:"uae3",country:"UAE / Dubai",title:"UAE Government — study residence visa",category:"Federal guidance",url:"https://u.ae/en/information-and-services/visa-and-emirates-id/residence-visas/residence-visa-for-studying-in-the-uae",note:"Federal overview; distinguish this from Dubai-specific service steps."},
+ {id:"uk1",country:"UK",title:"GOV.UK — Student visa",category:"Student visa",url:"https://www.gov.uk/student-visa",note:"Eligibility, funds, English language, work conditions and application steps."},
+ {id:"uk2",country:"UK",title:"GOV.UK — Student & Child Student caseworker guidance",category:"Caseworker guidance",url:"https://www.gov.uk/government/publications/student-route-caseworker-guidance/student-and-child-student",note:"Detailed caseworker guidance; record publication and page-update dates separately."},
+ {id:"ca1",country:"Canada",title:"IRCC — Study permit",category:"Study permit",url:"https://www.canada.ca/en/immigration-refugees-citizenship/services/study-canada/study-permit.html",note:"Study permit requirements and links to supporting documents."},
+ {id:"ca2",country:"Canada",title:"IRCC — Work as an international student",category:"Work rights",url:"https://www.canada.ca/en/immigration-refugees-citizenship/services/study-canada/work.html",note:"On/off-campus work, student placements and post-graduation pathways."},
+ {id:"au1",country:"Australia",title:"Home Affairs — Student visa subclass 500",category:"Student visa",url:"https://immi.homeaffairs.gov.au/visas/getting-a-visa/visa-listing/student-500",note:"Current eligibility, CoE, OSHC, stay, cost and work conditions."},
+ {id:"au2",country:"Australia",title:"Home Affairs — Student visa rule changes",category:"Rule changes",url:"https://immi.homeaffairs.gov.au/visas/getting-a-visa/visa-listing/changes-to-student-visa-application-rules-500-590",note:"Review commencement date, affected applicants and exceptions."},
+ {id:"nz1",country:"New Zealand",title:"Immigration New Zealand — Study",category:"Student visas",url:"https://www.immigration.govt.nz/study/",note:"Student visa options, conditions and after-study pathways."},
+ {id:"nz2",country:"New Zealand",title:"Immigration New Zealand — Fee Paying Student Visa",category:"Student visa",url:"https://www.immigration.govt.nz/new-zealand-visas/visas/visa/fee-paying-student-visa",note:"Visa-specific conditions, funds, insurance and work rights."},
+ {id:"eu1",country:"Europe / Schengen",title:"EU Immigration Portal",category:"National immigration pathways",url:"https://immigration-portal.ec.europa.eu/index_en",note:"Starting point; student residence rules are determined by each country."},
+ {id:"eu2",country:"Europe / Schengen",title:"European Commission — Travel to Europe",category:"Border systems",url:"https://travel-europe.europa.eu/",note:"EES / ETIAS information; short-stay border systems are not national student visas."},
+ {id:"us1",country:"USA",title:"U.S. Department of State — Student Visa",category:"Student visa",url:"https://travel.state.gov/content/travel/en/us-visas/study/student-visa.html",note:"Official F/M student visa guidance and application process."},
+ {id:"us2",country:"USA",title:"U.S. Department of State — Visa News",category:"Policy updates",url:"https://travel.state.gov/content/travel/en/News/visas-news.html",note:"Review date, visa category, nationality scope and exceptions."}
+];
+const initialUpdates=[]
+const rules=[
+ {topic:"Student visa eligibility",country:"UK",check:"Licensed student sponsor/CAS, course level, English, funds, suitability, work conditions and exceptions.",category:"Student visa",source:"uk1",status:"Verify per applicant"},
+ {topic:"Student & Child Student caseworker guidance",country:"UK",check:"Confirm current version, publication date and whether cited rule changes have commenced.",category:"Student visa",source:"uk2",status:"Needs review"},
+ {topic:"Study permit & provincial attestation requirements",country:"Canada",check:"Confirm current permit eligibility, PAL/TAL applicability, funds, exemptions and current processing instructions.",category:"Student visa",source:"ca1",status:"Verify per applicant"},
+ {topic:"Work while studying",country:"Canada",check:"Check the student’s permit conditions, current eligibility and applicable off-campus/on-campus work rules.",category:"Work rights",source:"ca2",status:"Verify per applicant"},
+ {topic:"Co-op / student work placements",country:"Canada",check:"Verify current IRCC guidance on whether the placement requires a separate permit, and record the applicable scope and exceptions.",category:"Student placements",source:"ca2",status:"Needs review"},
+ {topic:"Student visa subclass 500",country:"Australia",check:"Valid CoE, OSHC, funds, genuine student requirements, work conditions and current application location rules.",category:"Student visa",source:"au1",status:"Verify per applicant"},
+ {topic:"Application location & family members",country:"Australia",check:"Check the current Home Affairs guidance on where an application may be lodged and whether family members may be included; confirm commencement dates and exemptions.",category:"Student visa",source:"au2",status:"Needs review"},
+ {topic:"Student residence permit",country:"UAE / Dubai",check:"Verify current GDRFA service steps, sponsor, documents, fee and validity; distinguish Dubai procedure from federal guidance.",category:"Residence permit",source:"uae2",status:"Verify official service"},
+ {topic:"Fee Paying Student Visa",country:"New Zealand",check:"Check approved provider, funds, insurance, genuine intentions and visa-specific work conditions.",category:"Student visa",source:"nz2",status:"Verify per applicant"},
+ {topic:"Post-study work eligibility",country:"New Zealand",check:"Verify qualification level, completion date, eligible study and the current official post-study work criteria.",category:"Post-study work",source:"nz1",status:"Verify per applicant"},
+ {topic:"National student residence permit",country:"Europe / Schengen",check:"Identify destination country first; national long-stay student visa/residence rules apply, not a single Schengen student visa.",category:"Student visa",source:"eu1",status:"Country-specific"},
+ {topic:"EES / ETIAS travel systems",country:"Europe / Schengen",check:"Distinguish short-stay border/travel systems from national long-stay student immigration permissions.",category:"Border systems",source:"eu2",status:"Scope check"},
+ {topic:"F-1 / M-1 student visa",country:"USA",check:"Check school/SEVP status, Form I-20, SEVIS fee, interview rules and current consular guidance.",category:"Student visa",source:"us1",status:"Verify per applicant"}
+];
+let sources=initialSources;
+let updates=initialUpdates;
+async function loadMonitoredData(){
+ try{
+  const [sourceResponse,updateResponse]=await Promise.all([fetch('data/sources.json',{cache:'no-store'}),fetch('data/updates.json',{cache:'no-store'})]);
+  if(!sourceResponse.ok||!updateResponse.ok) throw new Error('monitor data unavailable');
+  const monitoredSources=await sourceResponse.json();
+  const monitoredUpdates=await updateResponse.json();
+  if(Array.isArray(monitoredSources)&&monitoredSources.length){
+   const mapped=monitoredSources.map(s=>({id:s.id,country:s.country,title:s.name,category:s.category,url:s.url,note:s.note||s.name}));
+   // Preserve UI source IDs used by the Rules Library. Append monitored sources by URL
+   // instead of replacing the UI registry (the two registries intentionally use different IDs).
+   const normalized=mapped.map(s=>({...s, title:s.title||s.name, note:s.note||s.name}));
+   sources=[...initialSources, ...normalized.filter(ms=>!initialSources.some(is=>is.url===ms.url))];
+  }
+  if(monitoredUpdates&&Array.isArray(monitoredUpdates.items)){
+   const live=monitoredUpdates.items.map((u,i)=>({id:u.id||('detected-'+i),country:u.country||'Unknown',flag:(countries.find(c=>c.name===u.country)||{}).flag||'🌐',title:u.title||u.source_name||'Official page changed',category:'Detected page change',publication:u.detected_at?'Detected '+u.detected_at:'Detected by monitor',effective:'Verify on official source',status:u.status||'Needs review',summary:u.summary||'A monitored page changed. Verify the original official source; this is not proof of a legal change.',url:u.url||'#'}));
+   // Actual monitor alerts are shown first; curated examples remain visible as reference examples.
+   updates=[...live,...initialUpdates.filter(sample=>!live.some(x=>x.url===sample.url&&x.title===sample.title))];
+   const count=live.length;
+   const updateCount=document.querySelector('.nav button[data-page="updates"] .count');
+   if(updateCount)updateCount.textContent=String(count);
+   const updateStat=document.querySelector('.stats .stat:nth-child(3) strong');
+   if(updateStat)updateStat.textContent=String(count+initialUpdates.filter(x=>x.status==='Needs review').length);
+   const statusStat=document.querySelector('.stats .stat:nth-child(4) strong');
+   if(statusStat) {statusStat.textContent=monitoredUpdates.generated_at?'Running':'Setup needed';statusStat.style.color=monitoredUpdates.generated_at?'#168565':'#a2761a';}
+   const monitorNote=document.querySelector('.sidebar-bottom p');
+   if(monitorNote)monitorNote.textContent=monitoredUpdates.generated_at?'Last monitor run: '+new Date(monitoredUpdates.generated_at).toLocaleString():'Daily monitor data not run yet.';
+  }
+ }catch(e){
+  // Keep curated demo data when opened as a plain local file or before monitor has run.
+ }
+ fillSelect('sourceCountry',countries.map(c=>c.name));
+ renderSources();renderUpdates();renderRules();
+}
+const checks=[
+["Applicant identity and nationality","Passport validity, nationality and current residence are recorded accurately."],
+["Study history and qualifications","Certificates, transcripts, gaps and previous refusals are reviewed."],
+["Course and provider legitimacy","Provider is approved for the intended visa route and course."],
+["Funds and evidence","Current official financial rules, evidence format and required holding period are checked."],
+["English-language requirements","Test, exemption and validity rules are checked for this applicant."],
+["Health, character and insurance","Medical, police, TB or insurance requirements are checked where applicable."],
+["Work rights explained correctly","Term-time limits, eligible work types and restrictions are explained without promises."],
+["Official rule and dates verified","Source URL, page updated date, publication date and effective date are recorded separately."],
+["Exceptions and transitional rules","Nationality, location, application date, dependants and exemptions are checked."],
+["Client expectation and risk explained","No visa/job guarantee; risks, costs and next steps are explained clearly."]
+];
+let selectedCountry="", currentPage="overview";
+function esc(s){return String(s??"").replace(/[&<>"']/g,c=>({"&":"&amp;","<":"&lt;",">":"&gt;",'"':"&quot;","'":"&#39;"}[c]));}
+function go(page){currentPage=page;document.querySelectorAll(".page").forEach(x=>x.classList.toggle("active",x.id==="page-"+page));document.querySelectorAll("#nav button").forEach(x=>x.classList.toggle("active",x.dataset.page===page));document.getElementById("crumb").textContent=({overview:"Overview",updates:"Update monitor",rules:"Rules library",sources:"Official sources",checklist:"Counsellor checklist"})[page];window.scrollTo({top:0,behavior:"smooth"});}
+function gotoCountry(c){selectedCountry=c;go("updates");document.getElementById("updateCountry").value=c;renderUpdates();}
+function fillSelect(id,items){document.getElementById(id).innerHTML='<option value="">All destinations</option>'+items.map(c=>`<option value="${esc(c)}">${esc(c)}</option>`).join("");}
+function sourceById(id){return sources.find(s=>s.id===id);}
+function renderCountries(){document.getElementById("countries").innerHTML=countries.map(c=>`<article class="country-card" data-country-card="${esc(c.name)}"><div class="country-top"><div class="flag">${c.flag}</div><div><h3>${esc(c.full)}</h3><small>${esc(c.sub)}</small></div></div><p>${esc(c.desc)}</p><div class="country-foot"><span class="source-count">${c.sources} official source links</span><span class="mini-status">Open →</span></div></article>`).join("");document.querySelectorAll("[data-country-card]").forEach(el=>el.onclick=()=>gotoCountry(el.dataset.countryCard));}
+function updateCard(u){return `<div class="update"><div class="update-icon">${u.flag}</div><div><h4>${esc(u.title)}</h4><p>${esc(u.summary)}</p><div class="meta"><span class="tag ${u.category==="Effective rule change"?"effective":"info"}">${esc(u.category)}</span><span class="tag review">${esc(u.status)}</span><a class="source-anchor" href="${esc(u.url)}" target="_blank" rel="noopener">Official source ↗</a></div></div></div>`;}
+function renderUpdates(){let q=(document.getElementById("updateSearch")?.value||document.getElementById("globalSearch").value||"").toLowerCase(), c=document.getElementById("updateCountry")?.value||"", st=document.getElementById("updateStatus")?.value||"";let arr=updates.filter(u=>(!c||u.country===c)&&(!st||u.status===st)&&JSON.stringify(u).toLowerCase().includes(q));document.getElementById("updateRows").innerHTML=arr.map(u=>`<tr><td><b>${esc(u.title)}</b><small>${esc(u.summary)}</small><a class="source-anchor" href="${esc(u.url)}" target="_blank" rel="noopener">Open official source ↗</a></td><td>${esc(u.country)}</td><td>${esc(u.publication)}</td><td>${esc(u.effective)}</td><td><span class="tag review">${esc(u.status)}</span></td></tr>`).join("")||'<tr><td colspan="5" class="empty">No monitored changes match these filters. This does not mean immigration rules have not changed; check official sources and monitor status.</td></tr>';document.getElementById("latestUpdates").innerHTML=updates.map(updateCard).join("");document.getElementById("queueItems").innerHTML=updates.map(u=>`<div class="queue-item"><b>${esc(u.country)} · ${esc(u.title)}</b><p>${esc(u.publication)} · Effective: ${esc(u.effective)}</p><a href="${esc(u.url)}" target="_blank" rel="noopener">Verify official source ↗</a></div>`).join("");}
+function renderRules(){let q=document.getElementById("ruleSearch").value.toLowerCase(),c=document.getElementById("ruleCountry").value,cat=document.getElementById("ruleCategory").value;let arr=rules.filter(r=>(!c||r.country===c)&&(!cat||r.category===cat)&&JSON.stringify(r).toLowerCase().includes(q));document.getElementById("ruleRows").innerHTML=arr.map(r=>{let s=sourceById(r.source);return `<tr><td><b>${esc(r.topic)}</b><small>${esc(r.category)}</small></td><td>${esc(r.country)}</td><td>${esc(r.check)}</td><td><a class="source-anchor" target="_blank" rel="noopener" href="${esc(s.url)}">${esc(s.title)} ↗</a></td><td><span class="tag ${r.status.includes("review")?"review":"info"}">${esc(r.status)}</span></td></tr>`}).join("")||'<tr><td colspan="5" class="empty">No matching rules.</td></tr>';}
+function renderSources(){let q=document.getElementById("sourceSearch").value.toLowerCase(),c=document.getElementById("sourceCountry").value;let arr=sources.filter(s=>(!c||s.country===c)&&JSON.stringify(s).toLowerCase().includes(q));document.getElementById("sourceGrid").innerHTML=arr.map(s=>`<article class="source-card"><span class="tag info">${esc(s.country)}</span><h3>${esc(s.title)}</h3><p>${esc(s.note)}</p><a target="_blank" rel="noopener" href="${esc(s.url)}">Open official website ↗</a></article>`).join("")||'<div class="empty">No matching sources.</div>';}
+function renderChecks(){document.getElementById("checklistItems").innerHTML=checks.map((c,i)=>`<label class="check-item"><input type="checkbox" data-check="${i}"><span><b>${esc(c[0])}</b><span>${esc(c[1])}</span></span></label>`).join("");document.querySelectorAll("[data-check]").forEach(x=>x.addEventListener("change",updateProgress));}
+function updateProgress(){let n=[...document.querySelectorAll("[data-check]")].filter(x=>x.checked).length;document.getElementById("checkProgress").style.width=(n/checks.length*100)+"%";document.getElementById("checkProgressText").textContent=`${n} of ${checks.length} complete`;}
+document.getElementById("nav").addEventListener("click",e=>{let b=e.target.closest("button[data-page]");if(b)go(b.dataset.page);});
+document.getElementById("countryNav").addEventListener("click",e=>{let b=e.target.closest("button[data-country]");if(b)gotoCountry(b.dataset.country);});
+document.addEventListener("click",e=>{let b=e.target.closest("[data-goto]");if(b){e.preventDefault();go(b.dataset.goto);}});
+["updateSearch","updateCountry","updateStatus"].forEach(id=>document.getElementById(id).addEventListener("input",renderUpdates));
+["ruleSearch","ruleCountry","ruleCategory"].forEach(id=>document.getElementById(id).addEventListener("input",renderRules));
+["sourceSearch","sourceCountry"].forEach(id=>document.getElementById(id).addEventListener("input",renderSources));
+document.getElementById("globalSearch").addEventListener("keydown",e=>{if(e.key==="Enter"){go("updates");document.getElementById("updateSearch").value=e.target.value;renderUpdates();}});
+document.getElementById("resetChecks").onclick=()=>{document.querySelectorAll("[data-check]").forEach(x=>x.checked=false);updateProgress();};
+let isSinhala=false;
+document.getElementById("langBtn").onclick=()=>{
+ isSinhala=!isSinhala;
+ document.getElementById("langBtn").textContent=isSinhala?"English":"සිංහල";
+ const navLabels=isSinhala?{overview:"සාරාංශය",updates:"නව වෙනස්කම්",rules:"නීති පුස්තකාලය",sources:"නිල මූලාශ්‍ර",checklist:"උපදේශක පරීක්ෂාව"}:{overview:"Overview",updates:"Update monitor",rules:"Rules library",sources:"Official sources",checklist:"Counsellor checklist"};
+ document.querySelectorAll("#nav button[data-page]").forEach(b=>{const key=b.dataset.page;const icons={overview:"▦",updates:"◷",rules:"▤",sources:"◎",checklist:"✓"};b.innerHTML=`<span class="ico">${icons[key]}</span>${navLabels[key]}${key==="updates"?' <span class="count">3</span>':""}`;});
+ const title=document.querySelector("#page-overview .welcome h1");
+ const intro=document.querySelector("#page-overview .welcome p");
+ const eyebrow=document.querySelector("#page-overview .eyebrow");
+ if(isSinhala){title.textContent="ආයුබෝවන්, උපදේශකතුමනි.";intro.textContent="රටවල් 7ක නිල immigration මාර්ගෝපදේශ, නීති වෙනස්කම් සහ ශිෂ්‍ය උපදේශනය එකම තැනකින් නිරීක්ෂණය කරන්න.";eyebrow.textContent="ඔබගේ immigration තොරතුරු මධ්‍යස්ථානය";}
+ else{title.textContent="Good morning, counsellor.";intro.textContent="One workspace for official immigration guidance, policy changes and safer student counselling across seven destinations.";eyebrow.textContent="Your immigration intelligence desk";}
+ document.querySelector(".banner b").textContent=isSinhala?"උපදෙස් දීමට පෙර නිල මූලාශ්‍රයෙන් තහවුරු කරන්න.":"Accuracy first. Always verify before advising.";
+ document.querySelector(".banner p").textContent=isSinhala?"වෙබ් පිටුවක වෙනසක් පෙනීම නීතිමය වෙනසක් තහවුරු කිරීමක් නොවේ. මුල් රජයේ මූලාශ්‍රය, දිනයන්, අදාළ අය සහ ව්‍යතිරේක පරීක්ෂා කරන්න.":"A webpage change is a signal, not proof of a legal change. Check the original government source, dates, affected applicants and exceptions before using any update with a client.";
+ document.getElementById("crumb").textContent=isSinhala?"සාරාංශය":"Overview";
+};
+document.getElementById("today").textContent="◷ "+new Date().toLocaleDateString(undefined,{weekday:"short",year:"numeric",month:"short",day:"numeric"});
+fillSelect("updateCountry",countries.map(c=>c.name));fillSelect("ruleCountry",countries.map(c=>c.name));fillSelect("sourceCountry",countries.map(c=>c.name));
+renderCountries();renderUpdates();renderRules();renderSources();renderChecks();loadMonitoredData();
+</script>
+</body></html>
