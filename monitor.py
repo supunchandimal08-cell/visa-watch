@@ -1,0 +1,64 @@
+#!/usr/bin/env python3
+"""Daily official-page change detector. Detection only; no legal interpretation."""
+import hashlib, json, os, re, time
+from datetime import datetime, timezone
+from html.parser import HTMLParser
+from urllib.request import Request, urlopen
+from urllib.error import URLError, HTTPError
+
+ROOT=os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
+DATA=os.path.join(ROOT,"data")
+SOURCES=os.path.join(DATA,"sources.json")
+STATE=os.path.join(DATA,"monitor_state.json")
+UPDATES=os.path.join(DATA,"updates.json")
+class TextParser(HTMLParser):
+    def __init__(self): super().__init__(); self.parts=[]; self.skip=0
+    def handle_starttag(self,tag,attrs):
+        if tag in ("script","style","noscript","svg"): self.skip+=1
+    def handle_endtag(self,tag):
+        if tag in ("script","style","noscript","svg") and self.skip: self.skip-=1
+    def handle_data(self,data):
+        if not self.skip:
+            s=" ".join(data.split())
+            if s:self.parts.append(s)
+def fetch(url):
+    req=Request(url,headers={"User-Agent":"VisaWatchOfficialSourceMonitor/1.0 (content-change detection; contact site admin via repository)","Accept":"text/html,application/xhtml+xml"})
+    with urlopen(req,timeout=25) as r:
+        raw=r.read(3_000_000)
+        charset=r.headers.get_content_charset() or "utf-8"
+    decoded=raw.decode(charset,errors="replace")
+    p=TextParser();p.feed(decoded)
+    text=" ".join(p.parts)
+    text=re.sub(r"\s+"," ",text).strip()
+    # avoid treating trivial whitespace changes as updates
+    return hashlib.sha256(text.encode("utf-8")).hexdigest(), text[:1800]
+def load(path,default):
+    try:
+        with open(path,encoding="utf-8") as f:return json.load(f)
+    except (FileNotFoundError,json.JSONDecodeError):return default
+def save(path,obj):
+    with open(path,"w",encoding="utf-8") as f:json.dump(obj,f,ensure_ascii=False,indent=2)
+def main():
+    sources=load(SOURCES,[]); state=load(STATE,{}); updates=load(UPDATES,{"generated_at":None,"items":[]})
+    now=datetime.now(timezone.utc).isoformat(timespec="seconds")
+    errors=[]
+    for s in sources:
+        try:
+            digest,snippet=fetch(s["url"])
+            prev=state.get(s["id"])
+            if prev and prev.get("sha256")!=digest:
+                item_id=s["id"]+"-"+now[:10]
+                if not any(x.get("id")==item_id for x in updates["items"]):
+                    updates["items"].insert(0,{"id":item_id,"country":s["country"],"title":s["name"]+" — page content changed","source_name":s["name"],"url":s["url"],"detected_at":now,"previous_checked_at":prev.get("checked_at"),"status":"Needs review","summary":"The page text fingerprint changed. This is a detection signal only, not proof of a policy change. Compare the official page, record publication and effective dates, and get reviewer approval before counselling.","snippet":snippet})
+            state[s["id"]]={"sha256":digest,"checked_at":now,"url":s["url"],"http_ok":True}
+            print("OK",s["id"])
+        except Exception as e:
+            errors.append({"source_id":s.get("id"),"time":now,"error":str(e)[:300]})
+            print("ERROR",s.get("id"),str(e)[:180])
+        time.sleep(1.0) # modest pacing
+    save(STATE,state)
+    updates["generated_at"]=now
+    updates["monitor_errors"]=errors[-100:]
+    save(UPDATES,updates)
+    print("Completed:",len(sources),"sources;",len(errors),"errors")
+if __name__=="__main__": main()
