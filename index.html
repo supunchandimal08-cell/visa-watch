@@ -287,4 +287,179 @@ document.getElementById("today").textContent="◷ "+new Date().toLocaleDateStrin
 fillSelect("updateCountry",countries.map(c=>c.name));fillSelect("ruleCountry",countries.map(c=>c.name));fillSelect("sourceCountry",countries.map(c=>c.name));
 renderCountries();renderUpdates();renderRules();renderSources();renderChecks();loadMonitoredData();
 </script>
-</body></html>
+
+<section id="monitor-status" style="padding:20px;margin:20px;border:1px solid #ccc;border-radius:12px">
+  <h2>VisaWatch Monitoring Results</h2>
+  <p id="monitor-message">Loading monitoring results...</p>
+  <div id="monitor-results"></div>
+</section>
+
+<script>
+async function loadVisaWatchUpdates() {
+  const message = document.getElementById("monitor-message");
+  const results = document.getElementById("monitor-results");
+
+  try {
+    const response = await fetch("/data/updates.json", { cache: "no-store" });
+    if (!response.ok) throw new Error("Could not load updates.json");
+
+    const data = await response.json();
+    message.textContent = "Last checked: " + (data.generated_at || "Not available");
+
+    if (!Array.isArray(data.items) || data.items.length === 0) {
+      results.textContent = "No monitoring results available yet.";
+      return;
+    }
+
+    results.replaceChildren();
+
+    data.items.forEach(item => {
+      const card = document.createElement("div");
+      card.style.cssText = "padding:12px;margin:10px 0;border:1px solid #ddd;border-radius:8px";
+
+      const title = document.createElement("h3");
+      title.textContent = (item.country || "Source") + " — " + (item.name || "");
+
+      const status = document.createElement("p");
+      status.textContent = "Source status: " + (item.status || "Unknown");
+
+      card.append(title, status);
+
+      if (item.url) {
+        const link = document.createElement("a");
+        link.href = item.url;
+        link.textContent = "Open official source";
+        link.target = "_blank";
+        link.rel = "noopener noreferrer";
+        card.append(link);
+      }
+
+      results.append(card);
+    });
+  } catch (error) {
+    message.textContent = "Could not load monitoring data. Check the website data path.";
+    results.textContent = "";
+    console.error(error);
+  }
+}
+
+loadVisaWatchUpdates();
+</script>
+
+<section id="monitor-status" style="padding:20px;margin:20px;border:1px solid #ccc;border-radius:12px">
+  <h2>VisaWatch Monitoring Results</h2>
+  <p id="monitor-message">Loading monitoring results...</p>
+  <div id="monitor-results"></div>
+</section>
+
+<script>
+async function loadVisaWatchUpdates() {
+  const message = document.getElementById("monitor-message");
+  const results = document.getElementById("monitor-results");
+
+  try {
+    const response = await fetch("/data/updates.json", { cache: "no-store" });
+    if (!response.ok) throw new Error("Could not load updates.json");
+
+    const data = await response.json();
+    message.textContent = "Last checked: " + (data.generated_at || "Not available");
+
+    if (!Array.isArray(data.items) || data.items.length === 0) {
+      results.textContent = "No monitoring results available yet.";
+      return;
+    }
+
+    results.replaceChildren();
+
+    data.items.forEach(item => {
+      const card = document.createElement("div");
+      card.style.cssText = "padding:12px;margin:10px 0;border:1px solid #ddd;border-radius:8px";
+
+      const title = document.createElement("h3");
+      title.textContent = (item.country || "Source") + " — " + (item.name || "");
+
+      const status = document.createElement("p");
+      status.textContent = "Source status: " + (item.status || "Unknown");
+
+      card.append(title, status);
+
+      if (item.url) {
+        const link = document.createElement("a");
+        link.href = item.url;
+        link.textContent = "Open official source";
+        link.target = "_blank";
+        link.rel = "noopener noreferrer";
+        card.append(link);
+      }
+
+      results.append(card);
+    });
+  } catch (error) {
+    message.textContent = "Could not load monitoring data. Check the website data path.";
+    results.textContent = "";
+    console.error(error);
+  }
+}
+
+loadVisaWatchUpdates();
+</script>
+
+<section id="monitor-status" style="padding:20px;margin:20px;border:1px solid #ccc;border-radius:12px">
+  <h2>VisaWatch Monitoring Results</h2>
+  <p id="monitor-message">Loading monitoring results...</p>
+  <div id="monitor-results"></div>
+</section>
+
+<script>
+async function loadVisaWatchUpdates() {
+  const message = document.getElementById("monitor-message");
+  const results = document.getElementById("monitor-results");
+
+  try {
+    const response = await fetch("/data/updates.json", { cache: "no-store" });
+    if (!response.ok) throw new Error("Could not load updates.json");
+
+    const data = await response.json();
+    message.textContent = "Last checked: " + (data.generated_at || "Not available");
+
+    if (!Array.isArray(data.items) || data.items.length === 0) {
+      results.textContent = "No monitoring results available yet.";
+      return;
+    }
+
+    results.replaceChildren();
+
+    data.items.forEach(item => {
+      const card = document.createElement("div");
+      card.style.cssText = "padding:12px;margin:10px 0;border:1px solid #ddd;border-radius:8px";
+
+      const title = document.createElement("h3");
+      title.textContent = (item.country || "Source") + " — " + (item.name || "");
+
+      const status = document.createElement("p");
+      status.textContent = "Source status: " + (item.status || "Unknown");
+
+      card.append(title, status);
+
+      if (item.url) {
+        const link = document.createElement("a");
+        link.href = item.url;
+        link.textContent = "Open official source";
+        link.target = "_blank";
+        link.rel = "noopener noreferrer";
+        card.append(link);
+      }
+
+      results.append(card);
+    });
+  } catch (error) {
+    message.textContent = "Could not load monitoring data. Check the website data path.";
+    results.textContent = "";
+    console.error(error);
+  }
+}
+
+loadVisaWatchUpdates();
+</script>
+
+ </body></html>
