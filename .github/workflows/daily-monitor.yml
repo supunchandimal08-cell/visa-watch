@@ -1,4 +1,4 @@
-
+      - name: Run VisaWatch monitor
 name: VisaWatch Daily Monitoring
 
 on:
