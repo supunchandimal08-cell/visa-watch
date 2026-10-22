@@ -1,80 +1,90 @@
 {
-  "generated_at": "2026-10-22T11:03:40.896328+00:00",
+  "generated_at": "2026-10-22T11:09:39.979156+00:00",
   "items": [
     {
       "country": "UK",
       "name": "UK Student visa guidance",
       "url": "https://www.gov.uk/student-visa",
-      "checked_at": "2026-10-22T11:02:49.478616+00:00",
-      "status": "reachable",
-      "http_status": 200,
-      "note": "Official source checked. Page content has not been reviewed for rule changes."
+      "checked_at": "2026-10-22T11:08:30.220182+00:00",
+      "status": "http_error",
+      "http_status": 206,
+      "note": "Official source reachable. Page content has not been reviewed for rule changes."
     },
     {
       "country": "Canada",
       "name": "Canada study permit",
       "url": "https://www.canada.ca/en/immigration-refugees-citizenship/services/study-canada.html",
-      "checked_at": "2026-10-22T11:03:34.601620+00:00",
+      "checked_at": "2026-10-22T11:09:34.463428+00:00",
       "status": "unreachable",
       "http_status": null,
-      "note": "The read operation timed out"
+      "note": "Failed after 3 attempts: The read operation timed out"
     },
     {
       "country": "Australia",
       "name": "Australia student visa",
       "url": "https://immi.homeaffairs.gov.au/visas/getting-a-visa/visa-listing/student-500",
-      "checked_at": "2026-10-22T11:03:34.991492+00:00",
+      "checked_at": "2026-10-22T11:09:35.808602+00:00",
       "status": "reachable",
       "http_status": 200,
-      "note": "Official source checked. Page content has not been reviewed for rule changes."
+      "note": "Official source reachable. Page content has not been reviewed for rule changes."
     },
     {
       "country": "New Zealand",
       "name": "New Zealand student visa",
       "url": "https://www.immigration.govt.nz/study/study-visas/visas-for-studying-in-new-zealand/",
-      "checked_at": "2026-10-22T11:03:35.946255+00:00",
+      "checked_at": "2026-10-22T11:09:37.230916+00:00",
       "status": "reachable",
       "http_status": 200,
-      "note": "Official source checked. Page content has not been reviewed for rule changes."
+      "note": "Official source reachable. Page content has not been reviewed for rule changes."
     },
     {
       "country": "USA",
       "name": "US student visa information",
       "url": "https://travel.state.gov/content/travel/en/us-visas/study/student-visa.html",
-      "checked_at": "2026-10-22T11:03:36.165407+00:00",
+      "checked_at": "2026-10-22T11:09:37.285207+00:00",
       "status": "http_error",
       "http_status": 403,
-      "note": "Check the source manually."
+      "note": "Check the official source manually."
     },
     {
       "country": "UAE / Dubai",
       "name": "UAE government portal",
       "url": "https://u.ae/en/information-and-services/education",
-      "checked_at": "2026-10-22T11:03:38.980440+00:00",
+      "checked_at": "2026-10-22T11:09:38.428145+00:00",
       "status": "reachable",
       "http_status": 200,
-      "note": "Official source checked. Page content has not been reviewed for rule changes."
+      "note": "Official source reachable. Page content has not been reviewed for rule changes."
     },
     {
       "country": "Europe / Schengen",
       "name": "EU Immigration Portal",
       "url": "https://home-affairs.ec.europa.eu/policies/migration-and-asylum/eu-immigration-portal_en",
-      "checked_at": "2026-10-22T11:03:40.896184+00:00",
-      "status": "reachable",
-      "http_status": 200,
-      "note": "Official source checked. Page content has not been reviewed for rule changes."
+      "checked_at": "2026-10-22T11:09:39.978964+00:00",
+      "status": "http_error",
+      "http_status": 206,
+      "note": "Official source reachable. Page content has not been reviewed for rule changes."
     }
   ],
   "monitor_errors": [
     {
+      "country": "UK",
+      "source": "https://www.gov.uk/student-visa",
+      "error": "Official source reachable. Page content has not been reviewed for rule changes."
+    },
+    {
       "country": "Canada",
       "source": "https://www.canada.ca/en/immigration-refugees-citizenship/services/study-canada.html",
-      "error": "The read operation timed out"
+      "error": "Failed after 3 attempts: The read operation timed out"
     },
     {
       "country": "USA",
       "source": "https://travel.state.gov/content/travel/en/us-visas/study/student-visa.html",
-      "error": "Check the source manually."
+      "error": "Check the official source manually."
+    },
+    {
+      "country": "Europe / Schengen",
+      "source": "https://home-affairs.ec.europa.eu/policies/migration-and-asylum/eu-immigration-portal_en",
+      "error": "Official source reachable. Page content has not been reviewed for rule changes."
     }
   ],
   "disclaimer": "Source availability checks only. No immigration rule changes are confirmed automatically. Review official pages manually."
