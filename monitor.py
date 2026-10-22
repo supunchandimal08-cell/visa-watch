@@ -16,11 +16,11 @@ SOURCES = [
         "name": "UK Student visa guidance",
         "url": "https://www.gov.uk/student-visa"
     },
-    {
-        "country": "Canada",
-        "name": "Canada study permit",
-        "url": "https://www.canada.ca/en/immigration-refugees-citizenship/services/study-canada.html"
-    },
+   {
+    "country": "New Zealand",
+    "name": "New Zealand student visa",
+    "url": "https://www.immigration.govt.nz/study/study-visas/visas-for-studying-in-new-zealand/"
+},
     {
         "country": "Australia",
         "name": "Australia student visa",
