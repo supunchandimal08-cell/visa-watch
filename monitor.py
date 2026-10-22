@@ -64,37 +64,52 @@ def save_json(path, data):
     with open(path, "w", encoding="utf-8") as f:
         json.dump(data, f, ensure_ascii=False, indent=2)
 
+
 def check_source(source):
-    request = Request(
-        source["url"],
-        headers={"User-Agent": "VisaWatch-Monitor/1.0"}
-    )
-    try:
-        with urlopen(request, timeout=45) as response:
-            status = response.status
+    last_error = None
+
+    for attempt in range(3):
+        request = Request(
+            source["url"],
+            headers={
+                "User-Agent": "Mozilla/5.0 (compatible; VisaWatch-Monitor/1.0)",
+                "Range": "bytes=0-1023",
+            }
+        )
+
+        try:
+            with urlopen(request, timeout=20) as response:
+                status = response.status
+                return {
+                    **source,
+                    "checked_at": datetime.now(timezone.utc).isoformat(),
+                    "status": "reachable" if status == 200 else "http_error",
+                    "http_status": status,
+                    "note": "Official source reachable. Page content has not been reviewed for rule changes."
+                }
+
+        except HTTPError as e:
             return {
                 **source,
                 "checked_at": datetime.now(timezone.utc).isoformat(),
-                "status": "reachable" if status == 200 else "http_error",
-                "http_status": status,
-                "note": "Official source checked. Page content has not been reviewed for rule changes."
+                "status": "http_error",
+                "http_status": e.code,
+                "note": "Check the official source manually."
             }
-    except HTTPError as e:
-        return {
-            **source,
-            "checked_at": datetime.now(timezone.utc).isoformat(),
-            "status": "http_error",
-            "http_status": e.code,
-            "note": "Check the source manually."
-        }
-    except (URLError, TimeoutError, OSError) as e:
-        return {
-            **source,
-            "checked_at": datetime.now(timezone.utc).isoformat(),
-            "status": "unreachable",
-            "http_status": None,
-            "note": str(e)[:250]
-        }
+
+        except (URLError, TimeoutError, OSError) as e:
+            last_error = str(e)
+            if attempt < 2:
+                time.sleep(2)
+
+    return {
+        **source,
+        "checked_at": datetime.now(timezone.utc).isoformat(),
+        "status": "unreachable",
+        "http_status": None,
+        "note": f"Failed after 3 attempts: {last_error}"[:250]
+    }
+
 
 def main():
     os.makedirs(DATA, exist_ok=True)
