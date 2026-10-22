@@ -10,30 +10,32 @@ DATA = os.path.join(ROOT, "data")
 STATE = os.path.join(DATA, "monitor_state.json")
 UPDATES = os.path.join(DATA, "updates.json")
 
+
 SOURCES = [
     {
         "country": "UK",
         "name": "UK Student visa guidance",
         "url": "https://www.gov.uk/student-visa"
     },
-   {
-    "country": "New Zealand",
-    "name": "New Zealand student visa",
-    "url": "https://www.immigration.govt.nz/study/study-visas/visas-for-studying-in-new-zealand/"
-},
+    {
+        "country": "Canada",
+        "name": "Canada study permit",
+        "url": "https://www.canada.ca/en/immigration-refugees-citizenship/services/study-canada.html"
+    },
     {
         "country": "Australia",
         "name": "Australia student visa",
         "url": "https://immi.homeaffairs.gov.au/visas/getting-a-visa/visa-listing/student-500"
     },
-   {
-    "country": "New Zealand",
-    "name": "New Zealand student visa",
- "url": "https://www.immigration.govt.nz/study/study-visas/visas-for-studying-in-new-zealand/"
+    {
+        "country": "New Zealand",
+        "name": "New Zealand student visa",
+        "url": "https://www.immigration.govt.nz/study/study-visas/visas-for-studying-in-new-zealand/"
+    },
     {
         "country": "USA",
         "name": "US student visa information",
-       https://www.immigration.govt.nz/study/study-visas/visas-for-studying-in-new-zealand/
+        "url": "https://travel.state.gov/content/travel/en/us-visas/study/student-visa.html"
     },
     {
         "country": "UAE / Dubai",
@@ -46,6 +48,7 @@ SOURCES = [
         "url": "https://immigration-portal.ec.europa.eu/index_en"
     }
 ]
+
 
 def read_json(path, default):
     try:
