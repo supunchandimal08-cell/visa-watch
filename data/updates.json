@@ -1,20 +1,20 @@
 {
-  "generated_at": "2026-10-22T11:16:49.774028+00:00",
+  "generated_at": "2026-10-22T11:25:53.629333+00:00",
   "items": [
     {
       "country": "UK",
       "name": "UK Student visa guidance",
       "url": "https://www.gov.uk/student-visa",
-      "checked_at": "2026-10-22T11:15:39.857167+00:00",
-      "status": "http_error",
-      "http_status": 206,
+      "checked_at": "2026-10-22T11:24:42.737532+00:00",
+      "status": "reachable",
+      "http_status": 200,
       "note": "Official source reachable. Page content has not been reviewed for rule changes."
     },
     {
       "country": "Canada",
       "name": "Canada study permit",
       "url": "https://www.canada.ca/en/immigration-refugees-citizenship.html",
-      "checked_at": "2026-10-22T11:16:44.057010+00:00",
+      "checked_at": "2026-10-22T11:25:47.196809+00:00",
       "status": "unreachable",
       "http_status": null,
       "note": "Failed after 3 attempts: The read operation timed out"
@@ -23,7 +23,7 @@
       "country": "Australia",
       "name": "Australia student visa",
       "url": "https://immi.homeaffairs.gov.au/visas/getting-a-visa/visa-listing/student-500",
-      "checked_at": "2026-10-22T11:16:44.746396+00:00",
+      "checked_at": "2026-10-22T11:25:48.151614+00:00",
       "status": "reachable",
       "http_status": 200,
       "note": "Official source reachable. Page content has not been reviewed for rule changes."
@@ -32,7 +32,7 @@
       "country": "New Zealand",
       "name": "New Zealand student visa",
       "url": "https://www.immigration.govt.nz/study/study-visas/visas-for-studying-in-new-zealand/",
-      "checked_at": "2026-10-22T11:16:46.974724+00:00",
+      "checked_at": "2026-10-22T11:25:49.417396+00:00",
       "status": "reachable",
       "http_status": 200,
       "note": "Official source reachable. Page content has not been reviewed for rule changes."
@@ -41,7 +41,7 @@
       "country": "USA",
       "name": "US student visa information",
       "url": "https://travel.state.gov/content/travel/en/us-visas/study/student-visa.html",
-      "checked_at": "2026-10-22T11:16:47.036093+00:00",
+      "checked_at": "2026-10-22T11:25:49.518532+00:00",
       "status": "http_error",
       "http_status": 403,
       "note": "Check the official source manually."
@@ -50,7 +50,7 @@
       "country": "UAE / Dubai",
       "name": "UAE government portal",
       "url": "https://u.ae/en/information-and-services/education",
-      "checked_at": "2026-10-22T11:16:49.431598+00:00",
+      "checked_at": "2026-10-22T11:25:53.341614+00:00",
       "status": "reachable",
       "http_status": 200,
       "note": "Official source reachable. Page content has not been reviewed for rule changes."
@@ -59,18 +59,13 @@
       "country": "Europe / Schengen",
       "name": "EU Immigration Portal",
       "url": "https://home-affairs.ec.europa.eu/policies/migration-and-asylum/eu-immigration-portal_en",
-      "checked_at": "2026-10-22T11:16:49.773888+00:00",
-      "status": "http_error",
-      "http_status": 206,
+      "checked_at": "2026-10-22T11:25:53.629182+00:00",
+      "status": "reachable",
+      "http_status": 200,
       "note": "Official source reachable. Page content has not been reviewed for rule changes."
     }
   ],
   "monitor_errors": [
-    {
-      "country": "UK",
-      "source": "https://www.gov.uk/student-visa",
-      "error": "Official source reachable. Page content has not been reviewed for rule changes."
-    },
     {
       "country": "Canada",
       "source": "https://www.canada.ca/en/immigration-refugees-citizenship.html",
@@ -80,11 +75,6 @@
       "country": "USA",
       "source": "https://travel.state.gov/content/travel/en/us-visas/study/student-visa.html",
       "error": "Check the official source manually."
-    },
-    {
-      "country": "Europe / Schengen",
-      "source": "https://home-affairs.ec.europa.eu/policies/migration-and-asylum/eu-immigration-portal_en",
-      "error": "Official source reachable. Page content has not been reviewed for rule changes."
     }
   ],
   "disclaimer": "Source availability checks only. No immigration rule changes are confirmed automatically. Review official pages manually."
