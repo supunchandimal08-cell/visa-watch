@@ -34,7 +34,7 @@ SOURCES = [
     {
         "country": "USA",
         "name": "US student visa information",
-        "url": "https://travel.state.gov/content/travel/en/us-visas/study/student-visa.html"
+       https://www.immigration.govt.nz/study/study-visas/visas-for-studying-in-new-zealand/
     },
     {
         "country": "UAE / Dubai",
