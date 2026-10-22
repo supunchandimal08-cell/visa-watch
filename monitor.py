@@ -73,8 +73,7 @@ def check_source(source):
             source["url"],
             headers={
                 "User-Agent": "Mozilla/5.0 (compatible; VisaWatch-Monitor/1.0)",
-                "Range": "bytes=0-1023",
-            }
+}
         )
 
         try:
