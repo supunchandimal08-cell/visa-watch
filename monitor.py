@@ -26,11 +26,11 @@ SOURCES = [
         "name": "Australia student visa",
         "url": "https://immi.homeaffairs.gov.au/visas/getting-a-visa/visa-listing/student-500"
     },
-    {
-        "country": "New Zealand",
-        "name": "New Zealand student visa",
-        https://www.immigration.govt.nz/study/study-visas/visas-for-studying-in-new-zealand/
-    },
+   {
+    "country": "New Zealand",
+    "name": "New Zealand student visa",
+    "url": "https://www.immigration.govt.nz/new-zealand-visas/visas/visa/student-visa"
+},
     {
         "country": "USA",
         "name": "US student visa information",
