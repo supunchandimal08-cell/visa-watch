@@ -30,7 +30,6 @@ SOURCES = [
     "country": "New Zealand",
     "name": "New Zealand student visa",
  "url": "https://www.immigration.govt.nz/study/study-visas/visas-for-studying-in-new-zealand/"
-},
     {
         "country": "USA",
         "name": "US student visa information",
