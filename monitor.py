@@ -21,7 +21,7 @@ SOURCES = [
     {
         "country": "Canada",
         "name": "Canada study permit",
-        "url": "https://www.canada.ca/en/immigration-refugees-citizenship/services/study-canada.html"
+        "url": "https://www.canada.ca/en/immigration-refugees-citizenship.html"
     },
     {
         "country": "Australia",
