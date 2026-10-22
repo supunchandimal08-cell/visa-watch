@@ -76,11 +76,13 @@
       "source": "https://travel.state.gov/content/travel/en/us-visas/study/student-visa.html",
       "error": "Check the source manually."
     },
+   
     {
-      "country": "Europe / Schengen",
-      "source": "https://immigration-portal.ec.europa.eu/index_en",
-      "error": "<urlopen error [Errno -2] Name or service not known>"
+        "country": "Europe / Schengen",
+        "name": "EU Immigration Portal",
+        "url": "https://home-affairs.ec.europa.eu/policies/migration-and-asylum/eu-immigration-portal_en"
     }
+
   ],
   "disclaimer": "Source availability checks only. No immigration rule changes are confirmed automatically. Review official pages manually."
 }
