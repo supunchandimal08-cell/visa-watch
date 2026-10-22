@@ -42,11 +42,13 @@ SOURCES = [
         "name": "UAE government portal",
         "url": "https://u.ae/en/information-and-services/education"
     },
+    
     {
         "country": "Europe / Schengen",
-        "name": "EU immigration portal",
-        "url": "https://immigration-portal.ec.europa.eu/index_en"
-    }
+        "name": "EU Immigration Portal",
+        "url": "https://home-affairs.ec.europa.eu/policies/migration-and-asylum/eu-immigration-portal_en"
+    },
+
 ]
 
 
