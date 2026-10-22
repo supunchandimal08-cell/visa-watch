@@ -1,11 +1,11 @@
 {
-  "generated_at": "2026-10-22T06:50:49.243651+00:00",
+  "generated_at": "2026-10-22T06:56:35.392006+00:00",
   "items": [
     {
       "country": "UK",
       "name": "UK Student visa guidance",
       "url": "https://www.gov.uk/student-visa",
-      "checked_at": "2026-10-22T06:50:16.084443+00:00",
+      "checked_at": "2026-10-22T06:56:07.152544+00:00",
       "status": "reachable",
       "http_status": 200,
       "note": "Official source checked. Page content has not been reviewed for rule changes."
@@ -14,7 +14,7 @@
       "country": "Canada",
       "name": "Canada study permit",
       "url": "https://www.canada.ca/en/immigration-refugees-citizenship/services/study-canada.html",
-      "checked_at": "2026-10-22T06:50:41.241412+00:00",
+      "checked_at": "2026-10-22T06:56:32.320809+00:00",
       "status": "unreachable",
       "http_status": null,
       "note": "The read operation timed out"
@@ -23,7 +23,7 @@
       "country": "Australia",
       "name": "Australia student visa",
       "url": "https://immi.homeaffairs.gov.au/visas/getting-a-visa/visa-listing/student-500",
-      "checked_at": "2026-10-22T06:50:41.524936+00:00",
+      "checked_at": "2026-10-22T06:56:32.716638+00:00",
       "status": "reachable",
       "http_status": 200,
       "note": "Official source checked. Page content has not been reviewed for rule changes."
@@ -32,7 +32,7 @@
       "country": "New Zealand",
       "name": "New Zealand student visa",
       "url": "https://www.immigration.govt.nz/study/study-visas/visas-for-studying-in-new-zealand/",
-      "checked_at": "2026-10-22T06:50:43.509438+00:00",
+      "checked_at": "2026-10-22T06:56:33.458065+00:00",
       "status": "reachable",
       "http_status": 200,
       "note": "Official source checked. Page content has not been reviewed for rule changes."
@@ -41,7 +41,7 @@
       "country": "USA",
       "name": "US student visa information",
       "url": "https://travel.state.gov/content/travel/en/us-visas/study/student-visa.html",
-      "checked_at": "2026-10-22T06:50:43.598932+00:00",
+      "checked_at": "2026-10-22T06:56:33.562751+00:00",
       "status": "http_error",
       "http_status": 403,
       "note": "Check the source manually."
@@ -50,19 +50,19 @@
       "country": "UAE / Dubai",
       "name": "UAE government portal",
       "url": "https://u.ae/en/information-and-services/education",
-      "checked_at": "2026-10-22T06:50:49.047650+00:00",
+      "checked_at": "2026-10-22T06:56:34.810623+00:00",
       "status": "reachable",
       "http_status": 200,
       "note": "Official source checked. Page content has not been reviewed for rule changes."
     },
     {
       "country": "Europe / Schengen",
-      "name": "EU immigration portal",
-      "url": "https://immigration-portal.ec.europa.eu/index_en",
-      "checked_at": "2026-10-22T06:50:49.243588+00:00",
-      "status": "unreachable",
-      "http_status": null,
-      "note": "<urlopen error [Errno -2] Name or service not known>"
+      "name": "EU Immigration Portal",
+      "url": "https://home-affairs.ec.europa.eu/policies/migration-and-asylum/eu-immigration-portal_en",
+      "checked_at": "2026-10-22T06:56:35.391917+00:00",
+      "status": "reachable",
+      "http_status": 200,
+      "note": "Official source checked. Page content has not been reviewed for rule changes."
     }
   ],
   "monitor_errors": [
@@ -75,11 +75,6 @@
       "country": "USA",
       "source": "https://travel.state.gov/content/travel/en/us-visas/study/student-visa.html",
       "error": "Check the source manually."
-    },
-    {
-      "country": "Europe / Schengen",
-      "source": "https://immigration-portal.ec.europa.eu/index_en",
-      "error": "<urlopen error [Errno -2] Name or service not known>"
     }
   ],
   "disclaimer": "Source availability checks only. No immigration rule changes are confirmed automatically. Review official pages manually."

@@ -1,5 +1,5 @@
 {
-  "last_checked_at": "2026-10-22T06:50:49.243651+00:00",
+  "last_checked_at": "2026-10-22T06:56:35.392006+00:00",
   "sources": {
     "https://www.gov.uk/student-visa": "reachable",
     "https://www.canada.ca/en/immigration-refugees-citizenship/services/study-canada.html": "unreachable",
@@ -7,6 +7,6 @@
     "https://www.immigration.govt.nz/study/study-visas/visas-for-studying-in-new-zealand/": "reachable",
     "https://travel.state.gov/content/travel/en/us-visas/study/student-visa.html": "http_error",
     "https://u.ae/en/information-and-services/education": "reachable",
-    "https://immigration-portal.ec.europa.eu/index_en": "unreachable"
+    "https://home-affairs.ec.europa.eu/policies/migration-and-asylum/eu-immigration-portal_en": "reachable"
   }
 }
