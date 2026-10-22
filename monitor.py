@@ -69,7 +69,7 @@ def check_source(source):
         headers={"User-Agent": "VisaWatch-Monitor/1.0"}
     )
     try:
-        with urlopen(request, timeout=25) as response:
+        with urlopen(request, timeout=45) as response:
             status = response.status
             return {
                 **source,
