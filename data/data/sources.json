@@ -1,0 +1,40 @@
+
+{
+  "sources": [
+    {
+      "country": "UK",
+      "name": "UK Student visa guidance",
+      "url": "https://www.gov.uk/student-visa"
+    },
+    {
+      "country": "Canada",
+      "name": "Canada study permit",
+      "url": "https://www.canada.ca/en/immigration-refugees-citizenship.html"
+    },
+    {
+      "country": "Australia",
+      "name": "Australia student visa",
+      "url": "https://immi.homeaffairs.gov.au/visas/getting-a-visa/visa-listing/student-500"
+    },
+    {
+      "country": "New Zealand",
+      "name": "New Zealand student visa",
+      "url": "https://www.immigration.govt.nz/study/study-visas/visas-for-studying-in-new-zealand/"
+    },
+    {
+      "country": "USA",
+      "name": "US student visa information",
+      "url": "https://travel.state.gov/content/travel/en/us-visas/study/student-visa.html"
+    },
+    {
+      "country": "UAE / Dubai",
+      "name": "UAE government portal",
+      "url": "https://u.ae/en/information-and-services/education"
+    },
+    {
+      "country": "Europe / Schengen",
+      "name": "EU Immigration Portal",
+      "url": "https://home-affairs.ec.europa.eu/policies/migration-and-asylum/eu-immigration-portal_en"
+    }
+  ]
+}
