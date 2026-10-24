@@ -21,6 +21,9 @@ main{min-width:0}.topbar{height:72px;background:#ffffffd9;backdrop-filter:blur(1
 footer{margin-top:30px;color:#8291a2;font-size:10px;display:flex;justify-content:space-between;gap:15px;flex-wrap:wrap}
 @media(max-width:1150px){.countries{grid-template-columns:repeat(2,minmax(0,1fr))}.stats{grid-template-columns:repeat(2,minmax(0,1fr))}.columns{grid-template-columns:1fr}}
 @media(max-width:760px){.layout{grid-template-columns:1fr}.sidebar{position:relative;height:auto;padding:14px;gap:13px}.brand{padding:0 5px}.nav-label,.sidebar-bottom{display:none}.nav{display:flex;overflow:auto}.nav button{width:auto;white-space:nowrap;padding:9px 12px}.nav button .count{display:none}.topbar{height:60px;padding:0 15px}.search input{width:145px}.top-actions .smallbtn{display:none}.content{padding:22px 14px}.welcome{display:block}.date-pill{display:inline-block;margin-top:14px}.stats{gap:9px}.stat{padding:13px}.stat strong{font-size:24px}.countries{gap:9px}.country-card{padding:12px}.country-card p{min-height:0}.source-grid,.checklist{grid-template-columns:1fr}.update-list{padding:0 13px}.panel-head{padding:14px}.welcome h1{font-size:27px}}
+.schengen-country-grid{display:grid;grid-template-columns:repeat(auto-fit,minmax(145px,1fr));gap:10px;margin-top:16px}
+.schengen-country-chip{display:flex;align-items:center;min-height:38px;padding:9px 12px;border:1px solid var(--border,#dbe3ec);border-radius:9px;background:var(--panel,#fff);color:var(--text,#243247);font-size:13px;font-weight:650;line-height:1.35;box-sizing:border-box}
+@media(max-width:520px){.schengen-country-grid{grid-template-columns:repeat(2,minmax(0,1fr));gap:7px}.schengen-country-chip{padding:8px;font-size:12px}}
 </style>
 </head>
 <body>
@@ -82,7 +85,37 @@ footer{margin-top:30px;color:#8291a2;font-size:10px;display:flex;justify-content
   <div class="table-wrap"><table class="data-table"><thead><tr><th>Topic</th><th>Destination</th><th>What counsellors should check</th><th>Evidence</th><th>Status</th></tr></thead><tbody id="ruleRows"></tbody></table></div>
   <div class="panel" style="padding:18px;margin-top:18px">
    <div class="section-head" style="margin-top:0"><div><h2>Schengen countries — 29 destinations</h2><p>Select the actual destination country for student counselling. There is no single Schengen long-stay student visa; national student visa/residence rules apply.</p></div></div>
-   <div style="display:flex;flex-wrap:wrap;gap:5px"><span class="tag info" style="margin:3px">Austria</span><span class="tag info" style="margin:3px">Belgium</span><span class="tag info" style="margin:3px">Bulgaria</span><span class="tag info" style="margin:3px">Croatia</span><span class="tag info" style="margin:3px">Czechia</span><span class="tag info" style="margin:3px">Denmark</span><span class="tag info" style="margin:3px">Estonia</span><span class="tag info" style="margin:3px">Finland</span><span class="tag info" style="margin:3px">France</span><span class="tag info" style="margin:3px">Germany</span><span class="tag info" style="margin:3px">Greece</span><span class="tag info" style="margin:3px">Hungary</span><span class="tag info" style="margin:3px">Iceland</span><span class="tag info" style="margin:3px">Italy</span><span class="tag info" style="margin:3px">Latvia</span><span class="tag info" style="margin:3px">Liechtenstein</span><span class="tag info" style="margin:3px">Lithuania</span><span class="tag info" style="margin:3px">Luxembourg</span><span class="tag info" style="margin:3px">Malta</span><span class="tag info" style="margin:3px">Netherlands</span><span class="tag info" style="margin:3px">Norway</span><span class="tag info" style="margin:3px">Poland</span><span class="tag info" style="margin:3px">Portugal</span><span class="tag info" style="margin:3px">Romania</span><span class="tag info" style="margin:3px">Slovakia</span><span class="tag info" style="margin:3px">Slovenia</span><span class="tag info" style="margin:3px">Spain</span><span class="tag info" style="margin:3px">Sweden</span><span class="tag info" style="margin:3px">Switzerland</span></div>
+   <div class="schengen-country-grid" aria-label="29 Schengen destination countries">
+    <span class="schengen-country-chip">Austria</span>
+    <span class="schengen-country-chip">Belgium</span>
+    <span class="schengen-country-chip">Bulgaria</span>
+    <span class="schengen-country-chip">Croatia</span>
+    <span class="schengen-country-chip">Czechia</span>
+    <span class="schengen-country-chip">Denmark</span>
+    <span class="schengen-country-chip">Estonia</span>
+    <span class="schengen-country-chip">Finland</span>
+    <span class="schengen-country-chip">France</span>
+    <span class="schengen-country-chip">Germany</span>
+    <span class="schengen-country-chip">Greece</span>
+    <span class="schengen-country-chip">Hungary</span>
+    <span class="schengen-country-chip">Iceland</span>
+    <span class="schengen-country-chip">Italy</span>
+    <span class="schengen-country-chip">Latvia</span>
+    <span class="schengen-country-chip">Liechtenstein</span>
+    <span class="schengen-country-chip">Lithuania</span>
+    <span class="schengen-country-chip">Luxembourg</span>
+    <span class="schengen-country-chip">Malta</span>
+    <span class="schengen-country-chip">Netherlands</span>
+    <span class="schengen-country-chip">Norway</span>
+    <span class="schengen-country-chip">Poland</span>
+    <span class="schengen-country-chip">Portugal</span>
+    <span class="schengen-country-chip">Romania</span>
+    <span class="schengen-country-chip">Slovakia</span>
+    <span class="schengen-country-chip">Slovenia</span>
+    <span class="schengen-country-chip">Spain</span>
+    <span class="schengen-country-chip">Sweden</span>
+    <span class="schengen-country-chip">Switzerland</span>
+   </div>
    <div class="banner" style="margin-top:14px"><div class="banner-icon">!</div><div><b>Important scope note</b><p>This list identifies Schengen destinations only; it does not confirm any country's student visa requirements. Verify the destination country's official immigration authority, visa type, funds, work rights, dependants, publication/effective dates and exceptions before advising. Cyprus and Ireland are EU countries but are not Schengen members.</p><a class="source-anchor" href="https://home-affairs.ec.europa.eu/policies/migration-and-asylum/eu-immigration-portal_en" target="_blank" rel="noopener">European Commission — EU Immigration Portal ↗</a></div></div>
   </div>
 
