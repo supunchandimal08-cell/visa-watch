@@ -1,81 +1,102 @@
 {
-  "generated_at": "2026-10-24T03:59:18.612992+00:00",
+  "generated_at": "2026-10-24T06:28:45.008215+00:00",
   "items": [
     {
       "country": "UK",
-      "name": "UK Student visa guidance",
+      "name": "UK Student Visa",
       "url": "https://www.gov.uk/student-visa",
-      "checked_at": "2026-10-24T03:58:10.479346+00:00",
+      "checked_at": "2026-10-24T06:28:32.405406+00:00",
       "status": "reachable",
       "http_status": 200,
-      "note": "Official source reachable. Page content has not been reviewed for rule changes."
+      "content_hash": "71665a0f12d2ed61105cfe7c0a74cd843af5d3e9ad710f69bba9ce0de4b01994",
+      "change_detected": false,
+      "baseline_created": true,
+      "note": "Initial baseline saved. Future successful checks can be compared for possible page-text changes."
     },
     {
       "country": "Canada",
-      "name": "Canada study permit",
-      "url": "https://www.canada.ca/en/immigration-refugees-citizenship.html",
-      "checked_at": "2026-10-24T03:59:15.182416+00:00",
-      "status": "unreachable",
-      "http_status": null,
-      "note": "Failed after 3 attempts: The read operation timed out"
+      "name": "Canada Study Permits",
+      "url": "https://www.canada.ca/en/immigration-refugees-citizenship/services/study-canada.html",
+      "checked_at": "2026-10-24T06:28:35.624065+00:00",
+      "status": "reachable",
+      "http_status": 200,
+      "content_hash": "316c523445ba217131ee3bdc4e938dd486dcd74182c4802de4cd8944ed161a28",
+      "change_detected": false,
+      "baseline_created": true,
+      "note": "Initial baseline saved. Future successful checks can be compared for possible page-text changes."
     },
     {
       "country": "Australia",
-      "name": "Australia student visa",
+      "name": "Australia Student Visa",
       "url": "https://immi.homeaffairs.gov.au/visas/getting-a-visa/visa-listing/student-500",
-      "checked_at": "2026-10-24T03:59:15.807776+00:00",
+      "checked_at": "2026-10-24T06:28:36.473552+00:00",
       "status": "reachable",
       "http_status": 200,
-      "note": "Official source reachable. Page content has not been reviewed for rule changes."
+      "content_hash": "9f6d586bde1b5d29d1a1cf5a2efebc4b036cd575a10d36cf782f397f2fd7b0e5",
+      "change_detected": false,
+      "baseline_created": true,
+      "note": "Initial baseline saved. Future successful checks can be compared for possible page-text changes."
     },
     {
       "country": "New Zealand",
-      "name": "New Zealand student visa",
-      "url": "https://www.immigration.govt.nz/study/study-visas/visas-for-studying-in-new-zealand/",
-      "checked_at": "2026-10-24T03:59:16.618423+00:00",
-      "status": "reachable",
-      "http_status": 200,
-      "note": "Official source reachable. Page content has not been reviewed for rule changes."
+      "name": "New Zealand Student Visa",
+      "url": "https://www.immigration.govt.nz/new-zealand-visas/visas/visa/student-visa",
+      "checked_at": "2026-10-24T06:28:39.037261+00:00",
+      "status": "http_error",
+      "http_status": 404,
+      "change_detected": false,
+      "note": "Official source returned HTTP 404; review manually. No page comparison was possible."
     },
     {
       "country": "USA",
-      "name": "US student visa information",
+      "name": "US Student Visa",
       "url": "https://travel.state.gov/content/travel/en/us-visas/study/student-visa.html",
-      "checked_at": "2026-10-24T03:59:16.773227+00:00",
+      "checked_at": "2026-10-24T06:28:39.148098+00:00",
       "status": "http_error",
       "http_status": 403,
-      "note": "Check the official source manually."
+      "change_detected": false,
+      "note": "Official source returned HTTP 403; review manually. No page comparison was possible."
     },
     {
       "country": "UAE / Dubai",
-      "name": "UAE government portal",
+      "name": "UAE Government Portal",
       "url": "https://u.ae/en/information-and-services/education",
-      "checked_at": "2026-10-24T03:59:17.979474+00:00",
+      "checked_at": "2026-10-24T06:28:40.780276+00:00",
       "status": "reachable",
       "http_status": 200,
-      "note": "Official source reachable. Page content has not been reviewed for rule changes."
+      "content_hash": "a88248e2e4ca9631900183167230b7e676b08751cfcba3f223fbf4e3429112cc",
+      "change_detected": false,
+      "baseline_created": true,
+      "note": "Initial baseline saved. Future successful checks can be compared for possible page-text changes."
     },
     {
       "country": "Europe / Schengen",
       "name": "EU Immigration Portal",
-      "url": "https://home-affairs.ec.europa.eu/policies/migration-and-asylum/eu-immigration-portal_en",
-      "checked_at": "2026-10-24T03:59:18.612848+00:00",
-      "status": "reachable",
-      "http_status": 200,
-      "note": "Official source reachable. Page content has not been reviewed for rule changes."
+      "url": "https://immigration-portal.ec.europa.eu/index_en",
+      "checked_at": "2026-10-24T06:28:45.008181+00:00",
+      "status": "unreachable",
+      "http_status": null,
+      "change_detected": false,
+      "note": "Failed after 3 attempts: <urlopen error [Errno -2] Name or service not known>"
     }
   ],
+  "change_candidates": [],
   "monitor_errors": [
     {
-      "country": "Canada",
-      "source": "https://www.canada.ca/en/immigration-refugees-citizenship.html",
-      "error": "Failed after 3 attempts: The read operation timed out"
+      "country": "New Zealand",
+      "source": "https://www.immigration.govt.nz/new-zealand-visas/visas/visa/student-visa",
+      "error": "Official source returned HTTP 404; review manually. No page comparison was possible."
     },
     {
       "country": "USA",
       "source": "https://travel.state.gov/content/travel/en/us-visas/study/student-visa.html",
-      "error": "Check the official source manually."
+      "error": "Official source returned HTTP 403; review manually. No page comparison was possible."
+    },
+    {
+      "country": "Europe / Schengen",
+      "source": "https://immigration-portal.ec.europa.eu/index_en",
+      "error": "Failed after 3 attempts: <urlopen error [Errno -2] Name or service not known>"
     }
   ],
-  "disclaimer": "Source availability checks only. No immigration rule changes are confirmed automatically. Review official pages manually."
+  "disclaimer": "The monitor compares visible page text and checks availability only. A detected page-text difference is a candidate for human review, not a confirmed immigration rule change."
 }

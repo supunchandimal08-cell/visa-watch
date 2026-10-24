@@ -1,12 +1,18 @@
 {
-  "last_checked_at": "2026-10-24T03:59:18.612992+00:00",
+  "last_checked_at": "2026-10-24T06:28:45.008215+00:00",
+  "content_hashes": {
+    "https://www.gov.uk/student-visa": "71665a0f12d2ed61105cfe7c0a74cd843af5d3e9ad710f69bba9ce0de4b01994",
+    "https://www.canada.ca/en/immigration-refugees-citizenship/services/study-canada.html": "316c523445ba217131ee3bdc4e938dd486dcd74182c4802de4cd8944ed161a28",
+    "https://immi.homeaffairs.gov.au/visas/getting-a-visa/visa-listing/student-500": "9f6d586bde1b5d29d1a1cf5a2efebc4b036cd575a10d36cf782f397f2fd7b0e5",
+    "https://u.ae/en/information-and-services/education": "a88248e2e4ca9631900183167230b7e676b08751cfcba3f223fbf4e3429112cc"
+  },
   "sources": {
     "https://www.gov.uk/student-visa": "reachable",
-    "https://www.canada.ca/en/immigration-refugees-citizenship.html": "unreachable",
+    "https://www.canada.ca/en/immigration-refugees-citizenship/services/study-canada.html": "reachable",
     "https://immi.homeaffairs.gov.au/visas/getting-a-visa/visa-listing/student-500": "reachable",
-    "https://www.immigration.govt.nz/study/study-visas/visas-for-studying-in-new-zealand/": "reachable",
+    "https://www.immigration.govt.nz/new-zealand-visas/visas/visa/student-visa": "http_error",
     "https://travel.state.gov/content/travel/en/us-visas/study/student-visa.html": "http_error",
     "https://u.ae/en/information-and-services/education": "reachable",
-    "https://home-affairs.ec.europa.eu/policies/migration-and-asylum/eu-immigration-portal_en": "reachable"
+    "https://immigration-portal.ec.europa.eu/index_en": "unreachable"
   }
 }
