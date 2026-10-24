@@ -207,8 +207,8 @@ async function loadMonitoredData(){
   if(!sourceResponse.ok||!updateResponse.ok) throw new Error('monitor data unavailable');
   const monitoredSources=await sourceResponse.json();
   const monitoredUpdates=await updateResponse.json();
-  if(Array.isArray(monitoredSources)&&monitoredSources.length){
-   const mapped=monitoredSources.map(s=>({id:s.id,country:s.country,title:s.name,category:s.category,url:s.url,note:s.note||s.name}));
+  if(Array.isArray(monitoredSources.sources)&&monitoredSources.sources.length){
+  const mapped=monitoredSources.sources.map(s=>({id:s.id,country:s.country,title:s.name,category:s.category,url:s.url,note:s.note||s.name}));
    // Preserve UI source IDs used by the Rules Library. Append monitored sources by URL
    // instead of replacing the UI registry (the two registries intentionally use different IDs).
    const normalized=mapped.map(s=>({...s, title:s.title||s.name, note:s.note||s.name}));
