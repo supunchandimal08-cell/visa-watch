@@ -57,7 +57,7 @@ footer{margin-top:30px;color:#8291a2;font-size:10px;display:flex;justify-content
    <div class="stat"><div class="stat-head">Destinations covered <span class="stat-icon">🌍</span></div><strong>07</strong><small>Country and regional groups</small></div>
    <div class="stat"><div class="stat-head">Official source links <span class="stat-icon">🔗</span></div><strong id="sourceStat">14</strong><small>Curated starting points</small></div>
    <div class="stat"><div class="stat-head">Updates to review <span class="stat-icon">⌛</span></div><strong>03</strong><small>Sample official records in this demo</small></div>
-   <div class="stat"><div class="stat-head">Monitor status <span class="stat-icon">◉</span></div><strong style="font-size:21px;color:#a2761a">Setup needed</strong><small>Scheduled checks not live yet</small></div>
+   <div class="stat"><div class="stat-head">Monitor status <span class="stat-icon">◉</span></div><strong style="font-size:21px;color:#a2761a">Setup needed</strong><small>Daily schedule configured; first run pending</small></div>
   </div>
   <div class="section-head"><div><h2>Explore destinations</h2><p>Choose a destination to filter official guidance and updates.</p></div><a class="text-link" href="#" data-goto="sources">All official sources ↗</a></div>
   <div class="countries" id="countries"></div>
@@ -69,7 +69,7 @@ footer{margin-top:30px;color:#8291a2;font-size:10px;display:flex;justify-content
  </section>
  <section class="page" id="page-updates">
   <div class="welcome"><div><div class="eyebrow">Change detection & review</div><h1>Update monitor</h1><p>Track official announcements, separate page updates from policy changes, and review each item before counselling use.</p></div></div>
-  <div class="banner"><div class="banner-icon">⌕</div><div><b>Detection is not confirmation</b><p>These are curated example records, not a live feed. The scheduled monitor must be installed and connected before automatic detections appear.</p></div></div>
+  <div class="banner"><div class="banner-icon">⌕</div><div><b>Detection is not confirmation</b><p>The daily monitor checks official-source availability and compares visible page text with the previous successful check. Possible text changes require human review and are not confirmed policy changes.</p></div></div>
   <div class="filterbar"><input id="updateSearch" placeholder="Search update title, category or country…"><select id="updateCountry"><option value="">All destinations</option></select><select id="updateStatus"><option value="">All statuses</option><option>Needs review</option><option>Official guidance updated</option><option>Effective rule change</option></select></div>
   <div class="table-wrap"><table class="data-table"><thead><tr><th>Update / source</th><th>Destination</th><th>Publication / page date</th><th>Effective date</th><th>Status</th></tr></thead><tbody id="updateRows"></tbody></table></div>
   <footer><span>Review each source and preserve evidence before approving an update.</span><span>Dates are kept separate by design.</span></footer>
@@ -155,7 +155,7 @@ async function loadMonitoredData(){
    sources=[...initialSources, ...normalized.filter(ms=>!initialSources.some(is=>is.url===ms.url))];
   }
   if(monitoredUpdates&&Array.isArray(monitoredUpdates.items)){
-   const live=monitoredUpdates.items.map((u,i)=>{const checkStatus=u.status==='reachable'?'Reachable':u.status==='unreachable'?'Timeout / unreachable':u.status==='http_error'?'HTTP error':'Needs review';return {id:u.id||('source-check-'+i),country:u.country||'Unknown',flag:(countries.find(c=>c.name===u.country)||{}).flag||'🌐',title:u.name||u.title||'Official source check',category:'Source availability check',publication:u.checked_at?'Checked '+new Date(u.checked_at).toLocaleString():'Check date unavailable',effective:'No policy effective date confirmed',status:'Needs review',summary:(u.note||'Official source availability checked only.')+' Check result: '+checkStatus+'. This does not confirm an immigration rule change.',url:u.url||'#'};});
+   const live=monitoredUpdates.items.map((u,i)=>{const checkStatus=u.status==='reachable'?'Reachable':u.status==='unreachable'?'Timeout / unreachable':u.status==='http_error'?'HTTP error':'Needs review';return {id:u.id||('source-check-'+i),country:u.country||'Unknown',flag:(countries.find(c=>c.name===u.country)||{}).flag||'🌐',title:u.change_detected?'Possible page-text change — '+(u.name||u.title||'Official source'):(u.name||u.title||'Official source check'),category:u.change_detected?'Possible page-text change':'Source availability check',publication:u.checked_at?'Checked '+new Date(u.checked_at).toLocaleString():'Check date unavailable',effective:'No policy effective date confirmed',status:'Needs review',summary:(u.note||'Official source availability checked only.')+' Check result: '+checkStatus+'. This does not confirm an immigration rule change.',url:u.url||'#'};});
    // Actual monitor alerts are shown first; curated examples remain visible as reference examples.
    updates=[...live,...initialUpdates.filter(sample=>!live.some(x=>x.url===sample.url&&x.title===sample.title))];
    const count=live.length;
@@ -164,7 +164,7 @@ async function loadMonitoredData(){
    const updateStat=document.querySelector('.stats .stat:nth-child(3) strong');
    if(updateStat)updateStat.textContent=String(count+initialUpdates.filter(x=>x.status==='Needs review').length);
    const statusStat=document.querySelector('.stats .stat:nth-child(4) strong');
-   if(statusStat) {statusStat.textContent=monitoredUpdates.generated_at?'Running':'Setup needed';statusStat.style.color=monitoredUpdates.generated_at?'#168565':'#a2761a';}
+   if(statusStat) {statusStat.textContent=monitoredUpdates.generated_at?'Running':'Setup needed';statusStat.style.color=monitoredUpdates.generated_at?'#168565':'#a2761a';} const monitorSub=document.querySelector('.stats .stat:nth-child(4) small'); if(monitorSub)monitorSub.textContent=monitoredUpdates.generated_at?'Daily schedule configured · last run '+new Date(monitoredUpdates.generated_at).toLocaleString():'Daily schedule configured; first run pending';
    const monitorNote=document.querySelector('.sidebar-bottom p');
    if(monitorNote)monitorNote.textContent=monitoredUpdates.generated_at?'Last monitor run: '+new Date(monitoredUpdates.generated_at).toLocaleString():'Daily monitor data not run yet.';
   }
