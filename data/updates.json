@@ -1,11 +1,11 @@
 {
-  "generated_at": "2026-10-23T06:14:39.246580+00:00",
+  "generated_at": "2026-10-24T03:59:18.612992+00:00",
   "items": [
     {
       "country": "UK",
       "name": "UK Student visa guidance",
       "url": "https://www.gov.uk/student-visa",
-      "checked_at": "2026-10-23T06:13:29.664937+00:00",
+      "checked_at": "2026-10-24T03:58:10.479346+00:00",
       "status": "reachable",
       "http_status": 200,
       "note": "Official source reachable. Page content has not been reviewed for rule changes."
@@ -14,7 +14,7 @@
       "country": "Canada",
       "name": "Canada study permit",
       "url": "https://www.canada.ca/en/immigration-refugees-citizenship.html",
-      "checked_at": "2026-10-23T06:14:33.964519+00:00",
+      "checked_at": "2026-10-24T03:59:15.182416+00:00",
       "status": "unreachable",
       "http_status": null,
       "note": "Failed after 3 attempts: The read operation timed out"
@@ -23,7 +23,7 @@
       "country": "Australia",
       "name": "Australia student visa",
       "url": "https://immi.homeaffairs.gov.au/visas/getting-a-visa/visa-listing/student-500",
-      "checked_at": "2026-10-23T06:14:34.670455+00:00",
+      "checked_at": "2026-10-24T03:59:15.807776+00:00",
       "status": "reachable",
       "http_status": 200,
       "note": "Official source reachable. Page content has not been reviewed for rule changes."
@@ -32,7 +32,7 @@
       "country": "New Zealand",
       "name": "New Zealand student visa",
       "url": "https://www.immigration.govt.nz/study/study-visas/visas-for-studying-in-new-zealand/",
-      "checked_at": "2026-10-23T06:14:35.818625+00:00",
+      "checked_at": "2026-10-24T03:59:16.618423+00:00",
       "status": "reachable",
       "http_status": 200,
       "note": "Official source reachable. Page content has not been reviewed for rule changes."
@@ -41,7 +41,7 @@
       "country": "USA",
       "name": "US student visa information",
       "url": "https://travel.state.gov/content/travel/en/us-visas/study/student-visa.html",
-      "checked_at": "2026-10-23T06:14:35.895050+00:00",
+      "checked_at": "2026-10-24T03:59:16.773227+00:00",
       "status": "http_error",
       "http_status": 403,
       "note": "Check the official source manually."
@@ -50,7 +50,7 @@
       "country": "UAE / Dubai",
       "name": "UAE government portal",
       "url": "https://u.ae/en/information-and-services/education",
-      "checked_at": "2026-10-23T06:14:38.426997+00:00",
+      "checked_at": "2026-10-24T03:59:17.979474+00:00",
       "status": "reachable",
       "http_status": 200,
       "note": "Official source reachable. Page content has not been reviewed for rule changes."
@@ -59,7 +59,7 @@
       "country": "Europe / Schengen",
       "name": "EU Immigration Portal",
       "url": "https://home-affairs.ec.europa.eu/policies/migration-and-asylum/eu-immigration-portal_en",
-      "checked_at": "2026-10-23T06:14:39.246419+00:00",
+      "checked_at": "2026-10-24T03:59:18.612848+00:00",
       "status": "reachable",
       "http_status": 200,
       "note": "Official source reachable. Page content has not been reviewed for rule changes."
