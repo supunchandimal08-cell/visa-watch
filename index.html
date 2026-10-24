@@ -157,6 +157,35 @@ footer{margin-top:30px;color:#8291a2;font-size:10px;display:flex;justify-content
 </main>
 </div>
 <script>
+/* Early navigation fallback: keep page switching available even if a later dashboard widget fails. */
+document.addEventListener("DOMContentLoaded", function () {
+  const nav = document.getElementById("nav");
+  if (!nav) return;
+  const labels = {
+    overview: "Overview",
+    updates: "Update monitor",
+    rules: "Rules library",
+    sources: "Official sources",
+    checklist: "Counsellor checklist",
+    client: "Client assessment"
+  };
+  nav.addEventListener("click", function (event) {
+    const button = event.target.closest("button[data-page]");
+    if (!button) return;
+    const page = button.getAttribute("data-page");
+    document.querySelectorAll(".page").forEach(function (section) {
+      section.classList.toggle("active", section.id === "page-" + page);
+    });
+    nav.querySelectorAll("button[data-page]").forEach(function (item) {
+      item.classList.toggle("active", item === button);
+    });
+    const crumb = document.getElementById("crumb");
+    if (crumb) crumb.textContent = labels[page] || page;
+    window.scrollTo({ top: 0, behavior: "smooth" });
+  });
+});
+</script>
+<script>
 const countries=[
  {name:"UK",full:"United Kingdom",flag:"🇬🇧",sub:"Student route & Graduate route",desc:"Student visa, finance, work conditions and post-study options.",sources:2},
  {name:"Canada",full:"Canada",flag:"🇨🇦",sub:"Study permit & work rules",desc:"Study permits, work eligibility, placements and PGWP.",sources:2},
