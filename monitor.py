@@ -118,6 +118,11 @@ def check_source(source, previous):
                     "content_hash": digest, "change_detected": changed,
                     "baseline_created": first_check, "note": note}
         except HTTPError as e:
+            if source["country"] == "USA" and e.code == 403:
+                return {**source, "checked_at": datetime.now(timezone.utc).isoformat(),
+                        "status": "manual_review", "http_status": e.code,
+                        "change_detected": False,
+                        "note": "Automated access was denied (HTTP 403). Open the official page in a browser and verify manually; no page comparison was possible."}
             return {**source, "checked_at": datetime.now(timezone.utc).isoformat(),
                     "status": "http_error", "http_status": e.code,
                     "change_detected": False,
@@ -126,10 +131,16 @@ def check_source(source, previous):
             last_error = str(e)
             if attempt < 2:
                 time.sleep(2)
-    return {**source, "checked_at": datetime.now(timezone.utc).isoformat(),
-            "status": "unreachable", "http_status": None,
-            "change_detected": False,
-            "note": ("Failed after 3 attempts: " + str(last_error or "unknown connection error"))[:250]}
+    note = ("Failed after 3 attempts: " + str(last_error or "unknown connection error"))[:250]
+    result = {**source, "checked_at": datetime.now(timezone.utc).isoformat(),
+              "status": "unreachable", "http_status": None,
+              "change_detected": False, "note": note}
+    # For sources that block automated requests or intermittently time out,
+    # keep the official link visible and explicitly direct staff to manual review.
+    if source["country"] == "USA" and "403" in note:
+        result["status"] = "manual_review"
+        result["note"] = "Automated access was denied. Open the official page in a browser and verify manually; no page comparison was possible."
+    return result
 
 def main():
     os.makedirs(DATA, exist_ok=True)
