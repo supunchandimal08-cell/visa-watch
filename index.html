@@ -155,7 +155,7 @@ async function loadMonitoredData(){
    sources=[...initialSources, ...normalized.filter(ms=>!initialSources.some(is=>is.url===ms.url))];
   }
   if(monitoredUpdates&&Array.isArray(monitoredUpdates.items)){
-   const live=monitoredUpdates.items.map((u,i)=>({id:u.id||('detected-'+i),country:u.country||'Unknown',flag:(countries.find(c=>c.name===u.country)||{}).flag||'🌐',title:u.title||u.source_name||'Official page changed',category:'Detected page change',publication:u.detected_at?'Detected '+u.detected_at:'Detected by monitor',effective:'Verify on official source',status:u.status||'Needs review',summary:u.summary||'A monitored page changed. Verify the original official source; this is not proof of a legal change.',url:u.url||'#'}));
+   const live=monitoredUpdates.items.map((u,i)=>{const checkStatus=u.status==='reachable'?'Reachable':u.status==='unreachable'?'Timeout / unreachable':u.status==='http_error'?'HTTP error':'Needs review';return {id:u.id||('source-check-'+i),country:u.country||'Unknown',flag:(countries.find(c=>c.name===u.country)||{}).flag||'🌐',title:u.name||u.title||'Official source check',category:'Source availability check',publication:u.checked_at?'Checked '+new Date(u.checked_at).toLocaleString():'Check date unavailable',effective:'No policy effective date confirmed',status:'Needs review',summary:(u.note||'Official source availability checked only.')+' Check result: '+checkStatus+'. This does not confirm an immigration rule change.',url:u.url||'#'};});
    // Actual monitor alerts are shown first; curated examples remain visible as reference examples.
    updates=[...live,...initialUpdates.filter(sample=>!live.some(x=>x.url===sample.url&&x.title===sample.title))];
    const count=live.length;
