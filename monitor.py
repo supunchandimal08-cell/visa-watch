@@ -83,7 +83,10 @@ def check_source(source, previous):
             "Cache-Control": "no-cache",
         })
         try:
-            with urlopen(request, timeout=25) as response:
+            # Canada’s official landing page has timed out on recent runs.
+            # Allow it a little longer without slowing every other source.
+            request_timeout = 40 if source["country"] == "Canada" else 25
+            with urlopen(request, timeout=request_timeout) as response:
                 status_code = response.status
                 content_type = response.headers.get("Content-Type", "")
                 body = response.read(3_000_000)
