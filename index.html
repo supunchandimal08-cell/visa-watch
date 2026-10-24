@@ -37,9 +37,7 @@ async function loadVisaWatchUpdates() {
   const results = document.getElementById("monitor-results");
 
   try {
-    const response = await fetch("./data/updates.json", {
-      cache: "no-store"
-    });
+  const response = await fetch("./data/updates.json", { cache: "no-store" });
 
     if (!response.ok) {
       throw new Error("Could not load updates.json");
