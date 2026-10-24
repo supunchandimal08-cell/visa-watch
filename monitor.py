@@ -41,7 +41,7 @@ class VisibleTextParser(HTMLParser):
 
     def handle_data(self, data):
         if not self.hidden_depth:
-            text = re.sub(r"\\s+", " ", data).strip()
+            text = re.sub(r"\s+", " ", data).strip()
             if text:
                 self.parts.append(text)
 
@@ -56,7 +56,7 @@ def save_json(path, data):
     temp = path + ".tmp"
     with open(temp, "w", encoding="utf-8") as f:
         json.dump(data, f, ensure_ascii=False, indent=2)
-        f.write("\\n")
+        f.write("\n")
     os.replace(temp, path)
 
 def load_sources():
@@ -98,9 +98,9 @@ def check_source(source, previous):
             decoded = body.decode("utf-8", errors="replace")
             parser = VisibleTextParser()
             parser.feed(decoded)
-            visible_text = re.sub(r"\\s+", " ", " ".join(parser.parts)).strip()
+            visible_text = re.sub(r"\s+", " ", " ".join(parser.parts)).strip()
             if not visible_text:
-                visible_text = re.sub(r"\\s+", " ", re.sub(r"<[^>]+>", " ", decoded)).strip()
+                visible_text = re.sub(r"\s+", " ", re.sub(r"<[^>]+>", " ", decoded)).strip()
             digest = hashlib.sha256(visible_text.encode("utf-8")).hexdigest()
             previous_hash = previous.get(source["url"])
             changed = bool(previous_hash and previous_hash != digest)
