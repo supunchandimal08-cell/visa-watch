@@ -1,19 +1,20 @@
 {
-  "last_checked_at": "2026-10-24T06:31:30.437684+00:00",
+  "last_checked_at": "2026-10-24T06:35:42.892668+00:00",
   "content_hashes": {
     "https://www.gov.uk/student-visa": "71665a0f12d2ed61105cfe7c0a74cd843af5d3e9ad710f69bba9ce0de4b01994",
     "https://www.canada.ca/en/immigration-refugees-citizenship/services/study-canada.html": "316c523445ba217131ee3bdc4e938dd486dcd74182c4802de4cd8944ed161a28",
     "https://immi.homeaffairs.gov.au/visas/getting-a-visa/visa-listing/student-500": "9f6d586bde1b5d29d1a1cf5a2efebc4b036cd575a10d36cf782f397f2fd7b0e5",
     "https://u.ae/en/information-and-services/education": "5a154500a2ce0ae5f4c16baf97504508c8b8fb80d03de1f623f506bf08d690bb",
-    "https://www.immigration.govt.nz/study/study-visas/visas-for-studying-in-new-zealand/": "665d15fe57509ffa911db593e93b995b1d1c47a592a490d11772e751c79a6613"
+    "https://www.immigration.govt.nz/study/study-visas/visas-for-studying-in-new-zealand/": "665d15fe57509ffa911db593e93b995b1d1c47a592a490d11772e751c79a6613",
+    "https://u.ae/en/information-and-services/visa-and-emirates-id/residence-visas/residence-visa-for-studying-in-the-uae": "5ace743046b81a22ee8dd9e664e2a91962774b345aa7934627885c3c548bde98"
   },
   "sources": {
     "https://www.gov.uk/student-visa": "reachable",
     "https://www.canada.ca/en/immigration-refugees-citizenship/services/study-canada.html": "reachable",
     "https://immi.homeaffairs.gov.au/visas/getting-a-visa/visa-listing/student-500": "reachable",
     "https://www.immigration.govt.nz/study/study-visas/visas-for-studying-in-new-zealand/": "reachable",
-    "https://travel.state.gov/content/travel/en/us-visas/study/student-visa.html": "http_error",
-    "https://u.ae/en/information-and-services/education": "reachable",
+    "https://travel.state.gov/content/travel/en/us-visas/study.html": "http_error",
+    "https://u.ae/en/information-and-services/visa-and-emirates-id/residence-visas/residence-visa-for-studying-in-the-uae": "reachable",
     "https://immigration-portal.ec.europa.eu/index_en": "unreachable"
   }
 }

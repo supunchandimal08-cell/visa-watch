@@ -1,11 +1,11 @@
 {
-  "generated_at": "2026-10-24T06:31:30.437684+00:00",
+  "generated_at": "2026-10-24T06:35:42.892668+00:00",
   "items": [
     {
       "country": "UK",
       "name": "UK Student Visa",
       "url": "https://www.gov.uk/student-visa",
-      "checked_at": "2026-10-24T06:31:19.844474+00:00",
+      "checked_at": "2026-10-24T06:35:28.174543+00:00",
       "status": "reachable",
       "http_status": 200,
       "content_hash": "71665a0f12d2ed61105cfe7c0a74cd843af5d3e9ad710f69bba9ce0de4b01994",
@@ -17,7 +17,7 @@
       "country": "Canada",
       "name": "Canada Study Permits",
       "url": "https://www.canada.ca/en/immigration-refugees-citizenship/services/study-canada.html",
-      "checked_at": "2026-10-24T06:31:22.119035+00:00",
+      "checked_at": "2026-10-24T06:35:31.242069+00:00",
       "status": "reachable",
       "http_status": 200,
       "content_hash": "316c523445ba217131ee3bdc4e938dd486dcd74182c4802de4cd8944ed161a28",
@@ -29,7 +29,7 @@
       "country": "Australia",
       "name": "Australia Student Visa",
       "url": "https://immi.homeaffairs.gov.au/visas/getting-a-visa/visa-listing/student-500",
-      "checked_at": "2026-10-24T06:31:22.505715+00:00",
+      "checked_at": "2026-10-24T06:35:31.551540+00:00",
       "status": "reachable",
       "http_status": 200,
       "content_hash": "9f6d586bde1b5d29d1a1cf5a2efebc4b036cd575a10d36cf782f397f2fd7b0e5",
@@ -41,19 +41,19 @@
       "country": "New Zealand",
       "name": "New Zealand Student Visa",
       "url": "https://www.immigration.govt.nz/study/study-visas/visas-for-studying-in-new-zealand/",
-      "checked_at": "2026-10-24T06:31:23.513000+00:00",
+      "checked_at": "2026-10-24T06:35:35.545692+00:00",
       "status": "reachable",
       "http_status": 200,
       "content_hash": "665d15fe57509ffa911db593e93b995b1d1c47a592a490d11772e751c79a6613",
       "change_detected": false,
-      "baseline_created": true,
-      "note": "Initial baseline saved. Future successful checks can be compared for possible page-text changes."
+      "baseline_created": false,
+      "note": "No page-text change detected since the previous successful check. This does not guarantee that every policy detail was checked."
     },
     {
       "country": "USA",
       "name": "US Student Visa",
-      "url": "https://travel.state.gov/content/travel/en/us-visas/study/student-visa.html",
-      "checked_at": "2026-10-24T06:31:23.630688+00:00",
+      "url": "https://travel.state.gov/content/travel/en/us-visas/study.html",
+      "checked_at": "2026-10-24T06:35:35.576259+00:00",
       "status": "http_error",
       "http_status": 403,
       "change_detected": false,
@@ -61,40 +61,32 @@
     },
     {
       "country": "UAE / Dubai",
-      "name": "UAE Government Portal",
-      "url": "https://u.ae/en/information-and-services/education",
-      "checked_at": "2026-10-24T06:31:26.209482+00:00",
+      "name": "UAE Student Residence Visa",
+      "url": "https://u.ae/en/information-and-services/visa-and-emirates-id/residence-visas/residence-visa-for-studying-in-the-uae",
+      "checked_at": "2026-10-24T06:35:38.749000+00:00",
       "status": "reachable",
       "http_status": 200,
-      "content_hash": "5a154500a2ce0ae5f4c16baf97504508c8b8fb80d03de1f623f506bf08d690bb",
-      "change_detected": true,
-      "baseline_created": false,
-      "note": "Possible page-text change detected since the previous successful check. Review the official page; this is not proof of a policy change."
+      "content_hash": "5ace743046b81a22ee8dd9e664e2a91962774b345aa7934627885c3c548bde98",
+      "change_detected": false,
+      "baseline_created": true,
+      "note": "Initial baseline saved. Future successful checks can be compared for possible page-text changes."
     },
     {
       "country": "Europe / Schengen",
       "name": "EU Immigration Portal",
       "url": "https://immigration-portal.ec.europa.eu/index_en",
-      "checked_at": "2026-10-24T06:31:30.437655+00:00",
+      "checked_at": "2026-10-24T06:35:42.892643+00:00",
       "status": "unreachable",
       "http_status": null,
       "change_detected": false,
       "note": "Failed after 3 attempts: <urlopen error [Errno -2] Name or service not known>"
     }
   ],
-  "change_candidates": [
-    {
-      "country": "UAE / Dubai",
-      "name": "UAE Government Portal",
-      "url": "https://u.ae/en/information-and-services/education",
-      "checked_at": "2026-10-24T06:31:26.209482+00:00",
-      "note": "Possible page-text change detected since the previous successful check. Review the official page; this is not proof of a policy change."
-    }
-  ],
+  "change_candidates": [],
   "monitor_errors": [
     {
       "country": "USA",
-      "source": "https://travel.state.gov/content/travel/en/us-visas/study/student-visa.html",
+      "source": "https://travel.state.gov/content/travel/en/us-visas/study.html",
       "error": "Official source returned HTTP 403; review manually. No page comparison was possible."
     },
     {
