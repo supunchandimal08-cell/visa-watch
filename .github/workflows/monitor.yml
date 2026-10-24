@@ -1,0 +1,44 @@
+name: VisaWatch daily source monitor
+
+on:
+  schedule:
+    # Daily at 08:30 Sri Lanka time (03:00 UTC)
+    - cron: "0 3 * * *"
+  workflow_dispatch:
+
+permissions:
+  contents: write
+
+concurrency:
+  group: visawatch-daily-monitor
+  cancel-in-progress: false
+
+jobs:
+  monitor:
+    runs-on: ubuntu-latest
+    timeout-minutes: 10
+    steps:
+      - name: Check out repository
+        uses: actions/checkout@v4
+        with:
+          ref: main
+
+      - name: Set up Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+
+      - name: Run source availability and page-text checks
+        run: python monitor.py
+
+      - name: Save monitor results
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add data/updates.json data/monitor_state.json
+          if git diff --cached --quiet; then
+            echo "No monitor data changes to commit."
+          else
+            git commit -m "Update daily VisaWatch monitor results"
+            git push
+          fi
