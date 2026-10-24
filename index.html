@@ -55,7 +55,7 @@ footer{margin-top:30px;color:#8291a2;font-size:10px;display:flex;justify-content
  <div class="topbar"><div class="crumb">VisaWatch <span style="color:#b5c0ca">/</span> <b id="crumb">Overview</b></div><div class="top-actions"><div class="search"><input id="globalSearch" placeholder="Search rules & sources…"></div><button class="smallbtn" id="langBtn">සිංහල</button><div class="avatar">VW</div></div></div>
  <div class="content">
  <section class="page active" id="page-overview">
-  <div class="welcome"><div><div class="eyebrow">Your immigration intelligence desk</div><h1>Good morning, counsellor.</h1><p>One workspace for official immigration guidance, policy changes and safer student counselling across seven destinations.</p></div><div class="date-pill" id="today">◷ Loading date…</div></div>
+  <div class="welcome"><div><div class="eyebrow">Your immigration intelligence desk</div><h1>Good Morning, Counsellor.</h1><p>One workspace for official immigration guidance, policy changes and safer student counselling across seven destinations.</p></div><div class="date-pill" id="today">◷ Loading date…</div></div>
   <div class="banner"><div class="banner-icon">✦</div><div><b>Accuracy first. Always verify before advising.</b><p>A webpage change is a signal, not proof of a legal change. Check the original government source, dates, affected applicants and exceptions before using any update with a client.</p></div></div>
   <div class="stats">
    <div class="stat"><div class="stat-head">Destinations covered <span class="stat-icon">🌍</span></div><strong>07</strong><small>Country and regional groups</small></div>
@@ -377,7 +377,7 @@ document.getElementById("langBtn").onclick=()=>{
  const intro=document.querySelector("#page-overview .welcome p");
  const eyebrow=document.querySelector("#page-overview .eyebrow");
  if(isSinhala){title.textContent="ආයුබෝවන්, උපදේශකතුමනි.";intro.textContent="රටවල් 7ක නිල immigration මාර්ගෝපදේශ, නීති වෙනස්කම් සහ ශිෂ්‍ය උපදේශනය එකම තැනකින් නිරීක්ෂණය කරන්න.";eyebrow.textContent="ඔබගේ immigration තොරතුරු මධ්‍යස්ථානය";}
- else{title.textContent="Good morning, counsellor.";intro.textContent="One workspace for official immigration guidance, policy changes and safer student counselling across seven destinations.";eyebrow.textContent="Your immigration intelligence desk";}
+ else{title.textContent="Good Morning, Counsellor.";intro.textContent="One workspace for official immigration guidance, policy changes and safer student counselling across seven destinations.";eyebrow.textContent="Your immigration intelligence desk";}
  document.querySelector(".banner b").textContent=isSinhala?"උපදෙස් දීමට පෙර නිල මූලාශ්‍රයෙන් තහවුරු කරන්න.":"Accuracy first. Always verify before advising.";
  document.querySelector(".banner p").textContent=isSinhala?"වෙබ් පිටුවක වෙනසක් පෙනීම නීතිමය වෙනසක් තහවුරු කිරීමක් නොවේ. මුල් රජයේ මූලාශ්‍රය, දිනයන්, අදාළ අය සහ ව්‍යතිරේක පරීක්ෂා කරන්න.":"A webpage change is a signal, not proof of a legal change. Check the original government source, dates, affected applicants and exceptions before using any update with a client.";
  document.getElementById("crumb").textContent=isSinhala?"සාරාංශය":"Overview";
