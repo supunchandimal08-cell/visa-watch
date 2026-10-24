@@ -253,7 +253,7 @@ async function loadMonitoredData(){
  }catch(e){
   // Keep curated demo data when opened as a plain local file or before monitor has run.
  }
- fillSelect('sourceCountry',countries.map(c=>c.name));
+ fillSelect('sourceCountry',[...countries.map(c=>c.name),...schengenRuleCountries]);
  renderSources();renderUpdates();renderRules();
 }
 const checks=[
