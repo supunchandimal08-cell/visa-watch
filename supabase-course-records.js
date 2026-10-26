@@ -44,7 +44,7 @@
       <p style="font-size:12px;color:var(--muted)">Sign in with your team account to save and view records shared through the secured database. The publishable key is public; never enter a secret/service_role key here.</p>
       <div class="filterbar"><input id="vwProjectUrl" type="url" placeholder="Supabase Project URL (https://....supabase.co)" autocomplete="url"><input id="vwPublishableKey" type="password" placeholder="Supabase publishable key (sb_publishable_…)" autocomplete="off"></div>
       <div class="filterbar"><input id="vwEmail" type="email" placeholder="Work email" autocomplete="username"><input id="vwPassword" type="password" placeholder="Password" autocomplete="current-password"></div>
-      <div style="display:flex;gap:8px;flex-wrap:wrap"><button class="smallbtn" id="vwConnect" type="button">Connect project</button><button class="smallbtn" id="vwSignIn" type="button">Sign in</button><button class="smallbtn" id="vwSignUp" type="button">Create account</button><button class="smallbtn" id="vwSignOut" type="button">Sign out</button><button class="smallbtn" id="vwSaveShared" type="button">Save current record to shared database</button><button class="smallbtn" id="vwLoadShared" type="button">Refresh shared records</button></div>
+      <div style="display:flex;gap:8px;flex-wrap:wrap"><button class="smallbtn" id="vwConnect" type="button">Connect project</button><button class="smallbtn" id="vwSignIn" type="button">Sign in</button><button class="smallbtn" id="vwSignUp" type="button">Create account</button><button class="smallbtn" id="vwSignOut" type="button">Sign out</button><button class="smallbtn" id="vwFillDemo" type="button">Fill demo test fields</button><button class="smallbtn" id="vwSaveShared" type="button">Save current record to shared database</button><button class="smallbtn" id="vwLoadShared" type="button">Refresh shared records</button></div>
       <p id="vwSharedStatus" role="status" aria-live="polite" style="font-size:12px;margin:12px 0 6px">Not connected. Enter your project URL and publishable key.</p>
       <div id="vwSharedList"></div>
     `;
@@ -57,6 +57,7 @@
     $("vwSignUp").onclick = () => authenticate(true);
     $("vwSignOut").onclick = signOut;
     $("vwSaveShared").onclick = saveShared;
+    $("vwFillDemo").onclick = fillDemo;
     $("vwLoadShared").onclick = loadShared;
     if (cfg.url && cfg.key) connect();
   }
@@ -104,6 +105,13 @@
     const {error} = await client.auth.signOut();
     if (error) { status("Sign-out failed: " + error.message, true); return; }
     currentUser = null; $("vwSharedList").textContent = ""; status("Signed out.");
+  }
+  function fillDemo() {
+    const demo = {institution:"VisaWatch Test College", course:"TEST - Diploma in Business (DEMO ONLY)", destination:"UAE / Dubai", notes:"DEMO TEST RECORD — not an actual institution or course. Do not use for counselling."};
+    Object.entries(demo).forEach(([column, value]) => { const id = fields[column]; if (id && $(id)) $(id).value = value; });
+    status("Demo test fields filled. Click Save current record to shared database to test the connection.");
+    const institution = $("crInstitution");
+    if (institution) window.scrollTo({top: institution.getBoundingClientRect().top + window.scrollY - 80, behavior:"smooth"});
   }
   async function saveShared() {
     if (!client || !currentUser) { status("Connect and sign in before saving shared records.", true); return; }
