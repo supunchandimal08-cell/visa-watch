@@ -8,7 +8,7 @@
     {
       "country": "Canada",
       "name": "Canada Study Permits",
-      "url": "https://www.canada.ca/en/immigration-refugees-citizenship/services/study-canada.html"
+      "url": "https://www.canada.ca/en/immigration-refugees-citizenship/services/study-canada/study-permit.html"
     },
     {
       "country": "Australia",
@@ -23,12 +23,12 @@
     {
       "country": "USA",
       "name": "US Student Visa",
-      "url": "https://travel.state.gov/content/travel/en/us-visas/study.html"
+      "url": "https://travel.state.gov/content/travel/en/us-visas/study/student-visa.html"
     },
     {
       "country": "UAE / Dubai",
       "name": "UAE Student Residence Visa",
-      "url": "https://u.ae/en/information-and-services/visa-and-emirates-id/residence-visas/residence-visa-for-studying-in-the-uae"
+      "url": "https://www.gdrfad.gov.ae/en"
     },
     {
       "country": "Europe / Schengen",
