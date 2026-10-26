@@ -122,7 +122,7 @@
     if (!client || !currentUser) { status("Connect and sign in before viewing shared records.", true); return; }
     try {
       const {data, error} = await client.from("course_verification_records")
-        .select("id,institution,course,destination,campus,intake,verification_status,checked_by,checked_date,updated_at")
+        .select("id,institution,course,destination,campus,intake,duration,tuition,entry_requirements,official_course_url,official_register_url,verification_status,checked_by,checked_date,notes,created_by,updated_by,created_at,updated_at")
         .order("updated_at", {ascending:false}).limit(100);
       if (error) throw error;
       const host = $("vwSharedList"); host.textContent = "";
