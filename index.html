@@ -375,7 +375,7 @@ const checks=[
 ];
 let selectedCountry="", currentPage="overview";
 function esc(s){return String(s??"").replace(/[&<>"']/g,c=>({"&":"&amp;","<":"&lt;",">":"&gt;",'"':"&quot;","'":"&#39;"}[c]));}
-function go(page){currentPage=page;document.querySelectorAll(".page").forEach(x=>x.classList.toggle("active",x.id==="page-"+page));document.querySelectorAll("#nav button").forEach(x=>x.classList.toggle("active",x.dataset.page===page));document.getElementById("crumb").textContent=({overview:"Overview",updates:"Update monitor",rules:"Rules library",sources:"Official sources",checklist:"Counsellor checklist",client:"Client assessment"})[page];window.scrollTo({top:0,behavior:"smooth"});}
+function go(page){currentPage=page;document.querySelectorAll(".page").forEach(x=>x.classList.toggle("active",x.id==="page-"+page));document.querySelectorAll("#nav button").forEach(x=>x.classList.toggle("active",x.dataset.page===page));document.getElementById("crumb").textContent=({overview:"Overview",updates:"Update monitor",rules:"Rules library",sources:"Official sources",courses:"Course research",checklist:"Counsellor checklist",client:"Client assessment"})[page];window.scrollTo({top:0,behavior:"smooth"});}
 function gotoCountry(c){selectedCountry=c;go("updates");document.getElementById("updateCountry").value=c;renderUpdates();}
 function fillSelect(id,items){document.getElementById(id).innerHTML='<option value="">All destinations</option>'+items.map(c=>`<option value="${esc(c)}">${esc(c)}</option>`).join("");}
 function sourceById(id){return sources.find(s=>s.id===id);}
@@ -413,8 +413,8 @@ let isSinhala=false;
 document.getElementById("langBtn").onclick=()=>{
  isSinhala=!isSinhala;
  document.getElementById("langBtn").textContent=isSinhala?"English":"සිංහල";
- const navLabels=isSinhala?{overview:"සාරාංශය",updates:"නව වෙනස්කම්",rules:"නීති පුස්තකාලය",sources:"නිල මූලාශ්‍ර",checklist:"උපදේශක පරීක්ෂාව",client:"Client assessment"}:{overview:"Overview",updates:"Update monitor",rules:"Rules library",sources:"Official sources",checklist:"Counsellor checklist",client:"Client assessment"};
- document.querySelectorAll("#nav button[data-page]").forEach(b=>{const key=b.dataset.page;const icons={overview:"▦",updates:"◷",rules:"▤",sources:"◎",checklist:"✓",client:"▣"};b.innerHTML=`<span class="ico">${icons[key]}</span>${navLabels[key]}${key==="updates"?' <span class="count">3</span>':""}`;});
+ const navLabels=isSinhala?{overview:"සාරාංශය",updates:"නව වෙනස්කම්",rules:"නීති පුස්තකාලය",sources:"නිල මූලාශ්‍ර",courses:"Course research",checklist:"උපදේශක පරීක්ෂාව",client:"Client assessment"}:{overview:"Overview",updates:"Update monitor",rules:"Rules library",sources:"Official sources",checklist:"Counsellor checklist",client:"Client assessment"};
+ document.querySelectorAll("#nav button[data-page]").forEach(b=>{const key=b.dataset.page;const icons={overview:"▦",updates:"◷",rules:"▤",sources:"◎",courses:"🎓",checklist:"✓",client:"▣"};b.innerHTML=`<span class="ico">${icons[key]}</span>${navLabels[key]}${key==="updates"?' <span class="count">3</span>':""}`;});
  const title=document.querySelector("#page-overview .welcome h1");
  const intro=document.querySelector("#page-overview .welcome p");
  const eyebrow=document.querySelector("#page-overview .eyebrow");
