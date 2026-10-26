@@ -22,7 +22,7 @@
   }
   function getFormRecord() {
     const row = {};
-    Object.entries(fields).forEach(([column, id]) => { row[column] = ($(id)?.value || "").trim() || null; });
+    Object.entries(fields).forEach(([column, id]) => { const value = ($(id)?.value || "").trim(); row[column] = value || (column === "checked_date" ? null : ""); });
     if (currentUser) row.created_by = currentUser.id;
     return row;
   }
