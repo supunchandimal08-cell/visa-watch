@@ -49,7 +49,7 @@ footer{margin-top:30px;color:#8291a2;font-size:10px;display:flex;justify-content
   <button data-country="Europe / Schengen"><span class="ico">🇪🇺</span>Europe / Schengen</button>
   <button data-country="USA"><span class="ico">🇺🇸</span>United States</button>
  </nav></div>
- <div class="sidebar-bottom"><span class="status-dot"></span><strong>Prototype mode</strong><p>Local preview · Daily monitor not connected to this screen yet.</p></div>
+ <div class="sidebar-bottom"><span class="status-dot"></span><strong>Internal counselling workspace</strong><p>Official source registry and daily monitoring data connected. Human verification is required before client advice.</p></div>
 </aside>
 <main>
  <div class="topbar"><div class="crumb">VisaWatch <span style="color:#b5c0ca">/</span> <b id="crumb">Overview</b></div><div class="top-actions"><div class="search"><input id="globalSearch" placeholder="Search rules & sources…"></div><button class="smallbtn" id="langBtn">සිංහල</button><div class="avatar">VW</div></div></div>
@@ -59,9 +59,9 @@ footer{margin-top:30px;color:#8291a2;font-size:10px;display:flex;justify-content
   <div class="banner"><div class="banner-icon">✦</div><div><b>Accuracy first. Always verify before advising.</b><p>A webpage change is a signal, not proof of a legal change. Check the original government source, dates, affected applicants and exceptions before using any update with a client.</p></div></div>
   <div class="stats">
    <div class="stat"><div class="stat-head">Destinations covered <span class="stat-icon">🌍</span></div><strong>07</strong><small>Country and regional groups</small></div>
-   <div class="stat"><div class="stat-head">Official source links <span class="stat-icon">🔗</span></div><strong id="sourceStat">14</strong><small>Curated starting points</small></div>
-   <div class="stat"><div class="stat-head">Updates to review <span class="stat-icon">⌛</span></div><strong>03</strong><small>Sample official records in this demo</small></div>
-   <div class="stat"><div class="stat-head">Monitor status <span class="stat-icon">◉</span></div><strong style="font-size:21px;color:#a2761a">Setup needed</strong><small>Daily schedule configured; first run pending</small></div>
+   <div class="stat"><div class="stat-head">Official source links <span class="stat-icon">🔗</span></div><strong id="sourceStat">Loading</strong><small>Official source links; verify each source before advising</small></div>
+   <div class="stat"><div class="stat-head">Updates to review <span class="stat-icon">⌛</span></div><strong id="reviewStat">Loading</strong><small>Source checks and review candidates — not confirmed rule changes</small></div>
+   <div class="stat"><div class="stat-head">Monitor status <span class="stat-icon">◉</span></div><strong id="monitorStatusStat" style="font-size:21px;color:#a2761a">Checking</strong><small id="monitorStatusText">Loading the latest monitor result…</small></div>
   </div>
   <div class="section-head"><div><h2>Explore destinations</h2><p>Choose a destination to filter official guidance and updates.</p></div><a class="text-link" href="#" data-goto="sources">All official sources ↗</a></div>
   <div class="countries" id="countries"></div>
@@ -187,13 +187,13 @@ document.addEventListener("DOMContentLoaded", function () {
 </script>
 <script>
 const countries=[
- {name:"UK",full:"United Kingdom",flag:"🇬🇧",sub:"Student route & Graduate route",desc:"Student visa, finance, work conditions and post-study options.",sources:2},
- {name:"Canada",full:"Canada",flag:"🇨🇦",sub:"Study permit & work rules",desc:"Study permits, work eligibility, placements and PGWP.",sources:2},
- {name:"Australia",full:"Australia",flag:"🇦🇺",sub:"Student visa subclass 500",desc:"Student visa conditions, work limits and application rules.",sources:2},
- {name:"UAE / Dubai",full:"UAE / Dubai",flag:"🇦🇪",sub:"Student residence permit",desc:"Dubai GDRFA services plus UAE federal student guidance.",sources:2},
- {name:"New Zealand",full:"New Zealand",flag:"🇳🇿",sub:"Study & post-study pathways",desc:"Student visa conditions, funds, work and post-study options.",sources:2},
- {name:"Europe / Schengen",full:"Europe / Schengen",flag:"🇪🇺",sub:"National student residence rules",desc:"Use EU portal as a starting point; confirm national authority.",sources:2},
- {name:"USA",full:"United States",flag:"🇺🇸",sub:"F-1 / M-1 student visas",desc:"Student visa guidance and official visa policy notices.",sources:2}
+ {name:"UK",full:"United Kingdom",flag:"🇬🇧",sub:"Student route & Graduate route",desc:"Student visa, finance, work conditions and post-study options."},
+ {name:"Canada",full:"Canada",flag:"🇨🇦",sub:"Study permit & work rules",desc:"Study permits, work eligibility, placements and PGWP."},
+ {name:"Australia",full:"Australia",flag:"🇦🇺",sub:"Student visa subclass 500",desc:"Student visa conditions, work limits and application rules."},
+ {name:"UAE / Dubai",full:"UAE / Dubai",flag:"🇦🇪",sub:"Student residence permit",desc:"Dubai GDRFA services plus UAE federal student guidance."},
+ {name:"New Zealand",full:"New Zealand",flag:"🇳🇿",sub:"Study & post-study pathways",desc:"Student visa conditions, funds, work and post-study options."},
+ {name:"Europe / Schengen",full:"Europe / Schengen",flag:"🇪🇺",sub:"National student residence rules",desc:"Use EU portal as a starting point; confirm national authority."},
+ {name:"USA",full:"United States",flag:"🇺🇸",sub:"F-1 / M-1 student visas",desc:"Student visa guidance and official visa policy notices."}
 ];
 const initialSources=[
  {id:"uae1",country:"UAE / Dubai",title:"GDRFA Dubai — official portal",category:"Dubai immigration",url:"https://www.gdrfad.gov.ae/en",note:"Dubai immigration services, residence permits and official service guidance."},
@@ -317,10 +317,14 @@ async function loadMonitoredData(){
    const count=live.length;
    const updateCount=document.querySelector('.nav button[data-page="updates"] .count');
    if(updateCount)updateCount.textContent=String(count);
-   const updateStat=document.querySelector('.stats .stat:nth-child(3) strong');
-   if(updateStat)updateStat.textContent=String(count+initialUpdates.filter(x=>x.status==='Needs review').length);
-   const statusStat=document.querySelector('.stats .stat:nth-child(4) strong');
-   if(statusStat) {statusStat.textContent=monitoredUpdates.generated_at?'Running':'Setup needed';statusStat.style.color=monitoredUpdates.generated_at?'#168565':'#a2761a';} const monitorSub=document.querySelector('.stats .stat:nth-child(4) small'); if(monitorSub)monitorSub.textContent=monitoredUpdates.generated_at?'Daily schedule configured · last run '+new Date(monitoredUpdates.generated_at).toLocaleString():'Daily schedule configured; first run pending';
+   const updateStat=document.getElementById("reviewStat");
+   if(updateStat)updateStat.textContent=String(live.filter(x=>x.status==="Needs review").length);
+   const sourceStat=document.getElementById("sourceStat");
+   if(sourceStat)sourceStat.textContent=String(sources.length);
+   renderCountries();
+   const statusStat=document.getElementById("monitorStatusStat");
+   if(statusStat) {statusStat.textContent=monitoredUpdates.generated_at?'Data loaded':'Setup needed';statusStat.style.color=monitoredUpdates.generated_at?'#168565':'#a2761a';}
+   const monitorSub=document.getElementById("monitorStatusText"); if(monitorSub)monitorSub.textContent=monitoredUpdates.generated_at?'Last run '+new Date(monitoredUpdates.generated_at).toLocaleString():'No monitor run timestamp found';
    const monitorNote=document.querySelector('.sidebar-bottom p');
    if(monitorNote)monitorNote.textContent=monitoredUpdates.generated_at?'Last monitor run: '+new Date(monitoredUpdates.generated_at).toLocaleString():'Daily monitor data not run yet.';
   }
@@ -348,7 +352,7 @@ function go(page){currentPage=page;document.querySelectorAll(".page").forEach(x=
 function gotoCountry(c){selectedCountry=c;go("updates");document.getElementById("updateCountry").value=c;renderUpdates();}
 function fillSelect(id,items){document.getElementById(id).innerHTML='<option value="">All destinations</option>'+items.map(c=>`<option value="${esc(c)}">${esc(c)}</option>`).join("");}
 function sourceById(id){return sources.find(s=>s.id===id);}
-function renderCountries(){document.getElementById("countries").innerHTML=countries.map(c=>`<article class="country-card" data-country-card="${esc(c.name)}"><div class="country-top"><div class="flag">${c.flag}</div><div><h3>${esc(c.full)}</h3><small>${esc(c.sub)}</small></div></div><p>${esc(c.desc)}</p><div class="country-foot"><span class="source-count">${c.sources} official source links</span><span class="mini-status">Open →</span></div></article>`).join("");document.querySelectorAll("[data-country-card]").forEach(el=>el.onclick=()=>gotoCountry(el.dataset.countryCard));}
+function renderCountries(){document.getElementById("countries").innerHTML=countries.map(c=>`<article class="country-card" data-country-card="${esc(c.name)}"><div class="country-top"><div class="flag">${c.flag}</div><div><h3>${esc(c.full)}</h3><small>${esc(c.sub)}</small></div></div><p>${esc(c.desc)}</p><div class="country-foot"><span class="source-count">${sources.filter(s=>s.country===c.name || (c.name==="Europe / Schengen" && (s.country==="Europe / Schengen" || schengenRuleCountries.includes(s.country))).length} official source links</span><span class="mini-status">Open →</span></div></article>`).join("");document.querySelectorAll("[data-country-card]").forEach(el=>el.onclick=()=>gotoCountry(el.dataset.countryCard));}
 function updateCard(u){return `<div class="update"><div class="update-icon">${u.flag}</div><div><h4>${esc(u.title)}</h4><p>${esc(u.summary)}</p><div class="meta"><span class="tag ${u.category==="Effective rule change"?"effective":"info"}">${esc(u.category)}</span><span class="tag review">${esc(u.status)}</span><a class="source-anchor" href="${esc(u.url)}" target="_blank" rel="noopener">Official source ↗</a></div></div></div>`;}
 function renderUpdates(){let q=(document.getElementById("updateSearch")?.value||document.getElementById("globalSearch").value||"").toLowerCase(), c=document.getElementById("updateCountry")?.value||"", st=document.getElementById("updateStatus")?.value||"";let arr=updates.filter(u=>(!c||u.country===c)&&(!st||u.status===st)&&JSON.stringify(u).toLowerCase().includes(q));document.getElementById("updateRows").innerHTML=arr.map(u=>`<tr><td><b>${esc(u.title)}</b><small>${esc(u.summary)}</small><a class="source-anchor" href="${esc(u.url)}" target="_blank" rel="noopener">Open official source ↗</a></td><td>${esc(u.country)}</td><td>${esc(u.publication)}</td><td>${esc(u.effective)}</td><td><span class="tag review">${esc(u.status)}</span></td></tr>`).join("")||'<tr><td colspan="5" class="empty">No monitored changes match these filters. This does not mean immigration rules have not changed; check official sources and monitor status.</td></tr>';document.getElementById("latestUpdates").innerHTML=updates.map(updateCard).join("");document.getElementById("queueItems").innerHTML=updates.map(u=>`<div class="queue-item"><b>${esc(u.country)} · ${esc(u.title)}</b><p>${esc(u.publication)} · Effective: ${esc(u.effective)}</p><a href="${esc(u.url)}" target="_blank" rel="noopener">Verify official source ↗</a></div>`).join("");}
 function renderRules(){let q=document.getElementById("ruleSearch").value.toLowerCase(),c=document.getElementById("ruleCountry").value,cat=document.getElementById("ruleCategory").value;let arr=rules.filter(r=>(!c||r.country===c)&&(!cat||r.category===cat)&&JSON.stringify(r).toLowerCase().includes(q));document.getElementById("ruleRows").innerHTML=arr.map(r=>{let s=sourceById(r.source);return `<tr><td><b>${esc(r.topic)}</b><small>${esc(r.category)}</small><small>Publication date: ${esc(r.publicationDate)}</small><small>Effective date: ${esc(r.effectiveDate)}</small></td><td>${esc(r.country)}</td><td>${esc(r.check)}<small><b>Exceptions to verify:</b> ${esc(r.exceptions)}</small></td><td><a class="source-anchor" target="_blank" rel="noopener" href="${esc(s.url)}">${esc(s.title)} ↗</a></td><td><span class="tag review">${esc(r.status)}</span><small>Last verified: ${esc(r.lastVerified)}</small><small>Reviewer: ${esc(r.reviewer)}</small></td></tr>`}).join("")||'<tr><td colspan="5" class="empty">No matching rules.</td></tr>';}
