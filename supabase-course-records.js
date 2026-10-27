@@ -120,6 +120,26 @@
       status("Fill in Institution, Exact course and Destination first.", true); return;
     }
     try {
+      // Avoid accidental duplicate demo records (and warn on exact matching records).
+      const {data: existing, error: lookupError} = await client
+        .from("course_verification_records")
+        .select("id,institution,course,destination,notes")
+        .eq("institution", row.institution)
+        .eq("course", row.course)
+        .eq("destination", row.destination)
+        .limit(20);
+      if (lookupError) throw lookupError;
+      const isDemo = String(row.course).includes("(DEMO ONLY)") ||
+        String(row.notes).includes("DEMO TEST RECORD");
+      const exactMatch = (existing || []).find(item =>
+        (item.notes || "") === (row.notes || "") &&
+        (!isDemo || String(item.course).includes("(DEMO ONLY)"))
+      );
+      if (exactMatch) {
+        status("Matching record already exists. Nothing new was saved, to avoid a duplicate. Existing record ID: " + exactMatch.id);
+        await loadShared();
+        return;
+      }
       const {data, error} = await client.from("course_verification_records").insert(row).select("id").single();
       if (error) throw error;
       status("Saved to shared database. Record ID: " + data.id);
