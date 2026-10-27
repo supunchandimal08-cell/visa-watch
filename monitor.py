@@ -83,8 +83,7 @@ def check_source(source, previous):
             "Cache-Control": "no-cache",
         })
         try:
-            # Canada’s official landing page has timed out on recent runs.
-            # Allow it a little longer without slowing every other source.
+            # Keep each source check bounded so one slow site does not delay the full run.
             request_timeout = 20
             with urlopen(request, timeout=request_timeout) as response:
                 status_code = response.status
@@ -134,7 +133,7 @@ def check_source(source, previous):
             last_error = str(e)
             if attempt < 1:
                 time.sleep(2)
-    note = ("Failed after 3 attempts: " + str(last_error or "unknown connection error"))[:250]
+    note = ("Failed after 2 attempts: " + str(last_error or "unknown connection error"))[:250]
     result = {**source, "checked_at": datetime.now(timezone.utc).isoformat(),
               "status": "unreachable", "http_status": None,
               "change_detected": False, "note": note}
