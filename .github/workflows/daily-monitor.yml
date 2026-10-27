@@ -42,6 +42,21 @@ jobs:
             exit 1
           fi
 
+      - name: Verify monitoring output
+        run: |
+          python - <<'PY'
+          import json
+          from pathlib import Path
+
+          path = Path("data/updates.json")
+          data = json.loads(path.read_text(encoding="utf-8"))
+          items = data.get("items")
+          if not data.get("generated_at") or not isinstance(items, list) or not items:
+              raise SystemExit("ERROR: monitoring output is empty or missing")
+          print(f"Validated {len(items)} source results.")
+          print(f"Generated at: {data['generated_at']}")
+          PY
+
       - name: Commit monitoring results
         run: |
           git config user.name "github-actions[bot]"
