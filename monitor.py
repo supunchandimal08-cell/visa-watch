@@ -131,9 +131,9 @@ def check_source(source, previous):
                     "note": "Official source returned HTTP " + str(e.code) + "; review manually. No page comparison was possible."}
         except (URLError, TimeoutError, OSError, ValueError) as e:
             last_error = str(e)
-            if attempt < 1:
+            if attempt < 2:
                 time.sleep(2)
-    note = ("Failed after 2 attempts: " + str(last_error or "unknown connection error"))[:250]
+    note = ("Failed after 3 attempts: " + str(last_error or "unknown connection error"))[:250]
     result = {**source, "checked_at": datetime.now(timezone.utc).isoformat(),
               "status": "unreachable", "http_status": None,
               "change_detected": False, "note": note}
