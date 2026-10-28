@@ -84,7 +84,7 @@ def check_source(source, previous):
         })
         try:
             # Keep each source check bounded so one slow site does not delay the full run.
-            request_timeout = 25
+            request_timeout = 45
             with urlopen(request, timeout=request_timeout) as response:
                 status_code = response.status
                 content_type = response.headers.get("Content-Type", "")
