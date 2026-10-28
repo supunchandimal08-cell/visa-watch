@@ -75,7 +75,7 @@ def load_sources():
 
 def check_source(source, previous):
     last_error = None
-    for attempt in range(2):
+    for attempt in range(3):
         request = Request(source["url"], headers={
             "User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36",
             "Accept": "text/html,application/xhtml+xml,application/xml;q=0.9,image/avif,image/webp,*/*;q=0.8",
@@ -84,7 +84,7 @@ def check_source(source, previous):
         })
         try:
             # Keep each source check bounded so one slow site does not delay the full run.
-            request_timeout = 20
+            request_timeout = 25
             with urlopen(request, timeout=request_timeout) as response:
                 status_code = response.status
                 content_type = response.headers.get("Content-Type", "")
