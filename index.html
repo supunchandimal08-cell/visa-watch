@@ -406,7 +406,7 @@ let sources=initialSources;
 let updates=initialUpdates;
 async function loadMonitoredData(){
  try{
-  const [sourceResponse,updateResponse]=await Promise.all([fetch('https://raw.githubusercontent.com/supunchandimal08-cell/visa-watch/main/data/sources.json',{cache:'no-store'}),fetch('https://raw.githubusercontent.com/supunchandimal08-cell/visa-watch/main/data/updates.json',{cache:'no-store'})]);
+  const [sourceResponse,updateResponse]=await Promise.all([fetch('./data/sources.json',{cache:'no-store'}),fetch('./data/updates.json',{cache:'no-store'})]);
   if(!sourceResponse.ok||!updateResponse.ok) throw new Error('monitor data unavailable');
   const monitoredSources=await sourceResponse.json();
   const monitoredUpdates=await updateResponse.json();
