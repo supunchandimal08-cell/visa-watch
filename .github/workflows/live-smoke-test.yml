@@ -1,0 +1,47 @@
+name: VisaWatch Live Website Smoke Test
+
+on:
+  push:
+    branches: [main]
+    paths:
+      - "index.html"
+      - "data/sources.json"
+      - "data/updates.json"
+      - "wrangler.jsonc"
+      - ".assetsignore"
+      - ".github/workflows/live-smoke-test.yml"
+  workflow_dispatch:
+
+permissions:
+  contents: read
+
+jobs:
+  live-smoke-test:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Check live website and JSON endpoints
+        run: |
+          set -euo pipefail
+          BASE="https://visa-watch.supunchandimal08.workers.dev"
+          for path in "/" "/data/sources.json" "/data/updates.json"; do
+            echo "Checking $BASE$path"
+            curl --fail --silent --show-error --location --retry 5 --retry-delay 10 --retry-all-errors "$BASE$path" -o /tmp/response
+            if [ "$path" = "/" ]; then
+              grep -qi "VisaWatch" /tmp/response
+              grep -q "Detection is not confirmation" /tmp/response
+            else
+              python - "$path" /tmp/response <<'PY'
+          import json, sys
+          path, filename = sys.argv[1], sys.argv[2]
+          with open(filename, encoding="utf-8") as f:
+              data = json.load(f)
+          if path.endswith("sources.json"):
+              assert len(data.get("sources", [])) == 7, "Expected seven configured official sources"
+          else:
+              assert data.get("generated_at"), "Missing generated_at"
+              assert len(data.get("items", [])) == 7, "Expected seven monitoring results"
+          print("PASS:", path, "is valid JSON with expected structure")
+          PY
+            fi
+          done
+          echo "PASS: live website and monitoring data endpoints responded correctly."
