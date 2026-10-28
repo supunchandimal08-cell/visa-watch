@@ -1,11 +1,11 @@
 {
-  "generated_at": "2026-10-28T06:34:45.489537+00:00",
+  "generated_at": "2026-10-28T06:45:06.218824+00:00",
   "items": [
     {
       "country": "UK",
       "name": "UK Student Visa",
       "url": "https://www.gov.uk/student-visa",
-      "checked_at": "2026-10-28T06:33:23.080692+00:00",
+      "checked_at": "2026-10-28T06:43:38.575590+00:00",
       "status": "reachable",
       "http_status": 200,
       "content_hash": "71665a0f12d2ed61105cfe7c0a74cd843af5d3e9ad710f69bba9ce0de4b01994",
@@ -17,17 +17,17 @@
       "country": "Canada",
       "name": "Canada Study Permits",
       "url": "https://www.canada.ca/en/immigration-refugees-citizenship/services/study-canada/study-permit.html",
-      "checked_at": "2026-10-28T06:34:40.533468+00:00",
+      "checked_at": "2026-10-28T06:44:58.033646+00:00",
       "status": "unreachable",
       "http_status": null,
       "change_detected": false,
-      "note": "Failed after 2 attempts: The read operation timed out"
+      "note": "Failed after 3 attempts: The read operation timed out"
     },
     {
       "country": "Australia",
       "name": "Australia Student Visa",
       "url": "https://immi.homeaffairs.gov.au/visas/getting-a-visa/visa-listing/student-500",
-      "checked_at": "2026-10-28T06:34:41.008108+00:00",
+      "checked_at": "2026-10-28T06:44:58.673430+00:00",
       "status": "reachable",
       "http_status": 200,
       "content_hash": "9f6d586bde1b5d29d1a1cf5a2efebc4b036cd575a10d36cf782f397f2fd7b0e5",
@@ -39,7 +39,7 @@
       "country": "New Zealand",
       "name": "New Zealand Student Visa",
       "url": "https://www.immigration.govt.nz/study/study-visas/visas-for-studying-in-new-zealand/",
-      "checked_at": "2026-10-28T06:34:42.062595+00:00",
+      "checked_at": "2026-10-28T06:45:02.623806+00:00",
       "status": "reachable",
       "http_status": 200,
       "content_hash": "665d15fe57509ffa911db593e93b995b1d1c47a592a490d11772e751c79a6613",
@@ -51,7 +51,7 @@
       "country": "USA",
       "name": "US Student Visa",
       "url": "https://travel.state.gov/content/travel/en/us-visas/study/student-visa.html",
-      "checked_at": "2026-10-28T06:34:42.176457+00:00",
+      "checked_at": "2026-10-28T06:45:02.753507+00:00",
       "status": "manual_review",
       "http_status": 403,
       "change_detected": false,
@@ -61,7 +61,7 @@
       "country": "UAE / Dubai",
       "name": "UAE Student Residence Visa",
       "url": "https://gdrfad.gov.ae/en/services/f52024e0-b812-11ed-5210-4cd98f768936",
-      "checked_at": "2026-10-28T06:34:44.859382+00:00",
+      "checked_at": "2026-10-28T06:45:05.235139+00:00",
       "status": "reachable",
       "http_status": 200,
       "content_hash": "843138387ccb1642a0a53506386235d1068edc2d6d3c240fa2affbcd85a2f2f0",
@@ -73,7 +73,7 @@
       "country": "Europe / Schengen",
       "name": "EU Immigration Portal",
       "url": "https://home-affairs.ec.europa.eu/policies/migration-and-asylum/eu-immigration-portal_en",
-      "checked_at": "2026-10-28T06:34:45.489504+00:00",
+      "checked_at": "2026-10-28T06:45:06.218784+00:00",
       "status": "reachable",
       "http_status": 200,
       "content_hash": "732280b837fc8f06bf05f17ee6d4fae51aa4c15e9a339d03a8f740c6e2350fb0",
@@ -87,7 +87,7 @@
     {
       "country": "Canada",
       "source": "https://www.canada.ca/en/immigration-refugees-citizenship/services/study-canada/study-permit.html",
-      "error": "Failed after 2 attempts: The read operation timed out"
+      "error": "Failed after 3 attempts: The read operation timed out"
     },
     {
       "country": "USA",
