@@ -1,0 +1,66 @@
+name: VisaWatch Website Validation
+
+on:
+  push:
+    branches: [main]
+    paths:
+      - "index.html"
+      - "data/**"
+      - "monitor.py"
+      - "wrangler.jsonc"
+      - ".assetsignore"
+      - ".github/workflows/website-validation.yml"
+  workflow_dispatch:
+
+permissions:
+  contents: read
+
+jobs:
+  validate:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout repository
+        uses: actions/checkout@v4
+
+      - name: Set up Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+
+      - name: Validate JSON files and required sources
+        run: |
+          python - <<'PY'
+          import json
+          from pathlib import Path
+
+          sources = json.loads(Path("data/sources.json").read_text(encoding="utf-8"))
+          updates = json.loads(Path("data/updates.json").read_text(encoding="utf-8"))
+          state = json.loads(Path("data/monitor_state.json").read_text(encoding="utf-8"))
+          assert isinstance(sources.get("sources"), list), "data/sources.json must contain a sources list"
+          assert len(sources["sources"]) == 7, f"Expected 7 destinations, got {len(sources['sources'])}"
+          assert all(s.get("country") and s.get("name") and s.get("url", "").startswith("https://") for s in sources["sources"]), "Each source needs a country, name, and HTTPS URL"
+          assert updates.get("generated_at"), "data/updates.json is missing generated_at"
+          assert isinstance(updates.get("items"), list) and len(updates["items"]) == 7, "Expected seven monitor results"
+          assert all(i.get("country") and i.get("status") and i.get("url", "").startswith("https://") for i in updates["items"]), "Each monitor result needs a country, status, and HTTPS URL"
+          assert isinstance(state, dict), "data/monitor_state.json must be a JSON object"
+          print("PASS: JSON valid; seven configured sources and seven monitor results.")
+          print("Monitor generated_at:", updates["generated_at"])
+          print("Review required for:", ", ".join(i["country"] for i in updates["items"] if i.get("status") != "reachable") or "none")
+          PY
+
+      - name: Validate monitor Python syntax
+        run: python -m py_compile monitor.py
+
+      - name: Validate website data paths and safety labels
+        run: |
+          python - <<'PY'
+          from pathlib import Path
+
+          html = Path("index.html").read_text(encoding="utf-8")
+          assert "fetch('./data/sources.json'" in html, "Website must load the deployed sources JSON"
+          assert "fetch('./data/updates.json'" in html, "Website must load the deployed updates JSON"
+          assert "Detection is not confirmation" in html, "Required monitoring disclaimer is missing"
+          assert "Pending human review" in html, "Human-review status language is missing"
+          assert "raw.githubusercontent.com/supunchandimal08-cell/visa-watch/main/data/updates.json" not in html, "Website still depends on GitHub raw JSON"
+          print("PASS: website data paths and review disclaimers are present.")
+          PY
