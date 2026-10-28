@@ -31,6 +31,33 @@ jobs:
             echo '{"generated_at":null,"items":[],"monitor_errors":[]}' > data/updates.json
           fi
 
+      - name: Diagnose Canada official page connectivity
+        continue-on-error: true
+        run: |
+          python - <<'PY'
+          import time
+          import urllib.request
+          import urllib.error
+
+          urls = [
+              "https://www.canada.ca/en/immigration-refugees-citizenship/services/study-canada/study-permit.html",
+              "https://www.canada.ca/",
+          ]
+          for url in urls:
+              request = urllib.request.Request(
+                  url,
+                  headers={"User-Agent": "VisaWatch-monitor-diagnostic/1.0"}
+              )
+              started = time.monotonic()
+              try:
+                  with urllib.request.urlopen(request, timeout=15) as response:
+                      print(f"OK status={response.status} elapsed={time.monotonic()-started:.1f}s url={url}")
+              except urllib.error.HTTPError as error:
+                  print(f"HTTP_ERROR status={error.code} elapsed={time.monotonic()-started:.1f}s url={url}")
+              except Exception as error:
+                  print(f"CONNECTION_ERROR type={type(error).__name__} elapsed={time.monotonic()-started:.1f}s url={url} detail={error}")
+          PY
+
       - name: Run VisaWatch monitor
         run: |
           if [ -f scripts/monitor.py ]; then
