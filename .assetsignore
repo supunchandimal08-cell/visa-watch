@@ -1,0 +1,7 @@
+*
+!index.html
+!data/
+data/*
+!data/sources.json
+!data/updates.json
+!data/monitor_state.json
