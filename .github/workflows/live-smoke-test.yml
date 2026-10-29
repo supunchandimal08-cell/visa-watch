@@ -27,11 +27,22 @@ jobs:
             echo "Checking $BASE$path"
             curl --fail --silent --show-error --location --retry 5 --retry-delay 10 --retry-all-errors "$BASE$path" -o /tmp/response
             if [ "$path" = "/" ]; then
-              grep -qi "VisaWatch" /tmp/response
-              grep -q "Detection is not confirmation" /tmp/response
-              grep -q "Client document checklist" /tmp/response
-              grep -q "Next follow-up date" /tmp/response
-              grep -q "#page-client label.source-card" /tmp/response
+              check_contains() {
+                local expected="$1"
+                if grep -Fqi "$expected" /tmp/response; then
+                  echo "PASS: live HTML contains: $expected"
+                else
+                  echo "FAIL: live HTML is missing: $expected"
+                  echo "First 40 lines of live HTML for diagnosis:"
+                  head -n 40 /tmp/response
+                  exit 1
+                fi
+              }
+              check_contains "VisaWatch"
+              check_contains "Detection is not confirmation"
+              check_contains "Client document checklist"
+              check_contains "Next follow-up date"
+              check_contains "#page-client label.source-card"
               echo "PASS: live page contains the latest client checklist and readable-label fixes."
             else
               python - "$path" /tmp/response <<'PY'
