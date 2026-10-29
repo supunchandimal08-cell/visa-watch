@@ -1,11 +1,11 @@
 {
-  "generated_at": "2026-10-29T03:40:10.194314+00:00",
+  "generated_at": "2026-10-29T04:14:14.521436+00:00",
   "items": [
     {
       "country": "UK",
       "name": "UK Student Visa",
       "url": "https://www.gov.uk/student-visa",
-      "checked_at": "2026-10-29T03:35:44.635506+00:00",
+      "checked_at": "2026-10-29T04:11:48.685729+00:00",
       "status": "reachable",
       "http_status": 200,
       "content_hash": "71665a0f12d2ed61105cfe7c0a74cd843af5d3e9ad710f69bba9ce0de4b01994",
@@ -17,7 +17,7 @@
       "country": "Canada",
       "name": "Canada Study Permits",
       "url": "https://www.canada.ca/en/immigration-refugees-citizenship/services/study-canada/study-permit.html",
-      "checked_at": "2026-10-29T03:38:05.816645+00:00",
+      "checked_at": "2026-10-29T04:14:07.952036+00:00",
       "status": "unreachable",
       "http_status": null,
       "change_detected": false,
@@ -27,7 +27,7 @@
       "country": "Australia",
       "name": "Australia Student Visa",
       "url": "https://immi.homeaffairs.gov.au/visas/getting-a-visa/visa-listing/student-500",
-      "checked_at": "2026-10-29T03:38:06.412885+00:00",
+      "checked_at": "2026-10-29T04:14:08.674066+00:00",
       "status": "reachable",
       "http_status": 200,
       "content_hash": "9f6d586bde1b5d29d1a1cf5a2efebc4b036cd575a10d36cf782f397f2fd7b0e5",
@@ -39,7 +39,7 @@
       "country": "New Zealand",
       "name": "New Zealand Student Visa",
       "url": "https://www.immigration.govt.nz/study/study-visas/visas-for-studying-in-new-zealand/",
-      "checked_at": "2026-10-29T03:38:10.563930+00:00",
+      "checked_at": "2026-10-29T04:14:11.026242+00:00",
       "status": "reachable",
       "http_status": 200,
       "content_hash": "665d15fe57509ffa911db593e93b995b1d1c47a592a490d11772e751c79a6613",
@@ -51,7 +51,7 @@
       "country": "USA",
       "name": "US Student Visa",
       "url": "https://travel.state.gov/content/travel/en/us-visas/study/student-visa.html",
-      "checked_at": "2026-10-29T03:38:13.233380+00:00",
+      "checked_at": "2026-10-29T04:14:11.070782+00:00",
       "status": "manual_review",
       "http_status": 403,
       "change_detected": false,
@@ -61,7 +61,7 @@
       "country": "UAE / Dubai",
       "name": "UAE Student Residence Visa",
       "url": "https://gdrfad.gov.ae/en/services/f52024e0-b812-11ed-5210-4cd98f768936",
-      "checked_at": "2026-10-29T03:40:09.554845+00:00",
+      "checked_at": "2026-10-29T04:14:13.350239+00:00",
       "status": "reachable",
       "http_status": 200,
       "content_hash": "843138387ccb1642a0a53506386235d1068edc2d6d3c240fa2affbcd85a2f2f0",
@@ -73,24 +73,16 @@
       "country": "Europe / Schengen",
       "name": "EU Immigration Portal",
       "url": "https://home-affairs.ec.europa.eu/policies/migration-and-asylum/eu-immigration-portal_en",
-      "checked_at": "2026-10-29T03:40:10.194278+00:00",
+      "checked_at": "2026-10-29T04:14:14.521390+00:00",
       "status": "reachable",
       "http_status": 200,
       "content_hash": "f51806ef79cd6ea408f82a7f315eaa8daa65b7e420e35eabace431c23851f38d",
-      "change_detected": true,
+      "change_detected": false,
       "baseline_created": false,
-      "note": "Possible page-text change detected since the previous successful check. Review the official page; this is not proof of a policy change."
+      "note": "No page-text change detected since the previous successful check. This does not guarantee that every policy detail was checked."
     }
   ],
-  "change_candidates": [
-    {
-      "country": "Europe / Schengen",
-      "name": "EU Immigration Portal",
-      "url": "https://home-affairs.ec.europa.eu/policies/migration-and-asylum/eu-immigration-portal_en",
-      "checked_at": "2026-10-29T03:40:10.194278+00:00",
-      "note": "Possible page-text change detected since the previous successful check. Review the official page; this is not proof of a policy change."
-    }
-  ],
+  "change_candidates": [],
   "monitor_errors": [
     {
       "country": "Canada",
