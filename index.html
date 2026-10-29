@@ -246,7 +246,7 @@ button:focus-visible,a:focus-visible,input:focus-visible,select:focus-visible,te
     <label class="source-card">Confirmed scholarship / discount (AED)<input id="bcScholarship" type="number" min="0" value="0" style="display:block;width:100%;margin-top:6px;padding:10px"></label>
     <label class="source-card">Emergency reserve (AED)<input id="bcReserve" type="number" min="0" value="2000" style="display:block;width:100%;margin-top:6px;padding:10px"></label>
    </div>
-   <div style="display:flex;gap:10px;flex-wrap:wrap;margin-top:14px"><button class="primary" type="button" id="bcCalculate">Calculate budget</button><button class="smallbtn" type="button" id="bcReset">Reset example</button></div>
+   <div style="display:flex;gap:10px;flex-wrap:wrap;margin-top:14px"><button class="primary" type="button" id="bcCalculate">Calculate budget</button><button class="smallbtn" type="button" id="bcReset">Reset example</button><button class="smallbtn" type="button" id="bcCopy">Copy budget summary</button></div>
    <div id="bcResults" aria-live="polite" style="margin-top:16px;padding:14px;border-radius:12px;background:var(--bg);border:1px solid var(--line)">
     <h3 style="margin-top:0">Estimated first-year funding</h3><p>Enter figures and select Calculate budget.</p>
    </div>
@@ -278,6 +278,7 @@ document.addEventListener("DOMContentLoaded", function () {
   const ids = ["bcBudgetLkr","bcRate","bcTuition","bcVisa","bcRent","bcLiving","bcArrival","bcScholarship","bcReserve"];
   const get = id => Math.max(0, Number(document.getElementById(id).value) || 0);
   const money = n => new Intl.NumberFormat("en-LK",{maximumFractionDigits:0}).format(Math.round(n));
+  let budgetSummaryText = "";
   function calculateBudget() {
     const budgetLkr=get("bcBudgetLkr"), rate=get("bcRate");
     const tuition=get("bcTuition"), visa=get("bcVisa"), rent=get("bcRent"), living=get("bcLiving");
@@ -289,6 +290,7 @@ document.addEventListener("DOMContentLoaded", function () {
     const result=document.getElementById("bcResults");
     if(!result)return;
     if(rate<=0){result.innerHTML="<h3>Check exchange rate</h3><p>Please enter a rate greater than zero.</p>";return;}
+    budgetSummaryText = "VisaWatch — Dubai Student Budget Assessment\nClient budget: LKR "+money(budgetLkr)+" ≈ AED "+money(budgetAed)+"\nEstimated first-year funding: AED "+money(total)+"\nEstimated funding difference: "+(gap>0?"Shortfall AED "+money(gap)+" (about LKR "+money(gap*rate)+")":"Surplus AED "+money(Math.abs(gap))+" (about LKR "+money(Math.abs(gap)*rate)+")")+"\nEstimated monthly living cost: AED "+money(rent+living)+"\nExchange rate used: LKR "+rate+" per AED\nPlanning estimate only — verify all current written quotes; do not count unconfirmed part-time income or scholarships.";
     result.innerHTML="<h3 style='margin-top:0'>Estimated first-year funding</h3>"+
       "<p><b>Client budget:</b> LKR "+money(budgetLkr)+" ≈ AED "+money(budgetAed)+"</p>"+
       "<p><b>Tuition + visa + 12 months living + arrival + reserve − confirmed scholarship:</b> AED "+money(total)+"</p>"+
@@ -297,6 +299,11 @@ document.addEventListener("DOMContentLoaded", function () {
       "<p style='color:var(--muted);font-size:12px'>This is only as accurate as the figures entered. Check whether tuition is annual or full-course, when instalments are due, what fees are excluded, and whether the client can actually access the funds.</p>";
   }
   const calc=document.getElementById("bcCalculate"); if(calc)calc.addEventListener("click",calculateBudget);
+  const copy=document.getElementById("bcCopy"); if(copy)copy.addEventListener("click",async function(){
+    try { await navigator.clipboard.writeText(budgetSummaryText); copy.textContent="Copied"; }
+    catch(e) { const area=document.createElement("textarea"); area.value=budgetSummaryText; area.style.position="fixed"; area.style.opacity="0"; document.body.appendChild(area); area.select(); const ok=document.execCommand("copy"); area.remove(); copy.textContent=ok?"Copied":"Copy unavailable"; }
+    setTimeout(()=>{copy.textContent="Copy budget summary";},1800);
+  });
   const reset=document.getElementById("bcReset"); if(reset)reset.addEventListener("click",function(){
     const defaults={bcBudgetLkr:1500000,bcRate:85,bcTuition:25000,bcVisa:3000,bcRent:2000,bcLiving:1200,bcArrival:1500,bcScholarship:0,bcReserve:2000};
     Object.keys(defaults).forEach(id=>document.getElementById(id).value=defaults[id]); calculateBudget();
