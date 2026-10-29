@@ -29,6 +29,10 @@ jobs:
             if [ "$path" = "/" ]; then
               grep -qi "VisaWatch" /tmp/response
               grep -q "Detection is not confirmation" /tmp/response
+              grep -q "Client document checklist" /tmp/response
+              grep -q "Next follow-up date" /tmp/response
+              grep -q "#page-client label.source-card" /tmp/response
+              echo "PASS: live page contains the latest client checklist and readable-label fixes."
             else
               python - "$path" /tmp/response <<'PY'
           import json, sys
