@@ -56,11 +56,18 @@ jobs:
           python - <<'PY'
           from pathlib import Path
 
+          import re
           html = Path("index.html").read_text(encoding="utf-8")
           assert "fetch('./data/sources.json'" in html, "Website must load the deployed sources JSON"
           assert "fetch('./data/updates.json'" in html, "Website must load the deployed updates JSON"
           assert "Detection is not confirmation" in html, "Required monitoring disclaimer is missing"
           assert "Pending human review" in html, "Human-review status language is missing"
           assert "raw.githubusercontent.com/supunchandimal08-cell/visa-watch/main/data/updates.json" not in html, "Website still depends on GitHub raw JSON"
-          print("PASS: website data paths and review disclaimers are present.")
+          source_ids = re.findall(r'\\{id:"([^"]+)"', html)
+          assert len(source_ids) == len(set(source_ids)), "Official source IDs must be unique"
+          rule_sources = set(re.findall(r'\\{topic:[\\s\\S]*?\\}', html))
+          rule_source_ids = {source_id for block in rule_sources for source_id in re.findall(r'source:"([^"]+)"', block)}
+          missing_sources = rule_source_ids - set(source_ids)
+          assert not missing_sources, f"Rules reference missing official source IDs: {sorted(missing_sources)}"
+          print(f"PASS: website data paths and review disclaimers are present; {len(source_ids)} unique source IDs; all rule source IDs resolve.")
           PY
