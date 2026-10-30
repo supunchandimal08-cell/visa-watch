@@ -1,5 +1,5 @@
 {
-  "last_checked_at": "2026-10-29T04:14:14.521436+00:00",
+  "last_checked_at": "2026-10-30T04:15:18.792848+00:00",
   "content_hashes": {
     "https://www.gov.uk/student-visa": "71665a0f12d2ed61105cfe7c0a74cd843af5d3e9ad710f69bba9ce0de4b01994",
     "https://www.canada.ca/en/immigration-refugees-citizenship/services/study-canada.html": "316c523445ba217131ee3bdc4e938dd486dcd74182c4802de4cd8944ed161a28",
@@ -8,7 +8,7 @@
     "https://www.immigration.govt.nz/study/study-visas/visas-for-studying-in-new-zealand/": "665d15fe57509ffa911db593e93b995b1d1c47a592a490d11772e751c79a6613",
     "https://u.ae/en/information-and-services/visa-and-emirates-id/residence-visas/residence-visa-for-studying-in-the-uae": "5ace743046b81a22ee8dd9e664e2a91962774b345aa7934627885c3c548bde98",
     "https://home-affairs.ec.europa.eu/policies/migration-and-asylum/eu-immigration-portal_en": "f51806ef79cd6ea408f82a7f315eaa8daa65b7e420e35eabace431c23851f38d",
-    "https://gdrfad.gov.ae/en/services/f52024e0-b812-11ed-5210-4cd98f768936": "843138387ccb1642a0a53506386235d1068edc2d6d3c240fa2affbcd85a2f2f0"
+    "https://gdrfad.gov.ae/en/services/f52024e0-b812-11ed-5210-4cd98f768936": "c32d85ce70ff9e7a64bfd48ff12809ab5047baf30a797d47e8e8f1a046f3ac3d"
   },
   "sources": {
     "https://www.gov.uk/student-visa": "reachable",
