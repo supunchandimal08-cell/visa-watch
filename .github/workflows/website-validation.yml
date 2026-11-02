@@ -51,6 +51,19 @@ jobs:
       - name: Validate monitor Python syntax
         run: python -m py_compile monitor.py
 
+      - name: Validate inline JavaScript syntax
+        run: |
+          python - <<'PY'
+          from pathlib import Path
+          import re
+          html = Path("index.html").read_text(encoding="utf-8")
+          scripts = re.findall(r"<script\\b(?![^>]*\\bsrc=)[^>]*>([\\s\\S]*?)</script>", html, flags=re.I)
+          assert scripts, "No inline JavaScript blocks found"
+          Path("/tmp/visawatch-inline.js").write_text("\\n;\\n".join(scripts), encoding="utf-8")
+          print(f"Extracted {len(scripts)} inline JavaScript block(s) for syntax validation.")
+          PY
+          node --check /tmp/visawatch-inline.js
+
       - name: Validate website data paths and safety labels
         run: |
           python - <<'PY'
