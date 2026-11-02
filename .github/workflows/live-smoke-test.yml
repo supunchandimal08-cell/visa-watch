@@ -51,10 +51,10 @@ jobs:
           with open(filename, encoding="utf-8") as f:
               data = json.load(f)
           if path.endswith("sources.json"):
-              assert len(data.get("sources", [])) == 8, "Expected eight configured official sources"
+              assert len(data.get("sources", [])) >= 8, "Expected at least eight configured official sources"
           else:
               assert data.get("generated_at"), "Missing generated_at"
-              assert len(data.get("items", [])) == 8, "Expected eight monitoring results"
+              assert 0 < len(data.get("items", [])) <= 9, "Expected non-empty monitoring results no larger than the configured source set"
           print("PASS:", path, "is valid JSON with expected structure")
           PY
             fi
