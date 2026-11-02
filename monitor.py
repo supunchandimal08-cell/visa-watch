@@ -187,7 +187,7 @@ def main():
             {"country": item["country"], "source": item["url"], "reason": item["note"]}
             for item in results if item["status"] == "manual_review" or item.get("content_compared") is False
         ],
-        "disclaimer": "The monitor compares visible page text and checks availability only. A detected page-text difference is a candidate for human review, not a confirmed immigration rule change."
+        "disclaimer": "The monitor checks official-source availability and compares visible page text where enabled. Canada is availability-only because the page read times out; manual review is required. A detected page-text difference is only a candidate for human review, not a confirmed immigration rule change."
     }
     state = {
         "last_checked_at": output["generated_at"],
@@ -201,6 +201,7 @@ def main():
     print(f"Reachable: {sum(x['status'] == 'reachable' for x in results)}")
     print(f"Possible page-text changes to review: {len(output['change_candidates'])}")
     print(f"Sources needing connectivity review: {len(output['monitor_errors'])}")
+    print(f"Sources requiring manual content review: {len(output['manual_review_required'])}")
 
 if __name__ == "__main__":
     main()
