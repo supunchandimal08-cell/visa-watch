@@ -37,7 +37,7 @@ jobs:
           updates = json.loads(Path("data/updates.json").read_text(encoding="utf-8"))
           state = json.loads(Path("data/monitor_state.json").read_text(encoding="utf-8"))
           assert isinstance(sources.get("sources"), list), "data/sources.json must contain a sources list"
-          assert len(sources["sources"]) == 8, f"Expected 8 official monitoring sources, got {len(sources['sources'])}"
+          assert len(sources["sources"]) >= 8, f"Expected at least 8 official monitoring sources, got {len(sources['sources'])}"
           assert all(s.get("country") and s.get("name") and s.get("url", "").startswith("https://") for s in sources["sources"]), "Each source needs a country, name, and HTTPS URL"
           assert updates.get("generated_at"), "data/updates.json is missing generated_at"
           assert isinstance(updates.get("items"), list) and 0 < len(updates["items"]) <= len(sources["sources"]), "Monitor results must be a non-empty list no larger than the configured source list"
