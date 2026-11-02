@@ -205,6 +205,8 @@ def main():
     save_json(STATE, state)
     print("VisaWatch page-text monitor completed.")
     print(f"Sources checked: {len(results)}")
+    for item in results:
+        print(f"Source result: {item['country']} | {item['status']} | HTTP {item.get('http_status')} | {item['note']}")
     print(f"Reachable: {sum(x['status'] == 'reachable' for x in results)}")
     print(f"Possible page-text changes to review: {len(output['change_candidates'])}")
     print(f"Sources needing connectivity review: {len(output['monitor_errors'])}")
