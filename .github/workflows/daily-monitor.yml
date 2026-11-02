@@ -49,6 +49,7 @@ jobs:
               "https://www.canada.ca/en/immigration-refugees-citizenship/services/study-canada/study-permit/eligibility.html",
               "https://www.canada.ca/",
               "https://travel.state.gov/content/travel/en/us-visas/study/student-visa.html",
+              "https://icp.gov.ae/en/services-details/?serviceid=64afe3c1035448005bd52e66",
           ]
           for url in urls:
               request = urllib.request.Request(
