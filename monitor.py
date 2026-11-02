@@ -77,7 +77,7 @@ def load_sources():
 
 def check_source(source, previous):
     last_error = None
-    for attempt in range(3):
+    for attempt in range(2):
         request = Request(source["url"], headers={
             "User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36",
             "Accept": "text/html,application/xhtml+xml,application/xml;q=0.9,image/avif,image/webp,*/*;q=0.8",
@@ -86,7 +86,7 @@ def check_source(source, previous):
         })
         try:
             # Keep each source check bounded so one slow site does not delay the full run.
-            request_timeout = 15
+            request_timeout = 10
             with urlopen(request, timeout=request_timeout) as response:
                 status_code = response.status
                 content_type = response.headers.get("Content-Type", "")
@@ -144,9 +144,9 @@ def check_source(source, previous):
                     "note": "Official source returned HTTP " + str(e.code) + "; review manually. No page comparison was possible."}
         except (URLError, TimeoutError, OSError, ValueError) as e:
             last_error = str(e)
-            if attempt < 2:
-                time.sleep(2)
-    note = ("Failed after 3 attempts: " + str(last_error or "unknown connection error"))[:250]
+            if attempt < 1:
+                time.sleep(1)
+    note = ("Failed after 2 attempts: " + str(last_error or "unknown connection error"))[:250]
     result = {**source, "checked_at": datetime.now(timezone.utc).isoformat(),
               "status": "unreachable", "http_status": None,
               "change_detected": False, "note": note}
