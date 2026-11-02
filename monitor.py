@@ -15,13 +15,13 @@ UPDATES = os.path.join(DATA, "updates.json")
 SOURCES_FILE = os.path.join(DATA, "sources.json")
 
 FALLBACK_SOURCES = [
-    {"country": "UK", "name": "UK Student visa guidance", "url": "https://www.gov.uk/student-visa"},
-    {"country": "Canada", "name": "Canada study permit", "url": "https://www.canada.ca/en/immigration-refugees-citizenship/services/study-canada.html"},
-    {"country": "Australia", "name": "Australia student visa", "url": "https://immi.homeaffairs.gov.au/visas/getting-a-visa/visa-listing/student-500"},
-    {"country": "New Zealand", "name": "New Zealand student visa", "url": "https://www.immigration.govt.nz/new-zealand-visas/visas/visa/student-visa"},
-    {"country": "USA", "name": "US student visa information", "url": "https://travel.state.gov/content/travel/en/us-visas/study/student-visa.html"},
-    {"country": "UAE / Dubai", "name": "UAE government portal", "url": "https://u.ae/en/information-and-services/education"},
-    {"country": "Europe / Schengen", "name": "EU Immigration Portal", "url": "https://immigration-portal.ec.europa.eu/index_en"},
+    {"country": "UK", "name": "GOV.UK Immigration Rules — Appendix Student", "url": "https://www.gov.uk/guidance/immigration-rules/immigration-rules-appendix-student"},
+    {"country": "Canada", "name": "IRCC Study Permit — Eligibility", "url": "https://www.canada.ca/en/immigration-refugees-citizenship/services/study-canada/study-permit/eligibility.html"},
+    {"country": "Australia", "name": "Department of Home Affairs — Student visa subclass 500", "url": "https://immi.homeaffairs.gov.au/visas/getting-a-visa/visa-listing/student-500"},
+    {"country": "New Zealand", "name": "Immigration New Zealand — Fee Paying Student Visa", "url": "https://www.immigration.govt.nz/visas/fee-paying-student-visa/"},
+    {"country": "USA", "name": "ICE Study in the States — SEVP School Search", "url": "https://studyinthestates.dhs.gov/school-search"},
+    {"country": "UAE / Dubai", "name": "GDRFA Dubai — Issuing a residency permit to a student", "url": "https://gdrfad.gov.ae/en/services/f52024e0-b812-11ed-5210-4cd98f768936"},
+    {"country": "Europe / Schengen", "name": "European Commission — Who does what in EU immigration", "url": "https://home-affairs.ec.europa.eu/policies/migration-and-asylum/eu-immigration-portal/who-does-what_en"},
 ]
 
 class VisibleTextParser(HTMLParser):
