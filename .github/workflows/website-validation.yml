@@ -84,3 +84,25 @@ jobs:
           assert not missing_sources, f"Rules reference missing official source IDs: {sorted(missing_sources)}"
           print(f"PASS: website data paths and review disclaimers are present; {len(source_ids)} unique source IDs; all rule source IDs resolve.")
           PY
+
+      - name: Validate client assessment and document checklist
+        run: |
+          python - <<'PY'
+          from pathlib import Path
+
+          html = Path("index.html").read_text(encoding="utf-8")
+          required = [
+              'id="caRef"',
+              'id="caAge"',
+              'id="clientDocumentTracker"',
+              'id="dtFollowDate"',
+              'id="dtFollowNote"',
+              'data-doc-status',
+              'id="dtCopy"',
+              'Form data stays in this open page; it is not sent to a server.'
+          ]
+          missing = [item for item in required if item not in html]
+          if missing:
+              raise SystemExit("Missing client assessment/checklist fields: " + ", ".join(missing))
+          print("PASS: client reference, age range, document checklist, follow-up fields and privacy notice are present.")
+          PY
