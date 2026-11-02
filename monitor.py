@@ -83,7 +83,7 @@ def check_source(source, previous):
             "Accept": "text/html,application/xhtml+xml,application/xml;q=0.9,image/avif,image/webp,*/*;q=0.8",
             "Accept-Language": "en-US,en;q=0.9",
             "Cache-Control": "no-cache",
-        })
+        }, method="HEAD" if source.get("compare_text") is False else "GET")
         try:
             # Keep each source check bounded so one slow site does not delay the full run.
             request_timeout = 10
@@ -143,6 +143,11 @@ def check_source(source, previous):
                     "change_detected": False,
                     "note": "Official source returned HTTP " + str(e.code) + "; review manually. No page comparison was possible."}
         except (URLError, TimeoutError, OSError, ValueError) as e:
+            if source.get("compare_text") is False:
+                return {**source, "checked_at": datetime.now(timezone.utc).isoformat(),
+                        "status": "manual_review", "http_status": None,
+                        "content_compared": False, "change_detected": False,
+                        "note": "Automated availability check timed out or was blocked (" + str(e)[:120] + "). Open the official IRCC page in a browser and verify manually; no policy text comparison was possible."}
             last_error = str(e)
             if attempt < 1:
                 time.sleep(1)
