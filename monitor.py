@@ -21,6 +21,7 @@ FALLBACK_SOURCES = [
     {"country": "New Zealand", "name": "Immigration New Zealand — Fee Paying Student Visa", "url": "https://www.immigration.govt.nz/visas/fee-paying-student-visa/"},
     {"country": "USA", "name": "ICE Study in the States — SEVP School Search", "url": "https://studyinthestates.dhs.gov/school-search"},
     {"country": "UAE / Dubai", "name": "GDRFA Dubai — Issuing a residency permit to a student", "url": "https://gdrfad.gov.ae/en/services/f52024e0-b812-11ed-5210-4cd98f768936"},
+    {"country": "UAE / Dubai", "name": "Federal ICP — Renewal of residence permits (student grace-period categories)", "url": "https://icp.gov.ae/en/services-details/?serviceid=64afe3c1035448005bd52e66"},
     {"country": "Europe / Schengen", "name": "European Commission — Who does what in EU immigration", "url": "https://home-affairs.ec.europa.eu/policies/migration-and-asylum/eu-immigration-portal/who-does-what_en"},
 ]
 
