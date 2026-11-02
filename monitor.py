@@ -153,7 +153,14 @@ def main():
     sources = load_sources()
     results = [check_source(source, previous_hashes) for source in sources]
 
-    new_hashes = dict(previous_hashes)
+    # Keep hashes only for currently configured sources. Preserve the last
+    # successful hash for active sources that temporarily fail to load.
+    active_urls = {source["url"] for source in sources}
+    new_hashes = {
+        url: previous_hashes[url]
+        for url in active_urls
+        if url in previous_hashes
+    }
     for item in results:
         if item.get("content_hash"):
             new_hashes[item["url"]] = item["content_hash"]
