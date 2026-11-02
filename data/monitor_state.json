@@ -1,22 +1,19 @@
 {
-  "last_checked_at": "2026-11-02T04:27:46.002235+00:00",
+  "last_checked_at": "2026-11-02T07:46:02.430434+00:00",
   "content_hashes": {
-    "https://www.gov.uk/student-visa": "71665a0f12d2ed61105cfe7c0a74cd843af5d3e9ad710f69bba9ce0de4b01994",
-    "https://www.canada.ca/en/immigration-refugees-citizenship/services/study-canada.html": "316c523445ba217131ee3bdc4e938dd486dcd74182c4802de4cd8944ed161a28",
     "https://immi.homeaffairs.gov.au/visas/getting-a-visa/visa-listing/student-500": "9f6d586bde1b5d29d1a1cf5a2efebc4b036cd575a10d36cf782f397f2fd7b0e5",
-    "https://u.ae/en/information-and-services/education": "5a154500a2ce0ae5f4c16baf97504508c8b8fb80d03de1f623f506bf08d690bb",
-    "https://www.immigration.govt.nz/study/study-visas/visas-for-studying-in-new-zealand/": "665d15fe57509ffa911db593e93b995b1d1c47a592a490d11772e751c79a6613",
-    "https://u.ae/en/information-and-services/visa-and-emirates-id/residence-visas/residence-visa-for-studying-in-the-uae": "5ace743046b81a22ee8dd9e664e2a91962774b345aa7934627885c3c548bde98",
-    "https://home-affairs.ec.europa.eu/policies/migration-and-asylum/eu-immigration-portal_en": "f51806ef79cd6ea408f82a7f315eaa8daa65b7e420e35eabace431c23851f38d",
-    "https://gdrfad.gov.ae/en/services/f52024e0-b812-11ed-5210-4cd98f768936": "bad3f84dbc1a207a725b83a8814be936a8b2c61c5cee00597c00adaba2426753"
+    "https://gdrfad.gov.ae/en/services/f52024e0-b812-11ed-5210-4cd98f768936": "bad3f84dbc1a207a725b83a8814be936a8b2c61c5cee00597c00adaba2426753",
+    "https://www.gov.uk/guidance/immigration-rules/immigration-rules-appendix-student": "5782b4b32a88073e8f7a0535cfa12e4163b12981975a0951231204d8295c953e",
+    "https://www.immigration.govt.nz/visas/fee-paying-student-visa/": "37f263d477fa8ec3be789e4793031145876143685ffa312c2b70e18a73b8c86d",
+    "https://home-affairs.ec.europa.eu/policies/migration-and-asylum/eu-immigration-portal/who-does-what_en": "4c35e1b58aaaa3e589a1d5a86528485b54825891320ee858ddc4a3aefa5b64f4"
   },
   "sources": {
-    "https://www.gov.uk/student-visa": "reachable",
-    "https://www.canada.ca/en/immigration-refugees-citizenship/services/study-canada/study-permit.html": "unreachable",
+    "https://www.gov.uk/guidance/immigration-rules/immigration-rules-appendix-student": "reachable",
+    "https://www.canada.ca/en/immigration-refugees-citizenship/services/study-canada/study-permit/eligibility.html": "unreachable",
     "https://immi.homeaffairs.gov.au/visas/getting-a-visa/visa-listing/student-500": "reachable",
-    "https://www.immigration.govt.nz/study/study-visas/visas-for-studying-in-new-zealand/": "reachable",
-    "https://travel.state.gov/content/travel/en/us-visas/study/student-visa.html": "manual_review",
+    "https://www.immigration.govt.nz/visas/fee-paying-student-visa/": "reachable",
+    "https://studyinthestates.dhs.gov/school-search": "manual_review",
     "https://gdrfad.gov.ae/en/services/f52024e0-b812-11ed-5210-4cd98f768936": "reachable",
-    "https://home-affairs.ec.europa.eu/policies/migration-and-asylum/eu-immigration-portal_en": "reachable"
+    "https://home-affairs.ec.europa.eu/policies/migration-and-asylum/eu-immigration-portal/who-does-what_en": "reachable"
   }
 }
