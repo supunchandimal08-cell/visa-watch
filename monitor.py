@@ -16,7 +16,7 @@ SOURCES_FILE = os.path.join(DATA, "sources.json")
 
 FALLBACK_SOURCES = [
     {"country": "UK", "name": "GOV.UK Immigration Rules — Appendix Student", "url": "https://www.gov.uk/guidance/immigration-rules/immigration-rules-appendix-student"},
-    {"country": "Canada", "name": "IRCC Study Permit — Eligibility", "url": "https://www.canada.ca/en/immigration-refugees-citizenship/services/study-canada/study-permit/eligibility.html"},
+    {"country": "Canada", "name": "IRCC Study Permit — Eligibility", "url": "https://www.canada.ca/en/immigration-refugees-citizenship/services/study-canada/study-permit/eligibility.html", "compare_text": False},
     {"country": "Australia", "name": "Department of Home Affairs — Student visa subclass 500", "url": "https://immi.homeaffairs.gov.au/visas/getting-a-visa/visa-listing/student-500"},
     {"country": "New Zealand", "name": "Immigration New Zealand — Fee Paying Student Visa", "url": "https://www.immigration.govt.nz/visas/fee-paying-student-visa/"},
     {"country": "USA", "name": "ICE Study in the States — SEVP School Search", "url": "https://studyinthestates.dhs.gov/school-search"},
