@@ -48,6 +48,7 @@ jobs:
           urls = [
               "https://www.canada.ca/en/immigration-refugees-citizenship/services/study-canada/study-permit/eligibility.html",
               "https://www.canada.ca/",
+              "https://travel.state.gov/content/travel/en/us-visas/study/student-visa.html",
           ]
           for url in urls:
               request = urllib.request.Request(
