@@ -70,6 +70,7 @@ def load_sources():
             "country": item["country"],
             "name": item.get("name") or item["country"] + " official immigration source",
             "url": item["url"],
+            "compare_text": item.get("compare_text", True) is not False,
         })
     return sources or FALLBACK_SOURCES
 
@@ -84,10 +85,15 @@ def check_source(source, previous):
         })
         try:
             # Keep each source check bounded so one slow site does not delay the full run.
-            request_timeout = 45
+            request_timeout = 25
             with urlopen(request, timeout=request_timeout) as response:
                 status_code = response.status
                 content_type = response.headers.get("Content-Type", "")
+                if source.get("compare_text") is False:
+                    return {**source, "checked_at": datetime.now(timezone.utc).isoformat(),
+                            "status": "reachable", "http_status": status_code,
+                            "content_compared": False, "change_detected": False,
+                            "note": "Official source returned HTTP " + str(status_code) + ". Text comparison is disabled for this slow page; counsellors must review the live IRCC page manually. Availability only, not policy-change monitoring."}
                 body = response.read(1_000_000)  # Bound large government pages; first 1 MB is sufficient for change fingerprinting.
             if status_code < 200 or status_code >= 300:
                 return {**source, "checked_at": datetime.now(timezone.utc).isoformat(),
@@ -175,7 +181,11 @@ def main():
         ],
         "monitor_errors": [
             {"country": item["country"], "source": item["url"], "error": item["note"]}
-            for item in results if item["status"] != "reachable"
+            for item in results if item["status"] in ("unreachable", "http_error")
+        ],
+        "manual_review_required": [
+            {"country": item["country"], "source": item["url"], "reason": item["note"]}
+            for item in results if item["status"] == "manual_review" or item.get("content_compared") is False
         ],
         "disclaimer": "The monitor compares visible page text and checks availability only. A detected page-text difference is a candidate for human review, not a confirmed immigration rule change."
     }
