@@ -88,7 +88,7 @@ def check_source(source, previous):
             with urlopen(request, timeout=request_timeout) as response:
                 status_code = response.status
                 content_type = response.headers.get("Content-Type", "")
-                body = response.read(3_000_000)
+                body = response.read(1_000_000)  # Bound large government pages; first 1 MB is sufficient for change fingerprinting.
             if status_code < 200 or status_code >= 300:
                 return {**source, "checked_at": datetime.now(timezone.utc).isoformat(),
                         "status": "http_error", "http_status": status_code,
