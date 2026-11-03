@@ -1,5 +1,6 @@
 *
 !index.html
+!training.html
 !data/
 data/*
 !data/sources.json
