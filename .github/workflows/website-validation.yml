@@ -6,6 +6,7 @@ on:
     paths:
       - "index.html"
       - "training.html"
+      - "worker.js"
       - "data/**"
       - "monitor.py"
       - "wrangler.jsonc"
@@ -117,4 +118,19 @@ jobs:
               if required.casefold() not in html.casefold():
                   raise SystemExit(f"Training page is missing required content: {required}")
           print("PASS: counsellor training page and safety guidance are present.")
+          PY
+
+      - name: Validate Cloudflare Worker entry point
+        run: |
+          node --check worker.js
+          python - <<'PY'
+          import json
+          from pathlib import Path
+          config = json.loads(Path("wrangler.jsonc").read_text(encoding="utf-8"))
+          assert config.get("main") == "./worker.js", "Wrangler main must point to worker.js"
+          assert config.get("assets", {}).get("directory") == ".", "Static assets directory must be repository root"
+          assert config.get("assets", {}).get("binding") == "ASSETS", "Static assets binding must be ASSETS"
+          worker = Path("worker.js").read_text(encoding="utf-8")
+          assert "env.ASSETS.fetch(request)" in worker, "Worker must forward requests to static assets"
+          print("PASS: Cloudflare Worker entry point and static asset binding are configured.")
           PY
