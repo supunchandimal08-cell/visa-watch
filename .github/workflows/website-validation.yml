@@ -7,6 +7,7 @@ on:
       - "index.html"
       - "training.html"
       - "worker.js"
+      - "supabase-course-records.js"
       - "data/**"
       - "monitor.py"
       - "wrangler.jsonc"
@@ -108,6 +109,9 @@ jobs:
               raise SystemExit("Missing client assessment/checklist fields: " + ", ".join(missing))
           print("PASS: client reference, age range, document checklist, follow-up fields and privacy notice are present.")
           PY
+
+      - name: Validate course records integration JavaScript
+        run: node --check supabase-course-records.js
 
       - name: Validate counsellor training page
         run: |
