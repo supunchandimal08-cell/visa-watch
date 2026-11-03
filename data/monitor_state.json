@@ -1,13 +1,13 @@
 {
-  "last_checked_at": "2026-11-02T09:26:35.450998+00:00",
+  "last_checked_at": "2026-11-03T04:18:49.658955+00:00",
   "content_hashes": {
-    "https://immi.homeaffairs.gov.au/visas/getting-a-visa/visa-listing/student-500": "9f6d586bde1b5d29d1a1cf5a2efebc4b036cd575a10d36cf782f397f2fd7b0e5",
-    "https://icp.gov.ae/en/services-details/?serviceid=64afe3c1035448005bd52e66": "74e6f7f6d2c534b00beb269fe69ce2f569df9d84abaafec887735a453894118e",
+    "https://immi.homeaffairs.gov.au/visas/getting-a-visa/visa-listing/changes-to-student-visa-application-rules-500-590": "d4b68a2f9d1eb7979257a1a08b18c52fc889ccd11d27f62cbb4f8f4e78df29dc",
     "https://www.gov.uk/guidance/immigration-rules/immigration-rules-appendix-student": "5782b4b32a88073e8f7a0535cfa12e4163b12981975a0951231204d8295c953e",
-    "https://www.immigration.govt.nz/visas/fee-paying-student-visa/": "37f263d477fa8ec3be789e4793031145876143685ffa312c2b70e18a73b8c86d",
+    "https://immi.homeaffairs.gov.au/visas/getting-a-visa/visa-listing/student-500": "9f6d586bde1b5d29d1a1cf5a2efebc4b036cd575a10d36cf782f397f2fd7b0e5",
     "https://home-affairs.ec.europa.eu/policies/migration-and-asylum/eu-immigration-portal/who-does-what_en": "4c35e1b58aaaa3e589a1d5a86528485b54825891320ee858ddc4a3aefa5b64f4",
-    "https://gdrfad.gov.ae/en/services/f52024e0-b812-11ed-5210-4cd98f768936": "bad3f84dbc1a207a725b83a8814be936a8b2c61c5cee00597c00adaba2426753",
-    "https://immi.homeaffairs.gov.au/visas/getting-a-visa/visa-listing/changes-to-student-visa-application-rules-500-590": "d4b68a2f9d1eb7979257a1a08b18c52fc889ccd11d27f62cbb4f8f4e78df29dc"
+    "https://gdrfad.gov.ae/en/services/f52024e0-b812-11ed-5210-4cd98f768936": "e4fa4cfd5a1cee4613efba5c0ecd431d8de52db3c98e0d6f783a875f4aeac763",
+    "https://icp.gov.ae/en/services-details/?serviceid=64afe3c1035448005bd52e66": "7a33e548925887928df022d4dff05e3939725a529cf6559d14fea18b169a0fd8",
+    "https://www.immigration.govt.nz/visas/fee-paying-student-visa/": "37f263d477fa8ec3be789e4793031145876143685ffa312c2b70e18a73b8c86d"
   },
   "sources": {
     "https://www.gov.uk/guidance/immigration-rules/immigration-rules-appendix-student": "reachable",
