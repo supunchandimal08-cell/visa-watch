@@ -5,6 +5,7 @@ on:
     branches: [main]
     paths:
       - "index.html"
+      - "training.html"
       - "data/**"
       - "monitor.py"
       - "wrangler.jsonc"
@@ -105,4 +106,15 @@ jobs:
           if missing:
               raise SystemExit("Missing client assessment/checklist fields: " + ", ".join(missing))
           print("PASS: client reference, age range, document checklist, follow-up fields and privacy notice are present.")
+          PY
+
+      - name: Validate counsellor training page
+        run: |
+          python - <<'PY'
+          from pathlib import Path
+          html = Path("training.html").read_text(encoding="utf-8")
+          for required in ["Student Visa Counselling Foundations", "Knowledge check", "GDRFA", "Detection is not confirmation"]:
+              if required.casefold() not in html.casefold():
+                  raise SystemExit(f"Training page is missing required content: {required}")
+          print("PASS: counsellor training page and safety guidance are present.")
           PY
