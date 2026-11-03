@@ -1,0 +1,61 @@
+name: VisaWatch Cloudflare Deploy
+
+on:
+  push:
+    branches: [main]
+    paths:
+      - "index.html"
+      - "training.html"
+      - "data/**"
+      - "wrangler.jsonc"
+      - ".assetsignore"
+      - ".github/workflows/deploy-cloudflare.yml"
+  workflow_dispatch:
+
+permissions:
+  contents: read
+
+concurrency:
+  group: visawatch-cloudflare-deploy
+  cancel-in-progress: false
+
+jobs:
+  deploy:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout repository
+        uses: actions/checkout@v4
+
+      - name: Deploy static assets to Cloudflare Worker
+        uses: cloudflare/wrangler-action@v3
+        with:
+          apiToken: ${{ secrets.CLOUDFLARE_API_TOKEN }}
+          accountId: ${{ secrets.CLOUDFLARE_ACCOUNT_ID }}
+          command: deploy
+
+      - name: Verify live deployment
+        run: |
+          set -euo pipefail
+          BASE="https://visa-watch.supunchandimal08.workers.dev"
+          curl --fail --silent --show-error --location --retry 5 --retry-delay 10 --retry-all-errors "$BASE/" -o /tmp/home.html
+          grep -Fqi "VisaWatch" /tmp/home.html
+          grep -Fqi "Detection is not confirmation" /tmp/home.html
+          grep -Fqi "Client document checklist" /tmp/home.html
+          grep -Fqi "Next follow-up date" /tmp/home.html
+          grep -Fqi 'id="caRef"' /tmp/home.html
+          grep -Fqi 'id="caAge"' /tmp/home.html
+          curl --fail --silent --show-error --location --retry 5 --retry-delay 10 --retry-all-errors "$BASE/training.html" -o /tmp/training.html
+          grep -Fqi "Student Visa Counselling Foundations" /tmp/training.html
+          grep -Fqi "Knowledge check" /tmp/training.html
+          curl --fail --silent --show-error --location --retry 5 --retry-delay 10 --retry-all-errors "$BASE/data/sources.json" -o /tmp/sources.json
+          curl --fail --silent --show-error --location --retry 5 --retry-delay 10 --retry-all-errors "$BASE/data/updates.json" -o /tmp/updates.json
+          python - <<'PY'
+          import json
+          from pathlib import Path
+          sources = json.loads(Path("/tmp/sources.json").read_text(encoding="utf-8"))
+          updates = json.loads(Path("/tmp/updates.json").read_text(encoding="utf-8"))
+          assert len(sources.get("sources", [])) >= 8, "Official sources list is missing or incomplete"
+          assert updates.get("generated_at"), "Monitoring data has no generated_at timestamp"
+          assert updates.get("items"), "Monitoring data has no source results"
+          print("PASS: live homepage, counsellor training, official sources and monitoring data.")
+          PY
