@@ -5,6 +5,7 @@ on:
     branches: [main]
     paths:
       - "index.html"
+      - "training.html"
       - "data/sources.json"
       - "data/updates.json"
       - "wrangler.jsonc"
