@@ -46,7 +46,7 @@ Opening `index.html` directly with a `file://` address may prevent JSON data fro
 
 The repository deploys the Worker from GitHub Actions. Add these two repository Actions secrets once:
 
-1. In Cloudflare, create an API token with permission to edit Workers for the account that owns the `visa-watch` Worker. Do not use the Global API Key.
+1. In Cloudflare, create an API token scoped to the account that owns `visa-watch`, with **Account → Workers Scripts → Edit** and **Account → Account Settings → Read**. If restricting to one Worker is available, scope it to `visa-watch`. Do not use the Global API Key.
 2. In GitHub, open **Settings → Secrets and variables → Actions → New repository secret**.
 3. Add `CLOUDFLARE_API_TOKEN` with the token value.
 4. Add `CLOUDFLARE_ACCOUNT_ID` with the Cloudflare account ID (not the Worker ID).
