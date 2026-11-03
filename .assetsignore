@@ -6,3 +6,4 @@ data/*
 !data/sources.json
 !data/updates.json
 !data/monitor_state.json
+!supabase-course-records.js
