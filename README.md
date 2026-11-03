@@ -41,3 +41,17 @@ Opening `index.html` directly with a `file://` address may prevent JSON data fro
 - Static assets are configured in `wrangler.jsonc`; `.assetsignore` limits published assets to the dashboard and required JSON files.
 - GitHub Actions validates the repository and performs a live smoke test after relevant changes.
 - The daily monitor currently checks source availability and visible-page text fingerprints; it does **not** perform legal interpretation, approve rules, or replace counsellor review.
+
+## One-time Cloudflare GitHub deployment setup
+
+The repository deploys the Worker from GitHub Actions. Add these two repository Actions secrets once:
+
+1. In Cloudflare, create an API token with permission to edit Workers for the account that owns the `visa-watch` Worker. Do not use the Global API Key.
+2. In GitHub, open **Settings → Secrets and variables → Actions → New repository secret**.
+3. Add `CLOUDFLARE_API_TOKEN` with the token value.
+4. Add `CLOUDFLARE_ACCOUNT_ID` with the Cloudflare account ID (not the Worker ID).
+5. Do not paste either value into chat, source files, or workflow logs.
+
+After both secrets exist, each relevant push to `main` runs **VisaWatch Cloudflare Deploy**. The workflow deploys the Worker and then checks the live homepage, training page, official-source registry and monitoring JSON. The live smoke test runs only after a successful deployment.
+
+If a deployment fails, open **Actions → VisaWatch Cloudflare Deploy** and inspect the failed step. A missing-secret error means the one-time GitHub secret setup above is incomplete.
