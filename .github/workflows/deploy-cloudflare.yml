@@ -7,7 +7,7 @@ on:
       - "index.html"
       - "training.html"
       - "worker.js"
-      - "worker.js"
+      - "supabase-course-records.js"
       - "data/**"
       - "wrangler.jsonc"
       - ".assetsignore"
