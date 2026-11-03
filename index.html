@@ -84,6 +84,55 @@ button:focus-visible,a:focus-visible,input:focus-visible,select:focus-visible,te
 }
 
 </style>
+<style>
+/* VisaWatch visual refinement */
+:root {
+  --bg: #07111f;
+  --panel: #101e30;
+  --text: #eaf2ff;
+  --muted: #6e8094; /* keep readable contrast inside light cards */
+  --accent: #35d0ba;
+}
+
+body {
+  background: radial-gradient(ellipse at top left, #16354b, #07111f 65%);
+  color: var(--text);
+}
+
+header, aside, nav, section, .card, .panel {
+  border-radius: 14px;
+}
+
+ .card, .panel, section {
+  box-shadow: 0 8px 28px rgba(0, 0, 0, .18);
+}
+
+/* Dark outer workspace, readable dark text on light content surfaces. */
+.topbar, .panel, .stat, .country-card, .queue-item, .source-card,
+.table-wrap, .data-table, .doc-row, .filterbar select, .filterbar input {
+  color: var(--ink);
+}
+.panel, .stat, .country-card, .queue-item, .source-card, .table-wrap, .topbar {
+  background-color: #fff;
+}
+
+a, button {
+  transition: all .2s ease;
+}
+
+a:hover, button:hover {
+  filter: brightness(1.15);
+}
+
+@media (max-width: 768px) {
+  body { padding: 0; }
+  .layout { grid-template-columns: 1fr; }
+  .sidebar { position: relative; top: auto; height: auto; max-height: none; }
+  .nav { display: flex; overflow-x: auto; }
+  .nav button { flex: 0 0 auto; white-space: nowrap; }
+  .topbar { height: auto; min-height: 66px; }
+}
+</style>
 </head>
 <body>
 
@@ -681,39 +730,4 @@ renderCountries();renderUpdates();renderRules();renderSources();renderChecks();l
 <script src="https://cdn.jsdelivr.net/npm/@supabase/supabase-js@2"></script>
 <script src="./supabase-course-records.js?v=20261027dedupe1"></script>
 </body></html>
-<style>
-/* VisaWatch visual refinement */
-:root {
-  --bg: #07111f;
-  --panel: #101e30;
-  --text: #eaf2ff;
-  --muted: #a8b8cc;
-  --accent: #35d0ba;
-}
-
-body {
-  background: radial-gradient(ellipse at top left, #16354b, #07111f 65%);
-  color: var(--text);
-}
-
-header, aside, nav, section, .card, .panel {
-  border-radius: 14px;
-}
-
-.card, .panel, section {
-  box-shadow: 0 8px 28px rgba(0, 0, 0, .18);
-}
-
-a, button {
-  transition: all .2s ease;
-}
-
-a:hover, button:hover {
-  filter: brightness(1.15);
-}
-
-@media (max-width: 768px) {
-  body { padding: 10px; }
-  .layout { grid-template-columns: 1fr; }
-}
-</style> 
+ 
