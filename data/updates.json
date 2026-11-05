@@ -1,12 +1,12 @@
 {
-  "generated_at": "2026-11-04T04:21:35.543259+00:00",
+  "generated_at": "2026-11-05T04:22:56.456719+00:00",
   "items": [
     {
       "country": "UK",
       "name": "GOV.UK Immigration Rules — Appendix Student",
       "url": "https://www.gov.uk/guidance/immigration-rules/immigration-rules-appendix-student",
       "compare_text": true,
-      "checked_at": "2026-11-04T04:21:13.251325+00:00",
+      "checked_at": "2026-11-05T04:22:33.773749+00:00",
       "status": "reachable",
       "http_status": 200,
       "content_hash": "5782b4b32a88073e8f7a0535cfa12e4163b12981975a0951231204d8295c953e",
@@ -19,7 +19,7 @@
       "name": "IRCC Study Permit — Eligibility",
       "url": "https://www.canada.ca/en/immigration-refugees-citizenship/services/study-canada/study-permit/eligibility.html",
       "compare_text": false,
-      "checked_at": "2026-11-04T04:21:23.338558+00:00",
+      "checked_at": "2026-11-05T04:22:43.844669+00:00",
       "status": "manual_review",
       "http_status": null,
       "content_compared": false,
@@ -31,20 +31,20 @@
       "name": "Department of Home Affairs — Student visa subclass 500",
       "url": "https://immi.homeaffairs.gov.au/visas/getting-a-visa/visa-listing/student-500",
       "compare_text": true,
-      "checked_at": "2026-11-04T04:21:24.399695+00:00",
+      "checked_at": "2026-11-05T04:22:45.088298+00:00",
       "status": "reachable",
       "http_status": 200,
-      "content_hash": "9f6d586bde1b5d29d1a1cf5a2efebc4b036cd575a10d36cf782f397f2fd7b0e5",
-      "change_detected": false,
+      "content_hash": "c24eba5be4fc72ddaf727f49a5508694ecfc83856594cea3cd6cf1099ad58083",
+      "change_detected": true,
       "baseline_created": false,
-      "note": "No page-text change detected since the previous successful check. This does not guarantee that every policy detail was checked."
+      "note": "Possible page-text change detected since the previous successful check. Review the official page; this is not proof of a policy change."
     },
     {
       "country": "New Zealand",
       "name": "Immigration New Zealand — Fee Paying Student Visa",
       "url": "https://www.immigration.govt.nz/visas/fee-paying-student-visa/",
       "compare_text": true,
-      "checked_at": "2026-11-04T04:21:26.593511+00:00",
+      "checked_at": "2026-11-05T04:22:46.876127+00:00",
       "status": "reachable",
       "http_status": 200,
       "content_hash": "37f263d477fa8ec3be789e4793031145876143685ffa312c2b70e18a73b8c86d",
@@ -57,7 +57,7 @@
       "name": "U.S. Department of State — Student Visa (F/M categories, SEVIS and Form I-20)",
       "url": "https://travel.state.gov/content/travel/en/us-visas/study/student-visa.html",
       "compare_text": true,
-      "checked_at": "2026-11-04T04:21:26.656362+00:00",
+      "checked_at": "2026-11-05T04:22:46.910225+00:00",
       "status": "manual_review",
       "http_status": 403,
       "change_detected": false,
@@ -68,10 +68,10 @@
       "name": "GDRFA Dubai — Issuing a residency permit to a student",
       "url": "https://gdrfad.gov.ae/en/services/f52024e0-b812-11ed-5210-4cd98f768936",
       "compare_text": true,
-      "checked_at": "2026-11-04T04:21:29.392968+00:00",
+      "checked_at": "2026-11-05T04:22:50.038260+00:00",
       "status": "reachable",
       "http_status": 200,
-      "content_hash": "80b7120dc9c6fd1835103cde3f8381ba80867efce80c3e938c692ddf7df5101e",
+      "content_hash": "3cfa12666df6c271e80c82a7623df4ea85555d8921272c93bdcf8fd4910474a9",
       "change_detected": true,
       "baseline_created": false,
       "note": "Possible page-text change detected since the previous successful check. Review the official page; this is not proof of a policy change."
@@ -81,7 +81,7 @@
       "name": "European Commission — Who does what in EU immigration",
       "url": "https://home-affairs.ec.europa.eu/policies/migration-and-asylum/eu-immigration-portal/who-does-what_en",
       "compare_text": true,
-      "checked_at": "2026-11-04T04:21:30.435980+00:00",
+      "checked_at": "2026-11-05T04:22:50.675362+00:00",
       "status": "reachable",
       "http_status": 200,
       "content_hash": "4c35e1b58aaaa3e589a1d5a86528485b54825891320ee858ddc4a3aefa5b64f4",
@@ -94,10 +94,10 @@
       "name": "Federal ICP — Renewal of residence permits (student grace-period categories)",
       "url": "https://icp.gov.ae/en/services-details/?serviceid=64afe3c1035448005bd52e66",
       "compare_text": true,
-      "checked_at": "2026-11-04T04:21:34.312483+00:00",
+      "checked_at": "2026-11-05T04:22:54.790667+00:00",
       "status": "reachable",
       "http_status": 200,
-      "content_hash": "82dc44b5320a4ec004a201824008e068dc246c918de335646b24070190651541",
+      "content_hash": "1e35266e65f3967719a01ff599d634d8ea3f6897ef757367871cf831f6071ee3",
       "change_detected": true,
       "baseline_created": false,
       "note": "Possible page-text change detected since the previous successful check. Review the official page; this is not proof of a policy change."
@@ -107,7 +107,7 @@
       "name": "Department of Home Affairs — Student visa application rule changes (subclasses 500 & 590)",
       "url": "https://immi.homeaffairs.gov.au/visas/getting-a-visa/visa-listing/changes-to-student-visa-application-rules-500-590",
       "compare_text": true,
-      "checked_at": "2026-11-04T04:21:34.631575+00:00",
+      "checked_at": "2026-11-05T04:22:55.220747+00:00",
       "status": "reachable",
       "http_status": 200,
       "content_hash": "d4b68a2f9d1eb7979257a1a08b18c52fc889ccd11d27f62cbb4f8f4e78df29dc",
@@ -120,35 +120,35 @@
       "name": "Federal Register — Migration Amendment (Student Visa Reform) Regulations 2026 (F2026L01347)",
       "url": "https://www.legislation.gov.au/F2026L01347/latest/details",
       "compare_text": true,
-      "checked_at": "2026-11-04T04:21:35.543218+00:00",
+      "checked_at": "2026-11-05T04:22:56.456677+00:00",
       "status": "reachable",
       "http_status": 200,
       "content_hash": "076da1e32d067b1d8d2ba6cadf056c8f24f0b4a15267c81fcbe041ccad80091c",
-      "change_detected": true,
+      "change_detected": false,
       "baseline_created": false,
-      "note": "Possible page-text change detected since the previous successful check. Review the official page; this is not proof of a policy change."
+      "note": "No page-text change detected since the previous successful check. This does not guarantee that every policy detail was checked."
     }
   ],
   "change_candidates": [
     {
+      "country": "Australia",
+      "name": "Department of Home Affairs — Student visa subclass 500",
+      "url": "https://immi.homeaffairs.gov.au/visas/getting-a-visa/visa-listing/student-500",
+      "checked_at": "2026-11-05T04:22:45.088298+00:00",
+      "note": "Possible page-text change detected since the previous successful check. Review the official page; this is not proof of a policy change."
+    },
+    {
       "country": "UAE / Dubai",
       "name": "GDRFA Dubai — Issuing a residency permit to a student",
       "url": "https://gdrfad.gov.ae/en/services/f52024e0-b812-11ed-5210-4cd98f768936",
-      "checked_at": "2026-11-04T04:21:29.392968+00:00",
+      "checked_at": "2026-11-05T04:22:50.038260+00:00",
       "note": "Possible page-text change detected since the previous successful check. Review the official page; this is not proof of a policy change."
     },
     {
       "country": "UAE / Dubai",
       "name": "Federal ICP — Renewal of residence permits (student grace-period categories)",
       "url": "https://icp.gov.ae/en/services-details/?serviceid=64afe3c1035448005bd52e66",
-      "checked_at": "2026-11-04T04:21:34.312483+00:00",
-      "note": "Possible page-text change detected since the previous successful check. Review the official page; this is not proof of a policy change."
-    },
-    {
-      "country": "Australia",
-      "name": "Federal Register — Migration Amendment (Student Visa Reform) Regulations 2026 (F2026L01347)",
-      "url": "https://www.legislation.gov.au/F2026L01347/latest/details",
-      "checked_at": "2026-11-04T04:21:35.543218+00:00",
+      "checked_at": "2026-11-05T04:22:54.790667+00:00",
       "note": "Possible page-text change detected since the previous successful check. Review the official page; this is not proof of a policy change."
     }
   ],
