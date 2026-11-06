@@ -1,14 +1,14 @@
 {
-  "last_checked_at": "2026-11-05T04:22:56.456719+00:00",
+  "last_checked_at": "2026-11-06T04:21:57.456048+00:00",
   "content_hashes": {
-    "https://www.gov.uk/guidance/immigration-rules/immigration-rules-appendix-student": "5782b4b32a88073e8f7a0535cfa12e4163b12981975a0951231204d8295c953e",
-    "https://www.legislation.gov.au/F2026L01347/latest/details": "076da1e32d067b1d8d2ba6cadf056c8f24f0b4a15267c81fcbe041ccad80091c",
-    "https://www.immigration.govt.nz/visas/fee-paying-student-visa/": "37f263d477fa8ec3be789e4793031145876143685ffa312c2b70e18a73b8c86d",
     "https://immi.homeaffairs.gov.au/visas/getting-a-visa/visa-listing/changes-to-student-visa-application-rules-500-590": "d4b68a2f9d1eb7979257a1a08b18c52fc889ccd11d27f62cbb4f8f4e78df29dc",
-    "https://home-affairs.ec.europa.eu/policies/migration-and-asylum/eu-immigration-portal/who-does-what_en": "4c35e1b58aaaa3e589a1d5a86528485b54825891320ee858ddc4a3aefa5b64f4",
+    "https://www.gov.uk/guidance/immigration-rules/immigration-rules-appendix-student": "5782b4b32a88073e8f7a0535cfa12e4163b12981975a0951231204d8295c953e",
+    "https://home-affairs.ec.europa.eu/policies/migration-and-asylum/eu-immigration-portal/who-does-what_en": "84ba17d42f3c03a27208e11353da00f7da66ef0eaf97647dba3fc95ecc913d85",
+    "https://gdrfad.gov.ae/en/services/f52024e0-b812-11ed-5210-4cd98f768936": "d593faa72d18c09d42a2abc10d3f65e40306a39966a204c047604a7aabd03546",
+    "https://www.legislation.gov.au/F2026L01347/latest/details": "076da1e32d067b1d8d2ba6cadf056c8f24f0b4a15267c81fcbe041ccad80091c",
+    "https://icp.gov.ae/en/services-details/?serviceid=64afe3c1035448005bd52e66": "a41a97d666613c1377c63fe02669db155164fba746e3ae03fc0cbd7d7a8fcfc4",
     "https://immi.homeaffairs.gov.au/visas/getting-a-visa/visa-listing/student-500": "c24eba5be4fc72ddaf727f49a5508694ecfc83856594cea3cd6cf1099ad58083",
-    "https://icp.gov.ae/en/services-details/?serviceid=64afe3c1035448005bd52e66": "1e35266e65f3967719a01ff599d634d8ea3f6897ef757367871cf831f6071ee3",
-    "https://gdrfad.gov.ae/en/services/f52024e0-b812-11ed-5210-4cd98f768936": "3cfa12666df6c271e80c82a7623df4ea85555d8921272c93bdcf8fd4910474a9"
+    "https://www.immigration.govt.nz/visas/fee-paying-student-visa/": "3818f184da23f40a9e4d3443fa6304915425dac738e8a9824e6b2eec3bb5db6e"
   },
   "sources": {
     "https://www.gov.uk/guidance/immigration-rules/immigration-rules-appendix-student": "reachable",
