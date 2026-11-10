@@ -62,7 +62,9 @@ jobs:
           grep -Fqi 'id="caAge"' /tmp/home.html
           curl --fail --silent --show-error --location --retry 5 --retry-delay 10 --retry-all-errors "$BASE/client-guide.html" -o /tmp/client-guide.html
           grep -Fqi "Plan your study abroad journey" /tmp/client-guide.html
-          curl --fail --silent --show-error --location --retry 5 --retry-delay 10 --retry-all-errors "$BASE/country-rules-review.html" -o /tmp/country-rules-review.html\n          grep -Fqi "Country Rules Review" /tmp/country-rules-review.html\n          curl --fail --silent --show-error --location --retry 5 --retry-delay 10 --retry-all-errors "$BASE/training.html" -o /tmp/training.html
+          curl --fail --silent --show-error --location --retry 5 --retry-delay 10 --retry-all-errors "$BASE/country-rules-review.html" -o /tmp/country-rules-review.html
+          grep -Fqi "Country Rules Review" /tmp/country-rules-review.html
+          curl --fail --silent --show-error --location --retry 5 --retry-delay 10 --retry-all-errors "$BASE/training.html" -o /tmp/training.html
           grep -Fqi "Student Visa Counselling Foundations" /tmp/training.html
           grep -Fqi "Knowledge check" /tmp/training.html
           curl --fail --silent --show-error --location --retry 5 --retry-delay 10 --retry-all-errors "$BASE/data/sources.json" -o /tmp/sources.json
