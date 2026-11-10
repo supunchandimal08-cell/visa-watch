@@ -72,6 +72,13 @@
       "country": "Germany",
       "name": "German Embassy Colombo — Long-stay national visa requirements",
       "url": "https://colombo.diplo.de/lk-en/service/national-visa-1437950"
+    },
+    {
+      "country": "Australia",
+      "name": "Department of Home Affairs — Student visa condition 8105 (work limitation)",
+      "url": "https://immi.homeaffairs.gov.au/visas/already-have-a-visa/check-visa-details-and-conditions/see-your-visa-conditions?cno=8105&product=500",
+      "compare_text": true,
+      "note": "Primary official condition page. Verify the visa grant notice and VEVO for the individual applicant; current published guidance describes the 48-hours-per-fortnight limit, exceptions and course-session rules. Detection is not legal interpretation."
     }
   ]
 }
