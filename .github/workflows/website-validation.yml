@@ -5,6 +5,8 @@ on:
     branches: [main]
     paths:
       - "index.html"
+      - "client-guide.html"
+      - "dubai-budget.html"
       - "training.html"
       - "worker.js"
       - "supabase-course-records.js"
@@ -112,6 +114,40 @@ jobs:
 
       - name: Validate course records integration JavaScript
         run: node --check supabase-course-records.js
+
+
+      - name: Validate client guide and Dubai budget calculator
+        run: |
+          python - <<'PY'
+          from pathlib import Path
+          import re
+
+          guide = Path("client-guide.html").read_text(encoding="utf-8")
+          budget = Path("dubai-budget.html").read_text(encoding="utf-8")
+          guide_required = [
+              "Plan your study abroad journey",
+              "United Kingdom", "Canada", "Australia", "Dubai",
+              "New Zealand", "Schengen", "United States",
+              "visa approval", "part-time", "official"
+          ]
+          missing = [item for item in guide_required if item.casefold() not in guide.casefold()]
+          if missing:
+              raise SystemExit("Client guide is missing required guidance: " + ", ".join(missing))
+          if not re.search(r"[\\u0D80-\\u0DFF]", guide):
+              raise SystemExit("Client guide Sinhala language content is missing")
+          budget_required = [
+              'id="ref"', 'id="age"', 'id="budget"', 'id="rate"',
+              'id="tuition"', 'id="visa"', 'id="housing"', 'id="living"',
+              'id="sponsor"', 'id="verified"', 'id="gap"',
+              "Dubai Student Budget Assessment"
+          ]
+          missing = [item for item in budget_required if item not in budget]
+          if missing:
+              raise SystemExit("Dubai budget calculator is missing required fields: " + ", ".join(missing))
+          if "future employment income" not in budget:
+              raise SystemExit("Budget calculator must warn against relying on future employment income")
+          print("PASS: client pathway guide and Dubai funding assessment fields are present.")
+          PY
 
       - name: Validate counsellor training page
         run: |
