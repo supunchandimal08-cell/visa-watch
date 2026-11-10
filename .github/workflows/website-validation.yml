@@ -6,6 +6,7 @@ on:
     paths:
       - "index.html"
       - "client-guide.html"
+      - "country-rules-review.html"
       - "dubai-budget.html"
       - "training.html"
       - "worker.js"
@@ -61,7 +62,7 @@ jobs:
           python - <<'PY'
           from pathlib import Path
           import re
-          for page in ["index.html", "client-guide.html", "dubai-budget.html", "training.html"]:
+          for page in ["index.html", "client-guide.html", "country-rules-review.html", "dubai-budget.html", "training.html"]:
               html = Path(page).read_text(encoding="utf-8")
               scripts = re.findall(r"<script(?:\s[^>]*)?>([\s\S]*?)</script>", html, flags=re.I)
               if not scripts:
@@ -70,7 +71,7 @@ jobs:
               output.write_text("\n;\n".join(scripts), encoding="utf-8")
               print("Extracted " + str(len(scripts)) + " script block(s) from " + page)
           PY
-          for page in index client-guide dubai-budget training; do node --check "/tmp/$page-inline.js"; done
+          for page in index client-guide country-rules-review dubai-budget training; do node --check "/tmp/$page-inline.js"; done
       - name: Validate website data paths and safety labels
         run: |
           python - <<'PY'
@@ -184,4 +185,34 @@ jobs:
           worker = Path("worker.js").read_text(encoding="utf-8")
           assert "env.ASSETS.fetch(request)" in worker, "Worker must forward requests to static assets"
           print("PASS: Cloudflare Worker entry point and static asset binding are configured.")
+          PY
+
+      - name: Validate country rules review and official references
+        run: |
+          python - <<'PY'
+          from pathlib import Path
+          html = Path("country-rules-review.html").read_text(encoding="utf-8")
+          required = [
+              "Country Rules Review",
+              "GDRFA Dubai",
+              "AED 200",
+              "AED 500",
+              "Schengen",
+              "long-stay",
+              "German Embassy Colombo",
+              "not a universal all-in student budget",
+              "No visa, job or work-rights guarantee"
+          ]
+          missing = [item for item in required if item.casefold() not in html.casefold()]
+          if missing:
+              raise SystemExit("Country rules review is missing required accuracy guidance: " + ", ".join(missing))
+          for url in [
+              "https://gdrfad.gov.ae/",
+              "https://u.ae/",
+              "https://education.ec.europa.eu/",
+              "https://colombo.diplo.de/"
+          ]:
+              if url not in html:
+                  raise SystemExit("Missing official authority reference: " + url)
+          print("PASS: country-specific counselling distinctions and official source links are present.")
           PY
