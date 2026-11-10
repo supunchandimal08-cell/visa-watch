@@ -162,6 +162,34 @@ jobs:
           print("PASS: client guide, quote-based budget tools and persistent counsellor checklist are present.")
           PY
 
+      - name: Validate international student budget calculator
+        run: |
+          python - <<'PY'
+          from pathlib import Path
+          html = Path("country-budget.html").read_text(encoding="utf-8")
+          required = [
+              "International Student Budget Calculator",
+              "United Kingdom",
+              "Canada",
+              "Australia",
+              "New Zealand",
+              "Germany",
+              "United States",
+              "LKR per 1 local currency unit",
+              "Sponsor funds and supporting evidence have been checked",
+              "Do not count expected part-time earnings",
+              "does not state or calculate an immigration authority's required financial evidence"
+          ]
+          missing = [item for item in required if item.casefold() not in html.casefold()]
+          if missing:
+              raise SystemExit("International budget calculator is missing safeguards or destinations: " + ", ".join(missing))
+          if "!country-budget.html" not in Path(".assetsignore").read_text(encoding="utf-8"):
+              raise SystemExit("International budget calculator is not included in Cloudflare static assets")
+          if "country-budget.html" not in Path("index.html").read_text(encoding="utf-8"):
+              raise SystemExit("International budget calculator is not linked from the dashboard")
+          print("PASS: international budget calculator, country coverage, safeguards and deployment allowlist.")
+          PY
+
       - name: Validate counsellor training page
         run: |
           python - <<'PY'
