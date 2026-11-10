@@ -137,7 +137,7 @@ jobs:
               'id="ref"', 'id="age"', 'id="budget"', 'id="rate"',
               'id="tuition"', 'id="visa"', 'id="housing"', 'id="living"',
               'id="sponsor"', 'id="verified"', 'id="gap"',
-              "Dubai Student Budget Assessment"
+              "Dubai Student Budget Calculator"
           ]
           missing = [item for item in budget_required if item not in budget]
           if missing:
