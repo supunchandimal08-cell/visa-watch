@@ -288,21 +288,21 @@ a:hover, button:hover {
    <div class="eyebrow">Dubai student counselling tool</div><h2 style="margin:5px 0 8px">Student budget calculator</h2>
    <p style="color:var(--muted);margin:0 0 14px">Enter current written quotes. This estimates first-year funding only; it does not verify visa eligibility or guarantee that the budget is sufficient.</p>
    <div class="checklist">
-    <label class="source-card">Client budget (LKR)<input id="bcBudgetLkr" type="number" min="0" value="1500000" style="display:block;width:100%;margin-top:6px;padding:10px"></label>
-    <label class="source-card">Exchange rate (LKR per AED)<input id="bcRate" type="number" min="0.01" step="0.01" value="85" style="display:block;width:100%;margin-top:6px;padding:10px"><small>Enter today's rate from your bank/provider.</small></label>
-    <label class="source-card">Tuition + registration (AED)<input id="bcTuition" type="number" min="0" value="25000" style="display:block;width:100%;margin-top:6px;padding:10px"></label>
-    <label class="source-card">Visa / medical / ID / insurance total (AED)<input id="bcVisa" type="number" min="0" value="3000" style="display:block;width:100%;margin-top:6px;padding:10px"></label>
-    <label class="source-card">Accommodation per month (AED)<input id="bcRent" type="number" min="0" value="2000" style="display:block;width:100%;margin-top:6px;padding:10px"></label>
-    <label class="source-card">Food + transport + other per month (AED)<input id="bcLiving" type="number" min="0" value="1200" style="display:block;width:100%;margin-top:6px;padding:10px"></label>
-    <label class="source-card">Flight + arrival setup (AED)<input id="bcArrival" type="number" min="0" value="1500" style="display:block;width:100%;margin-top:6px;padding:10px"></label>
-    <label class="source-card">Confirmed scholarship / discount (AED)<input id="bcScholarship" type="number" min="0" value="0" style="display:block;width:100%;margin-top:6px;padding:10px"></label>
-    <label class="source-card">Emergency reserve (AED)<input id="bcReserve" type="number" min="0" value="2000" style="display:block;width:100%;margin-top:6px;padding:10px"></label>
+    <label class="source-card">Client budget (LKR)<input id="bcBudgetLkr" type="number" min="0" value="" placeholder="Enter confirmed budget" style="display:block;width:100%;margin-top:6px;padding:10px"></label>
+    <label class="source-card">Exchange rate (LKR per AED)<input id="bcRate" type="number" min="0.01" step="0.01" value="" placeholder="Enter today's rate" style="display:block;width:100%;margin-top:6px;padding:10px"><small>Enter today's rate from your bank/provider.</small></label>
+    <label class="source-card">Tuition + registration (AED)<input id="bcTuition" type="number" min="0" value="" placeholder="Enter written quote" style="display:block;width:100%;margin-top:6px;padding:10px"></label>
+    <label class="source-card">Visa / medical / ID / insurance total (AED)<input id="bcVisa" type="number" min="0" value="" placeholder="Enter confirmed charges" style="display:block;width:100%;margin-top:6px;padding:10px"></label>
+    <label class="source-card">Accommodation per month (AED)<input id="bcRent" type="number" min="0" value="" placeholder="Enter monthly quote" style="display:block;width:100%;margin-top:6px;padding:10px"></label>
+    <label class="source-card">Food + transport + other per month (AED)<input id="bcLiving" type="number" min="0" value="" placeholder="Enter monthly estimate" style="display:block;width:100%;margin-top:6px;padding:10px"></label>
+    <label class="source-card">Flight + arrival setup (AED)<input id="bcArrival" type="number" min="0" value="" placeholder="Enter confirmed amount" style="display:block;width:100%;margin-top:6px;padding:10px"></label>
+    <label class="source-card">Confirmed scholarship / discount (AED)<input id="bcScholarship" type="number" min="0" value="" placeholder="Enter confirmed award or 0" style="display:block;width:100%;margin-top:6px;padding:10px"></label>
+    <label class="source-card">Emergency reserve (AED)<input id="bcReserve" type="number" min="0" value="" placeholder="Enter planned reserve or 0" style="display:block;width:100%;margin-top:6px;padding:10px"></label>
    </div>
-   <div style="display:flex;gap:10px;flex-wrap:wrap;margin-top:14px"><button class="primary" type="button" id="bcCalculate">Calculate budget</button><button class="smallbtn" type="button" id="bcReset">Reset example</button><button class="smallbtn" type="button" id="bcCopy">Copy budget summary</button></div>
+   <div style="display:flex;gap:10px;flex-wrap:wrap;margin-top:14px"><button class="primary" type="button" id="bcCalculate">Calculate budget</button><button class="smallbtn" type="button" id="bcReset">Clear all estimates</button><button class="smallbtn" type="button" id="bcCopy">Copy budget summary</button></div>
    <div id="bcResults" aria-live="polite" style="margin-top:16px;padding:14px;border-radius:12px;background:var(--bg);border:1px solid var(--line)">
     <h3 style="margin-top:0">Estimated first-year funding</h3><p>Enter figures and select Calculate budget.</p>
    </div>
-   <p style="font-size:12px;color:var(--muted);margin-bottom:0">Planning estimate only. Confirm tuition, accommodation, insurance and visa charges directly with the institution/sponsor and current official sources. Do not count unconfirmed part-time income or scholarships.</p>
+   <p style="font-size:12px;color:var(--muted);margin-bottom:0">No sample prices are pre-filled. Enter current written quotes for every cost line; enter 0 only after confirming that no charge applies. Planning estimate only. Do not count unconfirmed part-time income or scholarships.</p>
   </div>
   <div class="panel" style="padding:18px"><div class="checklist">
    <label class="source-card">Client reference<input id="caRef" placeholder="e.g. CL-024" style="display:block;width:100%;margin-top:6px;padding:10px"></label>
@@ -341,6 +341,12 @@ document.addEventListener("DOMContentLoaded", function () {
   const money = n => new Intl.NumberFormat("en-LK",{maximumFractionDigits:0}).format(Math.round(n));
   let budgetSummaryText = "";
   function calculateBudget() {
+    const required = ["bcBudgetLkr","bcRate","bcTuition","bcVisa","bcRent","bcLiving","bcArrival","bcScholarship","bcReserve"];
+    if (required.some(id => document.getElementById(id).value.trim() === "")) {
+      document.getElementById("bcResults").innerHTML = "<h3>Complete the cost inputs</h3><p>Enter a current quote or verified amount for every field. Enter 0 only when you have confirmed that no charge applies. No sample costs are assumed.</p>";
+      budgetSummaryText = "";
+      return;
+    }
     const budgetLkr=get("bcBudgetLkr"), rate=get("bcRate");
     const tuition=get("bcTuition"), visa=get("bcVisa"), rent=get("bcRent"), living=get("bcLiving");
     const arrival=get("bcArrival"), scholarship=get("bcScholarship"), reserve=get("bcReserve");
@@ -360,13 +366,14 @@ document.addEventListener("DOMContentLoaded", function () {
       "<p style='color:var(--muted);font-size:12px'>This is only as accurate as the figures entered. Check whether tuition is annual or full-course, when instalments are due, what fees are excluded, and whether the client can actually access the funds.</p>";
   }
   const calc=document.getElementById("bcCalculate"); if(calc)calc.addEventListener("click",calculateBudget);
+  ids.forEach(id=>{const el=document.getElementById(id);if(el)el.addEventListener("input",calculateBudget);});
   const copy=document.getElementById("bcCopy"); if(copy)copy.addEventListener("click",async function(){
     try { await navigator.clipboard.writeText(budgetSummaryText); copy.textContent="Copied"; }
     catch(e) { const area=document.createElement("textarea"); area.value=budgetSummaryText; area.style.position="fixed"; area.style.opacity="0"; document.body.appendChild(area); area.select(); const ok=document.execCommand("copy"); area.remove(); copy.textContent=ok?"Copied":"Copy unavailable"; }
     setTimeout(()=>{copy.textContent="Copy budget summary";},1800);
   });
   const reset=document.getElementById("bcReset"); if(reset)reset.addEventListener("click",function(){
-    const defaults={bcBudgetLkr:1500000,bcRate:85,bcTuition:25000,bcVisa:3000,bcRent:2000,bcLiving:1200,bcArrival:1500,bcScholarship:0,bcReserve:2000};
+    const defaults={bcBudgetLkr:"",bcRate:"",bcTuition:"",bcVisa:"",bcRent:"",bcLiving:"",bcArrival:"",bcScholarship:"",bcReserve:""};
     Object.keys(defaults).forEach(id=>document.getElementById(id).value=defaults[id]); calculateBudget();
   });
   ids.forEach(id=>{const el=document.getElementById(id);if(el)el.addEventListener("change",calculateBudget);});
