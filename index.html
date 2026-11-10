@@ -172,7 +172,7 @@ a:hover, button:hover {
   <div class="banner"><div class="banner-icon">✦</div><div><b>Accuracy first. Always verify before advising.</b><p>A webpage change is a signal, not proof of a legal change. Check the original government source, dates, affected applicants and exceptions before using any update with a client.</p></div></div>
   <div class="stats">
    <div class="stat"><div class="stat-head">Destinations covered <span class="stat-icon">🌍</span></div><strong>07</strong><small>Country and regional groups</small></div>
-   <div class="stat"><div class="stat-head">Official source links <span class="stat-icon">🔗</span></div><strong id="sourceStat">Loading</strong><small>Official source links; verify each source before advising</small></div>
+   <div class="stat"><div class="stat-head">Official source links <span class="stat-icon">🔗</span></div><strong id="sourceStat">Loading</strong><small id="sourceStatNote">Official reference links; automated monitoring coverage shown separately</small></div>
    <div class="stat"><div class="stat-head">Updates to review <span class="stat-icon">⌛</span></div><strong id="reviewStat">Loading</strong><small>Source checks and review candidates — not confirmed rule changes</small></div>
    <div class="stat"><div class="stat-head">Monitor status <span class="stat-icon">◉</span></div><strong id="monitorStatusStat" style="font-size:21px;color:#a2761a">Checking</strong><small id="monitorStatusText">Loading the latest monitor result…</small></div>
   </div>
@@ -634,6 +634,8 @@ async function loadMonitoredData(){
    if(updateStat)updateStat.textContent=String(live.filter(x=>x.status==="Needs review").length);
    const sourceStat=document.getElementById("sourceStat");
    if(sourceStat)sourceStat.textContent=String(sources.length);
+   const sourceStatNote=document.getElementById("sourceStatNote");
+   if(sourceStatNote)sourceStatNote.textContent="Official reference links · "+(Array.isArray(monitoredSources.sources)?monitoredSources.sources.length:0)+" automated monitoring sources";
    renderCountries();
    const statusStat=document.getElementById("monitorStatusStat");
    if(statusStat) {statusStat.textContent=monitoredUpdates.generated_at?'Data loaded':'Setup needed';statusStat.style.color=monitoredUpdates.generated_at?'#168565':'#a2761a';}
