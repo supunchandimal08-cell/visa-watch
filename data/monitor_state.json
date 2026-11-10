@@ -1,14 +1,18 @@
 {
-  "last_checked_at": "2026-11-10T04:18:32.630254+00:00",
+  "last_checked_at": "2026-11-10T10:12:05.021975+00:00",
   "content_hashes": {
-    "https://immi.homeaffairs.gov.au/visas/getting-a-visa/visa-listing/student-500": "c5609e0c62aa19507d1d02e931fd363d4d9873c7c345effb9a951bfacd5d4fc0",
-    "https://www.legislation.gov.au/F2026L01347/latest/details": "076da1e32d067b1d8d2ba6cadf056c8f24f0b4a15267c81fcbe041ccad80091c",
-    "https://www.gov.uk/guidance/immigration-rules/immigration-rules-appendix-student": "5782b4b32a88073e8f7a0535cfa12e4163b12981975a0951231204d8295c953e",
-    "https://www.immigration.govt.nz/visas/fee-paying-student-visa/": "3818f184da23f40a9e4d3443fa6304915425dac738e8a9824e6b2eec3bb5db6e",
     "https://home-affairs.ec.europa.eu/policies/migration-and-asylum/eu-immigration-portal/who-does-what_en": "84ba17d42f3c03a27208e11353da00f7da66ef0eaf97647dba3fc95ecc913d85",
-    "https://immi.homeaffairs.gov.au/visas/getting-a-visa/visa-listing/changes-to-student-visa-application-rules-500-590": "d4b68a2f9d1eb7979257a1a08b18c52fc889ccd11d27f62cbb4f8f4e78df29dc",
+    "https://www.legislation.gov.au/F2026L01347/latest/details": "6473da7a206b2cf15b9fa149dcc24013d6527d19b0a189f1f7e387f560a4cec8",
+    "https://www.immigration.govt.nz/visas/fee-paying-student-visa/": "3818f184da23f40a9e4d3443fa6304915425dac738e8a9824e6b2eec3bb5db6e",
+    "https://icp.gov.ae/en/services-details/?serviceid=64afe3c1035448005bd52e66": "6825f0c7d876d8487350321b02951220661b2bedc338b45944bd735d29e53a58",
     "https://gdrfad.gov.ae/en/services/f52024e0-b812-11ed-5210-4cd98f768936": "8b96a419d670885f8bc14d6a305b9eac4414cfeb014fb513514d599eaa8bb882",
-    "https://icp.gov.ae/en/services-details/?serviceid=64afe3c1035448005bd52e66": "6825f0c7d876d8487350321b02951220661b2bedc338b45944bd735d29e53a58"
+    "https://immi.homeaffairs.gov.au/visas/getting-a-visa/visa-listing/changes-to-student-visa-application-rules-500-590": "d4b68a2f9d1eb7979257a1a08b18c52fc889ccd11d27f62cbb4f8f4e78df29dc",
+    "https://www.gov.uk/guidance/immigration-rules/immigration-rules-appendix-student": "5782b4b32a88073e8f7a0535cfa12e4163b12981975a0951231204d8295c953e",
+    "https://immi.homeaffairs.gov.au/visas/getting-a-visa/visa-listing/student-500": "c5609e0c62aa19507d1d02e931fd363d4d9873c7c345effb9a951bfacd5d4fc0",
+    "https://u.ae/en/information-and-services/visa-and-emirates-id/residence-visas/residence-visa-for-studying-in-the-uae": "c2aa10df484991a0fba16404a4e8d9672430a9c8a6c01d87673482137ea78c9e",
+    "https://education.ec.europa.eu/news/student-visas-in-europe-what-you-need-to-know": "c080341168a675d3724eecb60cb97db278174ef4b0f1d15bfbba83ee874c2c8b",
+    "https://colombo.diplo.de/lk-en/service/2702864-2702864": "2bcbd0511ac37625fd5613319336812bd386102b09e21e3bbfcd40d647245817",
+    "https://colombo.diplo.de/lk-en/service/national-visa-1437950": "67521500fd3dd2bb94e751f7731fffea84d022595a233dc1287d634bd9ae685f"
   },
   "sources": {
     "https://www.gov.uk/guidance/immigration-rules/immigration-rules-appendix-student": "reachable",
@@ -20,6 +24,10 @@
     "https://home-affairs.ec.europa.eu/policies/migration-and-asylum/eu-immigration-portal/who-does-what_en": "reachable",
     "https://icp.gov.ae/en/services-details/?serviceid=64afe3c1035448005bd52e66": "reachable",
     "https://immi.homeaffairs.gov.au/visas/getting-a-visa/visa-listing/changes-to-student-visa-application-rules-500-590": "reachable",
-    "https://www.legislation.gov.au/F2026L01347/latest/details": "reachable"
+    "https://www.legislation.gov.au/F2026L01347/latest/details": "reachable",
+    "https://u.ae/en/information-and-services/visa-and-emirates-id/residence-visas/residence-visa-for-studying-in-the-uae": "reachable",
+    "https://education.ec.europa.eu/news/student-visas-in-europe-what-you-need-to-know": "reachable",
+    "https://colombo.diplo.de/lk-en/service/2702864-2702864": "reachable",
+    "https://colombo.diplo.de/lk-en/service/national-visa-1437950": "reachable"
   }
 }
