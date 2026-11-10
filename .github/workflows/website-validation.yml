@@ -144,7 +144,18 @@ jobs:
               raise SystemExit("Dubai budget calculator is missing required fields: " + ", ".join(missing))
           if "future employment income" not in budget:
               raise SystemExit("Budget calculator must warn against relying on future employment income")
-          print("PASS: client pathway guide and Dubai funding assessment fields are present.")
+          for field in ["budget", "rate", "tuition", "visa", "housing", "living", "other", "sponsor"]:
+              if not __import__("re").search(r'id="' + field + r'"[^>]*value=""', budget):
+                  raise SystemExit("Dubai budget field must not use an unverified pre-filled estimate: " + field)
+          if 'value="1500000"' in budget or 'value="38400"' in budget:
+              raise SystemExit("Dubai calculator contains old sample amounts")
+          dashboard = Path("index.html").read_text(encoding="utf-8")
+          if "CHECKLIST_STORAGE_KEY" not in dashboard:
+              raise SystemExit("Counsellor checklist progress must persist locally")
+          for field in ["bcBudgetLkr", "bcRate", "bcTuition", "bcVisa", "bcRent", "bcLiving", "bcArrival", "bcScholarship", "bcReserve"]:
+              if not __import__("re").search(r'id="' + field + r'"[^>]*value=""', dashboard):
+                  raise SystemExit("Client assessment budget field must not use an unverified pre-filled estimate: " + field)
+          print("PASS: client guide, quote-based budget tools and persistent counsellor checklist are present.")
           PY
 
       - name: Validate counsellor training page
