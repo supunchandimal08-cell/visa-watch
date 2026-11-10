@@ -61,13 +61,16 @@ jobs:
           python - <<'PY'
           from pathlib import Path
           import re
-          html = Path("index.html").read_text(encoding="utf-8")
-          scripts = re.findall(r"<script>([\s\S]*?)</script>", html, flags=re.I)
-          assert scripts, "No inline JavaScript blocks found"
-          Path("/tmp/visawatch-inline.js").write_text("\n;\n".join(scripts), encoding="utf-8")
-          print(f"Extracted {len(scripts)} inline JavaScript block(s) for syntax validation.")
+          for page in ["index.html", "client-guide.html", "dubai-budget.html", "training.html"]:
+              html = Path(page).read_text(encoding="utf-8")
+              scripts = re.findall(r"<script(?:\\s[^>]*)?>([\\s\\S]*?)</script>", html, flags=re.I)
+              if not scripts:
+                  raise SystemExit("No inline JavaScript found in " + page)
+              output = Path("/tmp") / (page.replace(".html", "-inline.js"))
+              output.write_text("\\n;\\n".join(scripts), encoding="utf-8")
+              print("Extracted " + str(len(scripts)) + " script block(s) from " + page)
           PY
-          node --check /tmp/visawatch-inline.js
+          for page in index client-guide dubai-budget training; do node --check "/tmp/$page-inline.js"; done
 
       - name: Validate website data paths and safety labels
         run: |
