@@ -8,6 +8,7 @@ on:
       - "client-guide.html"
       - "country-rules-review.html"
       - "dubai-budget.html"
+      - "country-budget.html"
       - "training.html"
       - "worker.js"
       - "supabase-course-records.js"
@@ -62,7 +63,7 @@ jobs:
           python - <<'PY'
           from pathlib import Path
           import re
-          for page in ["index.html", "client-guide.html", "country-rules-review.html", "dubai-budget.html", "training.html"]:
+          for page in ["index.html", "client-guide.html", "country-rules-review.html", "dubai-budget.html", "country-budget.html", "training.html"]:
               html = Path(page).read_text(encoding="utf-8")
               scripts = re.findall(r"<script(?:\s[^>]*)?>([\s\S]*?)</script>", html, flags=re.I)
               output = Path("/tmp") / (page.replace(".html", "-inline.js"))
@@ -72,7 +73,7 @@ jobs:
               else:
                   print("PASS: " + page + " is a static page with no inline JavaScript.")
           PY
-          for page in index client-guide country-rules-review dubai-budget training; do node --check "/tmp/$page-inline.js"; done
+          for page in index client-guide country-rules-review dubai-budget country-budget training; do node --check "/tmp/$page-inline.js"; done
       - name: Validate website data paths and safety labels
         run: |
           python - <<'PY'
@@ -175,6 +176,12 @@ jobs:
               "New Zealand",
               "Germany",
               "United States",
+              "United Arab Emirates",
+              "Japan",
+              "South Korea",
+              "Malaysia",
+              "South Africa",
+              "Türkiye",
               "LKR per 1 local currency unit",
               "Sponsor funds and supporting evidence have been checked",
               "Do not count expected part-time earnings",
@@ -183,6 +190,8 @@ jobs:
           missing = [item for item in required if item.casefold() not in html.casefold()]
           if missing:
               raise SystemExit("International budget calculator is missing safeguards or destinations: " + ", ".join(missing))
+          if "United Arab Emirates" not in html or "Other destination" not in html:
+              raise SystemExit("International budget calculator must support UAE and a manual fallback for unlisted countries")
           if "!country-budget.html" not in Path(".assetsignore").read_text(encoding="utf-8"):
               raise SystemExit("International budget calculator is not included in Cloudflare static assets")
           if "country-budget.html" not in Path("index.html").read_text(encoding="utf-8"):
