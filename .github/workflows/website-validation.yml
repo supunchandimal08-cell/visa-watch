@@ -215,5 +215,18 @@ jobs:
           ]:
               if url not in html:
                   raise SystemExit("Missing official authority reference: " + url)
-          print("PASS: country-specific counselling distinctions and official source links are present.")
+          australia_required = [
+              "AUSTRALIA",
+              "48 hours a fortnight",
+              "condition 8105",
+              "2 October 2026",
+              "F2026L01347"
+          ]
+          missing = [item for item in australia_required if item.casefold() not in html.casefold()]
+          if missing:
+              raise SystemExit("Australia rules review is missing required safeguards: " + ", ".join(missing))
+          registry = Path("data/sources.json").read_text(encoding="utf-8")
+          if "see-your-visa-conditions?cno=8105" not in registry:
+              raise SystemExit("Official Australian student work-condition source is missing from monitoring registry")
+          print("PASS: country-specific counselling distinctions, Australia work conditions and official source links are present.")
           PY
