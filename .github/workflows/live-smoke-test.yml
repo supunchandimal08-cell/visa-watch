@@ -26,6 +26,14 @@ jobs:
           curl --fail --silent --show-error --location --retry 5 --retry-delay 10 --retry-all-errors "$BASE/training.html" -o /tmp/training.html
           grep -Fqi "Student Visa Counselling Foundations" /tmp/training.html
           grep -Fqi "Knowledge check" /tmp/training.html
+
+          curl --fail --silent --show-error --location --retry 5 --retry-delay 10 --retry-all-errors "$BASE/client-guide.html" -o /tmp/client-guide.html
+          grep -Fqi "Plan your study abroad journey" /tmp/client-guide.html
+          grep -Fqi "Clear information. Better decisions." /tmp/client-guide.html
+          curl --fail --silent --show-error --location --retry 5 --retry-delay 10 --retry-all-errors "$BASE/dubai-budget.html" -o /tmp/dubai-budget.html
+          grep -Fqi "Dubai Student Budget Calculator" /tmp/dubai-budget.html
+          grep -Fqi 'id="ref"' /tmp/dubai-budget.html
+          grep -Fqi 'id="age"' /tmp/dubai-budget.html
           curl --fail --silent --show-error --location --retry 5 --retry-delay 10 --retry-all-errors "$BASE/data/sources.json" -o /tmp/sources.json
           curl --fail --silent --show-error --location --retry 5 --retry-delay 10 --retry-all-errors "$BASE/data/updates.json" -o /tmp/updates.json
           python - <<'PY'
@@ -36,5 +44,5 @@ jobs:
           assert len(sources.get("sources", [])) >= 8, "Official sources list is incomplete"
           assert updates.get("generated_at"), "Monitoring timestamp is missing"
           assert updates.get("items"), "Monitoring results are empty"
-          print("PASS: live homepage, training, source registry and monitoring data.")
+          print("PASS: live homepage, client guide, Dubai budget calculator, training, source registry and monitoring data.")
           PY
