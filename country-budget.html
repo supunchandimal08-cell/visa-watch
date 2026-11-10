@@ -1,0 +1,67 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1"><meta name="theme-color" content="#102b46">
+<title>VisaWatch | International Student Budget Calculator</title>
+<style>
+:root{--navy:#102b46;--teal:#138f86;--bg:#f4f7fb;--ink:#1a2d42;--muted:#6e8094;--line:#e2eaf1;--red:#c84f58;--green:#168565}
+*{box-sizing:border-box}body{margin:0;background:var(--bg);color:var(--ink);font:14px/1.6 Inter,system-ui,sans-serif}.wrap{max-width:1120px;margin:auto;padding:26px 18px 50px}.top{display:flex;justify-content:space-between;gap:12px;align-items:center;margin-bottom:24px}.top a{color:var(--teal);font-weight:700;text-decoration:none}.eyebrow{color:var(--teal);font-size:11px;font-weight:800;letter-spacing:1.5px;text-transform:uppercase}h1{font-size:30px;margin:7px 0}p{color:var(--muted)}.grid{display:grid;grid-template-columns:1.1fr .9fr;gap:16px}.card{background:#fff;border:1px solid var(--line);border-radius:16px;padding:20px}.fields{display:grid;grid-template-columns:1fr 1fr;gap:12px}.field label{display:block;font-size:12px;font-weight:700;margin-bottom:5px}.field input,.field select{width:100%;padding:11px;border:1px solid #cbd7e2;border-radius:9px;font:inherit;color:var(--ink);background:#fff}.field small{display:block;color:var(--muted);font-size:10px;margin-top:4px}.wide{grid-column:1/-1}.result{padding:15px;border-radius:12px;background:#f6f9fc;margin:10px 0}.result small{display:block;color:var(--muted)}.big{font-size:26px;font-weight:800;letter-spacing:-.5px}.red{color:var(--red)}.green{color:var(--green)}.line{display:flex;justify-content:space-between;gap:12px;padding:10px 0;border-bottom:1px solid var(--line)}.line:last-child{border:0}.note{background:#fff7e7;border:1px solid #f0dfb8;color:#765b26;padding:13px;border-radius:11px;font-size:12px;margin-top:14px}button{background:var(--navy);color:white;border:0;padding:10px 14px;border-radius:9px;font:inherit;cursor:pointer}.muted{font-size:11px;color:var(--muted)}@media(max-width:760px){.grid{grid-template-columns:1fr}.fields{grid-template-columns:1fr}.wide{grid-column:auto}}@media print{body{background:#fff}.top a,button{display:none}.grid{grid-template-columns:1fr}.card{break-inside:avoid}}
+</style></head>
+<body><main class="wrap">
+<div class="top"><a href="./index.html">← Back to VisaWatch</a><span class="muted">Counsellor planning tool</span></div>
+<div class="eyebrow">UK · Canada · Australia · New Zealand · Europe · USA</div>
+<h1>International Student Budget Calculator</h1>
+<p>Compare a student's first-year estimated costs and available funds using current written institution quotes and documented living-cost estimates. This is a planning tool only — it does not state or calculate an immigration authority's required financial evidence.</p>
+<div class="grid">
+<section class="card"><h2>Client and destination</h2><div class="fields">
+<div class="field"><label for="ref">Client reference</label><input id="ref" placeholder="Internal reference — no passport number"></div>
+<div class="field"><label for="age">Age range</label><input id="age" placeholder="e.g. 20–24"></div>
+<div class="field"><label for="country">Destination</label><select id="country"><option value="UK">United Kingdom</option><option value="Canada">Canada</option><option value="Australia">Australia</option><option value="New Zealand">New Zealand</option><option value="Germany">Germany</option><option value="Eurozone">Other Eurozone country</option><option value="USA">United States</option><option value="Other">Other destination (enter currency below)</option></select></div>
+<div class="field"><label for="currency">Local cost currency</label><input id="currency" value="GBP" maxlength="5" placeholder="e.g. GBP, CAD, AUD"></div>
+<div class="field"><label for="rate">LKR per 1 local currency unit</label><input id="rate" type="number" min="0.0001" step="0.0001" value="" placeholder="Enter current exchange rate"><small>Use a dated bank or provider rate; do not assume an automatic live rate.</small></div>
+<div class="field"><label for="budget">Available client budget (LKR)</label><input id="budget" type="number" min="0" value="" placeholder="Confirmed accessible funds"></div>
+</div>
+<h2 style="margin-top:24px">First-year cost inputs</h2><div class="fields">
+<div class="field"><label for="tuition">First-year tuition (<span class="cur">GBP</span>)</label><input id="tuition" type="number" min="0" value="" placeholder="Written institution quote"></div>
+<div class="field"><label for="visa">Visa / permit / application fees (<span class="cur">GBP</span>)</label><input id="visa" type="number" min="0" value="" placeholder="Current official fee or quote"></div>
+<div class="field"><label for="health">Health insurance / healthcare (<span class="cur">GBP</span>)</label><input id="health" type="number" min="0" value="" placeholder="Applicable first-year amount"></div>
+<div class="field"><label for="housing">First-year accommodation (<span class="cur">GBP</span>)</label><input id="housing" type="number" min="0" value="" placeholder="Provider / landlord quote"></div>
+<div class="field"><label for="living">First-year living costs (<span class="cur">GBP</span>)</label><input id="living" type="number" min="0" value="" placeholder="Documented 12-month estimate"><small>Enter 12 months' food, transport, utilities and personal costs. Avoid double-counting rent.</small></div>
+<div class="field"><label for="travel">Travel and arrival costs (<span class="cur">GBP</span>)</label><input id="travel" type="number" min="0" value="" placeholder="Confirmed estimate"></div>
+<div class="field"><label for="other">Other confirmed first-year costs (<span class="cur">GBP</span>)</label><input id="other" type="number" min="0" value="" placeholder="Books, deposits, etc."></div>
+<div class="field"><label for="sponsor">Family / sponsor funds (<span class="cur">GBP</span>)</label><input id="sponsor" type="number" min="0" value="" placeholder="Documented accessible funds"></div>
+<div class="field wide"><label><input id="verified" type="checkbox" style="width:auto"> Sponsor funds and supporting evidence have been checked</label></div>
+</div>
+<p class="muted">Enter 0 only after confirming no charge applies. Do not count expected part-time earnings, unapproved loans, scholarships not yet awarded, or funds that are not accessible when needed.</p>
+<button type="button" onclick="window.print()">Print / Save assessment</button>
+</section>
+<section class="card"><h2>Assessment result</h2>
+<div class="line"><span>Client reference</span><b id="outref">—</b></div><div class="line"><span>Age range</span><b id="outage">—</b></div><div class="line"><span>Destination</span><b id="outcountry">United Kingdom</b></div>
+<div class="result"><small>Total estimated first-year cost</small><div class="big" id="total">Complete inputs</div></div>
+<div class="line"><span>Client budget converted</span><b id="converted">—</b></div><div class="line"><span>Potential sponsor funds</span><b id="sponsorout">—</b></div><div class="line"><span>Verified sponsor funds counted</span><b id="counted">—</b></div>
+<div class="result"><small>Remaining funding gap</small><div class="big red" id="gap">Not calculated</div><small id="gaplkr"></small></div>
+<div class="line"><span>Monthly living estimate</span><b id="monthly">—</b></div>
+<div class="note" id="status">Enter all cost and funding inputs with current evidence. A zero value must be intentional, not an unknown amount.</div>
+<p class="muted">A positive surplus in this calculator does not prove that the student meets visa financial rules. Check the relevant country's official requirements, permitted evidence types, holding period, location-specific living-cost rules, dependants and application date separately.</p>
+</section></div>
+<div class="muted" style="margin-top:18px">Exchange rate is manually entered and for planning only. Keep the quote date, source, payment schedule, refund terms and sponsor evidence in the client file. No visa, admission, job or work-rights guarantee.</div>
+</main>
+<script>
+const ids=["ref","age","country","currency","rate","budget","tuition","visa","health","housing","living","travel","other","sponsor","verified"];
+const el=id=>document.getElementById(id), n=id=>Math.max(0,Number(el(id).value)||0);
+const fmt=x=>new Intl.NumberFormat("en",{maximumFractionDigits:0}).format(Math.round(x));
+const currencyDefaults={UK:"GBP",Canada:"CAD",Australia:"AUD","New Zealand":"NZD",Germany:"EUR",Eurozone:"EUR",USA:"USD",Other:""};
+function setCurrency(){const country=el("country").value;el("currency").value=currencyDefaults[country];el("outcountry").textContent=el("country").selectedOptions[0].text;document.querySelectorAll(".cur").forEach(x=>x.textContent=el("currency").value.trim().toUpperCase()||"local currency");calc();}
+function calc(){
+ el("outref").textContent=el("ref").value.trim()||"—";el("outage").textContent=el("age").value.trim()||"—";el("outcountry").textContent=el("country").selectedOptions[0].text;
+ const cur=el("currency").value.trim().toUpperCase()||"local currency";document.querySelectorAll(".cur").forEach(x=>x.textContent=cur);
+ const required=["rate","budget","tuition","visa","health","housing","living","travel","other","sponsor"];
+ if(required.some(id=>el(id).value.trim()==="")||Number(el("rate").value)<=0||!el("currency").value.trim()){
+  el("total").textContent="Complete inputs";el("converted").textContent="—";el("sponsorout").textContent="—";el("counted").textContent="—";el("gap").textContent="Not calculated";el("gaplkr").textContent="";el("monthly").textContent="—";el("status").textContent="Enter a valid currency, exchange rate greater than zero, and every cost/funding amount. Enter 0 only when confirmed.";return;
+ }
+ const rate=n("rate"),budget=n("budget")/rate,cost=n("tuition")+n("visa")+n("health")+n("housing")+n("living")+n("travel")+n("other"),sponsor=n("sponsor"),counted=el("verified").checked?sponsor:0,gap=Math.max(0,cost-budget-counted);
+ el("total").textContent=cur+" "+fmt(cost);el("converted").textContent=cur+" "+fmt(budget);el("sponsorout").textContent=cur+" "+fmt(sponsor);el("counted").textContent=cur+" "+fmt(counted);el("gap").textContent=cur+" "+fmt(gap);el("gap").className="big "+(gap>0?"red":"green");el("gaplkr").textContent="Approx. LKR "+fmt(gap*rate);el("monthly").textContent=cur+" "+fmt(n("living")/12);
+ el("status").textContent=gap>0?"Funding gap remains. Do not rely on future employment income. Confirm additional accessible funds and all current quotes.":"Entered funds cover the current planning estimate. Verify evidence, payment timing and country-specific financial rules before counselling.";
+}
+el("country").addEventListener("change",setCurrency);ids.filter(id=>!["country"].includes(id)).forEach(id=>el(id).addEventListener("input",calc));el("verified").addEventListener("change",calc);setCurrency();
+</script></body></html>
