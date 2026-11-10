@@ -5,6 +5,8 @@ on:
     branches: [main]
     paths:
       - "index.html"
+      - "client-guide.html"
+      - "dubai-budget.html"
       - "training.html"
       - "worker.js"
       - "supabase-course-records.js"
@@ -53,6 +55,8 @@ jobs:
           grep -Fqi "Detection is not confirmation" /tmp/home.html
           grep -Fqi "Client document checklist" /tmp/home.html
           grep -Fqi "Next follow-up date" /tmp/home.html
+          curl --fail --silent --show-error --location --retry 5 --retry-delay 10 --retry-all-errors "$BASE/dubai-budget.html" -o /tmp/dubai-budget.html
+          grep -Fqi "Dubai Student Budget Assessment" /tmp/dubai-budget.html
           grep -Fqi 'id="caRef"' /tmp/home.html
           grep -Fqi 'id="caAge"' /tmp/home.html
           curl --fail --silent --show-error --location --retry 5 --retry-delay 10 --retry-all-errors "$BASE/client-guide.html" -o /tmp/client-guide.html
