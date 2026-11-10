@@ -217,7 +217,7 @@ jobs:
                   raise SystemExit("Missing official authority reference: " + url)
           australia_required = [
               "AUSTRALIA",
-              "48 hours a fortnight",
+              "48 hours per fortnight",
               "condition 8105",
               "2 October 2026",
               "F2026L01347"
