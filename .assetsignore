@@ -10,3 +10,13 @@ data/*
 !data/updates.json
 !data/monitor_state.json
 !supabase-course-records.js
+.git
+.git/**
+**/.git/**
+.wrangler
+.wrangler/**
+**/.wrangler/**
+.gitignore
+.assetsignore
+README*
+monitor.py
