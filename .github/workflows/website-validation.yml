@@ -268,5 +268,43 @@ jobs:
           registry = Path("data/sources.json").read_text(encoding="utf-8")
           if "see-your-visa-conditions?cno=8105" not in registry:
               raise SystemExit("Official Australian student work-condition source is missing from monitoring registry")
-          print("PASS: country-specific counselling distinctions, Australia work conditions and official source links are present.")
+          canada_required = [
+              "CANADA",
+              "CAD 23,448",
+              "24 hours per week",
+              "without working in Canada",
+              "financial-support.html",
+              "work-off-campus.html"
+          ]
+          missing = [item for item in canada_required if item.casefold() not in html.casefold()]
+          if missing:
+              raise SystemExit("Canada rules review is missing current official safeguards: " + ", ".join(missing))
+          nz_required = [
+              "NEW ZEALAND",
+              "25 hours per week",
+              "3 November 2025",
+              "working-on-a-student-visa"
+          ]
+          missing = [item for item in nz_required if item.casefold() not in html.casefold()]
+          if missing:
+              raise SystemExit("New Zealand rules review is missing official student work guidance: " + ", ".join(missing))
+          germany_required = [
+              "140 full days",
+              "280 half days",
+              "EUR 11,904"
+          ]
+          missing = [item for item in germany_required if item.casefold() not in html.casefold()]
+          if missing:
+              raise SystemExit("Germany rules review is missing current funds/work guidance: " + ", ".join(missing))
+          registry_data = __import__("json").loads(Path("data/sources.json").read_text(encoding="utf-8"))
+          registry_urls = {item.get("url") for item in registry_data.get("sources", [])}
+          for url in [
+              "https://www.canada.ca/en/immigration-refugees-citizenship/services/study-canada/work/work-off-campus.html",
+              "https://www.canada.ca/en/immigration-refugees-citizenship/services/study-canada/study-permit/get-documents/financial-support.html",
+              "https://www.immigration.govt.nz/study/once-you-have-a-student-visa/working-on-a-student-visa/",
+              "https://www.make-it-in-germany.com/en/visa-recognition/visa-types/studying"
+          ]:
+              if url not in registry_urls:
+                  raise SystemExit("Missing expanded official monitoring source: " + url)
+          print("PASS: UAE, Australia, Canada, Germany, New Zealand and Europe guidance plus official monitoring sources are present.")
           PY
