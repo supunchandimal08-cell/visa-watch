@@ -192,6 +192,9 @@ jobs:
               raise SystemExit("International budget calculator is missing safeguards or destinations: " + ", ".join(missing))
           if "United Arab Emirates" not in html or "Other destination" not in html:
               raise SystemExit("International budget calculator must support UAE and a manual fallback for unlisted countries")
+          for required in ['id="otherCountry"', 'id="otherCountryField"', 'Bulgaria:"EUR"']:
+              if required not in html:
+                  raise SystemExit("International budget calculator is missing verified country/currency handling: " + required)
           if "!country-budget.html" not in Path(".assetsignore").read_text(encoding="utf-8"):
               raise SystemExit("International budget calculator is not included in Cloudflare static assets")
           if "country-budget.html" not in Path("index.html").read_text(encoding="utf-8"):
