@@ -79,6 +79,34 @@
       "url": "https://immi.homeaffairs.gov.au/visas/already-have-a-visa/check-visa-details-and-conditions/see-your-visa-conditions?cno=8105&product=500",
       "compare_text": true,
       "note": "Primary official condition page. Verify the visa grant notice and VEVO for the individual applicant; current published guidance describes the 48-hours-per-fortnight limit, exceptions and course-session rules. Detection is not legal interpretation."
+    },
+    {
+      "country": "Canada",
+      "name": "IRCC — Work off campus as an international student (24-hour weekly limit)",
+      "url": "https://www.canada.ca/en/immigration-refugees-citizenship/services/study-canada/work/work-off-campus.html",
+      "compare_text": false,
+      "note": "Availability-only automated check; counsellors must manually review current 24-hour limit, DLI/full-time eligibility, programme start, scheduled breaks and permit conditions."
+    },
+    {
+      "country": "Canada",
+      "name": "IRCC — Proof of financial support (living-cost table)",
+      "url": "https://www.canada.ca/en/immigration-refugees-citizenship/services/study-canada/study-permit/get-documents/financial-support.html",
+      "compare_text": false,
+      "note": "Availability-only automated check; manually verify the current application-date threshold, family size, Quebec rules, tuition/travel exclusion and source-of-funds evidence."
+    },
+    {
+      "country": "Germany",
+      "name": "Make it in Germany — Visa for studying (2026 funds and student work)",
+      "url": "https://www.make-it-in-germany.com/en/visa-recognition/visa-types/studying",
+      "compare_text": true,
+      "note": "Federal Government guidance: check current blocked-account amount and student work limits; distinguish study visa from visa to seek a place and verify individual residence conditions."
+    },
+    {
+      "country": "New Zealand",
+      "name": "Immigration New Zealand — Working on a student visa",
+      "url": "https://www.immigration.govt.nz/study/once-you-have-a-student-visa/working-on-a-student-visa/",
+      "compare_text": true,
+      "note": "Official student work eligibility and conditions; 25-hour limit applies only where the student's visa and course conditions permit it. Verify eVisa/visa letter."
     }
   ]
 }
