@@ -248,6 +248,13 @@
       "url": "https://www.gov.uk/guidance/financial-evidence-for-student-and-child-student-route-applicants",
       "compare_text": false,
       "note": "Official evidence guidance. Verify 28-day holding, 31-day evidence timing, account access and regulation, parent funds/consent, student loan or official sponsorship evidence and nationality differential arrangements."
+    },
+    {
+      "country": "Canada",
+      "name": "IRCC — Graduate student study permit application and doctoral processing",
+      "url": "https://www.canada.ca/en/immigration-refugees-citizenship/services/study-canada/graduate-student/how-to-apply.html",
+      "compare_text": false,
+      "note": "Availability-only automated check. IRCC currently advertises 2-week processing for eligible doctoral students and accompanying family members. Treat as a processing initiative, not a guaranteed service standard or approval. Manually verify current programme eligibility, completeness and live instructions. Detection is not legal interpretation."
     }
   ]
 }
