@@ -360,6 +360,34 @@
       "url": "https://www.qqi.ie/what-we-do/quality-assurance-of-education-and-training/trusted-ireland",
       "compare_text": false,
       "note": "Official QQI information on TrustEd Ireland statutory quality mark and provider authorisation for international education."
+    },
+    {
+      "country": "France",
+      "name": "France-Visas — Student visa, resources, work and study stay",
+      "url": "https://france-visas.gouv.fr/en/etudiant",
+      "compare_text": false,
+      "note": "Official student visa route, admission, long-stay visa, 964 annual work-hour limit, indicative fees and study stay information. Manually verify current applicant-specific checklist."
+    },
+    {
+      "country": "France",
+      "name": "France-Visas — Student visa financial threshold notice",
+      "url": "https://france-visas.gouv.fr/en/accueil",
+      "compare_text": false,
+      "note": "Official notice states applications submitted from 1 August 2026 require proof of resources of at least EUR 877.50 per month. Confirm current threshold and application date at lodgement."
+    },
+    {
+      "country": "France",
+      "name": "Service-Public — Foreign student visa and residence permit",
+      "url": "https://www.service-public.gouv.fr/particuliers/vosdroits/F2231",
+      "compare_text": false,
+      "note": "Official public-service guidance on VLS-TS validation within three months, EUR 100 validation tax, monthly resources and examples of sponsor evidence."
+    },
+    {
+      "country": "France",
+      "name": "Campus France — VLS-TS student visa",
+      "url": "https://www.campusfrance.org/fr/visa-long-sejour-etudiant",
+      "compare_text": false,
+      "note": "Official Campus France explanation of the student VLS-TS, 964 hours annual work cap, EEF procedure applicability and online validation within three months."
     }
   ]
 }
