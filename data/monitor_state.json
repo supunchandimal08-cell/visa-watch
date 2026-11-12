@@ -1,22 +1,22 @@
 {
-  "last_checked_at": "2026-11-12T10:58:06.534202+00:00",
+  "last_checked_at": "2026-11-12T11:04:32.177582+00:00",
   "content_hashes": {
-    "https://immi.homeaffairs.gov.au/visas/getting-a-visa/visa-listing/student-500": "c5609e0c62aa19507d1d02e931fd363d4d9873c7c345effb9a951bfacd5d4fc0",
-    "https://colombo.diplo.de/lk-en/service/national-visa-1437950": "67521500fd3dd2bb94e751f7731fffea84d022595a233dc1287d634bd9ae685f",
-    "https://www.gov.uk/guidance/immigration-rules/immigration-rules-appendix-student": "5782b4b32a88073e8f7a0535cfa12e4163b12981975a0951231204d8295c953e",
-    "https://colombo.diplo.de/lk-en/service/2702864-2702864": "2bcbd0511ac37625fd5613319336812bd386102b09e21e3bbfcd40d647245817",
-    "https://immi.homeaffairs.gov.au/visas/getting-a-visa/visa-listing/changes-to-student-visa-application-rules-500-590": "d4b68a2f9d1eb7979257a1a08b18c52fc889ccd11d27f62cbb4f8f4e78df29dc",
-    "https://www.immigration.govt.nz/visas/fee-paying-student-visa/": "11a3bf0189fcf49302594829b3db1c9ff67ad7cccba5427bdefbb0077a098354",
-    "https://education.ec.europa.eu/news/student-visas-in-europe-what-you-need-to-know": "c080341168a675d3724eecb60cb97db278174ef4b0f1d15bfbba83ee874c2c8b",
-    "https://home-affairs.ec.europa.eu/policies/migration-and-asylum/eu-immigration-portal/who-does-what_en": "84ba17d42f3c03a27208e11353da00f7da66ef0eaf97647dba3fc95ecc913d85",
-    "https://www.immigration.govt.nz/study/once-you-have-a-student-visa/working-on-a-student-visa/": "a5a5ea246b91ffd5fb0121c5e7c17dce85476acf1caf6cb85bf8581c5c9d6fb1",
-    "https://immi.homeaffairs.gov.au/visas/already-have-a-visa/check-visa-details-and-conditions/see-your-visa-conditions?cno=8105&product=500": "39a15e73223aadbbb8b268dd4a64b168412a4c28d8c9f15ae2f71d9031f47e8f",
     "https://u.ae/en/information-and-services/visa-and-emirates-id/residence-visas/residence-visa-for-studying-in-the-uae": "c2aa10df484991a0fba16404a4e8d9672430a9c8a6c01d87673482137ea78c9e",
+    "https://immi.homeaffairs.gov.au/visas/already-have-a-visa/check-visa-details-and-conditions/see-your-visa-conditions?cno=8105&product=500": "39a15e73223aadbbb8b268dd4a64b168412a4c28d8c9f15ae2f71d9031f47e8f",
+    "https://www.gov.uk/guidance/immigration-rules/immigration-rules-appendix-student": "5782b4b32a88073e8f7a0535cfa12e4163b12981975a0951231204d8295c953e",
+    "https://home-affairs.ec.europa.eu/policies/migration-and-asylum/eu-immigration-portal/who-does-what_en": "84ba17d42f3c03a27208e11353da00f7da66ef0eaf97647dba3fc95ecc913d85",
+    "https://colombo.diplo.de/lk-en/service/national-visa-1437950": "67521500fd3dd2bb94e751f7731fffea84d022595a233dc1287d634bd9ae685f",
+    "https://education.ec.europa.eu/news/student-visas-in-europe-what-you-need-to-know": "c080341168a675d3724eecb60cb97db278174ef4b0f1d15bfbba83ee874c2c8b",
+    "https://colombo.diplo.de/lk-en/service/2702864-2702864": "2bcbd0511ac37625fd5613319336812bd386102b09e21e3bbfcd40d647245817",
+    "https://www.immigration.govt.nz/study/once-you-have-a-student-visa/working-on-a-student-visa/": "a5a5ea246b91ffd5fb0121c5e7c17dce85476acf1caf6cb85bf8581c5c9d6fb1",
     "https://www.immigration.govt.nz/about-us/news-centre/changes-to-student-visas/": "b62d93edb9e7633e0796a8f348679fb6277422bfabe6591665a67fd96efcde36",
     "https://gdrfad.gov.ae/en/services/f52024e0-b812-11ed-5210-4cd98f768936": "cb6b2e9a01fd9e02dc8945647aa164374225d6ddde6d7fe42a88bffa6c712ac7",
     "https://icp.gov.ae/en/services-details/?serviceid=64afe3c1035448005bd52e66": "48adbd7b6af833c2abc9c337fa68093bba62bec975de7829d8a695318916c83b",
     "https://www.legislation.gov.au/F2026L01347/latest/details": "6473da7a206b2cf15b9fa149dcc24013d6527d19b0a189f1f7e387f560a4cec8",
-    "https://www.make-it-in-germany.com/en/visa-recognition/visa-types/studying": "010ff547c9bc4bbc4f047e04276340d052eff57b0915df408edf72d71c889805"
+    "https://www.immigration.govt.nz/visas/fee-paying-student-visa/": "11a3bf0189fcf49302594829b3db1c9ff67ad7cccba5427bdefbb0077a098354",
+    "https://www.make-it-in-germany.com/en/visa-recognition/visa-types/studying": "0a556ce98bd46a5dcc4d8087dfcc98e221c89de4e64c42ee8545e440f0d50957",
+    "https://immi.homeaffairs.gov.au/visas/getting-a-visa/visa-listing/student-500": "c5609e0c62aa19507d1d02e931fd363d4d9873c7c345effb9a951bfacd5d4fc0",
+    "https://immi.homeaffairs.gov.au/visas/getting-a-visa/visa-listing/changes-to-student-visa-application-rules-500-590": "d4b68a2f9d1eb7979257a1a08b18c52fc889ccd11d27f62cbb4f8f4e78df29dc"
   },
   "sources": {
     "https://www.gov.uk/guidance/immigration-rules/immigration-rules-appendix-student": "reachable",
@@ -42,6 +42,10 @@
     "https://www.canada.ca/en/immigration-refugees-citizenship/services/study-canada/study-permit/get-documents/provincial-attestation-letter.html": "manual_review",
     "https://www.canada.ca/en/immigration-refugees-citizenship/services/study-canada/work/after-graduation/eligibility.html": "manual_review",
     "https://www.canada.ca/en/immigration-refugees-citizenship/services/study-canada/work/after-graduation/eligibility/field-of-study.html": "manual_review",
-    "https://www.canada.ca/en/immigration-refugees-citizenship/services/study-canada/study-permit/prepare/designated-learning-institutions-list.html": "manual_review"
+    "https://www.canada.ca/en/immigration-refugees-citizenship/services/study-canada/study-permit/prepare/designated-learning-institutions-list.html": "manual_review",
+    "https://www.gov.uk/government/publications/register-of-licensed-sponsors-students": "reachable",
+    "https://www.gov.uk/student-visa/course": "reachable",
+    "https://www.education.gov.au/esos-framework/registration-cricos": "manual_review",
+    "https://www.immigration.govt.nz/assist-migrants-and-students/assist-students/understand-your-obligations/": "reachable"
   }
 }
