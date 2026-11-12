@@ -40,6 +40,15 @@
 <div class="field"><label for="sponsor">Family / sponsor funds (<span class="cur">GBP</span>)</label><input id="sponsor" type="number" min="0" value="" placeholder="Documented accessible funds"></div>
 <div class="field wide"><label><input id="verified" type="checkbox" style="width:auto"> Sponsor funds and supporting evidence have been checked</label></div>
 </div>
+<h2 style="margin-top:24px">Separate visa financial-evidence check</h2>
+<p class="muted">This is deliberately separate from the first-year cost estimate. A counsellor must check the current official immigration rule for the applicant's visa type, location, family size and application date before entering these values. Do not assume the total budget or a sponsor's money is automatically acceptable evidence.</p>
+<div class="fields">
+<div class="field"><label for="visaRequired">Official minimum funds required (<span class="cur">GBP</span>)</label><input id="visaRequired" type="number" min="0" value="" placeholder="Enter only after official-source check"><small>Enter the living/maintenance evidence amount only. Add tuition or travel separately if the authority requires them.</small></div>
+<div class="field"><label for="visaEligible">Funds accepted under this route (<span class="cur">GBP</span>)</label><input id="visaEligible" type="number" min="0" value="" placeholder="Evidence reviewed and eligible"><small>Count only funds that meet the authority's rules for account holder, sponsor, access, history and evidence type.</small></div>
+<div class="field"><label for="visaRuleDate">Official rule checked on</label><input id="visaRuleDate" type="date"></div>
+<div class="field"><label for="visaSource">Official immigration source URL</label><input id="visaSource" type="url" placeholder="https://official-government-site..."></div>
+<div class="field wide"><label><input id="visaEvidenceVerified" type="checkbox" style="width:auto"> I checked the official source and applicant-specific evidence rules</label></div>
+</div>
 <p class="muted">Enter 0 only after confirming no charge applies. Do not count expected part-time earnings, unapproved loans, scholarships not yet awarded, or funds that are not accessible when needed.</p>
 <button type="button" onclick="window.print()">Print / Save assessment</button>
 </section>
@@ -48,14 +57,18 @@
 <div class="result"><small>Total estimated first-year cost</small><div class="big" id="total">Complete inputs</div></div>
 <div class="line"><span>Client budget converted</span><b id="converted">—</b></div><div class="line"><span>Potential sponsor funds</span><b id="sponsorout">—</b></div><div class="line"><span>Verified sponsor funds counted</span><b id="counted">—</b></div>
 <div class="result"><small>Remaining funding gap</small><div class="big red" id="gap">Not calculated</div><small id="gaplkr"></small></div>
-<div class="line"><span>Monthly living estimate</span><b id="monthly">—</b></div>
+<div class="line"><span>Monthly living estimate</span><b id="monthly">—</b></div><h3 style="margin-top:22px">Visa evidence comparison — separate result</h3>
+<div class="line"><span>Official minimum funds entered</span><b id="visaRequiredOut">Not entered</b></div>
+<div class="line"><span>Eligible evidence funds entered</span><b id="visaEligibleOut">Not entered</b></div>
+<div class="result"><small>Visa evidence shortfall (not an approval prediction)</small><div class="big" id="visaGapOut">Not assessed</div><small id="visaCheckOut">Enter the official amount, eligible funds, checked date and source; then confirm the evidence review.</small></div>
+
 <div class="note" id="status">Enter all cost and funding inputs with current evidence. A zero value must be intentional, not an unknown amount.</div>
 <p class="muted">A positive surplus in this calculator does not prove that the student meets visa financial rules. Check the relevant country's official requirements, permitted evidence types, holding period, location-specific living-cost rules, dependants and application date separately.</p>
 </section></div>
 <div class="muted" style="margin-top:18px">Exchange rate is manually entered and for planning only. Keep the quote date, source, payment schedule, refund terms and sponsor evidence in the client file. No visa, admission, job or work-rights guarantee.</div>
 </main>
 <script>
-const ids=["ref","age","country","otherCountry","currency","rate","rateDate","rateSource","budget","tuition","visa","health","housing","living","travel","other","sponsor","verified"];
+const ids=["ref","age","country","otherCountry","currency","rate","rateDate","rateSource","visaRequired","visaEligible","visaRuleDate","visaSource","budget","tuition","visa","health","housing","living","travel","other","sponsor","verified"];
 const el=id=>document.getElementById(id), n=id=>Math.max(0,Number(el(id).value)||0);
 const fmt=x=>new Intl.NumberFormat("en",{maximumFractionDigits:0}).format(Math.round(x));
 const currencyDefaults={UK:"GBP",USA:"USD",Canada:"CAD",Australia:"AUD","New Zealand":"NZD",Germany:"EUR",France:"EUR",Ireland:"EUR",Netherlands:"EUR",Italy:"EUR",Spain:"EUR",Portugal:"EUR",Finland:"EUR",Austria:"EUR",Belgium:"EUR",Greece:"EUR",Cyprus:"EUR",Malta:"EUR",Lithuania:"EUR",Latvia:"EUR",Estonia:"EUR",Sweden:"SEK",Norway:"NOK",Denmark:"DKK",Switzerland:"CHF",Poland:"PLN",Czechia:"CZK",Hungary:"HUF",Romania:"RON",Bulgaria:"EUR",Croatia:"EUR",Iceland:"ISK",Serbia:"RSD",Turkey:"TRY",UAE:"AED",Japan:"JPY","South Korea":"KRW",China:"CNY",Malaysia:"MYR",Singapore:"SGD",Thailand:"THB",India:"INR","Hong Kong":"HKD",Taiwan:"TWD",Indonesia:"IDR",Vietnam:"VND",Philippines:"PHP",Qatar:"QAR","Saudi Arabia":"SAR",Bahrain:"BHD",Oman:"OMR","South Africa":"ZAR",Mauritius:"MUR",Egypt:"EGP",Kenya:"KES",Morocco:"MAD",Mexico:"MXN",Brazil:"BRL",Argentina:"ARS",Chile:"CLP",Other:""};
@@ -69,7 +82,26 @@ function calc(){
  }
  const rate=n("rate"),budget=n("budget")/rate,cost=n("tuition")+n("visa")+n("health")+n("housing")+n("living")+n("travel")+n("other"),sponsor=n("sponsor"),counted=el("verified").checked?sponsor:0,gap=Math.max(0,cost-budget-counted);
  el("total").textContent=cur+" "+fmt(cost);el("converted").textContent=cur+" "+fmt(budget);el("sponsorout").textContent=cur+" "+fmt(sponsor);el("counted").textContent=cur+" "+fmt(counted);el("gap").textContent=cur+" "+fmt(gap);el("gap").className="big "+(gap>0?"red":"green");el("gaplkr").textContent="Approx. LKR "+fmt(gap*rate);el("monthly").textContent=cur+" "+fmt(n("living")/12);
+ const evidenceFields=["visaRequired","visaEligible","visaRuleDate","visaSource"];
+ const evidenceComplete=evidenceFields.every(id=>el(id).value.trim()!=="");
+ if(evidenceComplete){
+  const requiredFunds=n("visaRequired"),eligibleFunds=n("visaEligible"),shortfall=Math.max(0,requiredFunds-eligibleFunds);
+  el("visaRequiredOut").textContent=cur+" "+fmt(requiredFunds);
+  el("visaEligibleOut").textContent=cur+" "+fmt(eligibleFunds);
+  if(!el("visaEvidenceVerified").checked){
+   el("visaGapOut").textContent="Review required";el("visaGapOut").className="big";
+   el("visaCheckOut").textContent="Values entered, but counsellor has not confirmed official rule and evidence eligibility.";
+  }else{
+   el("visaGapOut").textContent=shortfall>0?cur+" "+fmt(shortfall)+" shortfall":"No shortfall in entered figures";
+   el("visaGapOut").className="big "+(shortfall>0?"red":"green");
+   el("visaCheckOut").textContent="Checked on "+el("visaRuleDate").value+". Confirm source scope, family size, fees, holding period and evidence rules before advice.";
+  }
+ }else{
+  el("visaRequiredOut").textContent="Not entered";el("visaEligibleOut").textContent="Not entered";
+  el("visaGapOut").textContent="Not assessed";el("visaGapOut").className="big";
+  el("visaCheckOut").textContent="Enter the official amount, eligible funds, checked date and source; then confirm the evidence review.";
+ }
  el("status").textContent=gap>0?"Funding gap remains. Do not rely on future employment income. Confirm additional accessible funds and all current quotes.":"Entered funds cover the current planning estimate. Verify evidence, payment timing and country-specific financial rules before counselling.";
 }
-el("country").addEventListener("change",setCurrency);ids.filter(id=>!["country"].includes(id)).forEach(id=>el(id).addEventListener("input",calc));el("verified").addEventListener("change",calc);setCurrency();
+el("country").addEventListener("change",setCurrency);ids.filter(id=>!["country"].includes(id)).forEach(id=>el(id).addEventListener("input",calc));el("verified").addEventListener("change",calc);el("visaEvidenceVerified").addEventListener("change",calc);setCurrency();
 </script></body></html>
