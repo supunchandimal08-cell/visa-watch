@@ -444,6 +444,34 @@
       "url": "https://www.nllabourauthority.nl/topics/foreign-nationals-employment-act/foreign-students",
       "compare_text": false,
       "note": "Official labour authority guidance: non-EEA students need an employer-arranged TWV and must choose either up to 16 hours weekly or full-time in June, July and August. Programme-integrated internship placement may be exempt where properly documented. Verify current permit and residence conditions before work begins."
+    },
+    {
+      "country": "Italy",
+      "name": "Italian Embassy Colombo — Study Visa Checklist, version 3/2026",
+      "url": "https://ambcolombo.esteri.it/it/servizi-consolari-e-visti/servizi-per-il-cittadino-straniero/visti/moduli-richiesta-visti/study-visa-checklist/",
+      "compare_text": false,
+      "note": "Country-specific primary checklist for Sri Lankan applicants, version 3/2026 dated 3 September 2026. Includes 2026/27 financial amount €10,179.85 for university enrolment, 12-month bank statements, sponsor evidence, B2 language, accommodation, insurance and processing up to three months. Verify live checklist and applicant's course category."
+    },
+    {
+      "country": "Italy",
+      "name": "Universitaly — International student procedures 2026/27 and 2027/28",
+      "url": "https://www.universitaly.it/it/studenti-stranieri",
+      "compare_text": false,
+      "note": "Official coordinated procedures for 2026/27 and 2027/28, Universitaly pre-enrolment categories and national application deadlines. For ordinary Laurea/Laurea Magistrale courses: 30 November 2026 for 2026/27 and 31 October 2027 for 2027/28. Admission/pre-enrolment does not guarantee visa issuance."
+    },
+    {
+      "country": "Italy",
+      "name": "MAECI — Study in Italy: financial means, residence permit and work",
+      "url": "https://www.esteri.it/en/ministero/sportello_info/domandefrequenti/studiare-in-italia/",
+      "compare_text": false,
+      "note": "Official Ministry guidance: €10,179.85 annual means for university-enrolment study visa for 2026/27 and 2027/28 plus return travel; other visa categories use a different formula; study permit work limit 20 hours/week and 1,040 hours/year; apply for residence permit within 8 days after arrival; work conversion only if study permit remains valid and legal requirements met."
+    },
+    {
+      "country": "Italy",
+      "name": "Study in Italy — Residence permit procedure for non-EU students",
+      "url": "https://studyinitaly.esteri.it/Static/InformazioniSoggiorno",
+      "compare_text": false,
+      "note": "Official Study in Italy guidance: non-EU students staying over three months apply for residence permit within 8 working days after arrival; outlines post-office kit and initial supporting documents. Confirm current local Questura and university procedure."
     }
   ]
 }
