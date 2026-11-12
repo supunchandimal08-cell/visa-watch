@@ -122,6 +122,13 @@
       "url": "https://www.canada.ca/en/immigration-refugees-citizenship/services/study-canada/study-permit/get-documents/provincial-attestation-letter.html",
       "compare_text": false,
       "note": "Availability-only automated check; manual review required for 2026 PAL/TAL cap-year validity, public DLI degree-granting master's/doctoral exemption from 1 January 2026, Quebec CAQ, school/level changes and other exceptions. Detection is not legal interpretation."
+    },
+    {
+      "country": "Canada",
+      "name": "IRCC — Post-graduation work permit eligibility",
+      "url": "https://www.canada.ca/en/immigration-refugees-citizenship/services/study-canada/work/after-graduation/eligibility.html",
+      "compare_text": false,
+      "note": "Availability-only automated check. Manually verify PGWP-eligible DLI and programme, programme length, full-time history, 180-day application window, language thresholds, field-of-study/CIP requirement by study-permit application date, public-private partnership exclusions, distance learning and transfer/leave exceptions. Detection is not legal interpretation."
     }
   ]
 }
