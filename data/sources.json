@@ -220,6 +220,34 @@
       "url": "https://colombo.diplo.de/lk-en/service/2404544-2404544",
       "compare_text": false,
       "note": "Official Colombo mission guidance on blocked-account opening/unblocking. For student applications, confirm the current minimum amount and accepted evidence from the live Students checklist and Consular Services Portal; do not assume a family support letter from outside Germany is an accepted substitute. Detection is not legal interpretation."
+    },
+    {
+      "country": "UK",
+      "name": "GOV.UK — Student visa financial requirement and maintenance amounts",
+      "url": "https://www.gov.uk/student-visa/money",
+      "compare_text": false,
+      "note": "Availability-only automated check. Verify outstanding course fees, study location, maintenance amount and application-date threshold. HC 584 changes London/outside-London rates from 30 November 2026; cross-check Appendix Student and commencement/transitional rules at lodgement."
+    },
+    {
+      "country": "UK",
+      "name": "Home Office — HC 584 Statement of Changes (3 September 2026)",
+      "url": "https://www.gov.uk/government/publications/statement-of-changes-to-the-immigration-rules-hc-584-3-september-2026/statement-of-changes-to-the-immigration-rules-hc-584-3-september-2026-accessible",
+      "compare_text": false,
+      "note": "Official amendment source. APP ST8–ST10 take effect 30 November 2026 and change maintenance rates to £1,570/month London and £1,203/month outside London; applications made before that date are decided under rules in force on 29 November 2026 for these changes."
+    },
+    {
+      "country": "UK",
+      "name": "Home Office — Student and Child Student caseworker guidance (work conditions)",
+      "url": "https://www.gov.uk/government/publications/student-route-caseworker-guidance/student-and-child-student",
+      "compare_text": false,
+      "note": "Official caseworker guidance for sponsor/course-specific work conditions. Manually verify 20-hour, 10-hour or no-employment categories, term/vacation periods and prohibited work against Appendix Student ST 26 and the student's eVisa conditions."
+    },
+    {
+      "country": "UK",
+      "name": "UKVI — Financial evidence for Student and Child Student applicants",
+      "url": "https://www.gov.uk/guidance/financial-evidence-for-student-and-child-student-route-applicants",
+      "compare_text": false,
+      "note": "Official evidence guidance. Verify 28-day holding, 31-day evidence timing, account access and regulation, parent funds/consent, student loan or official sponsorship evidence and nationality differential arrangements."
     }
   ]
 }
