@@ -514,6 +514,30 @@
       "url": "https://migri.fi/en/application-for-a-residence-permit-on-the-basis-of-a-degree-completed-in-finland",
       "compare_text": false,
       "note": "Official graduate permit route where applicant has completed a Finnish degree and meets job-offer/employment requirements; not automatic on graduation."
+    },
+    {
+      "country": "Sweden",
+      "name": "Swedish Migration Agency — Residence permit for higher education",
+      "url": "https://www.migrationsverket.se/en/you-want-to-apply/study/higher-education.html",
+      "compare_text": false
+    },
+    {
+      "country": "Sweden",
+      "name": "Swedish Migration Agency — New higher-education student permit rules from 11 June 2026",
+      "url": "https://www.migrationsverket.se/en/newsarchive/newrulesforresidencepermitsforstudiesinhighereducation.5.7e7ff7f619e5ace55a714.html",
+      "compare_text": false
+    },
+    {
+      "country": "Sweden",
+      "name": "Swedish Migration Agency — Permit to look for work after completing studies",
+      "url": "https://www.migrationsverket.se/en/you-want-to-extend/study/look-for-work-after-completing-your-studies-in-sweden.html",
+      "compare_text": false
+    },
+    {
+      "country": "Sweden",
+      "name": "Swedish Migration Agency — Extension of higher-education residence permit",
+      "url": "https://www.migrationsverket.se/en/you-want-to-extend/study/higher-education.html",
+      "compare_text": false
     }
   ]
 }
