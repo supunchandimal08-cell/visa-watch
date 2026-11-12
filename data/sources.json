@@ -255,6 +255,20 @@
       "url": "https://www.canada.ca/en/immigration-refugees-citizenship/services/study-canada/graduate-student/how-to-apply.html",
       "compare_text": false,
       "note": "Availability-only automated check. IRCC currently advertises 2-week processing for eligible doctoral students and accompanying family members. Treat as a processing initiative, not a guaranteed service standard or approval. Manually verify current programme eligibility, completeness and live instructions. Detection is not legal interpretation."
+    },
+    {
+      "country": "Australia",
+      "name": "Department of Home Affairs — Student visa family-member inclusion and subsequent entrants (2026 rules)",
+      "url": "https://immi.homeaffairs.gov.au/visas/getting-a-visa/visa-listing/changes-to-student-visa-application-rules-500-590/family-members",
+      "compare_text": false,
+      "note": "Availability-only automated check. Manually verify exemptions, same-time/same-location requirements, transitional cases and the restriction on adding subsequent entrants after grant. Changes effective 2 October 2026. Detection is not legal interpretation."
+    },
+    {
+      "country": "Australia",
+      "name": "Department of Home Affairs — What applicants and education agents must do under 2026 Student visa application changes",
+      "url": "https://immi.homeaffairs.gov.au/visas/getting-a-visa/visa-listing/changes-to-student-visa-application-rules-500-590/what-you-need-to-do",
+      "compare_text": false,
+      "note": "Availability-only automated check. Verify onshore/offshore lodgement eligibility, offshore grant-location rule, invalid application risks and transition for applications lodged before 2 October 2026. Detection is not legal interpretation."
     }
   ]
 }
