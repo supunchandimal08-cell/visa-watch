@@ -115,6 +115,13 @@
       "url": "https://www.immigration.govt.nz/about-us/news-centre/changes-to-student-visas/",
       "compare_text": true,
       "note": "Official INZ announcement of changes effective 27 October 2026: master's-by-research work-rights change for new applications, English-language ability as a key factor, broader processing suspension grounds, and extension of relevant post-course expiry period from 1 month to 2 months. Check application-date scope and current visa conditions; detection is not legal interpretation."
+    },
+    {
+      "country": "Canada",
+      "name": "IRCC — PAL/TAL requirements, exemptions and validity (2026)",
+      "url": "https://www.canada.ca/en/immigration-refugees-citizenship/services/study-canada/study-permit/get-documents/provincial-attestation-letter.html",
+      "compare_text": false,
+      "note": "Availability-only automated check; manual review required for 2026 PAL/TAL cap-year validity, public DLI degree-granting master's/doctoral exemption from 1 January 2026, Quebec CAQ, school/level changes and other exceptions. Detection is not legal interpretation."
     }
   ]
 }
