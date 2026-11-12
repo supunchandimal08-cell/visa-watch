@@ -136,6 +136,13 @@
       "url": "https://www.canada.ca/en/immigration-refugees-citizenship/services/study-canada/work/after-graduation/eligibility/field-of-study.html",
       "compare_text": false,
       "note": "Availability-only automated check. IRCC states the eligible-field list is frozen for 2026; manually verify exact 6-digit CIP 2021 code, applicant's study permit/PGWP application dates and any grandfathering against the live official list. Do not infer eligibility from a programme title."
+    },
+    {
+      "country": "Canada",
+      "name": "IRCC — Designated learning institutions list and PGWP-eligible programme details",
+      "url": "https://www.canada.ca/en/immigration-refugees-citizenship/services/study-canada/study-permit/prepare/designated-learning-institutions-list.html",
+      "compare_text": false,
+      "note": "Availability-only automated check. Manually verify exact institution, DLI number, province/campus, PGWP-eligible DLI list and exact programme details. IRCC explicitly states not all programmes at a listed DLI qualify. Cross-check all general PGWP, language and field-of-study requirements. Detection is not legal interpretation."
     }
   ]
 }
