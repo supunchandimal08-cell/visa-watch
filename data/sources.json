@@ -143,6 +143,34 @@
       "url": "https://www.canada.ca/en/immigration-refugees-citizenship/services/study-canada/study-permit/prepare/designated-learning-institutions-list.html",
       "compare_text": false,
       "note": "Availability-only automated check. Manually verify exact institution, DLI number, province/campus, PGWP-eligible DLI list and exact programme details. IRCC explicitly states not all programmes at a listed DLI qualify. Cross-check all general PGWP, language and field-of-study requirements. Detection is not legal interpretation."
+    },
+    {
+      "country": "UK",
+      "name": "UK Home Office — Register of licensed sponsors: Students",
+      "url": "https://www.gov.uk/government/publications/register-of-licensed-sponsors-students",
+      "compare_text": false,
+      "note": "Availability-only automated check. Manually verify legal sponsor name, Student sponsor category, rating and current licence status close to application; confirm exact course/CAS and sponsor remains licensed. The register was updated 11 November 2026 when checked."
+    },
+    {
+      "country": "UK",
+      "name": "GOV.UK — Student visa: course requirements and CAS",
+      "url": "https://www.gov.uk/student-visa/course",
+      "compare_text": false,
+      "note": "Availability-only automated check. Verify exact course level, mode, study location, approved qualification, ATAS if applicable, CAS details and 6-month application window. Do not treat an offer as a CAS."
+    },
+    {
+      "country": "Australia",
+      "name": "Australian Government — CRICOS registration",
+      "url": "https://www.education.gov.au/esos-framework/registration-cricos",
+      "compare_text": false,
+      "note": "Availability-only automated check. Verify provider and exact course CRICOS registration, campus/location, course code and registration dates; provider registration alone does not establish every course/campus is registered."
+    },
+    {
+      "country": "New Zealand",
+      "name": "Immigration New Zealand — Rules for approved education providers and Code signatories",
+      "url": "https://www.immigration.govt.nz/assist-migrants-and-students/assist-students/understand-your-obligations/",
+      "compare_text": false,
+      "note": "Availability-only automated check. Verify provider's current Code of Practice signatory status through NZQA and exact programme/campus; international students cannot study at a non-signatory institution. Provider status is not visa approval."
     }
   ]
 }
