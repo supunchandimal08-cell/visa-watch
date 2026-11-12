@@ -395,6 +395,48 @@
       "url": "https://www.france-visas.gouv.fr/en/web/france-visas/sri-lanka",
       "compare_text": false,
       "note": "Official country-specific process: French Embassy Colombo is decision authority; VFS Global Colombo 9 receives applications; published normal processing 15 calendar days, extendable up to 60; VFS basic service fee listed as EUR 19.48. Verify current appointment, fees and processing at filing."
+    },
+    {
+      "country": "Netherlands",
+      "name": "IND — Student residence permit for university or higher professional education",
+      "url": "https://ind.nl/en/residence-permits/study/student-residence-permit-for-university-or-higher-professional-education",
+      "compare_text": false,
+      "note": "Primary official conditions: IND-recognised sponsor, accredited full-time programme, 50% annual study progress, MVV/residence application process, fee, decision period and student work restrictions."
+    },
+    {
+      "country": "Netherlands",
+      "name": "IND — Income requirements for study",
+      "url": "https://ind.nl/en/income-requirements-study",
+      "compare_text": false,
+      "note": "Official accepted proof-of-funds routes, 12-month study norm, own bank account, institution deposit, scholarship, company or private sponsor abroad; includes sponsor statement and recent bank evidence requirements."
+    },
+    {
+      "country": "Netherlands",
+      "name": "IND — Required amounts income requirements (2026 study norm)",
+      "url": "https://ind.nl/en/required-amounts-income-requirements",
+      "compare_text": false,
+      "note": "Official 2026 monthly university/HBO study norm €1,130.77, valid 1 Jan–31 Dec 2026; excludes tuition. Check this live table for annual updates and study category."
+    },
+    {
+      "country": "Netherlands",
+      "name": "IND — Public register of recognised sponsors (study)",
+      "url": "https://ind.nl/en/public-register-recognised-sponsors/public-register-study",
+      "compare_text": false,
+      "note": "Official register to verify whether the Dutch education institution is authorised to sponsor international students."
+    },
+    {
+      "country": "Netherlands",
+      "name": "IND — Residence permit for orientation year",
+      "url": "https://ind.nl/en/residence-permits/work/residence-permit-for-orientation-year",
+      "compare_text": false,
+      "note": "Official limited eligibility for the one-year post-study orientation permit, including qualifying Dutch and designated foreign institutions, ranking, IELTS/Nuffic requirements and unrestricted work rights."
+    },
+    {
+      "country": "Netherlands",
+      "name": "NetherlandsWorldwide — Dutch representation and appointments",
+      "url": "https://www.netherlandsworldwide.nl/",
+      "compare_text": false,
+      "note": "Official government portal to confirm current Dutch embassy/consular location, MVV sticker appointment and country-specific instructions for Sri Lankan applicants."
     }
   ]
 }
