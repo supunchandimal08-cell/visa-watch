@@ -171,6 +171,34 @@
       "url": "https://www.immigration.govt.nz/assist-migrants-and-students/assist-students/understand-your-obligations/",
       "compare_text": false,
       "note": "Availability-only automated check. Verify provider's current Code of Practice signatory status through NZQA and exact programme/campus; international students cannot study at a non-signatory institution. Provider status is not visa approval."
+    },
+    {
+      "country": "UAE / Dubai",
+      "name": "Dubai Government — Student Residence Visa",
+      "url": "https://www.dubai.ae/living/residency/student-residence-visa",
+      "compare_text": false,
+      "note": "Official Dubai Government overview. Manually verify the exact institution, host/guarantor, campus, study programme and current GDRFA route. Institution host/guarantor status is not automatic for every course or provider."
+    },
+    {
+      "country": "UAE / Dubai",
+      "name": "Visit Dubai — Apply for a student visa",
+      "url": "https://www.visitdubai.com/en/study-dubai/student-visa",
+      "compare_text": false,
+      "note": "Dubai's official destination portal explains the institution-managed GDRFA process and typical applicant documents. Treat as guidance; confirm exact requirements and fees through the institution and GDRFA for the applicant's case."
+    },
+    {
+      "country": "UAE",
+      "name": "Federal ICP — Issuing residency permit (student conditions and documents)",
+      "url": "https://icp.gov.ae/en/services-details/?serviceid=64afe3c1035448005bd52e64",
+      "compare_text": false,
+      "note": "Official ICP service page. It lists student-specific documents, programme-based residence duration and a 180-day stay after completion of the study period. Do not conflate with GDRFA Dubai's 60-day statement after expiry/cancellation; confirm emirate, permit category and circumstances."
+    },
+    {
+      "country": "UAE",
+      "name": "MoHRE — Cabinet Resolution / Executive Regulations (student training and employment permit category)",
+      "url": "https://www.mohre.gov.ae/assets/download/ff353ce9/Cabinet%20Resolution%20_Executive%20Regulations%20Decree-Law%20No.%2033.pdf.aspx",
+      "compare_text": false,
+      "note": "Official MoHRE-hosted executive regulations identify a student training and employment permit category for students already in the UAE, subject to conditions and employer approval. Verify current permit process, employer jurisdiction and eligibility before any work begins."
     }
   ]
 }
