@@ -82,13 +82,16 @@ function calc(){
   const requiredFunds=n("visaRequired"),eligibleFunds=n("visaEligible"),shortfall=Math.max(0,requiredFunds-eligibleFunds);
   el("visaRequiredOut").textContent=cur+" "+fmt(requiredFunds);
   el("visaEligibleOut").textContent=cur+" "+fmt(eligibleFunds);
-  if(!el("visaEvidenceVerified").checked){
+  if(requiredFunds<=0){
+   el("visaGapOut").textContent="Official amount needs review";el("visaGapOut").className="big";
+   el("visaCheckOut").textContent="A zero official threshold cannot be treated as proof that the applicant meets the visa rule. Re-check the current route-specific official requirement.";
+  }else if(!el("visaEvidenceVerified").checked){
    el("visaGapOut").textContent="Review required";el("visaGapOut").className="big";
-   el("visaCheckOut").textContent="Values entered, but counsellor has not confirmed official rule and evidence eligibility.";
+   el("visaCheckOut").textContent="Values entered, but the counsellor has not confirmed the official rule and applicant-specific evidence eligibility.";
   }else{
-   el("visaGapOut").textContent=shortfall>0?cur+" "+fmt(shortfall)+" shortfall":"No shortfall in entered figures";
-   el("visaGapOut").className="big "+(shortfall>0?"red":"green");
-   el("visaCheckOut").textContent="Checked on "+el("visaRuleDate").value+". Confirm source scope, family size, fees, holding period and evidence rules before advice.";
+   el("visaGapOut").textContent=shortfall>0?cur+" "+fmt(shortfall)+" numerical shortfall":"No numerical shortfall in entered figures";
+   el("visaGapOut").className="big "+(shortfall>0?"red":"");
+   el("visaCheckOut").textContent="Source checked on "+el("visaRuleDate").value+". This compares entered figures only; it does not establish visa compliance or approval. Independently verify source scope, family size, fees, holding period and accepted evidence before advice.";
   }
  }else{
   el("visaRequiredOut").textContent="Not entered";el("visaEligibleOut").textContent="Not entered";
