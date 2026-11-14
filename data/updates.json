@@ -1,12 +1,12 @@
 {
-  "generated_at": "2026-11-14T07:10:21.010178+00:00",
+  "generated_at": "2026-11-14T07:12:11.712445+00:00",
   "items": [
     {
       "country": "UK",
       "name": "GOV.UK Immigration Rules — Appendix Student",
       "url": "https://www.gov.uk/guidance/immigration-rules/immigration-rules-appendix-student",
       "compare_text": true,
-      "checked_at": "2026-11-14T07:09:38.786952+00:00",
+      "checked_at": "2026-11-14T07:11:29.384189+00:00",
       "status": "reachable",
       "http_status": 200,
       "content_hash": "5782b4b32a88073e8f7a0535cfa12e4163b12981975a0951231204d8295c953e",
@@ -19,7 +19,7 @@
       "name": "IRCC Study Permit — Eligibility",
       "url": "https://www.canada.ca/en/immigration-refugees-citizenship/services/study-canada/study-permit/eligibility.html",
       "compare_text": false,
-      "checked_at": "2026-11-14T07:09:58.135506+00:00",
+      "checked_at": "2026-11-14T07:11:48.463176+00:00",
       "status": "manual_review",
       "http_status": null,
       "content_compared": false,
@@ -31,7 +31,7 @@
       "name": "Department of Home Affairs — Student visa subclass 500",
       "url": "https://immi.homeaffairs.gov.au/visas/getting-a-visa/visa-listing/student-500",
       "compare_text": true,
-      "checked_at": "2026-11-14T07:09:38.456865+00:00",
+      "checked_at": "2026-11-14T07:11:28.863385+00:00",
       "status": "reachable",
       "http_status": 200,
       "content_hash": "c5609e0c62aa19507d1d02e931fd363d4d9873c7c345effb9a951bfacd5d4fc0",
@@ -44,7 +44,7 @@
       "name": "Immigration New Zealand — Fee Paying Student Visa",
       "url": "https://www.immigration.govt.nz/visas/fee-paying-student-visa/",
       "compare_text": true,
-      "checked_at": "2026-11-14T07:09:39.569293+00:00",
+      "checked_at": "2026-11-14T07:11:29.339188+00:00",
       "status": "reachable",
       "http_status": 200,
       "content_hash": "2aa7f9a0787eb801c68c0a779eadf7755197275a5d240764ed6db62fe4a53f08",
@@ -57,7 +57,7 @@
       "name": "U.S. Department of State — Student Visa (F/M categories, SEVIS and Form I-20)",
       "url": "https://travel.state.gov/content/travel/en/us-visas/study/student-visa.html",
       "compare_text": true,
-      "checked_at": "2026-11-14T07:09:38.155413+00:00",
+      "checked_at": "2026-11-14T07:11:28.554206+00:00",
       "status": "manual_review",
       "http_status": 403,
       "change_detected": false,
@@ -68,7 +68,7 @@
       "name": "GDRFA Dubai — Issuing a residency permit to a student",
       "url": "https://gdrfad.gov.ae/en/services/f52024e0-b812-11ed-5210-4cd98f768936",
       "compare_text": true,
-      "checked_at": "2026-11-14T07:09:40.429372+00:00",
+      "checked_at": "2026-11-14T07:11:30.753111+00:00",
       "status": "reachable",
       "http_status": 200,
       "content_hash": "f8d65bfeddc4fabd4d05ab71ca0332d16371857d3d14a607a739d943705131e3",
@@ -81,7 +81,7 @@
       "name": "European Commission — Who does what in EU immigration",
       "url": "https://home-affairs.ec.europa.eu/policies/migration-and-asylum/eu-immigration-portal/who-does-what_en",
       "compare_text": true,
-      "checked_at": "2026-11-14T07:09:39.180495+00:00",
+      "checked_at": "2026-11-14T07:11:29.378173+00:00",
       "status": "reachable",
       "http_status": 200,
       "content_hash": "84ba17d42f3c03a27208e11353da00f7da66ef0eaf97647dba3fc95ecc913d85",
@@ -94,7 +94,7 @@
       "name": "Federal ICP — Renewal of residence permits (includes student and sponsor/host grace-period categories)",
       "url": "https://icp.gov.ae/en/services-details/?serviceid=64afe3c1035448005bd52e66",
       "compare_text": true,
-      "checked_at": "2026-11-14T07:09:42.236737+00:00",
+      "checked_at": "2026-11-14T07:11:32.256487+00:00",
       "status": "reachable",
       "http_status": 200,
       "content_hash": "d1cb64a33413880bcf24e995f131ac894111be78b3456cb702a68ecc37349ecb",
@@ -107,7 +107,7 @@
       "name": "Department of Home Affairs — Student visa application rule changes (subclasses 500 & 590)",
       "url": "https://immi.homeaffairs.gov.au/visas/getting-a-visa/visa-listing/changes-to-student-visa-application-rules-500-590",
       "compare_text": true,
-      "checked_at": "2026-11-14T07:09:38.571352+00:00",
+      "checked_at": "2026-11-14T07:11:28.932237+00:00",
       "status": "reachable",
       "http_status": 200,
       "content_hash": "d4b68a2f9d1eb7979257a1a08b18c52fc889ccd11d27f62cbb4f8f4e78df29dc",
@@ -120,7 +120,7 @@
       "name": "Federal Register — Migration Amendment (Student Visa Reform) Regulations 2026 (F2026L01347)",
       "url": "https://www.legislation.gov.au/F2026L01347/latest/details",
       "compare_text": true,
-      "checked_at": "2026-11-14T07:09:39.101827+00:00",
+      "checked_at": "2026-11-14T07:11:29.648631+00:00",
       "status": "reachable",
       "http_status": 200,
       "content_hash": "d97bfb515fdf79a237fec76aba848972318019207770aabd44c0c7e88caa384d",
@@ -133,20 +133,20 @@
       "name": "UAE Government — Residence visa for studying",
       "url": "https://u.ae/en/information-and-services/visa-and-emirates-id/residence-visas/residence-visa-for-studying-in-the-uae",
       "compare_text": true,
-      "checked_at": "2026-11-14T07:09:42.078918+00:00",
+      "checked_at": "2026-11-14T07:11:41.808403+00:00",
       "status": "reachable",
       "http_status": 200,
-      "content_hash": "588aa458b3c6bb2419df8584ec69f837fc261355261cebde8e40ee4605ca5ddd",
-      "change_detected": false,
+      "content_hash": "c2aa10df484991a0fba16404a4e8d9672430a9c8a6c01d87673482137ea78c9e",
+      "change_detected": true,
       "baseline_created": false,
-      "note": "No page-text change detected since the previous successful check. This does not guarantee that every policy detail was checked."
+      "note": "Possible page-text change detected since the previous successful check. Review the official page; this is not proof of a policy change."
     },
     {
       "country": "Europe / Schengen",
       "name": "European Commission — Student visas in Europe",
       "url": "https://education.ec.europa.eu/news/student-visas-in-europe-what-you-need-to-know",
       "compare_text": true,
-      "checked_at": "2026-11-14T07:09:39.762561+00:00",
+      "checked_at": "2026-11-14T07:11:30.186302+00:00",
       "status": "reachable",
       "http_status": 200,
       "content_hash": "c080341168a675d3724eecb60cb97db278174ef4b0f1d15bfbba83ee874c2c8b",
@@ -159,7 +159,7 @@
       "name": "German Embassy Colombo — Students (national visa)",
       "url": "https://colombo.diplo.de/lk-en/service/2702864-2702864",
       "compare_text": true,
-      "checked_at": "2026-11-14T07:09:40.007981+00:00",
+      "checked_at": "2026-11-14T07:11:30.282123+00:00",
       "status": "reachable",
       "http_status": 200,
       "content_hash": "2bcbd0511ac37625fd5613319336812bd386102b09e21e3bbfcd40d647245817",
@@ -172,7 +172,7 @@
       "name": "German Embassy Colombo — Long-stay national visa requirements",
       "url": "https://colombo.diplo.de/lk-en/service/national-visa-1437950",
       "compare_text": true,
-      "checked_at": "2026-11-14T07:09:39.889219+00:00",
+      "checked_at": "2026-11-14T07:11:30.136751+00:00",
       "status": "reachable",
       "http_status": 200,
       "content_hash": "67521500fd3dd2bb94e751f7731fffea84d022595a233dc1287d634bd9ae685f",
@@ -185,7 +185,7 @@
       "name": "Department of Home Affairs — Student visa condition 8105 (work limitation)",
       "url": "https://immi.homeaffairs.gov.au/visas/already-have-a-visa/check-visa-details-and-conditions/see-your-visa-conditions?cno=8105&product=500",
       "compare_text": true,
-      "checked_at": "2026-11-14T07:09:39.937944+00:00",
+      "checked_at": "2026-11-14T07:11:29.982336+00:00",
       "status": "reachable",
       "http_status": 200,
       "content_hash": "39a15e73223aadbbb8b268dd4a64b168412a4c28d8c9f15ae2f71d9031f47e8f",
@@ -198,7 +198,7 @@
       "name": "IRCC — Work off campus as an international student (24-hour weekly limit)",
       "url": "https://www.canada.ca/en/immigration-refugees-citizenship/services/study-canada/work/work-off-campus.html",
       "compare_text": false,
-      "checked_at": "2026-11-14T07:09:59.846025+00:00",
+      "checked_at": "2026-11-14T07:11:50.030780+00:00",
       "status": "manual_review",
       "http_status": null,
       "content_compared": false,
@@ -210,7 +210,7 @@
       "name": "IRCC — Proof of financial support (living-cost table)",
       "url": "https://www.canada.ca/en/immigration-refugees-citizenship/services/study-canada/study-permit/get-documents/financial-support.html",
       "compare_text": false,
-      "checked_at": "2026-11-14T07:09:59.961492+00:00",
+      "checked_at": "2026-11-14T07:11:50.197236+00:00",
       "status": "manual_review",
       "http_status": null,
       "content_compared": false,
@@ -222,10 +222,10 @@
       "name": "Make it in Germany — Visa for studying (2026 funds and student work)",
       "url": "https://www.make-it-in-germany.com/en/visa-recognition/visa-types/studying",
       "compare_text": true,
-      "checked_at": "2026-11-14T07:09:40.672625+00:00",
+      "checked_at": "2026-11-14T07:11:31.014803+00:00",
       "status": "reachable",
       "http_status": 200,
-      "content_hash": "15d0ceb6c53c6700ffc07fefc8a89beddbde6116c63cf2c1bbad29ad5f4ecbe4",
+      "content_hash": "74269e0396b90c3f4c82479eea5af59939e26d5d8b9c28533aa989da20f923a6",
       "change_detected": true,
       "baseline_created": false,
       "note": "Possible page-text change detected since the previous successful check. Review the official page; this is not proof of a policy change."
@@ -235,7 +235,7 @@
       "name": "Immigration New Zealand — Working on a student visa",
       "url": "https://www.immigration.govt.nz/study/once-you-have-a-student-visa/working-on-a-student-visa/",
       "compare_text": true,
-      "checked_at": "2026-11-14T07:09:40.670501+00:00",
+      "checked_at": "2026-11-14T07:11:30.835499+00:00",
       "status": "reachable",
       "http_status": 200,
       "content_hash": "cbd44ccfe36f28f5796b159d770d7b61eb54ed810c164a4b0ba9c335b4533a0c",
@@ -248,7 +248,7 @@
       "name": "Immigration New Zealand — Changes to student visas (27 October 2026)",
       "url": "https://www.immigration.govt.nz/about-us/news-centre/changes-to-student-visas/",
       "compare_text": true,
-      "checked_at": "2026-11-14T07:09:40.721885+00:00",
+      "checked_at": "2026-11-14T07:11:31.078792+00:00",
       "status": "reachable",
       "http_status": 200,
       "content_hash": "538b04e5d6176e44378be3c4669623ba6f3204c137188f89b4978cdfe8afaa05",
@@ -261,7 +261,7 @@
       "name": "IRCC — PAL/TAL requirements, exemptions and validity (2026)",
       "url": "https://www.canada.ca/en/immigration-refugees-citizenship/services/study-canada/study-permit/get-documents/provincial-attestation-letter.html",
       "compare_text": false,
-      "checked_at": "2026-11-14T07:10:00.743953+00:00",
+      "checked_at": "2026-11-14T07:11:50.885224+00:00",
       "status": "manual_review",
       "http_status": null,
       "content_compared": false,
@@ -273,7 +273,7 @@
       "name": "IRCC — Post-graduation work permit eligibility",
       "url": "https://www.canada.ca/en/immigration-refugees-citizenship/services/study-canada/work/after-graduation/eligibility.html",
       "compare_text": false,
-      "checked_at": "2026-11-14T07:10:00.738179+00:00",
+      "checked_at": "2026-11-14T07:11:51.062908+00:00",
       "status": "manual_review",
       "http_status": null,
       "content_compared": false,
@@ -285,7 +285,7 @@
       "name": "IRCC — PGWP field of study and eligible CIP codes",
       "url": "https://www.canada.ca/en/immigration-refugees-citizenship/services/study-canada/work/after-graduation/eligibility/field-of-study.html",
       "compare_text": false,
-      "checked_at": "2026-11-14T07:10:00.795892+00:00",
+      "checked_at": "2026-11-14T07:11:51.114233+00:00",
       "status": "manual_review",
       "http_status": null,
       "content_compared": false,
@@ -297,7 +297,7 @@
       "name": "IRCC — Designated learning institutions list and PGWP-eligible programme details",
       "url": "https://www.canada.ca/en/immigration-refugees-citizenship/services/study-canada/study-permit/prepare/designated-learning-institutions-list.html",
       "compare_text": false,
-      "checked_at": "2026-11-14T07:10:02.151907+00:00",
+      "checked_at": "2026-11-14T07:11:52.320137+00:00",
       "status": "manual_review",
       "http_status": null,
       "content_compared": false,
@@ -309,31 +309,31 @@
       "name": "UK Home Office — Register of licensed sponsors: Students",
       "url": "https://www.gov.uk/government/publications/register-of-licensed-sponsors-students",
       "compare_text": false,
-      "checked_at": "2026-11-14T07:09:43.337495+00:00",
+      "checked_at": "2026-11-14T07:11:42.543462+00:00",
       "status": "reachable",
       "http_status": 200,
       "content_compared": false,
       "change_detected": false,
-      "note": "Official source returned HTTP 200. Text comparison is disabled for this slow page; counsellors must review the live IRCC page manually. Availability only, not policy-change monitoring."
+      "note": "Official source (UK Home Office — Register of licensed sponsors: Students) returned HTTP 200. Text comparison is disabled for this source; counsellors must review the live official page manually. Availability only, not policy-change monitoring."
     },
     {
       "country": "UK",
       "name": "GOV.UK — Student visa: course requirements and CAS",
       "url": "https://www.gov.uk/student-visa/course",
       "compare_text": false,
-      "checked_at": "2026-11-14T07:09:43.513012+00:00",
+      "checked_at": "2026-11-14T07:11:42.824197+00:00",
       "status": "reachable",
       "http_status": 200,
       "content_compared": false,
       "change_detected": false,
-      "note": "Official source returned HTTP 200. Text comparison is disabled for this slow page; counsellors must review the live IRCC page manually. Availability only, not policy-change monitoring."
+      "note": "Official source (GOV.UK — Student visa: course requirements and CAS) returned HTTP 200. Text comparison is disabled for this source; counsellors must review the live official page manually. Availability only, not policy-change monitoring."
     },
     {
       "country": "Australia",
       "name": "Australian Government — CRICOS registration",
       "url": "https://www.education.gov.au/esos-framework/registration-cricos",
       "compare_text": false,
-      "checked_at": "2026-11-14T07:09:54.004370+00:00",
+      "checked_at": "2026-11-14T07:11:53.429412+00:00",
       "status": "manual_review",
       "http_status": null,
       "content_compared": false,
@@ -345,19 +345,19 @@
       "name": "Immigration New Zealand — Rules for approved education providers and Code signatories",
       "url": "https://www.immigration.govt.nz/assist-migrants-and-students/assist-students/understand-your-obligations/",
       "compare_text": false,
-      "checked_at": "2026-11-14T07:09:55.753637+00:00",
+      "checked_at": "2026-11-14T07:11:49.225421+00:00",
       "status": "reachable",
       "http_status": 200,
       "content_compared": false,
       "change_detected": false,
-      "note": "Official source returned HTTP 200. Text comparison is disabled for this slow page; counsellors must review the live IRCC page manually. Availability only, not policy-change monitoring."
+      "note": "Official source (Immigration New Zealand — Rules for approved education providers and Code signatories) returned HTTP 200. Text comparison is disabled for this source; counsellors must review the live official page manually. Availability only, not policy-change monitoring."
     },
     {
       "country": "UAE / Dubai",
       "name": "Dubai Government — Student Residence Visa",
       "url": "https://www.dubai.ae/living/residency/student-residence-visa",
       "compare_text": false,
-      "checked_at": "2026-11-14T07:09:55.901387+00:00",
+      "checked_at": "2026-11-14T07:11:49.424951+00:00",
       "status": "manual_review",
       "http_status": 403,
       "change_detected": false,
@@ -368,7 +368,7 @@
       "name": "Visit Dubai — Apply for a student visa",
       "url": "https://www.visitdubai.com/en/study-dubai/student-visa",
       "compare_text": false,
-      "checked_at": "2026-11-14T07:09:56.156394+00:00",
+      "checked_at": "2026-11-14T07:11:49.591398+00:00",
       "status": "manual_review",
       "http_status": 403,
       "change_detected": false,
@@ -379,19 +379,19 @@
       "name": "Federal ICP — Issuing residency permit (student conditions and documents)",
       "url": "https://icp.gov.ae/en/services-details/?serviceid=64afe3c1035448005bd52e64",
       "compare_text": false,
-      "checked_at": "2026-11-14T07:09:57.606266+00:00",
+      "checked_at": "2026-11-14T07:11:51.496315+00:00",
       "status": "reachable",
       "http_status": 200,
       "content_compared": false,
       "change_detected": false,
-      "note": "Official source returned HTTP 200. Text comparison is disabled for this slow page; counsellors must review the live IRCC page manually. Availability only, not policy-change monitoring."
+      "note": "Official source (Federal ICP — Issuing residency permit (student conditions and documents)) returned HTTP 200. Text comparison is disabled for this source; counsellors must review the live official page manually. Availability only, not policy-change monitoring."
     },
     {
       "country": "UAE",
       "name": "MoHRE — Cabinet Resolution / Executive Regulations (student training and employment permit category)",
       "url": "https://www.mohre.gov.ae/assets/download/ff353ce9/Cabinet%20Resolution%20_Executive%20Regulations%20Decree-Law%20No.%2033.pdf.aspx",
       "compare_text": false,
-      "checked_at": "2026-11-14T07:10:08.053218+00:00",
+      "checked_at": "2026-11-14T07:12:00.508871+00:00",
       "status": "manual_review",
       "http_status": null,
       "content_compared": false,
@@ -403,91 +403,91 @@
       "name": "GDRFA Dubai — Issuing a visit visa for study, training or rehabilitation",
       "url": "https://www.gdrfad.gov.ae/en/services/d551ce8d-52e8-11ea-0320-0050569629e8",
       "compare_text": false,
-      "checked_at": "2026-11-14T07:09:59.779851+00:00",
+      "checked_at": "2026-11-14T07:11:51.458153+00:00",
       "status": "reachable",
       "http_status": 200,
       "content_compared": false,
       "change_detected": false,
-      "note": "Official source returned HTTP 200. Text comparison is disabled for this slow page; counsellors must review the live IRCC page manually. Availability only, not policy-change monitoring."
+      "note": "Official source (GDRFA Dubai — Issuing a visit visa for study, training or rehabilitation) returned HTTP 200. Text comparison is disabled for this source; counsellors must review the live official page manually. Availability only, not policy-change monitoring."
     },
     {
       "country": "UAE / Dubai",
       "name": "GDRFA Dubai — Golden Residence for top students and graduates",
       "url": "https://www.gdrfad.gov.ae/en/services/8ea80dad-f43e-11eb-0320-0050569629e8",
       "compare_text": false,
-      "checked_at": "2026-11-14T07:10:01.127272+00:00",
+      "checked_at": "2026-11-14T07:11:52.229363+00:00",
       "status": "reachable",
       "http_status": 200,
       "content_compared": false,
       "change_detected": false,
-      "note": "Official source returned HTTP 200. Text comparison is disabled for this slow page; counsellors must review the live IRCC page manually. Availability only, not policy-change monitoring."
+      "note": "Official source (GDRFA Dubai — Golden Residence for top students and graduates) returned HTTP 200. Text comparison is disabled for this source; counsellors must review the live official page manually. Availability only, not policy-change monitoring."
     },
     {
       "country": "Germany",
       "name": "German Embassy Colombo — Opening / unblocking a blocked account",
       "url": "https://colombo.diplo.de/lk-en/service/2404544-2404544",
       "compare_text": false,
-      "checked_at": "2026-11-14T07:10:00.167165+00:00",
+      "checked_at": "2026-11-14T07:11:51.539420+00:00",
       "status": "reachable",
       "http_status": 200,
       "content_compared": false,
       "change_detected": false,
-      "note": "Official source returned HTTP 200. Text comparison is disabled for this slow page; counsellors must review the live IRCC page manually. Availability only, not policy-change monitoring."
+      "note": "Official source (German Embassy Colombo — Opening / unblocking a blocked account) returned HTTP 200. Text comparison is disabled for this source; counsellors must review the live official page manually. Availability only, not policy-change monitoring."
     },
     {
       "country": "UK",
       "name": "GOV.UK — Student visa financial requirement and maintenance amounts",
       "url": "https://www.gov.uk/student-visa/money",
       "compare_text": false,
-      "checked_at": "2026-11-14T07:10:00.603805+00:00",
+      "checked_at": "2026-11-14T07:11:51.515867+00:00",
       "status": "reachable",
       "http_status": 200,
       "content_compared": false,
       "change_detected": false,
-      "note": "Official source returned HTTP 200. Text comparison is disabled for this slow page; counsellors must review the live IRCC page manually. Availability only, not policy-change monitoring."
+      "note": "Official source (GOV.UK — Student visa financial requirement and maintenance amounts) returned HTTP 200. Text comparison is disabled for this source; counsellors must review the live official page manually. Availability only, not policy-change monitoring."
     },
     {
       "country": "UK",
       "name": "Home Office — HC 584 Statement of Changes (3 September 2026)",
       "url": "https://www.gov.uk/government/publications/statement-of-changes-to-the-immigration-rules-hc-584-3-september-2026/statement-of-changes-to-the-immigration-rules-hc-584-3-september-2026-accessible",
       "compare_text": false,
-      "checked_at": "2026-11-14T07:10:00.970947+00:00",
+      "checked_at": "2026-11-14T07:11:52.339465+00:00",
       "status": "reachable",
       "http_status": 200,
       "content_compared": false,
       "change_detected": false,
-      "note": "Official source returned HTTP 200. Text comparison is disabled for this slow page; counsellors must review the live IRCC page manually. Availability only, not policy-change monitoring."
+      "note": "Official source (Home Office — HC 584 Statement of Changes (3 September 2026)) returned HTTP 200. Text comparison is disabled for this source; counsellors must review the live official page manually. Availability only, not policy-change monitoring."
     },
     {
       "country": "UK",
       "name": "Home Office — Student and Child Student caseworker guidance (work conditions)",
       "url": "https://www.gov.uk/government/publications/student-route-caseworker-guidance/student-and-child-student",
       "compare_text": false,
-      "checked_at": "2026-11-14T07:10:00.830799+00:00",
+      "checked_at": "2026-11-14T07:11:51.905522+00:00",
       "status": "reachable",
       "http_status": 200,
       "content_compared": false,
       "change_detected": false,
-      "note": "Official source returned HTTP 200. Text comparison is disabled for this slow page; counsellors must review the live IRCC page manually. Availability only, not policy-change monitoring."
+      "note": "Official source (Home Office — Student and Child Student caseworker guidance (work conditions)) returned HTTP 200. Text comparison is disabled for this source; counsellors must review the live official page manually. Availability only, not policy-change monitoring."
     },
     {
       "country": "UK",
       "name": "UKVI — Financial evidence for Student and Child Student applicants",
       "url": "https://www.gov.uk/guidance/financial-evidence-for-student-and-child-student-route-applicants",
       "compare_text": false,
-      "checked_at": "2026-11-14T07:10:00.999397+00:00",
+      "checked_at": "2026-11-14T07:11:51.700654+00:00",
       "status": "reachable",
       "http_status": 200,
       "content_compared": false,
       "change_detected": false,
-      "note": "Official source returned HTTP 200. Text comparison is disabled for this slow page; counsellors must review the live IRCC page manually. Availability only, not policy-change monitoring."
+      "note": "Official source (UKVI — Financial evidence for Student and Child Student applicants) returned HTTP 200. Text comparison is disabled for this source; counsellors must review the live official page manually. Availability only, not policy-change monitoring."
     },
     {
       "country": "Canada",
       "name": "IRCC — Graduate student study permit application and doctoral processing",
       "url": "https://www.canada.ca/en/immigration-refugees-citizenship/services/study-canada/graduate-student/how-to-apply.html",
       "compare_text": false,
-      "checked_at": "2026-11-14T07:10:21.009213+00:00",
+      "checked_at": "2026-11-14T07:12:11.711702+00:00",
       "status": "manual_review",
       "http_status": null,
       "content_compared": false,
@@ -499,175 +499,175 @@
       "name": "Department of Home Affairs — Student visa family-member inclusion and subsequent entrants (2026 rules)",
       "url": "https://immi.homeaffairs.gov.au/visas/getting-a-visa/visa-listing/changes-to-student-visa-application-rules-500-590/family-members",
       "compare_text": false,
-      "checked_at": "2026-11-14T07:10:01.558747+00:00",
+      "checked_at": "2026-11-14T07:11:52.836743+00:00",
       "status": "reachable",
       "http_status": 200,
       "content_compared": false,
       "change_detected": false,
-      "note": "Official source returned HTTP 200. Text comparison is disabled for this slow page; counsellors must review the live IRCC page manually. Availability only, not policy-change monitoring."
+      "note": "Official source (Department of Home Affairs — Student visa family-member inclusion and subsequent entrants (2026 rules)) returned HTTP 200. Text comparison is disabled for this source; counsellors must review the live official page manually. Availability only, not policy-change monitoring."
     },
     {
       "country": "Australia",
       "name": "Department of Home Affairs — What applicants and education agents must do under 2026 Student visa application changes",
       "url": "https://immi.homeaffairs.gov.au/visas/getting-a-visa/visa-listing/changes-to-student-visa-application-rules-500-590/what-you-need-to-do",
       "compare_text": false,
-      "checked_at": "2026-11-14T07:10:01.490379+00:00",
+      "checked_at": "2026-11-14T07:11:52.444253+00:00",
       "status": "reachable",
       "http_status": 200,
       "content_compared": false,
       "change_detected": false,
-      "note": "Official source returned HTTP 200. Text comparison is disabled for this slow page; counsellors must review the live IRCC page manually. Availability only, not policy-change monitoring."
+      "note": "Official source (Department of Home Affairs — What applicants and education agents must do under 2026 Student visa application changes) returned HTTP 200. Text comparison is disabled for this source; counsellors must review the live official page manually. Availability only, not policy-change monitoring."
     },
     {
       "country": "New Zealand",
       "name": "Immigration New Zealand — Student fund requirements",
       "url": "https://www.immigration.govt.nz/process-to-apply/applying-for-a-visa/providing-evidence-and-documents-to-support-your-visa-application/student-fund-requirements/",
       "compare_text": false,
-      "checked_at": "2026-11-14T07:10:03.014497+00:00",
+      "checked_at": "2026-11-14T07:11:53.532016+00:00",
       "status": "reachable",
       "http_status": 200,
       "content_compared": false,
       "change_detected": false,
-      "note": "Official source returned HTTP 200. Text comparison is disabled for this slow page; counsellors must review the live IRCC page manually. Availability only, not policy-change monitoring."
+      "note": "Official source (Immigration New Zealand — Student fund requirements) returned HTTP 200. Text comparison is disabled for this source; counsellors must review the live official page manually. Availability only, not policy-change monitoring."
     },
     {
       "country": "New Zealand",
       "name": "Immigration New Zealand — Post-Study Work Visa",
       "url": "https://www.immigration.govt.nz/visas/post-study-work-visa/",
       "compare_text": false,
-      "checked_at": "2026-11-14T07:10:02.887197+00:00",
+      "checked_at": "2026-11-14T07:11:53.513706+00:00",
       "status": "reachable",
       "http_status": 200,
       "content_compared": false,
       "change_detected": false,
-      "note": "Official source returned HTTP 200. Text comparison is disabled for this slow page; counsellors must review the live IRCC page manually. Availability only, not policy-change monitoring."
+      "note": "Official source (Immigration New Zealand — Post-Study Work Visa) returned HTTP 200. Text comparison is disabled for this source; counsellors must review the live official page manually. Availability only, not policy-change monitoring."
     },
     {
       "country": "New Zealand",
       "name": "Immigration New Zealand — Qualifications needed for a Post-Study Work Visa",
       "url": "https://www.immigration.govt.nz/study/after-you-finish-your-study/qualifications-needed-for-a-post-study-work-visa/",
       "compare_text": false,
-      "checked_at": "2026-11-14T07:10:02.938843+00:00",
+      "checked_at": "2026-11-14T07:11:53.313703+00:00",
       "status": "reachable",
       "http_status": 200,
       "content_compared": false,
       "change_detected": false,
-      "note": "Official source returned HTTP 200. Text comparison is disabled for this slow page; counsellors must review the live IRCC page manually. Availability only, not policy-change monitoring."
+      "note": "Official source (Immigration New Zealand — Qualifications needed for a Post-Study Work Visa) returned HTTP 200. Text comparison is disabled for this source; counsellors must review the live official page manually. Availability only, not policy-change monitoring."
     },
     {
       "country": "New Zealand",
       "name": "Immigration New Zealand — New and updated post-study work visa options (16 November 2026)",
       "url": "https://www.immigration.govt.nz/about-us/news-centre/new-and-updated-post-study-work-visa-options/",
       "compare_text": false,
-      "checked_at": "2026-11-14T07:10:03.443232+00:00",
+      "checked_at": "2026-11-14T07:11:53.930282+00:00",
       "status": "reachable",
       "http_status": 200,
       "content_compared": false,
       "change_detected": false,
-      "note": "Official source returned HTTP 200. Text comparison is disabled for this slow page; counsellors must review the live IRCC page manually. Availability only, not policy-change monitoring."
+      "note": "Official source (Immigration New Zealand — New and updated post-study work visa options (16 November 2026)) returned HTTP 200. Text comparison is disabled for this source; counsellors must review the live official page manually. Availability only, not policy-change monitoring."
     },
     {
       "country": "New Zealand",
       "name": "Immigration New Zealand — Short-Term Graduate Work Visa",
       "url": "https://www.immigration.govt.nz/visas/short-term-graduate-work-visa/",
       "compare_text": false,
-      "checked_at": "2026-11-14T07:10:03.505020+00:00",
+      "checked_at": "2026-11-14T07:11:53.643565+00:00",
       "status": "reachable",
       "http_status": 200,
       "content_compared": false,
       "change_detected": false,
-      "note": "Official source returned HTTP 200. Text comparison is disabled for this slow page; counsellors must review the live IRCC page manually. Availability only, not policy-change monitoring."
+      "note": "Official source (Immigration New Zealand — Short-Term Graduate Work Visa) returned HTTP 200. Text comparison is disabled for this source; counsellors must review the live official page manually. Availability only, not policy-change monitoring."
     },
     {
       "country": "Ireland",
       "name": "Immigration Service Delivery — How to apply for a long-term study visa",
       "url": "https://www.irishimmigration.ie/coming-to-study-in-ireland/what-are-my-study-visa-options/how-to-apply-for-long-term-study-visa/",
       "compare_text": false,
-      "checked_at": "2026-11-14T07:10:02.815787+00:00",
+      "checked_at": "2026-11-14T07:11:53.552758+00:00",
       "status": "reachable",
       "http_status": 200,
       "content_compared": false,
       "change_detected": false,
-      "note": "Official source returned HTTP 200. Text comparison is disabled for this slow page; counsellors must review the live IRCC page manually. Availability only, not policy-change monitoring."
+      "note": "Official source (Immigration Service Delivery — How to apply for a long-term study visa) returned HTTP 200. Text comparison is disabled for this source; counsellors must review the live official page manually. Availability only, not policy-change monitoring."
     },
     {
       "country": "Ireland",
       "name": "Immigration Service Delivery — Information on student finances",
       "url": "https://www.irishimmigration.ie/coming-to-study-in-ireland/what-are-my-study-options/a-fee-paying-private-primary-or-secondary-school/information-on-student-finances/",
       "compare_text": false,
-      "checked_at": "2026-11-14T07:10:02.971166+00:00",
+      "checked_at": "2026-11-14T07:11:53.562027+00:00",
       "status": "reachable",
       "http_status": 200,
       "content_compared": false,
       "change_detected": false,
-      "note": "Official source returned HTTP 200. Text comparison is disabled for this slow page; counsellors must review the live IRCC page manually. Availability only, not policy-change monitoring."
+      "note": "Official source (Immigration Service Delivery — Information on student finances) returned HTTP 200. Text comparison is disabled for this source; counsellors must review the live official page manually. Availability only, not policy-change monitoring."
     },
     {
       "country": "Ireland",
       "name": "Immigration Service Delivery — ILEP and TrustEd Ireland eligibility",
       "url": "https://www.irishimmigration.ie/coming-to-study-in-ireland/what-are-my-study-options/interim-list-of-eligible-programmes-ilep/",
       "compare_text": false,
-      "checked_at": "2026-11-14T07:10:02.969517+00:00",
+      "checked_at": "2026-11-14T07:11:53.556476+00:00",
       "status": "reachable",
       "http_status": 200,
       "content_compared": false,
       "change_detected": false,
-      "note": "Official source returned HTTP 200. Text comparison is disabled for this slow page; counsellors must review the live IRCC page manually. Availability only, not policy-change monitoring."
+      "note": "Official source (Immigration Service Delivery — ILEP and TrustEd Ireland eligibility) returned HTTP 200. Text comparison is disabled for this source; counsellors must review the live official page manually. Availability only, not policy-change monitoring."
     },
     {
       "country": "Ireland",
       "name": "Immigration Service Delivery — Planning to study in Ireland",
       "url": "https://www.irishimmigration.ie/coming-to-study-in-ireland/what-are-my-study-options/planning-to-study-in-ireland/",
       "compare_text": false,
-      "checked_at": "2026-11-14T07:10:03.140401+00:00",
+      "checked_at": "2026-11-14T07:11:53.629673+00:00",
       "status": "reachable",
       "http_status": 200,
       "content_compared": false,
       "change_detected": false,
-      "note": "Official source returned HTTP 200. Text comparison is disabled for this slow page; counsellors must review the live IRCC page manually. Availability only, not policy-change monitoring."
+      "note": "Official source (Immigration Service Delivery — Planning to study in Ireland) returned HTTP 200. Text comparison is disabled for this source; counsellors must review the live official page manually. Availability only, not policy-change monitoring."
     },
     {
       "country": "Ireland",
       "name": "Immigration Service Delivery — Immigration permission stamps",
       "url": "https://www.irishimmigration.ie/registering-your-immigration-permission/information-on-registering/immigration-permission-stamps/",
       "compare_text": false,
-      "checked_at": "2026-11-14T07:10:03.027844+00:00",
+      "checked_at": "2026-11-14T07:11:53.591328+00:00",
       "status": "reachable",
       "http_status": 200,
       "content_compared": false,
       "change_detected": false,
-      "note": "Official source returned HTTP 200. Text comparison is disabled for this slow page; counsellors must review the live IRCC page manually. Availability only, not policy-change monitoring."
+      "note": "Official source (Immigration Service Delivery — Immigration permission stamps) returned HTTP 200. Text comparison is disabled for this source; counsellors must review the live official page manually. Availability only, not policy-change monitoring."
     },
     {
       "country": "Ireland",
       "name": "Immigration Service Delivery — Third Level Graduate Programme",
       "url": "https://www.irishimmigration.ie/my-situation-has-changed-since-i-arrived-in-ireland/third-level-graduate-programme/",
       "compare_text": false,
-      "checked_at": "2026-11-14T07:10:03.027211+00:00",
+      "checked_at": "2026-11-14T07:11:53.595116+00:00",
       "status": "reachable",
       "http_status": 200,
       "content_compared": false,
       "change_detected": false,
-      "note": "Official source returned HTTP 200. Text comparison is disabled for this slow page; counsellors must review the live IRCC page manually. Availability only, not policy-change monitoring."
+      "note": "Official source (Immigration Service Delivery — Third Level Graduate Programme) returned HTTP 200. Text comparison is disabled for this source; counsellors must review the live official page manually. Availability only, not policy-change monitoring."
     },
     {
       "country": "Ireland",
       "name": "Immigration Service Delivery — Student FAQs",
       "url": "https://www.irishimmigration.ie/coming-to-study-in-ireland/frequently-asked-questions-for-students/",
       "compare_text": false,
-      "checked_at": "2026-11-14T07:10:03.068401+00:00",
+      "checked_at": "2026-11-14T07:11:53.601574+00:00",
       "status": "reachable",
       "http_status": 200,
       "content_compared": false,
       "change_detected": false,
-      "note": "Official source returned HTTP 200. Text comparison is disabled for this slow page; counsellors must review the live IRCC page manually. Availability only, not policy-change monitoring."
+      "note": "Official source (Immigration Service Delivery — Student FAQs) returned HTTP 200. Text comparison is disabled for this source; counsellors must review the live official page manually. Availability only, not policy-change monitoring."
     },
     {
       "country": "Ireland",
       "name": "Quality and Qualifications Ireland — TrustEd Ireland",
       "url": "https://www.qqi.ie/what-we-do/quality-assurance-of-education-and-training/trusted-ireland",
       "compare_text": false,
-      "checked_at": "2026-11-14T07:10:03.813952+00:00",
+      "checked_at": "2026-11-14T07:11:54.346457+00:00",
       "status": "http_error",
       "http_status": 404,
       "change_detected": false,
@@ -678,7 +678,7 @@
       "name": "France-Visas — Student visa, resources, work and study stay",
       "url": "https://france-visas.gouv.fr/en/etudiant",
       "compare_text": false,
-      "checked_at": "2026-11-14T07:10:03.640529+00:00",
+      "checked_at": "2026-11-14T07:11:54.132157+00:00",
       "status": "manual_review",
       "http_status": 403,
       "change_detected": false,
@@ -689,7 +689,7 @@
       "name": "France-Visas — Student visa financial threshold notice",
       "url": "https://france-visas.gouv.fr/en/accueil",
       "compare_text": false,
-      "checked_at": "2026-11-14T07:10:03.579157+00:00",
+      "checked_at": "2026-11-14T07:11:54.205090+00:00",
       "status": "manual_review",
       "http_status": 403,
       "change_detected": false,
@@ -700,31 +700,31 @@
       "name": "Service-Public — Foreign student visa and residence permit",
       "url": "https://www.service-public.gouv.fr/particuliers/vosdroits/F2231",
       "compare_text": false,
-      "checked_at": "2026-11-14T07:10:03.940489+00:00",
+      "checked_at": "2026-11-14T07:11:54.554283+00:00",
       "status": "reachable",
       "http_status": 200,
       "content_compared": false,
       "change_detected": false,
-      "note": "Official source returned HTTP 200. Text comparison is disabled for this slow page; counsellors must review the live IRCC page manually. Availability only, not policy-change monitoring."
+      "note": "Official source (Service-Public — Foreign student visa and residence permit) returned HTTP 200. Text comparison is disabled for this source; counsellors must review the live official page manually. Availability only, not policy-change monitoring."
     },
     {
       "country": "France",
       "name": "Campus France — VLS-TS student visa",
       "url": "https://www.campusfrance.org/fr/visa-long-sejour-etudiant",
       "compare_text": false,
-      "checked_at": "2026-11-14T07:10:14.107149+00:00",
-      "status": "reachable",
-      "http_status": 200,
+      "checked_at": "2026-11-14T07:12:04.309324+00:00",
+      "status": "manual_review",
+      "http_status": null,
       "content_compared": false,
       "change_detected": false,
-      "note": "Official source returned HTTP 200. Text comparison is disabled for this slow page; counsellors must review the live IRCC page manually. Availability only, not policy-change monitoring."
+      "note": "Automated availability check timed out or was blocked (The read operation timed out). Open the official source page (Campus France — VLS-TS student visa) in a browser and verify manually; no policy text comparison was possible."
     },
     {
       "country": "France",
       "name": "France-Visas — Applying for a visa to France in Sri Lanka",
       "url": "https://www.france-visas.gouv.fr/en/web/france-visas/sri-lanka",
       "compare_text": false,
-      "checked_at": "2026-11-14T07:10:04.126147+00:00",
+      "checked_at": "2026-11-14T07:11:54.461298+00:00",
       "status": "manual_review",
       "http_status": 403,
       "change_detected": false,
@@ -735,139 +735,139 @@
       "name": "IND — Student residence permit for university or higher professional education",
       "url": "https://ind.nl/en/residence-permits/study/student-residence-permit-for-university-or-higher-professional-education",
       "compare_text": false,
-      "checked_at": "2026-11-14T07:10:04.071545+00:00",
+      "checked_at": "2026-11-14T07:11:54.643897+00:00",
       "status": "reachable",
       "http_status": 200,
       "content_compared": false,
       "change_detected": false,
-      "note": "Official source returned HTTP 200. Text comparison is disabled for this slow page; counsellors must review the live IRCC page manually. Availability only, not policy-change monitoring."
+      "note": "Official source (IND — Student residence permit for university or higher professional education) returned HTTP 200. Text comparison is disabled for this source; counsellors must review the live official page manually. Availability only, not policy-change monitoring."
     },
     {
       "country": "Netherlands",
       "name": "IND — Income requirements for study",
       "url": "https://ind.nl/en/income-requirements-study",
       "compare_text": false,
-      "checked_at": "2026-11-14T07:10:03.940812+00:00",
+      "checked_at": "2026-11-14T07:11:54.543847+00:00",
       "status": "reachable",
       "http_status": 200,
       "content_compared": false,
       "change_detected": false,
-      "note": "Official source returned HTTP 200. Text comparison is disabled for this slow page; counsellors must review the live IRCC page manually. Availability only, not policy-change monitoring."
+      "note": "Official source (IND — Income requirements for study) returned HTTP 200. Text comparison is disabled for this source; counsellors must review the live official page manually. Availability only, not policy-change monitoring."
     },
     {
       "country": "Netherlands",
       "name": "IND — Required amounts income requirements (2026 study norm)",
       "url": "https://ind.nl/en/required-amounts-income-requirements",
       "compare_text": false,
-      "checked_at": "2026-11-14T07:10:04.116597+00:00",
+      "checked_at": "2026-11-14T07:11:54.683350+00:00",
       "status": "reachable",
       "http_status": 200,
       "content_compared": false,
       "change_detected": false,
-      "note": "Official source returned HTTP 200. Text comparison is disabled for this slow page; counsellors must review the live IRCC page manually. Availability only, not policy-change monitoring."
+      "note": "Official source (IND — Required amounts income requirements (2026 study norm)) returned HTTP 200. Text comparison is disabled for this source; counsellors must review the live official page manually. Availability only, not policy-change monitoring."
     },
     {
       "country": "Netherlands",
       "name": "IND — Public register of recognised sponsors (study)",
       "url": "https://ind.nl/en/public-register-recognised-sponsors/public-register-study",
       "compare_text": false,
-      "checked_at": "2026-11-14T07:10:04.241188+00:00",
+      "checked_at": "2026-11-14T07:11:54.802995+00:00",
       "status": "reachable",
       "http_status": 200,
       "content_compared": false,
       "change_detected": false,
-      "note": "Official source returned HTTP 200. Text comparison is disabled for this slow page; counsellors must review the live IRCC page manually. Availability only, not policy-change monitoring."
+      "note": "Official source (IND — Public register of recognised sponsors (study)) returned HTTP 200. Text comparison is disabled for this source; counsellors must review the live official page manually. Availability only, not policy-change monitoring."
     },
     {
       "country": "Netherlands",
       "name": "IND — Residence permit for orientation year",
       "url": "https://ind.nl/en/residence-permits/work/residence-permit-for-orientation-year",
       "compare_text": false,
-      "checked_at": "2026-11-14T07:10:04.378311+00:00",
+      "checked_at": "2026-11-14T07:11:54.993968+00:00",
       "status": "reachable",
       "http_status": 200,
       "content_compared": false,
       "change_detected": false,
-      "note": "Official source returned HTTP 200. Text comparison is disabled for this slow page; counsellors must review the live IRCC page manually. Availability only, not policy-change monitoring."
+      "note": "Official source (IND — Residence permit for orientation year) returned HTTP 200. Text comparison is disabled for this source; counsellors must review the live official page manually. Availability only, not policy-change monitoring."
     },
     {
       "country": "Netherlands",
       "name": "NetherlandsWorldwide — Dutch representation and appointments",
       "url": "https://www.netherlandsworldwide.nl/",
       "compare_text": false,
-      "checked_at": "2026-11-14T07:10:04.408228+00:00",
+      "checked_at": "2026-11-14T07:11:55.471481+00:00",
       "status": "reachable",
       "http_status": 200,
       "content_compared": false,
       "change_detected": false,
-      "note": "Official source returned HTTP 200. Text comparison is disabled for this slow page; counsellors must review the live IRCC page manually. Availability only, not policy-change monitoring."
+      "note": "Official source (NetherlandsWorldwide — Dutch representation and appointments) returned HTTP 200. Text comparison is disabled for this source; counsellors must review the live official page manually. Availability only, not policy-change monitoring."
     },
     {
       "country": "Netherlands",
       "name": "Netherlands Labour Authority — Foreign students and work permits",
       "url": "https://www.nllabourauthority.nl/topics/foreign-nationals-employment-act/foreign-students",
       "compare_text": false,
-      "checked_at": "2026-11-14T07:10:04.980673+00:00",
+      "checked_at": "2026-11-14T07:11:55.758777+00:00",
       "status": "reachable",
       "http_status": 200,
       "content_compared": false,
       "change_detected": false,
-      "note": "Official source returned HTTP 200. Text comparison is disabled for this slow page; counsellors must review the live IRCC page manually. Availability only, not policy-change monitoring."
+      "note": "Official source (Netherlands Labour Authority — Foreign students and work permits) returned HTTP 200. Text comparison is disabled for this source; counsellors must review the live official page manually. Availability only, not policy-change monitoring."
     },
     {
       "country": "Italy",
       "name": "Italian Embassy Colombo — Study Visa Checklist, version 3/2026",
       "url": "https://ambcolombo.esteri.it/it/servizi-consolari-e-visti/servizi-per-il-cittadino-straniero/visti/moduli-richiesta-visti/study-visa-checklist/",
       "compare_text": false,
-      "checked_at": "2026-11-14T07:10:04.893072+00:00",
+      "checked_at": "2026-11-14T07:11:55.587948+00:00",
       "status": "reachable",
       "http_status": 200,
       "content_compared": false,
       "change_detected": false,
-      "note": "Official source returned HTTP 200. Text comparison is disabled for this slow page; counsellors must review the live IRCC page manually. Availability only, not policy-change monitoring."
+      "note": "Official source (Italian Embassy Colombo — Study Visa Checklist, version 3/2026) returned HTTP 200. Text comparison is disabled for this source; counsellors must review the live official page manually. Availability only, not policy-change monitoring."
     },
     {
       "country": "Italy",
       "name": "Universitaly — International student procedures 2026/27 and 2027/28",
       "url": "https://www.universitaly.it/it/studenti-stranieri",
       "compare_text": false,
-      "checked_at": "2026-11-14T07:10:05.008957+00:00",
+      "checked_at": "2026-11-14T07:11:55.430971+00:00",
       "status": "reachable",
       "http_status": 200,
       "content_compared": false,
       "change_detected": false,
-      "note": "Official source returned HTTP 200. Text comparison is disabled for this slow page; counsellors must review the live IRCC page manually. Availability only, not policy-change monitoring."
+      "note": "Official source (Universitaly — International student procedures 2026/27 and 2027/28) returned HTTP 200. Text comparison is disabled for this source; counsellors must review the live official page manually. Availability only, not policy-change monitoring."
     },
     {
       "country": "Italy",
       "name": "MAECI — Study in Italy: financial means, residence permit and work",
       "url": "https://www.esteri.it/en/ministero/sportello_info/domandefrequenti/studiare-in-italia/",
       "compare_text": false,
-      "checked_at": "2026-11-14T07:10:04.999468+00:00",
+      "checked_at": "2026-11-14T07:11:55.808097+00:00",
       "status": "reachable",
       "http_status": 200,
       "content_compared": false,
       "change_detected": false,
-      "note": "Official source returned HTTP 200. Text comparison is disabled for this slow page; counsellors must review the live IRCC page manually. Availability only, not policy-change monitoring."
+      "note": "Official source (MAECI — Study in Italy: financial means, residence permit and work) returned HTTP 200. Text comparison is disabled for this source; counsellors must review the live official page manually. Availability only, not policy-change monitoring."
     },
     {
       "country": "Italy",
       "name": "Study in Italy — Residence permit procedure for non-EU students",
       "url": "https://studyinitaly.esteri.it/Static/InformazioniSoggiorno",
       "compare_text": false,
-      "checked_at": "2026-11-14T07:10:05.165272+00:00",
+      "checked_at": "2026-11-14T07:11:56.273303+00:00",
       "status": "reachable",
       "http_status": 200,
       "content_compared": false,
       "change_detected": false,
-      "note": "Official source returned HTTP 200. Text comparison is disabled for this slow page; counsellors must review the live IRCC page manually. Availability only, not policy-change monitoring."
+      "note": "Official source (Study in Italy — Residence permit procedure for non-EU students) returned HTTP 200. Text comparison is disabled for this source; counsellors must review the live official page manually. Availability only, not policy-change monitoring."
     },
     {
       "country": "Finland",
       "name": "Finnish Immigration Service (Migri) — Residence permit application for studies",
       "url": "https://migri.fi/en/residence-permit-application-for-studies",
       "compare_text": false,
-      "checked_at": "2026-11-14T07:10:05.424181+00:00",
+      "checked_at": "2026-11-14T07:11:56.400004+00:00",
       "status": "manual_review",
       "http_status": 403,
       "change_detected": false,
@@ -878,7 +878,7 @@
       "name": "Migri — Income requirement for students",
       "url": "https://migri.fi/en/income-requirement-for-students",
       "compare_text": false,
-      "checked_at": "2026-11-14T07:10:05.421857+00:00",
+      "checked_at": "2026-11-14T07:11:56.396634+00:00",
       "status": "manual_review",
       "http_status": 403,
       "change_detected": false,
@@ -889,7 +889,7 @@
       "name": "Migri — Students must have insurance",
       "url": "https://migri.fi/en/insurance",
       "compare_text": false,
-      "checked_at": "2026-11-14T07:10:05.430591+00:00",
+      "checked_at": "2026-11-14T07:11:56.398508+00:00",
       "status": "manual_review",
       "http_status": 403,
       "change_detected": false,
@@ -900,7 +900,7 @@
       "name": "Migri — Students' right to work",
       "url": "https://migri.fi/en/right-to-work",
       "compare_text": false,
-      "checked_at": "2026-11-14T07:10:05.422620+00:00",
+      "checked_at": "2026-11-14T07:11:56.401193+00:00",
       "status": "manual_review",
       "http_status": 403,
       "change_detected": false,
@@ -911,7 +911,7 @@
       "name": "Migri — Residence permit to look for work or start a business",
       "url": "https://migri.fi/en/residence-permit-to-look-for-work",
       "compare_text": false,
-      "checked_at": "2026-11-14T07:10:05.701319+00:00",
+      "checked_at": "2026-11-14T07:11:56.817304+00:00",
       "status": "manual_review",
       "http_status": 403,
       "change_detected": false,
@@ -922,7 +922,7 @@
       "name": "Migri — Residence permit based on a degree completed in Finland",
       "url": "https://migri.fi/en/degree-completed-in-finland",
       "compare_text": false,
-      "checked_at": "2026-11-14T07:10:05.916476+00:00",
+      "checked_at": "2026-11-14T07:11:56.797053+00:00",
       "status": "manual_review",
       "http_status": 403,
       "change_detected": false,
@@ -933,56 +933,63 @@
       "name": "Swedish Migration Agency — Residence permit for higher education",
       "url": "https://www.migrationsverket.se/en/you-want-to-apply/study/higher-education.html",
       "compare_text": false,
-      "checked_at": "2026-11-14T07:10:06.565743+00:00",
+      "checked_at": "2026-11-14T07:11:57.261159+00:00",
       "status": "reachable",
       "http_status": 200,
       "content_compared": false,
       "change_detected": false,
-      "note": "Official source returned HTTP 200. Text comparison is disabled for this slow page; counsellors must review the live IRCC page manually. Availability only, not policy-change monitoring."
+      "note": "Official source (Swedish Migration Agency — Residence permit for higher education) returned HTTP 200. Text comparison is disabled for this source; counsellors must review the live official page manually. Availability only, not policy-change monitoring."
     },
     {
       "country": "Sweden",
       "name": "Swedish Migration Agency — New higher-education student permit rules from 11 June 2026",
       "url": "https://www.migrationsverket.se/en/newsarchive/newrulesforresidencepermitsforstudiesinhighereducation.5.7e7ff7f619e5ace55a714.html",
       "compare_text": false,
-      "checked_at": "2026-11-14T07:10:06.575947+00:00",
+      "checked_at": "2026-11-14T07:11:57.251709+00:00",
       "status": "reachable",
       "http_status": 200,
       "content_compared": false,
       "change_detected": false,
-      "note": "Official source returned HTTP 200. Text comparison is disabled for this slow page; counsellors must review the live IRCC page manually. Availability only, not policy-change monitoring."
+      "note": "Official source (Swedish Migration Agency — New higher-education student permit rules from 11 June 2026) returned HTTP 200. Text comparison is disabled for this source; counsellors must review the live official page manually. Availability only, not policy-change monitoring."
     },
     {
       "country": "Sweden",
       "name": "Swedish Migration Agency — Permit to look for work after completing studies",
       "url": "https://www.migrationsverket.se/en/you-want-to-extend/study/look-for-work-after-completing-your-studies-in-sweden.html",
       "compare_text": false,
-      "checked_at": "2026-11-14T07:10:06.566969+00:00",
+      "checked_at": "2026-11-14T07:11:57.255182+00:00",
       "status": "reachable",
       "http_status": 200,
       "content_compared": false,
       "change_detected": false,
-      "note": "Official source returned HTTP 200. Text comparison is disabled for this slow page; counsellors must review the live IRCC page manually. Availability only, not policy-change monitoring."
+      "note": "Official source (Swedish Migration Agency — Permit to look for work after completing studies) returned HTTP 200. Text comparison is disabled for this source; counsellors must review the live official page manually. Availability only, not policy-change monitoring."
     },
     {
       "country": "Sweden",
       "name": "Swedish Migration Agency — Extension of higher-education residence permit",
       "url": "https://www.migrationsverket.se/en/you-want-to-extend/study/higher-education.html",
       "compare_text": false,
-      "checked_at": "2026-11-14T07:10:06.566309+00:00",
+      "checked_at": "2026-11-14T07:11:57.255670+00:00",
       "status": "reachable",
       "http_status": 200,
       "content_compared": false,
       "change_detected": false,
-      "note": "Official source returned HTTP 200. Text comparison is disabled for this slow page; counsellors must review the live IRCC page manually. Availability only, not policy-change monitoring."
+      "note": "Official source (Swedish Migration Agency — Extension of higher-education residence permit) returned HTTP 200. Text comparison is disabled for this source; counsellors must review the live official page manually. Availability only, not policy-change monitoring."
     }
   ],
   "change_candidates": [
     {
+      "country": "UAE / Dubai",
+      "name": "UAE Government — Residence visa for studying",
+      "url": "https://u.ae/en/information-and-services/visa-and-emirates-id/residence-visas/residence-visa-for-studying-in-the-uae",
+      "checked_at": "2026-11-14T07:11:41.808403+00:00",
+      "note": "Possible page-text change detected since the previous successful check. Review the official page; this is not proof of a policy change."
+    },
+    {
       "country": "Germany",
       "name": "Make it in Germany — Visa for studying (2026 funds and student work)",
       "url": "https://www.make-it-in-germany.com/en/visa-recognition/visa-types/studying",
-      "checked_at": "2026-11-14T07:09:40.672625+00:00",
+      "checked_at": "2026-11-14T07:11:31.014803+00:00",
       "note": "Possible page-text change detected since the previous successful check. Review the official page; this is not proof of a policy change."
     }
   ],
@@ -1037,12 +1044,12 @@
     {
       "country": "UK",
       "source": "https://www.gov.uk/government/publications/register-of-licensed-sponsors-students",
-      "reason": "Official source returned HTTP 200. Text comparison is disabled for this slow page; counsellors must review the live IRCC page manually. Availability only, not policy-change monitoring."
+      "reason": "Official source (UK Home Office — Register of licensed sponsors: Students) returned HTTP 200. Text comparison is disabled for this source; counsellors must review the live official page manually. Availability only, not policy-change monitoring."
     },
     {
       "country": "UK",
       "source": "https://www.gov.uk/student-visa/course",
-      "reason": "Official source returned HTTP 200. Text comparison is disabled for this slow page; counsellors must review the live IRCC page manually. Availability only, not policy-change monitoring."
+      "reason": "Official source (GOV.UK — Student visa: course requirements and CAS) returned HTTP 200. Text comparison is disabled for this source; counsellors must review the live official page manually. Availability only, not policy-change monitoring."
     },
     {
       "country": "Australia",
@@ -1052,7 +1059,7 @@
     {
       "country": "New Zealand",
       "source": "https://www.immigration.govt.nz/assist-migrants-and-students/assist-students/understand-your-obligations/",
-      "reason": "Official source returned HTTP 200. Text comparison is disabled for this slow page; counsellors must review the live IRCC page manually. Availability only, not policy-change monitoring."
+      "reason": "Official source (Immigration New Zealand — Rules for approved education providers and Code signatories) returned HTTP 200. Text comparison is disabled for this source; counsellors must review the live official page manually. Availability only, not policy-change monitoring."
     },
     {
       "country": "UAE / Dubai",
@@ -1067,7 +1074,7 @@
     {
       "country": "UAE",
       "source": "https://icp.gov.ae/en/services-details/?serviceid=64afe3c1035448005bd52e64",
-      "reason": "Official source returned HTTP 200. Text comparison is disabled for this slow page; counsellors must review the live IRCC page manually. Availability only, not policy-change monitoring."
+      "reason": "Official source (Federal ICP — Issuing residency permit (student conditions and documents)) returned HTTP 200. Text comparison is disabled for this source; counsellors must review the live official page manually. Availability only, not policy-change monitoring."
     },
     {
       "country": "UAE",
@@ -1077,37 +1084,37 @@
     {
       "country": "UAE / Dubai",
       "source": "https://www.gdrfad.gov.ae/en/services/d551ce8d-52e8-11ea-0320-0050569629e8",
-      "reason": "Official source returned HTTP 200. Text comparison is disabled for this slow page; counsellors must review the live IRCC page manually. Availability only, not policy-change monitoring."
+      "reason": "Official source (GDRFA Dubai — Issuing a visit visa for study, training or rehabilitation) returned HTTP 200. Text comparison is disabled for this source; counsellors must review the live official page manually. Availability only, not policy-change monitoring."
     },
     {
       "country": "UAE / Dubai",
       "source": "https://www.gdrfad.gov.ae/en/services/8ea80dad-f43e-11eb-0320-0050569629e8",
-      "reason": "Official source returned HTTP 200. Text comparison is disabled for this slow page; counsellors must review the live IRCC page manually. Availability only, not policy-change monitoring."
+      "reason": "Official source (GDRFA Dubai — Golden Residence for top students and graduates) returned HTTP 200. Text comparison is disabled for this source; counsellors must review the live official page manually. Availability only, not policy-change monitoring."
     },
     {
       "country": "Germany",
       "source": "https://colombo.diplo.de/lk-en/service/2404544-2404544",
-      "reason": "Official source returned HTTP 200. Text comparison is disabled for this slow page; counsellors must review the live IRCC page manually. Availability only, not policy-change monitoring."
+      "reason": "Official source (German Embassy Colombo — Opening / unblocking a blocked account) returned HTTP 200. Text comparison is disabled for this source; counsellors must review the live official page manually. Availability only, not policy-change monitoring."
     },
     {
       "country": "UK",
       "source": "https://www.gov.uk/student-visa/money",
-      "reason": "Official source returned HTTP 200. Text comparison is disabled for this slow page; counsellors must review the live IRCC page manually. Availability only, not policy-change monitoring."
+      "reason": "Official source (GOV.UK — Student visa financial requirement and maintenance amounts) returned HTTP 200. Text comparison is disabled for this source; counsellors must review the live official page manually. Availability only, not policy-change monitoring."
     },
     {
       "country": "UK",
       "source": "https://www.gov.uk/government/publications/statement-of-changes-to-the-immigration-rules-hc-584-3-september-2026/statement-of-changes-to-the-immigration-rules-hc-584-3-september-2026-accessible",
-      "reason": "Official source returned HTTP 200. Text comparison is disabled for this slow page; counsellors must review the live IRCC page manually. Availability only, not policy-change monitoring."
+      "reason": "Official source (Home Office — HC 584 Statement of Changes (3 September 2026)) returned HTTP 200. Text comparison is disabled for this source; counsellors must review the live official page manually. Availability only, not policy-change monitoring."
     },
     {
       "country": "UK",
       "source": "https://www.gov.uk/government/publications/student-route-caseworker-guidance/student-and-child-student",
-      "reason": "Official source returned HTTP 200. Text comparison is disabled for this slow page; counsellors must review the live IRCC page manually. Availability only, not policy-change monitoring."
+      "reason": "Official source (Home Office — Student and Child Student caseworker guidance (work conditions)) returned HTTP 200. Text comparison is disabled for this source; counsellors must review the live official page manually. Availability only, not policy-change monitoring."
     },
     {
       "country": "UK",
       "source": "https://www.gov.uk/guidance/financial-evidence-for-student-and-child-student-route-applicants",
-      "reason": "Official source returned HTTP 200. Text comparison is disabled for this slow page; counsellors must review the live IRCC page manually. Availability only, not policy-change monitoring."
+      "reason": "Official source (UKVI — Financial evidence for Student and Child Student applicants) returned HTTP 200. Text comparison is disabled for this source; counsellors must review the live official page manually. Availability only, not policy-change monitoring."
     },
     {
       "country": "Canada",
@@ -1117,72 +1124,72 @@
     {
       "country": "Australia",
       "source": "https://immi.homeaffairs.gov.au/visas/getting-a-visa/visa-listing/changes-to-student-visa-application-rules-500-590/family-members",
-      "reason": "Official source returned HTTP 200. Text comparison is disabled for this slow page; counsellors must review the live IRCC page manually. Availability only, not policy-change monitoring."
+      "reason": "Official source (Department of Home Affairs — Student visa family-member inclusion and subsequent entrants (2026 rules)) returned HTTP 200. Text comparison is disabled for this source; counsellors must review the live official page manually. Availability only, not policy-change monitoring."
     },
     {
       "country": "Australia",
       "source": "https://immi.homeaffairs.gov.au/visas/getting-a-visa/visa-listing/changes-to-student-visa-application-rules-500-590/what-you-need-to-do",
-      "reason": "Official source returned HTTP 200. Text comparison is disabled for this slow page; counsellors must review the live IRCC page manually. Availability only, not policy-change monitoring."
+      "reason": "Official source (Department of Home Affairs — What applicants and education agents must do under 2026 Student visa application changes) returned HTTP 200. Text comparison is disabled for this source; counsellors must review the live official page manually. Availability only, not policy-change monitoring."
     },
     {
       "country": "New Zealand",
       "source": "https://www.immigration.govt.nz/process-to-apply/applying-for-a-visa/providing-evidence-and-documents-to-support-your-visa-application/student-fund-requirements/",
-      "reason": "Official source returned HTTP 200. Text comparison is disabled for this slow page; counsellors must review the live IRCC page manually. Availability only, not policy-change monitoring."
+      "reason": "Official source (Immigration New Zealand — Student fund requirements) returned HTTP 200. Text comparison is disabled for this source; counsellors must review the live official page manually. Availability only, not policy-change monitoring."
     },
     {
       "country": "New Zealand",
       "source": "https://www.immigration.govt.nz/visas/post-study-work-visa/",
-      "reason": "Official source returned HTTP 200. Text comparison is disabled for this slow page; counsellors must review the live IRCC page manually. Availability only, not policy-change monitoring."
+      "reason": "Official source (Immigration New Zealand — Post-Study Work Visa) returned HTTP 200. Text comparison is disabled for this source; counsellors must review the live official page manually. Availability only, not policy-change monitoring."
     },
     {
       "country": "New Zealand",
       "source": "https://www.immigration.govt.nz/study/after-you-finish-your-study/qualifications-needed-for-a-post-study-work-visa/",
-      "reason": "Official source returned HTTP 200. Text comparison is disabled for this slow page; counsellors must review the live IRCC page manually. Availability only, not policy-change monitoring."
+      "reason": "Official source (Immigration New Zealand — Qualifications needed for a Post-Study Work Visa) returned HTTP 200. Text comparison is disabled for this source; counsellors must review the live official page manually. Availability only, not policy-change monitoring."
     },
     {
       "country": "New Zealand",
       "source": "https://www.immigration.govt.nz/about-us/news-centre/new-and-updated-post-study-work-visa-options/",
-      "reason": "Official source returned HTTP 200. Text comparison is disabled for this slow page; counsellors must review the live IRCC page manually. Availability only, not policy-change monitoring."
+      "reason": "Official source (Immigration New Zealand — New and updated post-study work visa options (16 November 2026)) returned HTTP 200. Text comparison is disabled for this source; counsellors must review the live official page manually. Availability only, not policy-change monitoring."
     },
     {
       "country": "New Zealand",
       "source": "https://www.immigration.govt.nz/visas/short-term-graduate-work-visa/",
-      "reason": "Official source returned HTTP 200. Text comparison is disabled for this slow page; counsellors must review the live IRCC page manually. Availability only, not policy-change monitoring."
+      "reason": "Official source (Immigration New Zealand — Short-Term Graduate Work Visa) returned HTTP 200. Text comparison is disabled for this source; counsellors must review the live official page manually. Availability only, not policy-change monitoring."
     },
     {
       "country": "Ireland",
       "source": "https://www.irishimmigration.ie/coming-to-study-in-ireland/what-are-my-study-visa-options/how-to-apply-for-long-term-study-visa/",
-      "reason": "Official source returned HTTP 200. Text comparison is disabled for this slow page; counsellors must review the live IRCC page manually. Availability only, not policy-change monitoring."
+      "reason": "Official source (Immigration Service Delivery — How to apply for a long-term study visa) returned HTTP 200. Text comparison is disabled for this source; counsellors must review the live official page manually. Availability only, not policy-change monitoring."
     },
     {
       "country": "Ireland",
       "source": "https://www.irishimmigration.ie/coming-to-study-in-ireland/what-are-my-study-options/a-fee-paying-private-primary-or-secondary-school/information-on-student-finances/",
-      "reason": "Official source returned HTTP 200. Text comparison is disabled for this slow page; counsellors must review the live IRCC page manually. Availability only, not policy-change monitoring."
+      "reason": "Official source (Immigration Service Delivery — Information on student finances) returned HTTP 200. Text comparison is disabled for this source; counsellors must review the live official page manually. Availability only, not policy-change monitoring."
     },
     {
       "country": "Ireland",
       "source": "https://www.irishimmigration.ie/coming-to-study-in-ireland/what-are-my-study-options/interim-list-of-eligible-programmes-ilep/",
-      "reason": "Official source returned HTTP 200. Text comparison is disabled for this slow page; counsellors must review the live IRCC page manually. Availability only, not policy-change monitoring."
+      "reason": "Official source (Immigration Service Delivery — ILEP and TrustEd Ireland eligibility) returned HTTP 200. Text comparison is disabled for this source; counsellors must review the live official page manually. Availability only, not policy-change monitoring."
     },
     {
       "country": "Ireland",
       "source": "https://www.irishimmigration.ie/coming-to-study-in-ireland/what-are-my-study-options/planning-to-study-in-ireland/",
-      "reason": "Official source returned HTTP 200. Text comparison is disabled for this slow page; counsellors must review the live IRCC page manually. Availability only, not policy-change monitoring."
+      "reason": "Official source (Immigration Service Delivery — Planning to study in Ireland) returned HTTP 200. Text comparison is disabled for this source; counsellors must review the live official page manually. Availability only, not policy-change monitoring."
     },
     {
       "country": "Ireland",
       "source": "https://www.irishimmigration.ie/registering-your-immigration-permission/information-on-registering/immigration-permission-stamps/",
-      "reason": "Official source returned HTTP 200. Text comparison is disabled for this slow page; counsellors must review the live IRCC page manually. Availability only, not policy-change monitoring."
+      "reason": "Official source (Immigration Service Delivery — Immigration permission stamps) returned HTTP 200. Text comparison is disabled for this source; counsellors must review the live official page manually. Availability only, not policy-change monitoring."
     },
     {
       "country": "Ireland",
       "source": "https://www.irishimmigration.ie/my-situation-has-changed-since-i-arrived-in-ireland/third-level-graduate-programme/",
-      "reason": "Official source returned HTTP 200. Text comparison is disabled for this slow page; counsellors must review the live IRCC page manually. Availability only, not policy-change monitoring."
+      "reason": "Official source (Immigration Service Delivery — Third Level Graduate Programme) returned HTTP 200. Text comparison is disabled for this source; counsellors must review the live official page manually. Availability only, not policy-change monitoring."
     },
     {
       "country": "Ireland",
       "source": "https://www.irishimmigration.ie/coming-to-study-in-ireland/frequently-asked-questions-for-students/",
-      "reason": "Official source returned HTTP 200. Text comparison is disabled for this slow page; counsellors must review the live IRCC page manually. Availability only, not policy-change monitoring."
+      "reason": "Official source (Immigration Service Delivery — Student FAQs) returned HTTP 200. Text comparison is disabled for this source; counsellors must review the live official page manually. Availability only, not policy-change monitoring."
     },
     {
       "country": "France",
@@ -1197,12 +1204,12 @@
     {
       "country": "France",
       "source": "https://www.service-public.gouv.fr/particuliers/vosdroits/F2231",
-      "reason": "Official source returned HTTP 200. Text comparison is disabled for this slow page; counsellors must review the live IRCC page manually. Availability only, not policy-change monitoring."
+      "reason": "Official source (Service-Public — Foreign student visa and residence permit) returned HTTP 200. Text comparison is disabled for this source; counsellors must review the live official page manually. Availability only, not policy-change monitoring."
     },
     {
       "country": "France",
       "source": "https://www.campusfrance.org/fr/visa-long-sejour-etudiant",
-      "reason": "Official source returned HTTP 200. Text comparison is disabled for this slow page; counsellors must review the live IRCC page manually. Availability only, not policy-change monitoring."
+      "reason": "Automated availability check timed out or was blocked (The read operation timed out). Open the official source page (Campus France — VLS-TS student visa) in a browser and verify manually; no policy text comparison was possible."
     },
     {
       "country": "France",
@@ -1212,57 +1219,57 @@
     {
       "country": "Netherlands",
       "source": "https://ind.nl/en/residence-permits/study/student-residence-permit-for-university-or-higher-professional-education",
-      "reason": "Official source returned HTTP 200. Text comparison is disabled for this slow page; counsellors must review the live IRCC page manually. Availability only, not policy-change monitoring."
+      "reason": "Official source (IND — Student residence permit for university or higher professional education) returned HTTP 200. Text comparison is disabled for this source; counsellors must review the live official page manually. Availability only, not policy-change monitoring."
     },
     {
       "country": "Netherlands",
       "source": "https://ind.nl/en/income-requirements-study",
-      "reason": "Official source returned HTTP 200. Text comparison is disabled for this slow page; counsellors must review the live IRCC page manually. Availability only, not policy-change monitoring."
+      "reason": "Official source (IND — Income requirements for study) returned HTTP 200. Text comparison is disabled for this source; counsellors must review the live official page manually. Availability only, not policy-change monitoring."
     },
     {
       "country": "Netherlands",
       "source": "https://ind.nl/en/required-amounts-income-requirements",
-      "reason": "Official source returned HTTP 200. Text comparison is disabled for this slow page; counsellors must review the live IRCC page manually. Availability only, not policy-change monitoring."
+      "reason": "Official source (IND — Required amounts income requirements (2026 study norm)) returned HTTP 200. Text comparison is disabled for this source; counsellors must review the live official page manually. Availability only, not policy-change monitoring."
     },
     {
       "country": "Netherlands",
       "source": "https://ind.nl/en/public-register-recognised-sponsors/public-register-study",
-      "reason": "Official source returned HTTP 200. Text comparison is disabled for this slow page; counsellors must review the live IRCC page manually. Availability only, not policy-change monitoring."
+      "reason": "Official source (IND — Public register of recognised sponsors (study)) returned HTTP 200. Text comparison is disabled for this source; counsellors must review the live official page manually. Availability only, not policy-change monitoring."
     },
     {
       "country": "Netherlands",
       "source": "https://ind.nl/en/residence-permits/work/residence-permit-for-orientation-year",
-      "reason": "Official source returned HTTP 200. Text comparison is disabled for this slow page; counsellors must review the live IRCC page manually. Availability only, not policy-change monitoring."
+      "reason": "Official source (IND — Residence permit for orientation year) returned HTTP 200. Text comparison is disabled for this source; counsellors must review the live official page manually. Availability only, not policy-change monitoring."
     },
     {
       "country": "Netherlands",
       "source": "https://www.netherlandsworldwide.nl/",
-      "reason": "Official source returned HTTP 200. Text comparison is disabled for this slow page; counsellors must review the live IRCC page manually. Availability only, not policy-change monitoring."
+      "reason": "Official source (NetherlandsWorldwide — Dutch representation and appointments) returned HTTP 200. Text comparison is disabled for this source; counsellors must review the live official page manually. Availability only, not policy-change monitoring."
     },
     {
       "country": "Netherlands",
       "source": "https://www.nllabourauthority.nl/topics/foreign-nationals-employment-act/foreign-students",
-      "reason": "Official source returned HTTP 200. Text comparison is disabled for this slow page; counsellors must review the live IRCC page manually. Availability only, not policy-change monitoring."
+      "reason": "Official source (Netherlands Labour Authority — Foreign students and work permits) returned HTTP 200. Text comparison is disabled for this source; counsellors must review the live official page manually. Availability only, not policy-change monitoring."
     },
     {
       "country": "Italy",
       "source": "https://ambcolombo.esteri.it/it/servizi-consolari-e-visti/servizi-per-il-cittadino-straniero/visti/moduli-richiesta-visti/study-visa-checklist/",
-      "reason": "Official source returned HTTP 200. Text comparison is disabled for this slow page; counsellors must review the live IRCC page manually. Availability only, not policy-change monitoring."
+      "reason": "Official source (Italian Embassy Colombo — Study Visa Checklist, version 3/2026) returned HTTP 200. Text comparison is disabled for this source; counsellors must review the live official page manually. Availability only, not policy-change monitoring."
     },
     {
       "country": "Italy",
       "source": "https://www.universitaly.it/it/studenti-stranieri",
-      "reason": "Official source returned HTTP 200. Text comparison is disabled for this slow page; counsellors must review the live IRCC page manually. Availability only, not policy-change monitoring."
+      "reason": "Official source (Universitaly — International student procedures 2026/27 and 2027/28) returned HTTP 200. Text comparison is disabled for this source; counsellors must review the live official page manually. Availability only, not policy-change monitoring."
     },
     {
       "country": "Italy",
       "source": "https://www.esteri.it/en/ministero/sportello_info/domandefrequenti/studiare-in-italia/",
-      "reason": "Official source returned HTTP 200. Text comparison is disabled for this slow page; counsellors must review the live IRCC page manually. Availability only, not policy-change monitoring."
+      "reason": "Official source (MAECI — Study in Italy: financial means, residence permit and work) returned HTTP 200. Text comparison is disabled for this source; counsellors must review the live official page manually. Availability only, not policy-change monitoring."
     },
     {
       "country": "Italy",
       "source": "https://studyinitaly.esteri.it/Static/InformazioniSoggiorno",
-      "reason": "Official source returned HTTP 200. Text comparison is disabled for this slow page; counsellors must review the live IRCC page manually. Availability only, not policy-change monitoring."
+      "reason": "Official source (Study in Italy — Residence permit procedure for non-EU students) returned HTTP 200. Text comparison is disabled for this source; counsellors must review the live official page manually. Availability only, not policy-change monitoring."
     },
     {
       "country": "Finland",
@@ -1297,22 +1304,22 @@
     {
       "country": "Sweden",
       "source": "https://www.migrationsverket.se/en/you-want-to-apply/study/higher-education.html",
-      "reason": "Official source returned HTTP 200. Text comparison is disabled for this slow page; counsellors must review the live IRCC page manually. Availability only, not policy-change monitoring."
+      "reason": "Official source (Swedish Migration Agency — Residence permit for higher education) returned HTTP 200. Text comparison is disabled for this source; counsellors must review the live official page manually. Availability only, not policy-change monitoring."
     },
     {
       "country": "Sweden",
       "source": "https://www.migrationsverket.se/en/newsarchive/newrulesforresidencepermitsforstudiesinhighereducation.5.7e7ff7f619e5ace55a714.html",
-      "reason": "Official source returned HTTP 200. Text comparison is disabled for this slow page; counsellors must review the live IRCC page manually. Availability only, not policy-change monitoring."
+      "reason": "Official source (Swedish Migration Agency — New higher-education student permit rules from 11 June 2026) returned HTTP 200. Text comparison is disabled for this source; counsellors must review the live official page manually. Availability only, not policy-change monitoring."
     },
     {
       "country": "Sweden",
       "source": "https://www.migrationsverket.se/en/you-want-to-extend/study/look-for-work-after-completing-your-studies-in-sweden.html",
-      "reason": "Official source returned HTTP 200. Text comparison is disabled for this slow page; counsellors must review the live IRCC page manually. Availability only, not policy-change monitoring."
+      "reason": "Official source (Swedish Migration Agency — Permit to look for work after completing studies) returned HTTP 200. Text comparison is disabled for this source; counsellors must review the live official page manually. Availability only, not policy-change monitoring."
     },
     {
       "country": "Sweden",
       "source": "https://www.migrationsverket.se/en/you-want-to-extend/study/higher-education.html",
-      "reason": "Official source returned HTTP 200. Text comparison is disabled for this slow page; counsellors must review the live IRCC page manually. Availability only, not policy-change monitoring."
+      "reason": "Official source (Swedish Migration Agency — Extension of higher-education residence permit) returned HTTP 200. Text comparison is disabled for this source; counsellors must review the live official page manually. Availability only, not policy-change monitoring."
     }
   ],
   "disclaimer": "The monitor checks official-source availability and compares visible page text where enabled. Canada is availability-only because the page read times out; manual review is required. A detected page-text difference is only a candidate for human review, not a confirmed immigration rule change."
