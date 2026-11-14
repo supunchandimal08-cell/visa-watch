@@ -476,7 +476,7 @@
     {
       "country": "Finland",
       "name": "Finnish Immigration Service (Migri) — Residence permit application for studies",
-      "url": "https://migri.fi/residence-permit-application-for-studies",
+      "url": "https://migri.fi/en/residence-permit-application-for-studies",
       "compare_text": false,
       "note": "Primary application requirements: eligible study place, first application from abroad, €800/month living funds, €9,600 for one year, private insurance, tuition evidence, Enter Finland and identity verification. Fee displayed on live page: €600 electronic / €750 paper for first adult application; verify at filing."
     },
@@ -497,21 +497,21 @@
     {
       "country": "Finland",
       "name": "Migri — Students' right to work",
-      "url": "https://migri.fi/right-to-work",
+      "url": "https://migri.fi/en/right-to-work",
       "compare_text": false,
       "note": "Official student work conditions: paid employment in any field average 30 hours/week over the year; degree-related practical training/diploma work may be unrestricted. Verify actual permit and ensure work does not delay studies."
     },
     {
       "country": "Finland",
       "name": "Migri — Residence permit to look for work or start a business",
-      "url": "https://migri.fi/en/application-for-a-residence-permit-to-look-for-work",
+      "url": "https://migri.fi/en/residence-permit-to-look-for-work",
       "compare_text": false,
       "note": "Official post-study job-search/business route for eligible graduates, up to two years; verify completion status, application timing and current eligibility."
     },
     {
       "country": "Finland",
       "name": "Migri — Residence permit based on a degree completed in Finland",
-      "url": "https://migri.fi/en/application-for-a-residence-permit-on-the-basis-of-a-degree-completed-in-finland",
+      "url": "https://migri.fi/en/degree-completed-in-finland",
       "compare_text": false,
       "note": "Official graduate permit route where applicant has completed a Finnish degree and meets job-offer/employment requirements; not automatic on graduation."
     },
