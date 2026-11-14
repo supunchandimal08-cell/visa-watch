@@ -95,7 +95,7 @@ def check_source(source, previous):
                     return {**source, "checked_at": datetime.now(timezone.utc).isoformat(),
                             "status": "reachable", "http_status": status_code,
                             "content_compared": False, "change_detected": False,
-                            "note": "Official source returned HTTP " + str(status_code) + ". Text comparison is disabled for this slow page; counsellors must review the live IRCC page manually. Availability only, not policy-change monitoring."}
+                            "note": "Official source (" + source.get("name", source.get("country", "source")) + ") returned HTTP " + str(status_code) + ". Text comparison is disabled for this source; counsellors must review the live official page manually. Availability only, not policy-change monitoring."}
                 try:
                     body = response.read(1_000_000)  # Bound large government pages; first 1 MB is sufficient for change fingerprinting.
                 except (TimeoutError, OSError) as read_error:
