@@ -133,11 +133,11 @@ def check_source(source, previous):
                     "content_hash": digest, "change_detected": changed,
                     "baseline_created": first_check, "note": note}
         except HTTPError as e:
-            if source["country"] == "USA" and e.code == 403:
+            if e.code == 403:
                 return {**source, "checked_at": datetime.now(timezone.utc).isoformat(),
                         "status": "manual_review", "http_status": e.code,
                         "change_detected": False,
-                        "note": "Automated access was denied (HTTP 403). Open the official page in a browser and verify manually; no page comparison was possible."}
+                        "note": "Automated access was denied (HTTP 403). This does not prove the official URL is broken. Open the official page in a browser and verify manually; no page comparison was possible."}
             return {**source, "checked_at": datetime.now(timezone.utc).isoformat(),
                     "status": "http_error", "http_status": e.code,
                     "change_detected": False,
