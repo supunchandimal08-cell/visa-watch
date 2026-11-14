@@ -87,7 +87,7 @@ def check_source(source, previous):
         }, method="HEAD" if source.get("compare_text") is False else "GET")
         try:
             # Keep each source check bounded so one slow site does not delay the full run.
-            request_timeout = 10
+            request_timeout = 20 if source.get("country") == "Canada" else 10
             with urlopen(request, timeout=request_timeout) as response:
                 status_code = response.status
                 content_type = response.headers.get("Content-Type", "")
@@ -148,7 +148,7 @@ def check_source(source, previous):
                 return {**source, "checked_at": datetime.now(timezone.utc).isoformat(),
                         "status": "manual_review", "http_status": None,
                         "content_compared": False, "change_detected": False,
-                        "note": "Automated availability check timed out or was blocked (" + str(e)[:120] + "). Open the official IRCC page in a browser and verify manually; no policy text comparison was possible."}
+                        "note": "Automated availability check timed out or was blocked (" + str(e)[:120] + "). Open the official source page (" + source.get("name", source.get("country", "source")) + ") in a browser and verify manually; no policy text comparison was possible."}
             last_error = str(e)
             if attempt < 1:
                 time.sleep(1)
