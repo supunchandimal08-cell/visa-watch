@@ -4,6 +4,7 @@ import os
 import re
 import time
 from datetime import datetime, timezone
+from concurrent.futures import ThreadPoolExecutor
 from html.parser import HTMLParser
 from urllib.request import Request, urlopen
 from urllib.error import URLError, HTTPError
@@ -169,7 +170,10 @@ def main():
     if not isinstance(previous_hashes, dict):
         previous_hashes = {}
     sources = load_sources()
-    results = [check_source(source, previous_hashes) for source in sources]
+    # Check sources concurrently so slow government websites do not make the daily run take hours.
+    # Keep concurrency modest to avoid overloading official sites.
+    with ThreadPoolExecutor(max_workers=8) as executor:
+        results = list(executor.map(lambda source: check_source(source, previous_hashes), sources))
 
     # Keep hashes only for currently configured sources. Preserve the last
     # successful hash for active sources that temporarily fail to load.
