@@ -538,6 +538,41 @@
       "name": "Swedish Migration Agency — Extension of higher-education residence permit",
       "url": "https://www.migrationsverket.se/en/you-want-to-extend/study/higher-education.html",
       "compare_text": false
+    },
+    {
+      "country": "Iceland",
+      "name": "Ísland.is — Student residence permit requirements (eligibility, full-time study, funds and insurance)",
+      "url": "https://island.is/en/residence-permit-students/requirements",
+      "compare_text": false,
+      "note": "Official Directorate of Immigration requirements. Manually verify 18+ rule, 30 ECTS full-time definition, secure means of support, insurance, criminal record and exact programme eligibility before counselling."
+    },
+    {
+      "country": "Iceland",
+      "name": "Ísland.is — Student residence permit rights and renewal",
+      "url": "https://island.is/en/residence-permit-students/residence-rights",
+      "compare_text": false,
+      "note": "Official rights and renewal page. Manually verify permit duration, renewal, 75% study-progress requirement, 60% work limit, holiday work, family eligibility and post-study routes against current legislation."
+    },
+    {
+      "country": "Iceland",
+      "name": "Directorate of Immigration — 2026 residence and work permit rule changes",
+      "url": "https://island.is/en/o/directorate-of-immigration/news/new-residence-and-work-permit-rules-take-effect",
+      "compare_text": false,
+      "note": "Official 8 July 2026 amendment notice. Manually verify 75% study progress at every renewal, 60% student employment cap, up to 18-month graduate job-search period and family-reunification scope."
+    },
+    {
+      "country": "Iceland",
+      "name": "Directorate of Immigration — Student permit holders no longer need separate work permits",
+      "url": "https://island.is/en/o/directorate-of-immigration/news/student-residence-permits-work-permits-no-longer-required",
+      "compare_text": false,
+      "note": "Official 29 June 2026 student employment notice. Verify no separate work permit, maximum 60% of full-time work, full-time work during scheduled academic breaks, self-employment prohibition and first-permit issue-date restriction."
+    },
+    {
+      "country": "Iceland",
+      "name": "Directorate of Immigration — Higher financial support amount from 18 May 2026",
+      "url": "https://island.is/en/o/directorate-of-immigration/news/higher-amount-as-means-of-support",
+      "compare_text": false,
+      "note": "Official financial benchmark notice. For applications received from 18 May 2026, verify ISK 259,951/month for one individual and the required evidence for the full permit period. Do not assume third-party family sponsorship is accepted."
     }
   ]
 }
