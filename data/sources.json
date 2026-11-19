@@ -9,7 +9,8 @@
       "country": "Canada",
       "name": "IRCC Study Permit — Eligibility",
       "url": "https://www.canada.ca/en/immigration-refugees-citizenship/services/study-canada/study-permit/eligibility.html",
-      "compare_text": false
+      "compare_text": false,
+      "note": "Availability-only automated check; manual review required. Confirm valid letter of acceptance from a Designated Learning Institution (DLI), PAL/TAL or Quebec CAQ requirement/exemption, sufficient funds for tuition + living expenses + return transportation, admissibility/medical or police documents if requested, and that the applicant will leave Canada when authorised stay ends. Eligibility is case-specific; an LOA or PAL/TAL does not guarantee approval. Check the applicant's nationality-specific IRCC visa-office instructions. Detection is not legal interpretation."
     },
     {
       "country": "Australia",
@@ -97,7 +98,7 @@
       "name": "IRCC — Proof of financial support (living-cost table)",
       "url": "https://www.canada.ca/en/immigration-refugees-citizenship/services/study-canada/study-permit/get-documents/financial-support.html",
       "compare_text": false,
-      "note": "Availability-only automated check; manually verify the current application-date threshold, family size, Quebec rules, tuition/travel exclusion and source-of-funds evidence."
+      "note": "Availability-only automated check; manual review required. For applications received on or after 1 September 2026, outside Quebec, living-expense minimum is CAD 23,448 for one person; CAD 29,192 for two; CAD 35,888 for three; CAD 43,572 for four; CAD 49,419 for five; CAD 55,736 for six; CAD 62,054 for seven; plus CAD 6,318 per additional family member. Amount excludes tuition and transportation. Quebec uses separate provincial requirements. Verify actual application-received date, family size, first-year funds, full-program funding plan and source-of-funds evidence. Do not rely on future work income. Detection is not legal interpretation."
     },
     {
       "country": "Germany",
