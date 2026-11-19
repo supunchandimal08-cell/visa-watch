@@ -583,6 +583,20 @@
       "url": "https://www.ice.gov/sevis/employment",
       "compare_text": false,
       "note": "Availability-only automated check; manual review required. F-1 on-campus work is generally limited to 20 hours/week while school is in session and may be full-time during official breaks, subject to status and school rules. Off-campus work is not generally free/automatic: CPT must be authorised by the DSO and recorded on Form I-20 before work begins; OPT requires the appropriate DSO recommendation and USCIS employment authorisation/EAD before starting. Check the student's exact F-1 status, programme, timing, I-20 endorsement and current USCIS/ICE rules. Do not promise part-time work or use expected earnings as proof of initial funds. Detection is not legal interpretation."
+    },
+    {
+      "country": "USA",
+      "name": "U.S. ICE / SEVP — I-901 SEVIS fee and payment FAQ",
+      "url": "https://www.ice.gov/sevis/i901/faq",
+      "compare_text": false,
+      "note": "Availability-only automated check; manually verify fee and payment timing immediately before advising. ICE currently lists USD 350 for F-1/M-1 students; this is separate from the nonimmigrant visa application fee. Pay only after receiving Form I-20 and use the exact SEVIS ID shown on the current I-20; check the receipt matches that ID. Required fee generally must be paid before the visa interview. Confirm exemptions, repeat-payment rules and current amount on the live ICE FAQ and official payment portal. Detection is not legal interpretation."
+    },
+    {
+      "country": "USA",
+      "name": "USCIS — Optional Practical Training (OPT) for F-1 students",
+      "url": "https://www.uscis.gov/working-in-the-united-states/students-and-exchange-visitors/optional-practical-training-opt-for-f-1-students",
+      "compare_text": false,
+      "note": "Availability-only automated check; manual review required. OPT is temporary employment directly related to the student's major area of study, not a job placement or automatic post-study entitlement. Confirm eligibility, DSO recommendation in SEVIS, Form I-765 filing window, USCIS approval and EAD/start date before any work begins. Check unemployment limits, reporting obligations, travel/re-entry and current USCIS instructions. STEM OPT extension is a separate 24-month route with designated STEM degree/CIP code and employer/Form I-983 requirements. Never promise OPT approval or employment. Detection is not legal interpretation."
     }
   ]
 }
