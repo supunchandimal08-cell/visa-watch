@@ -84,7 +84,7 @@ def check_source(source, previous):
             "Accept": "text/html,application/xhtml+xml,application/xml;q=0.9,image/avif,image/webp,*/*;q=0.8",
             "Accept-Language": "en-US,en;q=0.9",
             "Cache-Control": "no-cache",
-        }, method="HEAD" if source.get("compare_text") is False else "GET")
+        }, method="GET")
         try:
             # Keep each source check bounded so one slow site does not delay the full run.
             request_timeout = 20 if source.get("country") == "Canada" else 10
