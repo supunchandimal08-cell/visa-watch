@@ -1,22 +1,22 @@
 {
-  "last_checked_at": "2026-11-19T09:11:46.642153+00:00",
+  "last_checked_at": "2026-11-19T09:14:09.113883+00:00",
   "content_hashes": {
     "https://www.gov.uk/guidance/immigration-rules/immigration-rules-appendix-student": "5782b4b32a88073e8f7a0535cfa12e4163b12981975a0951231204d8295c953e",
-    "https://home-affairs.ec.europa.eu/policies/migration-and-asylum/eu-immigration-portal/who-does-what_en": "e36bc2c8967d94e81e2c709ed5cd6217d3eeb3a5d834298d52a3ee71a9c4cc37",
     "https://immi.homeaffairs.gov.au/visas/getting-a-visa/visa-listing/student-500": "c5609e0c62aa19507d1d02e931fd363d4d9873c7c345effb9a951bfacd5d4fc0",
-    "https://gdrfad.gov.ae/en/services/f52024e0-b812-11ed-5210-4cd98f768936": "8cf4349c80d32d51cf0630335eccce954337dd74f6e0b0b7ce385fc566397a1a",
-    "https://immi.homeaffairs.gov.au/visas/getting-a-visa/visa-listing/changes-to-student-visa-application-rules-500-590": "d4b68a2f9d1eb7979257a1a08b18c52fc889ccd11d27f62cbb4f8f4e78df29dc",
-    "https://www.immigration.govt.nz/about-us/news-centre/changes-to-student-visas/": "d1001854f9fad6416583cc1bdf3322e71ab06a0b0bea44a4eb3975a2a7d753df",
-    "https://u.ae/en/information-and-services/visa-and-emirates-id/residence-visas/residence-visa-for-studying-in-the-uae": "c2aa10df484991a0fba16404a4e8d9672430a9c8a6c01d87673482137ea78c9e",
-    "https://colombo.diplo.de/lk-en/service/national-visa-1437950": "67521500fd3dd2bb94e751f7731fffea84d022595a233dc1287d634bd9ae685f",
-    "https://immi.homeaffairs.gov.au/visas/already-have-a-visa/check-visa-details-and-conditions/see-your-visa-conditions?cno=8105&product=500": "39a15e73223aadbbb8b268dd4a64b168412a4c28d8c9f15ae2f71d9031f47e8f",
+    "https://www.immigration.govt.nz/study/once-you-have-a-student-visa/working-on-a-student-visa/": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
     "https://colombo.diplo.de/lk-en/service/2702864-2702864": "2bcbd0511ac37625fd5613319336812bd386102b09e21e3bbfcd40d647245817",
-    "https://www.make-it-in-germany.com/en/visa-recognition/visa-types/studying": "a2c586a9f57a77953797d3199c9af6a403bc1acbbea9f67214f49a04a3bd102e",
-    "https://education.ec.europa.eu/news/student-visas-in-europe-what-you-need-to-know": "c080341168a675d3724eecb60cb97db278174ef4b0f1d15bfbba83ee874c2c8b",
-    "https://www.immigration.govt.nz/study/once-you-have-a-student-visa/working-on-a-student-visa/": "753371fb68310d4e1a2ed8b43bf48262eda1098942b993c69209b7eeb6c321f3",
-    "https://www.immigration.govt.nz/visas/fee-paying-student-visa/": "3818f184da23f40a9e4d3443fa6304915425dac738e8a9824e6b2eec3bb5db6e",
+    "https://icp.gov.ae/en/services-details/?serviceid=64afe3c1035448005bd52e66": "86fb0dbe7d3cd24c151864c36968b72b9a3d8056ce7e1bd44272014bab090cc2",
+    "https://www.immigration.govt.nz/about-us/news-centre/changes-to-student-visas/": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+    "https://gdrfad.gov.ae/en/services/f52024e0-b812-11ed-5210-4cd98f768936": "8cf4349c80d32d51cf0630335eccce954337dd74f6e0b0b7ce385fc566397a1a",
+    "https://www.immigration.govt.nz/visas/fee-paying-student-visa/": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+    "https://www.make-it-in-germany.com/en/visa-recognition/visa-types/studying": "1156a34a4e83923ed155202125beae5e5f1147f19e28160e3407e5550de367c4",
+    "https://u.ae/en/information-and-services/visa-and-emirates-id/residence-visas/residence-visa-for-studying-in-the-uae": "c2aa10df484991a0fba16404a4e8d9672430a9c8a6c01d87673482137ea78c9e",
+    "https://immi.homeaffairs.gov.au/visas/already-have-a-visa/check-visa-details-and-conditions/see-your-visa-conditions?cno=8105&product=500": "39a15e73223aadbbb8b268dd4a64b168412a4c28d8c9f15ae2f71d9031f47e8f",
     "https://www.legislation.gov.au/F2026L01347/latest/details": "c956e03e22685dcd4b107b1fa82eed54fd60daf7e8921a282a45f879fc1e8fa2",
-    "https://icp.gov.ae/en/services-details/?serviceid=64afe3c1035448005bd52e66": "86fb0dbe7d3cd24c151864c36968b72b9a3d8056ce7e1bd44272014bab090cc2"
+    "https://education.ec.europa.eu/news/student-visas-in-europe-what-you-need-to-know": "c080341168a675d3724eecb60cb97db278174ef4b0f1d15bfbba83ee874c2c8b",
+    "https://home-affairs.ec.europa.eu/policies/migration-and-asylum/eu-immigration-portal/who-does-what_en": "e36bc2c8967d94e81e2c709ed5cd6217d3eeb3a5d834298d52a3ee71a9c4cc37",
+    "https://immi.homeaffairs.gov.au/visas/getting-a-visa/visa-listing/changes-to-student-visa-application-rules-500-590": "d4b68a2f9d1eb7979257a1a08b18c52fc889ccd11d27f62cbb4f8f4e78df29dc",
+    "https://colombo.diplo.de/lk-en/service/national-visa-1437950": "67521500fd3dd2bb94e751f7731fffea84d022595a233dc1287d634bd9ae685f"
   },
   "sources": {
     "https://www.gov.uk/guidance/immigration-rules/immigration-rules-appendix-student": "reachable",
@@ -29,7 +29,7 @@
     "https://icp.gov.ae/en/services-details/?serviceid=64afe3c1035448005bd52e66": "reachable",
     "https://immi.homeaffairs.gov.au/visas/getting-a-visa/visa-listing/changes-to-student-visa-application-rules-500-590": "reachable",
     "https://www.legislation.gov.au/F2026L01347/latest/details": "reachable",
-    "https://u.ae/en/information-and-services/visa-and-emirates-id/residence-visas/residence-visa-for-studying-in-the-uae": "reachable",
+    "https://u.ae/en/information-and-services/visa-and-emirates-id/residence-visas/residence-visa-for-studying-in-the-uae": "manual_review",
     "https://education.ec.europa.eu/news/student-visas-in-europe-what-you-need-to-know": "reachable",
     "https://colombo.diplo.de/lk-en/service/2702864-2702864": "reachable",
     "https://colombo.diplo.de/lk-en/service/national-visa-1437950": "reachable",
@@ -113,7 +113,7 @@
     "https://www.studyinjapan.go.jp/en/work-in-japan/part-time-jobs/": "reachable",
     "https://www.inclusion.gob.es/web/migraciones/w/estancia-por-estudios": "manual_review",
     "https://www.inclusion.gob.es/es/web/migraciones/w/hoja-4-bis-acceso-al-empleo-de-las-personas-titulares-de-una-autorizacion-de-estancia-de-larga-duracion-por-estudios-movilidad-de-alumnos-servicios-de-voluntariado-o-actividades-formativas": "manual_review",
-    "https://u.ae/en/information-and-services/jobs/employment-in-the-private-sector/job-offers-and-work-permits-and-contracts/work-permits": "http_error",
-    "https://u.ae/en/information-and-services/jobs/employment-and-training-of-minors": "http_error"
+    "https://u.ae/en/information-and-services/jobs/employment-in-the-private-sector/job-offers-and-work-permits-and-contracts/work-permits": "manual_review",
+    "https://u.ae/en/information-and-services/jobs/employment-and-training-of-minors": "manual_review"
   }
 }
