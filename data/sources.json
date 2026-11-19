@@ -57,7 +57,9 @@
     {
       "country": "UAE / Dubai",
       "name": "UAE Government — Residence visa for studying",
-      "url": "https://u.ae/en/information-and-services/visa-and-emirates-id/residence-visas/residence-visa-for-studying-in-the-uae"
+      "url": "https://u.ae/en/information-and-services/visa-and-emirates-id/residence-visas/residence-visa-for-studying-in-the-uae",
+      "compare_text": false,
+      "note": "Official UAE Government overview of student residence sponsorship routes. Automated check is availability-only (no page text comparison) because the portal timed out during content retrieval. Manually verify current wording and applicant-specific sponsorship with the accredited institution and relevant authority; for Dubai student residence permit requirements, use the GDRFA Dubai student service as the primary operational source."
     },
     {
       "country": "Europe / Schengen",
