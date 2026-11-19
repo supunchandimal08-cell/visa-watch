@@ -618,6 +618,20 @@
       "url": "https://www.studyinjapan.go.jp/en/work-in-japan/part-time-jobs/",
       "compare_text": false,
       "note": "Availability-only automated check; manual review required. Official guidance says part-time work requires permission, must not interfere with study, excludes adult-entertainment businesses, and is generally limited to 28 hours weekly or 8 hours daily during long school holidays. Official page reports approximately JPY 81,000 average monthly earnings based on the 2023 survey and warns that part-time work alone cannot cover all tuition and living expenses. Treat survey data as context, not a wage promise. Detection is not legal interpretation."
+    },
+    {
+      "country": "Spain",
+      "name": "Spanish Ministry — Long-term study stay authorisation (Hoja 1)",
+      "url": "https://www.inclusion.gob.es/web/migraciones/w/estancia-por-estudios",
+      "compare_text": false,
+      "note": "Availability-only automated check; manual review required. Verify eligible course category, authorised provider, admission/enrolment, minimum in-person attendance where relevant, application timing (generally at least 2 months before start), health insurance, return travel and sufficient funds. Current ministry guidance generally uses 100% of IPREM per month for student maintenance unless accommodation is prepaid for the full stay. Check the current IPREM value and filing-date rules; do not quote an outdated fixed euro amount. Detection is not legal interpretation."
+    },
+    {
+      "country": "Spain",
+      "name": "Spanish Ministry — Student work access and 30-hour weekly limit (Hoja 4 bis)",
+      "url": "https://www.inclusion.gob.es/es/web/migraciones/w/hoja-4-bis-acceso-al-empleo-de-las-personas-titulares-de-una-autorizacion-de-estancia-de-larga-duracion-por-estudios-movilidad-de-alumnos-servicios-de-voluntariado-o-actividades-formativas",
+      "compare_text": false,
+      "note": "Availability-only automated check; manual review required. For eligible higher-education study authorisations, work may be automatically permitted where compatible with studies, up to 30 hours per week, subject to applicable geographic and authorisation conditions. Do not apply this generally to all short courses or training categories. Verify current national rules and student's exact authorisation; no job or income guarantee. Detection is not legal interpretation."
     }
   ]
 }
