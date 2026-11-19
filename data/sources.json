@@ -24,7 +24,8 @@
     {
       "country": "USA",
       "name": "U.S. Department of State — Student Visa (F/M categories, SEVIS and Form I-20)",
-      "url": "https://travel.state.gov/content/travel/en/us-visas/study/student-visa.html"
+      "url": "https://travel.state.gov/content/travel/en/us-visas/study/student-visa.html",
+      "note": "Manual counsellor review required; verify the correct F-1 (academic/language) or M-1 (vocational) category, exact SEVP-certified school and programme, admission and SEVIS registration, Form I-20 details/signatures, SEVIS I-901 fee receipt, DS-160 confirmation, current visa application fee and Colombo post instructions. Interview evidence may include academic preparation, intent to depart after the authorised study, and credible funds for tuition, living and travel costs. There is no single universal government bank-balance figure: reconcile evidence with the school's I-20 cost estimate and the student's funding plan. New F/M visas may be issued up to 365 days before course start, but entry is not permitted more than 30 days before the start date. A visa does not guarantee admission at the border. Check current State Department and school/DSO instructions; detection is not legal interpretation."
     },
     {
       "country": "UAE / Dubai",
@@ -575,6 +576,13 @@
       "url": "https://island.is/en/o/directorate-of-immigration/news/higher-amount-as-means-of-support",
       "compare_text": false,
       "note": "Official financial benchmark notice. For applications received from 18 May 2026, verify ISK 259,951/month for one individual and the required evidence for the full permit period. Do not assume third-party family sponsorship is accepted."
+    },
+    {
+      "country": "USA",
+      "name": "U.S. ICE / SEVP — F-1 student employment (on-campus, CPT and OPT)",
+      "url": "https://www.ice.gov/sevis/employment",
+      "compare_text": false,
+      "note": "Availability-only automated check; manual review required. F-1 on-campus work is generally limited to 20 hours/week while school is in session and may be full-time during official breaks, subject to status and school rules. Off-campus work is not generally free/automatic: CPT must be authorised by the DSO and recorded on Form I-20 before work begins; OPT requires the appropriate DSO recommendation and USCIS employment authorisation/EAD before starting. Check the student's exact F-1 status, programme, timing, I-20 endorsement and current USCIS/ICE rules. Do not promise part-time work or use expected earnings as proof of initial funds. Detection is not legal interpretation."
     }
   ]
 }
