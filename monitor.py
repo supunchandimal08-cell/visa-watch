@@ -134,6 +134,15 @@ def check_source(source, previous):
                     "content_hash": digest, "change_detected": changed,
                     "baseline_created": first_check, "note": note}
         except HTTPError as e:
+            # Some UAE Government portal pages are indexed as current official
+            # guidance but return an automated 404 to this runner. Keep these
+            # visible for counsellor browser verification rather than treating
+            # the automated response as proof that the official source is gone.
+            if e.code == 404 and "u.ae/" in source.get("url", ""):
+                return {**source, "checked_at": datetime.now(timezone.utc).isoformat(),
+                        "status": "manual_review", "http_status": e.code,
+                        "change_detected": False,
+                        "note": "The automated checker received HTTP 404 for this UAE Government page. The official source is indexed, but the live page must be opened and verified manually; this is not confirmation that the guidance or URL has been withdrawn."}
             if e.code == 403:
                 return {**source, "checked_at": datetime.now(timezone.utc).isoformat(),
                         "status": "manual_review", "http_status": e.code,
