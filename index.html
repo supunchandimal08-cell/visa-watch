@@ -320,6 +320,42 @@ a:hover, button:hover {
    <label class="source-card">Study gaps / prior refusals<textarea id="caHistory" rows="2" placeholder="Only relevant details" style="display:block;width:100%;margin-top:6px;padding:10px"></textarea></label>
    <label class="source-card">Target intake<input id="caTiming" placeholder="e.g. next available intake" style="display:block;width:100%;margin-top:6px;padding:10px"></label>
   </div><p><button class="smallbtn" id="caGenerate" style="background:var(--navy);color:white">Create counselling summary</button> <button class="smallbtn" id="caClear">Clear form</button></p></div>
+  <div class="panel" id="dubaiReadiness" style="padding:18px;margin-top:16px">
+   <div class="eyebrow">Dubai-specific assessment · counsellor use</div>
+   <h2 style="margin:5px 0 8px">Dubai admission &amp; readiness review</h2>
+   <p class="doc-help">Use after the first client interview. This tool creates follow-up prompts only; it does not decide admission, immigration eligibility or visa approval. Do not enter passport or bank account numbers.</p>
+   <div class="checklist">
+    <label class="source-card">A/L or highest school qualification
+     <select id="drQualification" style="display:block;width:100%;margin-top:6px;padding:10px"><option value="">Choose</option><option>A/L completed — 3 passes</option><option>A/L completed — 2 passes</option><option>A/L completed — 1 pass</option><option>A/L completed — other results</option><option>A/L pending / awaiting results</option><option>O/L only</option><option>Diploma / higher diploma</option><option>Bachelor's degree</option><option>Other / needs review</option></select>
+    </label>
+    <label class="source-card">A/L stream / study background
+     <select id="drStream" style="display:block;width:100%;margin-top:6px;padding:10px"><option value="">Choose</option><option>Commerce</option><option>Arts</option><option>Science</option><option>Technology</option><option>Other / not applicable</option></select>
+    </label>
+    <label class="source-card">English ability
+     <select id="drEnglish" style="display:block;width:100%;margin-top:6px;padding:10px"><option value="">Choose</option><option>Basic</option><option>Intermediate</option><option>Upper-intermediate</option><option>Advanced</option><option>Accepted test completed</option><option>Not assessed</option></select>
+    </label>
+    <label class="source-card">Study level being considered
+     <select id="drLevel" style="display:block;width:100%;margin-top:6px;padding:10px"><option value="">Choose</option><option>English / foundation pathway</option><option>Certificate / diploma</option><option>Higher diploma</option><option>Bachelor's degree</option><option>Postgraduate diploma</option><option>Master's degree</option><option>Not sure — compare options</option></select>
+    </label>
+    <label class="source-card">Funding / sponsor plan
+     <select id="drSponsor" style="display:block;width:100%;margin-top:6px;padding:10px"><option value="">Choose</option><option>Self-funded</option><option>Parents / family in Sri Lanka</option><option>UAE-resident parent</option><option>Scholarship / institution discount</option><option>Education loan</option><option>Mixed / not confirmed</option></select>
+    </label>
+    <label class="source-card">Is the student relying on a job to pay fees or living costs?
+     <select id="drWork" style="display:block;width:100%;margin-top:6px;padding:10px"><option value="">Choose</option><option>No — funds available independently</option><option>Partly — job income expected</option><option>Yes — job is essential</option><option>Not discussed</option></select>
+    </label>
+    <label class="source-card">Current UAE immigration status
+     <select id="drUaeStatus" style="display:block;width:100%;margin-top:6px;padding:10px"><option value="">Choose</option><option>Outside UAE — applying from Sri Lanka</option><option>Inside UAE on visit / tourist status</option><option>Inside UAE on residence visa</option><option>Other / uncertain</option></select>
+    </label>
+    <label class="source-card">Course interest / career direction
+     <input id="drInterest" placeholder="e.g. Business, accounting, marketing, IT" style="display:block;width:100%;margin-top:6px;padding:10px">
+    </label>
+   </div>
+   <div style="display:flex;gap:10px;flex-wrap:wrap;margin-top:14px">
+    <button class="primary" type="button" id="drGenerate">Generate Dubai review</button>
+    <button class="smallbtn" type="button" id="drClear">Clear Dubai review</button>
+   </div>
+   <div id="drOutput" style="display:none;margin-top:14px;padding:14px;border:1px solid var(--line);border-radius:12px;background:var(--bg)" aria-live="polite"><h3>Dubai readiness review</h3><div id="drSummary"></div><button class="smallbtn" type="button" id="drCopy">Copy review</button></div>
+  </div>
   <div class="panel" id="caOutput" style="display:none;padding:18px;margin-top:15px"><h2>Draft counselling summary</h2><div id="caSummary"></div><button class="smallbtn" id="caCopy">Copy summary</button></div>
   <div class="panel" id="clientDocumentTracker" style="padding:18px;margin-top:16px">
    <div class="eyebrow">Counsellor follow-up</div><h2 style="margin:5px 0 8px">Client document checklist</h2>
@@ -704,6 +740,31 @@ document.getElementById("crDeleteAll").onclick=()=>{const records=readSavedCours
 document.getElementById("crImportFile").onchange=async(event)=>{const file=event.target.files&&event.target.files[0];if(!file)return;try{const parsed=JSON.parse(await file.text());const incoming=Array.isArray(parsed)?parsed:parsed.records;if(!Array.isArray(incoming))throw new Error("Backup does not contain a records list.");const valid=incoming.filter(x=>x&&typeof x==="object"&&x.values&&typeof x.values==="object"&&typeof x.text==="string").map(x=>({id:typeof x.id==="string"?x.id:Date.now().toString(36)+"-"+Math.random().toString(36).slice(2,8),savedAt:typeof x.savedAt==="string"?x.savedAt:new Date().toLocaleString(),institution:typeof x.institution==="string"?x.institution:"",course:typeof x.course==="string"?x.course:"",country:typeof x.country==="string"?x.country:"",values:x.values,text:x.text}));if(!valid.length)throw new Error("No valid course records found in this backup.");const current=readSavedCourseRecords();const known=new Set(current.map(x=>x.id));const fresh=valid.filter(x=>!known.has(x.id));localStorage.setItem(CR_STORAGE_KEY,JSON.stringify(current.concat(fresh)));renderSavedCourseRecords();alert("Imported "+fresh.length+" new record(s). Existing records with matching IDs were skipped.");}catch(error){alert("Could not import backup. Choose a VisaWatch JSON backup file. Details: "+error.message);}finally{event.target.value="";}};
 document.getElementById("crClear").onclick=()=>{crFields.forEach(([,id])=>{const el=document.getElementById(id);if(el)el.value="";});document.getElementById("crOutput").style.display="none";document.getElementById("crSummary").textContent="";};
 renderSavedCourseRecords();
+/* Dubai-specific admission/readiness prompts; browser-only and no visa decision. */
+document.getElementById("drGenerate").onclick=()=>{
+ const fields=[["Highest qualification / A/L result","drQualification"],["Study stream","drStream"],["English ability","drEnglish"],["Proposed study level","drLevel"],["Funding / sponsor plan","drSponsor"],["Reliance on employment income","drWork"],["Current UAE status","drUaeStatus"],["Course interest","drInterest"]];
+ const val=id=>document.getElementById(id).value.trim();
+ const lines=fields.map(([label,id])=>label+": "+(val(id)||"Not provided"));
+ const actions=[];
+ if(!val("drQualification"))actions.push("Obtain A/L certificates and full results, or the highest completed qualification and transcripts.");
+ if(!val("drEnglish")||val("drEnglish")==="Not assessed")actions.push("Assess English speaking, reading, writing and listening; ask the institution which test or internal assessment it accepts.");
+ if(val("drEnglish")==="Basic")actions.push("Ask the institution whether an English/foundation pathway is available, its entry test, duration, progression conditions and extra cost. Do not assume direct degree entry.");
+ if(!val("drLevel")||val("drLevel").startsWith("Not sure"))actions.push("Compare course levels against prior qualifications, grades, English, career goal and budget; obtain written entry requirements from each institution.");
+ if(!val("drSponsor")||val("drSponsor")==="Mixed / not confirmed")actions.push("Confirm who pays, source and availability of funds, and whether the intended UAE sponsor route is accepted by the institution/authority.");
+ if(val("drSponsor")==="Parents / family in Sri Lanka")actions.push("Do not confuse a Sri Lankan family sponsor with the UAE-resident-parent immigration route. Confirm the institution's required funding evidence and lawful residence sponsor separately.");
+ if(val("drWork")==="Partly — job income expected"||val("drWork")==="Yes — job is essential")actions.push("High financial-risk flag: student residence is not a work permit. Rebuild the budget without assumed job income and explain that any employment requires the employer to obtain the correct permit.");
+ if(val("drWork")==="Not discussed"||!val("drWork"))actions.push("Ask whether the student expects to work and whether the budget remains viable without employment.");
+ if(val("drUaeStatus")==="Inside UAE on visit / tourist status"||val("drUaeStatus")==="Inside UAE on residence visa"||val("drUaeStatus")==="Other / uncertain")actions.push("Ask the institution to confirm the correct inside-UAE status-change/cancellation process, fees and timing for this exact status before payment or travel.");
+ actions.push("Verify the institution's licence and education-authority approval for the exact campus and programme, and obtain written confirmation that it can host/guarantee this student.");
+ actions.push("Obtain the current institution-specific student residence checklist. Match passport, admission, course duration, sponsor and all required documents; confirm medical, Emirates ID and insurance sequence.");
+ actions.push("Provide a written itemised cost sheet and check refund/deferral terms before accepting a deposit.");
+ const risk=(val("drWork")==="Yes — job is essential"||val("drWork")==="Partly — job income expected")?"HIGH — budget depends partly on uncertain employment.":(val("drSponsor")==="Mixed / not confirmed"||!val("drSponsor"))?"PENDING — sponsor/funding plan is not confirmed.":"REVIEW — verify all admission and sponsor evidence before recommending a course.";
+ const summary="VISAWATCH — DUBAI STUDENT ADMISSION & READINESS REVIEW\nPrepared: "+new Date().toLocaleString()+"\nPreliminary status: "+risk+"\n\nCLIENT PROFILE\n"+lines.join("\n")+"\n\nCOUNSELLOR FOLLOW-UP\n"+actions.map((x,i)=>(i+1)+". "+x).join("\n")+"\n\nIMPORTANT\nThis is a counselling prompt, not an immigration eligibility decision. Admission, student residence sponsorship and permission to work are separate checks. Do not promise visa approval, processing time or employment.";
+ document.getElementById("drSummary").innerHTML="<pre style='white-space:pre-wrap;font:12px/1.6 inherit'>"+esc(summary)+"</pre>";
+ document.getElementById("drOutput").dataset.summary=summary;document.getElementById("drOutput").style.display="block";
+};
+document.getElementById("drClear").onclick=()=>{document.querySelectorAll("#dubaiReadiness input,#dubaiReadiness select").forEach(el=>el.value="");document.getElementById("drOutput").style.display="none";document.getElementById("drSummary").textContent="";};
+document.getElementById("drCopy").onclick=()=>{const t=document.getElementById("drOutput").dataset.summary||"";if(navigator.clipboard&&navigator.clipboard.writeText)navigator.clipboard.writeText(t).then(()=>alert("Dubai review copied.")).catch(()=>alert("Copy blocked; select and copy manually."));else alert("Select and copy the review manually.");};
 document.getElementById("caGenerate").onclick=()=>{
  const fields=[["Client reference","caRef"],["Age range","caAge"],["Nationality","caNation"],["Residence","caResidence"],["Highest qualification","caEducation"],["English status","caEnglish"],["Approximate budget (LKR)","caBudget"],["Main goal","caGoal"],["Preferred destination","caDestination"],["Course interest","caCourse"],["Study gaps / prior refusals","caHistory"],["Target intake","caTiming"]];
  const lines=fields.map(([label,id])=>label+": "+(document.getElementById(id).value.trim()||"Not provided"));
