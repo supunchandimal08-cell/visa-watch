@@ -34,7 +34,7 @@
       "country": "UAE / Dubai",
       "name": "GDRFA Dubai — Issuing a residency permit to a student",
       "url": "https://gdrfad.gov.ae/en/services/f52024e0-b812-11ed-5210-4cd98f768936",
-      "note": "Primary Dubai operational source. A foreign student enrolled in an accredited UAE university, college, educational institution or research institute may receive a residence permit with the institution as host/guarantor. Published checklist: recent white-background photo, passport copy, approved medical examination, Emirates ID application receipt and health insurance. Institution must be licensed and have Ministry of Education / competent emirate education-authority approval. This service page states a 60-day grace period after expiry/cancellation. ICP's student-specific issuance and renewal pages state 180 days after study completion for students, while ICP separately lists 60 days for residence permits issued with a guarantor or host. These statements may apply to different categories or contain an unresolved Dubai/federal difference. Never generalise; obtain written confirmation from GDRFA for the exact Dubai permit and circumstances before advising on a grace period. Recheck fees and processing times. Detection is not legal interpretation."
+      "note": "Primary Dubai operational source. The educational institution is the student's host/guarantor for this non-working student residence route. GDRFA published core documents: recent colour photo with white background, passport copy, approved medical examination, Emirates ID application receipt and health insurance. Institution must be licensed and have Ministry of Education or relevant emirate education-authority approval. Published service page currently lists AED 200 residence permit fee plus AED 10 Knowledge Dirham, AED 10 Innovation Dirham, AED 500 inside-country fee (if applicable), AED 20 delivery; fees may change and are not an all-in student budget. Expected completion is listed as 48 hours, not a guarantee. Page states 60 days after expiry/cancellation. Confirm sponsor, fees, documents, timing and grace-period category directly with GDRFA/institution for each case. Detection is not legal interpretation."
     },
     {
       "country": "Europe / Schengen",
@@ -184,21 +184,21 @@
       "name": "Dubai Government — Student Residence Visa",
       "url": "https://www.dubai.ae/living/residency/student-residence-visa",
       "compare_text": false,
-      "note": "Official Dubai Government overview. Manually verify the exact institution, host/guarantor, campus, study programme and current GDRFA route. Institution host/guarantor status is not automatic for every course or provider."
+      "note": "Official Dubai Government overview: accredited educational institution acts as host/guarantor for student residence. Use GDRFA Dubai service page for operational requirements and confirm campus/provider approval and applicant-specific process. Do not treat overview as a full document checklist."
     },
     {
       "country": "UAE / Dubai",
       "name": "Visit Dubai — Apply for a student visa",
       "url": "https://www.visitdubai.com/en/study-dubai/student-visa",
       "compare_text": false,
-      "note": "Dubai's official destination portal explains the institution-managed GDRFA process and typical applicant documents. Treat as guidance; confirm exact requirements and fees through the institution and GDRFA for the applicant's case."
+      "note": "Official Dubai destination guidance. For international students, the institution manages the student visa process through GDRFA. Published typical documents include passport valid at least six months, recent white-background photo, university admission/study certificate stating course duration, Emirates ID if available, UAE health insurance and student undertaking letter; current sponsor cancellation may be needed if already resident. Requirements differ by applicant status and institution; use GDRFA's live service checklist and institution's written checklist before lodgement. Do not treat marketing guidance as a complete authority checklist."
     },
     {
       "country": "UAE",
       "name": "Federal ICP — Issuing residency permit (student conditions and documents)",
       "url": "https://icp.gov.ae/en/services-details/?serviceid=64afe3c1035448005bd52e64",
       "compare_text": false,
-      "note": "Official ICP student-specific issuance service. Lists passport validity of at least six months, residence duration based on the study programme, and permission to remain for 180 days after completion of the study period. ICP renewal service also lists 180 days for students after study completion, and 60 days for permits issued with a guarantor or host. GDRFA Dubai's operational student-residence page states 60 days after expiry/cancellation. Confirm whether the student's Dubai permit falls under the student-completion category or another sponsor/host category directly with GDRFA/ICP in writing. Do not quote a universal grace period. Detection is not legal interpretation."
+      "note": "Official ICP student-specific issuance service. Listed student documents include passport, personal photo, certificate of Ministry of Education/relevant emirate education authority approval, university/college/institution enrolment certificate, host/acceptance letter stating academic/training programme and duration, and valid UAE health insurance. Passport must be valid for at least six months. Residence duration depends on programme; page states student may remain 180 days after study completion. Do not assume every Dubai permit case uses this period: GDRFA Dubai's operational page states 60 days after expiry/cancellation. Confirm exact permit category and grace period with GDRFA/ICP in writing. Detection is not legal interpretation."
     },
     {
       "country": "UAE",
