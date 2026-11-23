@@ -642,14 +642,14 @@
       "name": "UAE Government / MoHRE — Work permits (student training and employment; part-time)",
       "url": "https://u.ae/en/information-and-services/jobs/employment-in-the-private-sector/job-offers-and-work-permits-and-contracts/work-permits",
       "compare_text": false,
-      "note": "Official UAE Government / MoHRE work-permit overview. It lists 13 permit types, including part-time work permits and student training/employment permits. Working without a valid MoHRE permit is illegal. The student training/employment permit is for a student already in the UAE aged 15+, subject to specific conditions; it is not automatic permission for every international student. The separate MoHRE student-training guidance lists a valid UAE residence visa for expatriate students, proof of student status, and an educational-institute NOC for training; students aged 15–18 also need guardian consent and medical fitness. Student recruitment during academic holidays is limited to up to three consecutive months each time under that guidance. Confirm current applicant-specific permit, age, employer application, NOC, and process directly with MoHRE and the institution. Student residence alone does not authorise work. Never promise a job or fixed weekly hours. Availability-only automated check; detection is not legal interpretation."
+      "note": "Official UAE Government/MoHRE work-permit overview. It lists 13 permit types, including part-time work permits and a student training and employment permit. UAE Labour Law Article 6 prohibits work without a valid MoHRE permit; employer must obtain the appropriate permit. The student training/employment permit is a distinct route for a student already in the UAE, subject to conditions; it is not automatic permission attached to a student residence visa. For expatriate students, official MoHRE guidance lists valid UAE residence visa, Emirates ID/student-status evidence and (for training) an NOC from the educational institution; students aged 15–18 also require guardian consent and medical fitness. Academic-holiday recruitment may be up to three consecutive months each time under the student-specific guidance. A separate part-time permit is generally for age 18+ and must be applied for by the hiring company; eligibility and sponsor NOC requirements depend on the case. Do not promise a universal weekly-hours limit, job placement or earnings. Confirm permit type, eligibility, sponsor NOC and employer jurisdiction with MoHRE and the institution before work starts. Detection is not legal interpretation."
     },
     {
       "country": "UAE / Dubai",
       "name": "UAE Government / MoHRE — Employment and training of minors (student conditions)",
       "url": "https://u.ae/en/information-and-services/jobs/employment-and-training-of-minors",
       "compare_text": false,
-      "note": "Official MoHRE-provided guidance on student training/employment conditions. Verify valid UAE residence visa, student-status evidence, educational-institute NOC for training, guardian consent and medical fitness for ages 15–18, and the limit of up to three consecutive months during academic holidays. Confirm current requirements with MoHRE and the institution before advising. Availability-only automated check; detection is not legal interpretation."
+      "note": "MoHRE-provided official guidance: students aged 15+ may be trained/employed only under applicable permit/contract conditions. For expatriate students, required items include valid UAE residence visa, Emirates ID showing student status, medical fitness certificate, and for training an educational-institute NOC; parent/legal guardian consent applies to ages 15–18. Academic-holiday employment may be for up to three consecutive months each time. This is not proof that all university students can work freely or a stated universal term-time hours allowance. Confirm current permit type, employer application and conditions with MoHRE before work begins. Detection is not legal interpretation."
     },
     {
       "country": "UAE / Dubai",
@@ -664,6 +664,14 @@
       "url": "https://gdrfad.gov.ae/en/services/7fd676b8-b81c-11ed-5210-4cd98f768936",
       "compare_text": false,
       "note": "Official Dubai student residence renewal service. Lists a recent white-background photo, passport copy and approved medical examination; requires the educational institution to be licensed and to have the relevant education-authority approval. The page states a 60-day grace period after expiry/cancellation. Compare with ICP student-specific 180-day post-study guidance; confirm the student's exact permit category and grace period directly with GDRFA before advising. Availability-only check; detection is not legal interpretation."
+    },
+    {
+      "name": "Visit Dubai — Earn while you learn (student work permits)",
+      "url": "https://www.visitdubai.com/en/study-dubai/earn-and-learn",
+      "authority": "Dubai Department of Economy and Tourism / Visit Dubai",
+      "jurisdiction": "Dubai, UAE",
+      "category": "Work rights / student employment",
+      "note": "Official Dubai student guidance distinguishes Student Training and Work Permit (students aged 15+ enrolled in a UAE educational institution; institution NOC for training; employer applies) from the separate Part-time Work Permit (age 18+ and only some students may qualify; sponsor/employer NOC may be required; hiring company applies). It says student work requires valid residence visa and the necessary MoHRE permit. Internship availability does not guarantee paid employment or placement. Confirm exact eligibility, employer licensing jurisdiction, permit category, NOC and conditions with MoHRE and the institution before work begins. Do not promise jobs, fixed hours or earnings. Detection is not legal interpretation."
     }
   ]
 }
