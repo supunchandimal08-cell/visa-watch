@@ -746,6 +746,30 @@ document.getElementById("drGenerate").onclick=()=>{
  const val=id=>document.getElementById(id).value.trim();
  const lines=fields.map(([label,id])=>label+": "+(val(id)||"Not provided"));
  const actions=[];
+ const pathway=[];
+ const qualification=val("drQualification"), level=val("drLevel"), stream=val("drStream"), english=val("drEnglish"), interest=val("drInterest");
+ if(level==="Master's degree" && qualification!=="Bachelor's degree"){
+   pathway.push("POSTGRADUATE CHECK: A recognised bachelor's degree is normally the starting academic credential for master's admission. Obtain the degree certificate, transcript, subject match and any required experience; ask the institution to confirm eligibility in writing.");
+ } else if(level==="Master's degree" && qualification==="Bachelor's degree"){
+   pathway.push("MASTER'S EXPLORATION: Request the institution's exact recognised-degree, grade/GPA, subject-background, English and work-experience criteria. A bachelor's degree alone does not guarantee admission.");
+ }
+ if(level==="Bachelor's degree" && qualification==="O/L only"){
+   pathway.push("BACHELOR'S PATHWAY CHECK: Do not assume O/L alone meets direct bachelor's entry. Ask whether an approved foundation/bridging route exists and confirm progression conditions, duration and full additional cost.");
+ } else if(level==="Bachelor's degree" && qualification.startsWith("A/L completed")){
+   pathway.push("BACHELOR'S ENTRY CHECK: A/L completion may make undergraduate options worth exploring, but grades, subjects, equivalency and prerequisites vary. Request written entry assessment for the exact course and campus.");
+ }
+ if((level==="Certificate / diploma"||level==="Higher diploma") && qualification){
+   pathway.push("DIPLOMA PATHWAY CHECK: Compare the highest completed qualification and subject background with written entry criteria, progression/credit-transfer rules and recognition of the exact award.");
+ }
+ if(english==="Basic" && level!=="English / foundation pathway"){
+   pathway.push("ENGLISH READINESS: Consider an English/foundation route only if the institution confirms it is available and appropriate. Check placement test, progression score, extra tuition and progression to the intended programme.");
+ }
+ if(stream==="Commerce" && /business|account|market|management|finance/i.test(interest)){
+   pathway.push("SUBJECT-INTEREST MATCH: Business, accounting, marketing, management or finance programmes may be sensible areas to investigate for a Commerce background. This is not an admission decision; check prerequisites and maths/English requirements.");
+ }
+ if(!pathway.length)pathway.push("COURSE MATCH NOT YET DETERMINED: Collect exact course title, award level, prior subject/grade evidence, English evidence and career goal, then compare with current written entry requirements.");
+ if(!val("drLevel")||level.startsWith("Not sure"))pathway.push("Compare realistic award levels and explain duration, total cost, recognition and progression before recommending one.");
+ if(!val("drInterest"))pathway.push("Ask the student's target occupation/career direction; choose for academic and career fit, not only visa availability.");
  if(!val("drQualification"))actions.push("Obtain A/L certificates and full results, or the highest completed qualification and transcripts.");
  if(!val("drEnglish")||val("drEnglish")==="Not assessed")actions.push("Assess English speaking, reading, writing and listening; ask the institution which test or internal assessment it accepts.");
  if(val("drEnglish")==="Basic")actions.push("Ask the institution whether an English/foundation pathway is available, its entry test, duration, progression conditions and extra cost. Do not assume direct degree entry.");
@@ -759,7 +783,7 @@ document.getElementById("drGenerate").onclick=()=>{
  actions.push("Obtain the current institution-specific student residence checklist. Match passport, admission, course duration, sponsor and all required documents; confirm medical, Emirates ID and insurance sequence.");
  actions.push("Provide a written itemised cost sheet and check refund/deferral terms before accepting a deposit.");
  const risk=(val("drWork")==="Yes — job is essential"||val("drWork")==="Partly — job income expected")?"HIGH — budget depends partly on uncertain employment.":(val("drSponsor")==="Mixed / not confirmed"||!val("drSponsor"))?"PENDING — sponsor/funding plan is not confirmed.":"REVIEW — verify all admission and sponsor evidence before recommending a course.";
- const summary="VISAWATCH — DUBAI STUDENT ADMISSION & READINESS REVIEW\nPrepared: "+new Date().toLocaleString()+"\nPreliminary status: "+risk+"\n\nCLIENT PROFILE\n"+lines.join("\n")+"\n\nCOUNSELLOR FOLLOW-UP\n"+actions.map((x,i)=>(i+1)+". "+x).join("\n")+"\n\nIMPORTANT\nThis is a counselling prompt, not an immigration eligibility decision. Admission, student residence sponsorship and permission to work are separate checks. Do not promise visa approval, processing time or employment.";
+ const summary="VISAWATCH — DUBAI STUDENT ADMISSION & READINESS REVIEW\nPrepared: "+new Date().toLocaleString()+"\nPreliminary status: "+risk+"\n\nCLIENT PROFILE\n"+lines.join("\n")+"\n\nCOURSE PATHWAY PROMPTS (NOT AN ADMISSION DECISION)\n"+pathway.map((x,i)=>(i+1)+". "+x).join("\n")+"\n\nCOUNSELLOR FOLLOW-UP\n"+actions.map((x,i)=>(i+1)+". "+x).join("\n")+"\n\nPROVIDER VERIFICATION\nVerify the exact institution, campus and programme with the competent UAE education regulator (for Dubai, check the relevant KHDA/MoE approval as applicable). Obtain written confirmation of programme approval, award recognition, entry requirements, student sponsorship capability and itemised fees/refund terms.\n\nIMPORTANT\nThis is a counselling prompt, not an immigration eligibility decision. Admission, student residence sponsorship and permission to work are separate checks. Do not promise visa approval, processing time or employment.";
  document.getElementById("drSummary").innerHTML="<pre style='white-space:pre-wrap;font:12px/1.6 inherit'>"+esc(summary)+"</pre>";
  document.getElementById("drOutput").dataset.summary=summary;document.getElementById("drOutput").style.display="block";
 };
