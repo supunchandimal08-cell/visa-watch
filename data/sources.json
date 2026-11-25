@@ -10,7 +10,13 @@
       "name": "IRCC Study Permit — Eligibility",
       "url": "https://www.canada.ca/en/immigration-refugees-citizenship/services/study-canada/study-permit/eligibility.html",
       "compare_text": false,
-      "note": "Availability-only automated check; manual review required. Confirm valid letter of acceptance from a Designated Learning Institution (DLI), PAL/TAL or Quebec CAQ requirement/exemption, sufficient funds for tuition + living expenses + return transportation, admissibility/medical or police documents if requested, and that the applicant will leave Canada when authorised stay ends. Eligibility is case-specific; an LOA or PAL/TAL does not guarantee approval. Check the applicant's nationality-specific IRCC visa-office instructions. Detection is not legal interpretation."
+      "note": "Availability-only automated check; manual review required. Confirm valid letter of acceptance from a Designated Learning Institution (DLI), PAL/TAL or Quebec CAQ requirement/exemption, sufficient funds for tuition + living expenses + return transportation, admissibility/medical or police documents if requested, and that the applicant will leave Canada when authorised stay ends. Eligibility is case-specific; an LOA or PAL/TAL does not guarantee approval. Check the applicant's nationality-specific IRCC visa-office instructions. Detection is not legal interpretation.",
+      "source_owner": "Immigration, Refugees and Citizenship Canada (IRCC)",
+      "jurisdiction": "Federal — Canada",
+      "category": "Study permit eligibility",
+      "source_type": "Official government guidance",
+      "verification_mode": "Availability-only automated check; manual legal review required",
+      "last_verified": "2026-11-25"
     },
     {
       "country": "Australia",
@@ -93,14 +99,26 @@
       "name": "IRCC — Work off campus as an international student (24-hour weekly limit)",
       "url": "https://www.canada.ca/en/immigration-refugees-citizenship/services/study-canada/work/work-off-campus.html",
       "compare_text": false,
-      "note": "Availability-only automated check; manual review required. Confirm the 24-hour weekly limit during regular academic sessions, eligibility (DLI, full-time status, programme at least 6 months leading to degree/diploma/certificate, studies started, permit conditions and SIN), and exclusions for ESL/FSL, general-interest and prerequisite-only courses. Scheduled breaks must be school-scheduled and at least 7 consecutive days; unlimited off-campus work is limited to 180 days per calendar year and no more than 150 consecutive days in back-to-back breaks. Check the official DLI calendar and permit conditions. Detection is not legal interpretation."
+      "note": "Availability-only automated check; manual review required. Confirm the 24-hour weekly limit during regular academic sessions, eligibility (DLI, full-time status, programme at least 6 months leading to degree/diploma/certificate, studies started, permit conditions and SIN), and exclusions for ESL/FSL, general-interest and prerequisite-only courses. Scheduled breaks must be school-scheduled and at least 7 consecutive days; unlimited off-campus work is limited to 180 days per calendar year and no more than 150 consecutive days in back-to-back breaks. Check the official DLI calendar and permit conditions. Detection is not legal interpretation.",
+      "source_owner": "Immigration, Refugees and Citizenship Canada (IRCC)",
+      "jurisdiction": "Federal — Canada",
+      "category": "Work rights — off-campus",
+      "source_type": "Official government guidance",
+      "verification_mode": "Availability-only automated check; manual legal review required",
+      "last_verified": "2026-11-25"
     },
     {
       "country": "Canada",
       "name": "IRCC — Proof of financial support (living-cost table)",
       "url": "https://www.canada.ca/en/immigration-refugees-citizenship/services/study-canada/study-permit/get-documents/financial-support.html",
       "compare_text": false,
-      "note": "Availability-only automated check; manual review required. For applications received on or after 1 September 2026, outside Quebec, living-expense minimum is CAD 23,448 for one person; CAD 29,192 for two; CAD 35,888 for three; CAD 43,572 for four; CAD 49,419 for five; CAD 55,736 for six; CAD 62,054 for seven; plus CAD 6,318 per additional family member. Amount excludes tuition and transportation. Quebec uses separate provincial requirements. Verify actual application-received date, family size, first-year funds, full-program funding plan and source-of-funds evidence. Do not rely on future work income. Detection is not legal interpretation."
+      "note": "Availability-only automated check; manual review required. For applications received on or after 1 September 2026, outside Quebec, living-expense minimum is CAD 23,448 for one person; CAD 29,192 for two; CAD 35,888 for three; CAD 43,572 for four; CAD 49,419 for five; CAD 55,736 for six; CAD 62,054 for seven; plus CAD 6,318 per additional family member. Amount excludes tuition and transportation. Quebec uses separate provincial requirements. Verify actual application-received date, family size, first-year funds, full-program funding plan and source-of-funds evidence. Do not rely on future work income. Detection is not legal interpretation.",
+      "source_owner": "Immigration, Refugees and Citizenship Canada (IRCC)",
+      "jurisdiction": "Federal Canada; Quebec-specific requirements require provincial authority confirmation",
+      "category": "Financial requirements",
+      "source_type": "Official government guidance",
+      "verification_mode": "Availability-only automated check; manual legal review required",
+      "last_verified": "2026-11-25"
     },
     {
       "country": "Germany",
@@ -128,28 +146,52 @@
       "name": "IRCC — PAL/TAL requirements, exemptions and validity (2026)",
       "url": "https://www.canada.ca/en/immigration-refugees-citizenship/services/study-canada/study-permit/get-documents/provincial-attestation-letter.html",
       "compare_text": false,
-      "note": "Availability-only automated check; manual review required for 2026 PAL/TAL cap-year validity, public DLI degree-granting master's/doctoral exemption from 1 January 2026, Quebec CAQ, school/level changes and other exceptions. Detection is not legal interpretation."
+      "note": "Availability-only automated check; manual review required for 2026 PAL/TAL cap-year validity, public DLI degree-granting master's/doctoral exemption from 1 January 2026, Quebec CAQ, school/level changes and other exceptions. Detection is not legal interpretation.",
+      "source_owner": "Immigration, Refugees and Citizenship Canada (IRCC)",
+      "jurisdiction": "Federal Canada; Quebec-specific requirements require provincial authority confirmation",
+      "category": "Provincial / territorial attestation",
+      "source_type": "Official government guidance",
+      "verification_mode": "Availability-only automated check; manual legal review required",
+      "last_verified": "2026-11-25"
     },
     {
       "country": "Canada",
       "name": "IRCC — Post-graduation work permit eligibility",
       "url": "https://www.canada.ca/en/immigration-refugees-citizenship/services/study-canada/work/after-graduation/eligibility.html",
       "compare_text": false,
-      "note": "Availability-only automated check; manual case review required. General tests: eligible DLI and exact PGWP-eligible programme; programme at least 8 months (900 hours for Quebec); full-time status each semester except possible part-time final semester; apply within 180 days of completion confirmation; verify study permit/status, authorised leave, transfers, distance learning, prior PGWP and exclusions including ESL/FSL, general-interest/non-credit and public-private curriculum-licensing partnership programmes. Language: bachelor's/master's/doctoral and other university graduates CLB/NCLC 7 in all 4 skills; college/polytechnic and other non-university graduates CLB/NCLC 5 in all 4 skills. For study permit applications on/after 1 Nov 2024, non-degree university and college/non-university programmes generally also need eligible field of study; bachelor's/master's/doctoral degrees have no field restriction. Check exact 6-digit CIP 2021 code and current 2026 frozen eligible list where applicable. Duration is not automatic: usually programme length for eligible programmes under 2 years, up to 3 years for eligible programmes 2 years or longer; eligible master's of at least 8 months may qualify for up to 3 years. Passport expiry can shorten validity. Detection is not legal interpretation; never promise PGWP or a fixed duration from a course title."
+      "note": "Availability-only automated check; manual case review required. General tests: eligible DLI and exact PGWP-eligible programme; programme at least 8 months (900 hours for Quebec); full-time status each semester except possible part-time final semester; apply within 180 days of completion confirmation; verify study permit/status, authorised leave, transfers, distance learning, prior PGWP and exclusions including ESL/FSL, general-interest/non-credit and public-private curriculum-licensing partnership programmes. Language: bachelor's/master's/doctoral and other university graduates CLB/NCLC 7 in all 4 skills; college/polytechnic and other non-university graduates CLB/NCLC 5 in all 4 skills. For study permit applications on/after 1 Nov 2024, non-degree university and college/non-university programmes generally also need eligible field of study; bachelor's/master's/doctoral degrees have no field restriction. Check exact 6-digit CIP 2021 code and current 2026 frozen eligible list where applicable. Duration is not automatic: usually programme length for eligible programmes under 2 years, up to 3 years for eligible programmes 2 years or longer; eligible master's of at least 8 months may qualify for up to 3 years. Passport expiry can shorten validity. Detection is not legal interpretation; never promise PGWP or a fixed duration from a course title.",
+      "source_owner": "Immigration, Refugees and Citizenship Canada (IRCC)",
+      "jurisdiction": "Federal — Canada",
+      "category": "Post-study work — PGWP",
+      "source_type": "Official government guidance",
+      "verification_mode": "Availability-only automated check; manual legal review required",
+      "last_verified": "2026-11-25"
     },
     {
       "country": "Canada",
       "name": "IRCC — PGWP field of study and eligible CIP codes",
       "url": "https://www.canada.ca/en/immigration-refugees-citizenship/services/study-canada/work/after-graduation/eligibility/field-of-study.html",
       "compare_text": false,
-      "note": "Availability-only automated check. IRCC states the eligible-field list is frozen for 2026; manually verify exact 6-digit CIP 2021 code, applicant's study permit/PGWP application dates and any grandfathering against the live official list. Do not infer eligibility from a programme title."
+      "note": "Availability-only automated check. IRCC states the eligible-field list is frozen for 2026; manually verify exact 6-digit CIP 2021 code, applicant's study permit/PGWP application dates and any grandfathering against the live official list. Do not infer eligibility from a programme title.",
+      "source_owner": "Immigration, Refugees and Citizenship Canada (IRCC)",
+      "jurisdiction": "Federal — Canada",
+      "category": "Post-study work — field of study",
+      "source_type": "Official government guidance",
+      "verification_mode": "Availability-only automated check; manual legal review required",
+      "last_verified": "2026-11-25"
     },
     {
       "country": "Canada",
       "name": "IRCC — Designated learning institutions list and PGWP-eligible programme details",
       "url": "https://www.canada.ca/en/immigration-refugees-citizenship/services/study-canada/study-permit/prepare/designated-learning-institutions-list.html",
       "compare_text": false,
-      "note": "Availability-only automated check. Manually verify exact institution, DLI number, province/campus, PGWP-eligible DLI list and exact programme details. IRCC explicitly states not all programmes at a listed DLI qualify. Cross-check all general PGWP, language and field-of-study requirements. Detection is not legal interpretation."
+      "note": "Availability-only automated check. Manually verify exact institution, DLI number, province/campus, PGWP-eligible DLI list and exact programme details. IRCC explicitly states not all programmes at a listed DLI qualify. Cross-check all general PGWP, language and field-of-study requirements. Detection is not legal interpretation.",
+      "source_owner": "Immigration, Refugees and Citizenship Canada (IRCC)",
+      "jurisdiction": "Federal — Canada",
+      "category": "Designated learning institutions / programme eligibility",
+      "source_type": "Official government guidance",
+      "verification_mode": "Availability-only automated check; manual legal review required",
+      "last_verified": "2026-11-25"
     },
     {
       "country": "UK",
@@ -261,7 +303,13 @@
       "name": "IRCC — Graduate student study permit application and doctoral processing",
       "url": "https://www.canada.ca/en/immigration-refugees-citizenship/services/study-canada/graduate-student/how-to-apply.html",
       "compare_text": false,
-      "note": "Availability-only automated check. IRCC currently advertises 2-week processing for eligible doctoral students and accompanying family members. Treat as a processing initiative, not a guaranteed service standard or approval. Manually verify current programme eligibility, completeness and live instructions. Detection is not legal interpretation."
+      "note": "Availability-only automated check. IRCC currently advertises 2-week processing for eligible doctoral students and accompanying family members. Treat as a processing initiative, not a guaranteed service standard or approval. Manually verify current programme eligibility, completeness and live instructions. Detection is not legal interpretation.",
+      "source_owner": "Immigration, Refugees and Citizenship Canada (IRCC)",
+      "jurisdiction": "Federal — Canada",
+      "category": "Graduate student application / processing initiative",
+      "source_type": "Official government guidance",
+      "verification_mode": "Availability-only automated check; manual legal review required",
+      "last_verified": "2026-11-25"
     },
     {
       "country": "Australia",
