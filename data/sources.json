@@ -2011,6 +2011,102 @@
       "verification_mode": "Manual review required; confirm latest revision",
       "last_verified": "2026-11-25",
       "note": "Sri Lanka-specific checklist: sponsor bank statements/income, admission, accommodation, insurance, legalised education/family documents, police clearance, CV and motivation letter."
+    },
+    {
+      "country": "Iceland",
+      "name": "Directorate of Immigration — Residence permit for students: requirements",
+      "url": "https://island.is/en/residence-permit-students/requirements",
+      "source_owner": "Directorate of Immigration (Útlendingastofnun)",
+      "jurisdiction": "National — Iceland",
+      "category": "Student eligibility, financial means and insurance",
+      "source_type": "Official government guidance",
+      "verification_mode": "Official source monitoring; manual legal review required",
+      "last_verified": "2026-11-25",
+      "note": "Full-time 30 ECTS/semester, generally age 18+, ISK 259,951/month for one individual, spouse/family amounts, ISK 2m insurance for at least three months and criminal record."
+    },
+    {
+      "country": "Iceland",
+      "name": "Directorate of Immigration — Residence permit for students: application process",
+      "url": "https://island.is/en/residence-permit-students",
+      "source_owner": "Directorate of Immigration (Útlendingastofnun)",
+      "jurisdiction": "National — Iceland",
+      "category": "Application procedure, deadlines and fee",
+      "source_type": "Official government guidance",
+      "verification_mode": "Manual legal review required",
+      "last_verified": "2026-11-25",
+      "note": "Original paper application to Directorate; current page lists May 1 fall / October 1 spring receipt deadlines and ISK 70,000 processing fee."
+    },
+    {
+      "country": "Iceland",
+      "name": "Directorate of Immigration — Student residence permit: rights and obligations",
+      "url": "https://island.is/en/residence-permit-students/residence-rights",
+      "source_owner": "Directorate of Immigration (Útlendingastofnun)",
+      "jurisdiction": "National — Iceland",
+      "category": "Permit validity, renewal, work and dependants",
+      "source_type": "Official government guidance",
+      "verification_mode": "Manual legal review required; apply 2026 amendments",
+      "last_verified": "2026-11-25",
+      "note": "Up to one year per permit, renewal, 60% work ceiling, family reunification categories. Read with 8 July 2026 legislative changes."
+    },
+    {
+      "country": "Iceland",
+      "name": "Directorate of Immigration — 8 July 2026 new residence and work permit rules",
+      "url": "https://island.is/en/o/directorate-of-immigration/news/new-residence-and-work-permit-rules-take-effect",
+      "source_owner": "Directorate of Immigration (Útlendingastofnun)",
+      "jurisdiction": "National — Iceland",
+      "category": "2026 legislative changes: study progress, work, post-study and family",
+      "source_type": "Official government legislative update",
+      "verification_mode": "Manual legal review required",
+      "last_verified": "2026-11-25",
+      "note": "Effective 8 July 2026: 75% academic progress at every renewal; student work up to 60% without separate work permit; up to 18 months post-study for university degree graduates; family reunification narrowed."
+    },
+    {
+      "country": "Iceland",
+      "name": "Directorate of Immigration — Student permit holders no longer need work permits (29 June 2026)",
+      "url": "https://island.is/en/o/directorate-of-immigration/news/student-residence-permits-work-permits-no-longer-required",
+      "source_owner": "Directorate of Immigration (Útlendingastofnun)",
+      "jurisdiction": "National — Iceland",
+      "category": "Student work rights / transition",
+      "source_type": "Official government legislative update",
+      "verification_mode": "Manual legal review required",
+      "last_verified": "2026-11-25",
+      "note": "Confirms 60% work ceiling, self-employment prohibited, full-time work in academic breaks, no work before first permit is issued."
+    },
+    {
+      "country": "Iceland",
+      "name": "Ministry for Foreign Affairs — Embassies issuing entry visas to Iceland",
+      "url": "https://island.is/en/embassies-issuing-entry-visas",
+      "source_owner": "Icelandic Ministry for Foreign Affairs",
+      "jurisdiction": "Consular — Sri Lanka",
+      "category": "Entry D-visa issuance after residence approval",
+      "source_type": "Official government consular guidance",
+      "verification_mode": "Manual review required",
+      "last_verified": "2026-11-25",
+      "note": "Lists Sri Lanka / Colombo — Royal Norwegian Embassy and VFS Global for Iceland entry visas. Directorate sends D-visa request after residence permit approval."
+    },
+    {
+      "country": "Iceland",
+      "name": "Directorate of Immigration — Student supporting documents",
+      "url": "https://island.is/en/residence-permit-students/document-requirements",
+      "source_owner": "Directorate of Immigration (Útlendingastofnun)",
+      "jurisdiction": "National — Iceland",
+      "category": "Student application document requirements",
+      "source_type": "Official government guidance",
+      "verification_mode": "Manual legal review required",
+      "last_verified": "2026-11-25",
+      "note": "Official document format, payment receipt, passport, criminal record, insurance and supporting evidence requirements."
+    },
+    {
+      "country": "Iceland",
+      "name": "Directorate of Immigration — Studies and cultural exchange applications",
+      "url": "https://island.is/en/o/directorate-of-immigration/have-applied-studies",
+      "source_owner": "Directorate of Immigration (Útlendingastofnun)",
+      "jurisdiction": "National — Iceland",
+      "category": "Application status and work start restriction",
+      "source_type": "Official government guidance",
+      "verification_mode": "Manual review required",
+      "last_verified": "2026-11-25",
+      "note": "Visa-required applicants must remain outside Iceland during application processing; students cannot start work until permit is issued."
     }
   ]
 }
