@@ -2407,6 +2407,114 @@
       "verification_mode": "Consolidated legal text should be checked for later amendments",
       "last_verified": "2026-11-25",
       "note": "Article 27 delegates sufficient subsistence amount to minister; Article 28 addresses applications and filing location."
+    },
+    {
+      "country": "Luxembourg",
+      "name": "Guichet.lu — Visa type D for residence permit for students",
+      "url": "https://guichet.public.lu/en/citoyens/immigration/vivre/non-luxembourg/immigration/pays-tiers/etudiant/etudiant-pays-tiers.html",
+      "source_owner": "Luxembourg Government — Guichet.lu",
+      "jurisdiction": "National — Luxembourg",
+      "category": "Student eligibility, Visa D procedure, financial resources, work rights, documents and processing",
+      "source_type": "Official government immigration guidance",
+      "verification_mode": "Updated 1 October 2026",
+      "last_verified": "2026-11-25",
+      "note": "New Visa D-first process for applications from 1 October 2026; funds 80% REVIS; work average 15h/week with exceptions."
+    },
+    {
+      "country": "Luxembourg",
+      "name": "Ministry of Foreign Affairs — Visa and immigration / 1 October 2026 reform",
+      "url": "https://mae.gouvernement.lu/en/services-aux-citoyens/visa-immigration.html",
+      "source_owner": "Luxembourg Ministry of Foreign and European Affairs",
+      "jurisdiction": "National / consular — Luxembourg",
+      "category": "New long-stay Visa D procedure and transitional provisions",
+      "source_type": "Official government guidance",
+      "verification_mode": "Checked 25 November 2026",
+      "last_verified": "2026-11-25",
+      "note": "From 1 October 2026 new first-residence applications use Visa D application at competent Luxembourg/Belgian post; AST applications through 30 September follow transition."
+    },
+    {
+      "country": "Luxembourg",
+      "name": "Embassy of Luxembourg in New Delhi — Long-term National Visa",
+      "url": "https://newdelhi.mae.lu/en/service_citoyens/visa-immigration/long-term-national-visa.html",
+      "source_owner": "Embassy of Luxembourg in New Delhi",
+      "jurisdiction": "Consular — Sri Lanka jurisdiction",
+      "category": "Sri Lankan D visa submission route via Honorary Consulate Colombo, EUR 50 fee and courier process",
+      "source_type": "Official embassy guidance",
+      "verification_mode": "Updated 23 November 2026",
+      "last_verified": "2026-11-25",
+      "note": "Sri Lanka D visa applications processed at New Delhi and couriered through Honorary Consulate Colombo; short-stay applications are separate."
+    },
+    {
+      "country": "Luxembourg",
+      "name": "Luxembourg Government — Sri Lanka diplomatic mission and visa jurisdiction",
+      "url": "https://mae.gouvernement.lu/en/missions-diplomatiques/missions-diplomatiques-et-consulaires-luxembourgeoises/sri-lanka.html",
+      "source_owner": "Luxembourg Ministry of Foreign and European Affairs",
+      "jurisdiction": "Consular — Sri Lanka",
+      "category": "Embassy New Delhi and Honorary Consul Colombo; long-stay visa jurisdiction",
+      "source_type": "Official government consular page",
+      "verification_mode": "Last updated 7 October 2025; confirm live contact details",
+      "last_verified": "2026-11-25",
+      "note": "Long-stay visas directed to Luxembourg Embassy New Delhi; short-stay visas to Swiss Embassy Colombo."
+    },
+    {
+      "country": "Luxembourg",
+      "name": "Guichet.lu — Social inclusion income (REVIS)",
+      "url": "https://guichet.public.lu/en/citoyens/famille-education/aides-financieres/menages-revenus-modestes/revenu-inclusion-sociale-revis.html",
+      "source_owner": "Luxembourg Government — Guichet.lu",
+      "jurisdiction": "National — Luxembourg",
+      "category": "Current REVIS calculation and eligibility framework relevant to student maintenance formula",
+      "source_type": "Official government financial assistance guidance",
+      "verification_mode": "Updated 13 August 2026",
+      "last_verified": "2026-11-25",
+      "note": "REVIS is household-composition and income based; avoid a fixed universal monthly figure."
+    },
+    {
+      "country": "Luxembourg",
+      "name": "National Solidarity Fund — REVIS amount calculator",
+      "url": "https://fns.public.lu/en/revis/calculateur.html",
+      "source_owner": "Luxembourg National Solidarity Fund",
+      "jurisdiction": "National — Luxembourg",
+      "category": "Current REVIS adult amount and calculation reference",
+      "source_type": "Official government calculator",
+      "verification_mode": "Last updated 1 June 2026",
+      "last_verified": "2026-11-25",
+      "note": "Calculator shows adult inclusion allowance EUR 972.20 at index 992.24; 80% is EUR 777.76 as arithmetic reference only."
+    },
+    {
+      "country": "Luxembourg",
+      "name": "EU Immigration Portal — Student in Luxembourg",
+      "url": "https://home-affairs.ec.europa.eu/policies/migration-and-asylum/eu-immigration-portal/student-luxembourg_en",
+      "source_owner": "European Commission, DG Migration and Home Affairs",
+      "jurisdiction": "EU institutional overview — Luxembourg",
+      "category": "Secondary overview of work restrictions, post-study, permit and family rules",
+      "source_type": "Official EU institutional guidance",
+      "verification_mode": "Last updated 1 April 2025; superseded where 1 October 2026 Guichet differs",
+      "last_verified": "2026-11-25",
+      "note": "Older source says Bachelor students cannot work first two semesters; verify against new Guichet page."
+    },
+    {
+      "country": "Luxembourg",
+      "name": "Guichet.lu — Staying after studies to find a job or set up a business",
+      "url": "https://guichet.public.lu/en/citoyens/immigration/vivre/luxembourg/changement-categorie/recherche-emploi-creation.html",
+      "source_owner": "Luxembourg Government — Guichet.lu",
+      "jurisdiction": "National — Luxembourg",
+      "category": "Post-study 9-month permit for eligible Master's and doctoral graduates",
+      "source_type": "Official government immigration guidance",
+      "verification_mode": "Updated 1 October 2026",
+      "last_verified": "2026-11-25",
+      "note": "Eligibility requires successful Master's final year or doctoral thesis defence in Luxembourg; 9-month permit."
+    },
+    {
+      "country": "Luxembourg",
+      "name": "Luxembourg Ministry of Foreign Affairs — Visa applications for Sri Lanka",
+      "url": "https://mae.gouvernement.lu/en/missions-diplomatiques/missions-diplomatiques-et-consulaires-luxembourgeoises/sri-lanka.html",
+      "source_owner": "Luxembourg Ministry of Foreign and European Affairs",
+      "jurisdiction": "Consular — Sri Lanka",
+      "category": "Clarifies short-stay Swiss representation vs long-stay New Delhi processing",
+      "source_type": "Official government consular guidance",
+      "verification_mode": "Checked 25 November 2026",
+      "last_verified": "2026-11-25",
+      "note": "Long-stay applications must not be sent to Swiss Embassy Colombo."
     }
   ]
 }
