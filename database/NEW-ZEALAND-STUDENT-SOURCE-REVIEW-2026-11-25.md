@@ -15,6 +15,7 @@
 7. [Qualifications needed for a Post-Study Work Visa](https://www.immigration.govt.nz/study/after-you-finish-your-study/qualifications-needed-for-a-post-study-work-visa/)
 8. [Post-Study Work Visa eligibility extended from 16 November 2026](https://www.immigration.govt.nz/about-us/news-centre/post-study-work-visa-eligibility-extended-from-16-november-2026/)
 9. [Short-Term Graduate Work Visa](https://www.immigration.govt.nz/visas/short-term-graduate-work-visa/)
+10. [Offices outside New Zealand — Visa Application Centres](https://www.immigration.govt.nz/contact-us/offices-outside-of-new-zealand-visa-application-centres/)
 
 ## Counsellor rule notes
 
@@ -77,7 +78,9 @@ INZ introduced a 6-month Short-Term Graduate Work Visa for eligible graduates. P
 
 ## VisaWatch implementation
 
-- Updated six New Zealand Rules Library entries: student visa eligibility, student funds/evidence, work rights, course-end expiry, PSWV eligibility and Short-Term Graduate Work Visa.
+- Updated six existing New Zealand Rules Library entries: student visa eligibility, student funds/evidence, work rights, course-end expiry, PSWV eligibility and Short-Term Graduate Work Visa.
+- Added a seventh rule for Sri Lanka's official New Zealand Visa Application Centre in Colombo, including the distinction between online visa lodgement and any later VAC visit requested by INZ.
+- Added official source records `nz4`–`nz10`. `nz9` is the Short-Term Graduate Work Visa page; `nz10` is the VAC directory. The source IDs are intentionally distinct so rule citations point to the correct official material.
 - Added structured source metadata to all 9 New Zealand entries in `data/sources.json`: source owner, jurisdiction, category, source type, verification mode and last-verified date.
 - Rule records remain **Pending human review**. No entry is approved client advice.
 - Automated monitoring detects availability or page text only; it does not interpret law or confirm an applicant's eligibility.
@@ -90,3 +93,8 @@ INZ introduced a 6-month Short-Term Graduate Work Visa for eligible graduates. P
 - [ ] Confirm 27 October 2026 work-rights and visa-expiry transitional scope.
 - [ ] Confirm exact PSWV and Short-Term Graduate Work Visa eligibility, deadlines and employer restrictions.
 - [ ] Record reviewer name, review date, source evidence and approval in the VisaWatch audit trail.
+
+
+### Sri Lanka submission channel — 25 November 2026
+
+Most student visa applications are submitted online through Immigration New Zealand. INZ's current VAC directory lists the New Zealand Visa Application Centre operated by VFS Global at **3rd Floor, No. 675, Dr Danister de Silva Mawatha (Baseline Road), Colombo 09**. INZ states that appointments are required for services provided at a VAC. A VAC handles only specified administrative tasks and does not decide the visa or provide immigration advice. A student should attend or submit a passport only when the personalised INZ instructions require it. Confirm current VFS service availability, appointment and fee instructions before advising.
