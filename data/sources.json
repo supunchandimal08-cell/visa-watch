@@ -1819,6 +1819,90 @@
       "verification_mode": "Official source monitoring; manual legal review required",
       "last_verified": "2026-11-25",
       "note": "National student portal explains D visa for non-EU students and residence permit for programmes lasting longer than one year; university sends admission documents. Confirm current official PPA/MFA requirements."
+    },
+    {
+      "country": "Greece",
+      "name": "Greek Migration Code — Law 5038/2023, as amended by Law 5275/2026 (Government Gazette 17/6.2.2026)",
+      "url": "https://migration.gov.gr/wp-content/uploads/2026/02/%CE%A6%CE%95%CE%9A%CE%9117_6.2.2025.pdf",
+      "source_owner": "Hellenic Ministry of Migration and Asylum / Government Gazette",
+      "jurisdiction": "National — Greece",
+      "category": "Student residence permit, duration, work and post-study law",
+      "source_type": "Primary legislation",
+      "verification_mode": "Manual legal review required; automated change detection is not legal interpretation",
+      "last_verified": "2026-11-25",
+      "note": "Law 5275/2026, Articles 30–32 and 69: H.1 permit duration, EUR 150 fee, 20-hour weekly part-time ceiling and H.11 one-year post-study route. Published 6 February 2026."
+    },
+    {
+      "country": "Greece",
+      "name": "European Commission — EU Immigration Portal: Student in Greece",
+      "url": "https://home-affairs.ec.europa.eu/policies/migration-and-asylum/eu-immigration-portal/student-greece_en",
+      "source_owner": "European Commission, Directorate-General for Migration and Home Affairs",
+      "jurisdiction": "EU portal — Greece country profile",
+      "category": "Student eligibility / application overview",
+      "source_type": "Official EU institutional guidance",
+      "verification_mode": "Manual review required; 2025 profile may predate 2026 Greek amendments",
+      "last_verified": "2026-11-25",
+      "note": "Admission, sufficient funds, enrolment fees and previous application overview. Some duration/post-study statements predate Law 5275/2026 and must not override current national law."
+    },
+    {
+      "country": "Greece",
+      "name": "Greek Ministry of Migration and Asylum — Residence permit categories and supporting documents",
+      "url": "https://migration.gov.gr/en/migration-policy/metanasteusi-stin-ellada/katigories-adeion-diamonis-politon-triton-choron-dikaiologitika%E2%80%8B/",
+      "source_owner": "Hellenic Ministry of Migration and Asylum",
+      "jurisdiction": "National — Greece",
+      "category": "Residence permit procedure / documents",
+      "source_type": "Official government guidance",
+      "verification_mode": "Manual review required; confirm current linked checklist",
+      "last_verified": "2026-11-25",
+      "note": "Official residence permit categories and documentation portal. Check current Article references and downloadable forms."
+    },
+    {
+      "country": "Greece",
+      "name": "Greek MFA — Visas for Sri Lanka / Greece Visa Application Centre links",
+      "url": "https://www.mfa.gr/missionsabroad/en/india-en/visas",
+      "source_owner": "Hellenic Ministry of Foreign Affairs — Embassy of Greece in New Delhi",
+      "jurisdiction": "Consular — Sri Lanka under New Delhi competent authority",
+      "category": "Sri Lanka national visa application route",
+      "source_type": "Official government consular guidance",
+      "verification_mode": "Manual review required; D-visa acceptance at Colombo centre must be confirmed",
+      "last_verified": "2026-11-25",
+      "note": "Official page lists the Greece Visa Application Centre in Sri Lanka. Confirm that it accepts national Type D student visa applications and current procedure."
+    },
+    {
+      "country": "Greece",
+      "name": "Greek MFA — Sri Lanka competent authority and Colombo Honorary Consulate",
+      "url": "https://www.mfa.gr/en/bilateral-relations/sri-lanka/",
+      "source_owner": "Hellenic Ministry of Foreign Affairs",
+      "jurisdiction": "Consular — Sri Lanka",
+      "category": "Competent diplomatic authority",
+      "source_type": "Official government mission information",
+      "verification_mode": "Manual review required",
+      "last_verified": "2026-11-25",
+      "note": "Confirms Greece is represented in Sri Lanka by parallel accreditation of the Embassy in New Delhi; Colombo Honorary Consulate is listed, with New Delhi as competent authority."
+    },
+    {
+      "country": "Greece",
+      "name": "Greek MFA — New Delhi Embassy contact details",
+      "url": "https://www.mfa.gr/missionsabroad/en/india-en/about-us/contact.html",
+      "source_owner": "Hellenic Ministry of Foreign Affairs — Embassy of Greece in New Delhi",
+      "jurisdiction": "Consular — Sri Lanka",
+      "category": "Visa enquiries / appointment contact",
+      "source_type": "Official government contact information",
+      "verification_mode": "Manual review required",
+      "last_verified": "2026-11-25",
+      "note": "Consular and visa queries: grcon.del@mfa.gr; telephone +91 11 26880700-4. Use for written confirmation of Type D route from Sri Lanka."
+    },
+    {
+      "country": "Greece",
+      "name": "Greek MFA — Sri Lanka mission listing",
+      "url": "https://www.mfa.gr/en/missions/sri-lanka/",
+      "source_owner": "Hellenic Ministry of Foreign Affairs",
+      "jurisdiction": "Consular — Sri Lanka",
+      "category": "Local honorary consulate and competent authority",
+      "source_type": "Official government mission information",
+      "verification_mode": "Manual review required",
+      "last_verified": "2026-11-25",
+      "note": "Lists Colombo Honorary Consulate and explicitly names Greek Embassy in New Delhi as competent authority."
     }
   ]
 }
