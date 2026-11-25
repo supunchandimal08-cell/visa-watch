@@ -1435,6 +1435,20 @@
       "source_type": "Official government source",
       "verification_mode": "Official-source monitoring for availability only; manual legal review required",
       "last_reviewed": "2026-11-25"
+    },
+    {
+      "id": "hr11",
+      "country": "Croatia",
+      "name": "Narodne novine — Aliens Act amendment NN 55/2026 (Article 16)",
+      "url": "https://narodne-novine.nn.hr/clanci/sluzbeni/2026_05_55_692.html",
+      "compare_text": false,
+      "note": "Enacted amendment to Article 89 sets university-study student work at maximum 25 hours/week, except when internship is integral to the programme. Published 27 May 2026; Article 70 makes it effective on the eighth day after publication (4 June 2026). This supersedes the older MUP web page that still displays 20 hours.",
+      "source_owner": "Croatian Parliament / Narodne novine",
+      "jurisdiction": "National legislation — Croatia",
+      "category": "Legislative amendment / student work rights",
+      "source_type": "Official legislation",
+      "verification_mode": "Official-source monitoring for availability only; manual legal review required",
+      "last_reviewed": "2026-11-25"
     }
   ]
 }
