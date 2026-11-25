@@ -1903,6 +1903,114 @@
       "verification_mode": "Manual review required",
       "last_verified": "2026-11-25",
       "note": "Lists Colombo Honorary Consulate and explicitly names Greek Embassy in New Delhi as competent authority."
+    },
+    {
+      "country": "Hungary",
+      "name": "National Directorate-General for Aliens Policing — Residence of the student, pupil",
+      "url": "https://oif.gov.hu/factsheets/residence-of-the-student-pupil",
+      "source_owner": "National Directorate-General for Aliens Policing (NDGAP/OIF)",
+      "jurisdiction": "National — Hungary",
+      "category": "Student residence eligibility, validity, work and family",
+      "source_type": "Official immigration authority guidance",
+      "verification_mode": "Official source monitoring; manual legal review required",
+      "last_verified": "2026-11-25",
+      "note": "Official factsheet: qualifying institution and full-time study, language, funds, accommodation, insurance; permit 1–3 years; work up to 30h/week during study and full-time up to 90 days/year outside study; family reunification generally unavailable."
+    },
+    {
+      "country": "Hungary",
+      "name": "National Directorate-General for Aliens Policing — Higher education institution guidance",
+      "url": "https://oif.gov.hu/index.php/factsheets/for-higher-education-institutions",
+      "source_owner": "National Directorate-General for Aliens Policing (NDGAP/OIF)",
+      "jurisdiction": "National — Hungary",
+      "category": "Recognised institutions, full-time study and work rights",
+      "source_type": "Official immigration authority guidance",
+      "verification_mode": "Manual legal review required",
+      "last_verified": "2026-11-25",
+      "note": "Defines qualifying full-time training at state-recognised higher education institutions and supporting evidence including admission/student status and tuition payment."
+    },
+    {
+      "country": "Hungary",
+      "name": "European Commission — EU Immigration Portal: Student in Hungary",
+      "url": "https://home-affairs.ec.europa.eu/policies/migration-and-asylum/eu-immigration-portal/student-hungary_en",
+      "source_owner": "European Commission, Directorate-General for Migration and Home Affairs",
+      "jurisdiction": "EU portal — Hungary country profile",
+      "category": "Student permit overview, fees and conditions",
+      "source_type": "Official EU institutional guidance",
+      "verification_mode": "Manual review required; reconcile with current NDGAP guidance",
+      "last_verified": "2026-11-25",
+      "note": "Country profile dated 18 September 2025; useful overview of study eligibility, application, fees, work and family rules. Prefer newer NDGAP factsheet if details differ."
+    },
+    {
+      "country": "Hungary",
+      "name": "Enter Hungary — Official study residence document checklist",
+      "url": "https://enterhungary.gov.hu/eh/tajekoztato/en/okmanytaulmanyok",
+      "source_owner": "Hungarian National Directorate-General for Aliens Policing",
+      "jurisdiction": "National — Hungary",
+      "category": "Study permit supporting documents",
+      "source_type": "Official government e-application portal",
+      "verification_mode": "Manual legal review required",
+      "last_verified": "2026-11-25",
+      "note": "Official document guidance for study purpose, passport, bank statement, admission/student status and language evidence."
+    },
+    {
+      "country": "Hungary",
+      "name": "NDGAP — Residence permit for seeking a job or starting a business",
+      "url": "https://oif.gov.hu/index.php/factsheets/residence-permit-for-the-purpose-of-seeking-a-job-or-starting-a-business",
+      "source_owner": "National Directorate-General for Aliens Policing (NDGAP/OIF)",
+      "jurisdiction": "National — Hungary",
+      "category": "Post-study job-search / business-start permit",
+      "source_type": "Official immigration authority guidance",
+      "verification_mode": "Manual legal review required",
+      "last_verified": "2026-11-25",
+      "note": "Valid study permit, successful completion and job/business aligned with qualification; apply in Hungary at least 15 days before expiry via Enter Hungary; maximum nine months, non-extendable."
+    },
+    {
+      "country": "Hungary",
+      "name": "Embassy of Hungary in New Delhi — General consular information (Sri Lanka)",
+      "url": "https://newdelhi.mfa.gov.hu/en/1_1-General-consular-information",
+      "source_owner": "Ministry of Foreign Affairs and Trade of Hungary — Embassy in New Delhi",
+      "jurisdiction": "Consular — Sri Lanka",
+      "category": "Sri Lanka D visa appointment and consular jurisdiction",
+      "source_type": "Official government consular guidance",
+      "verification_mode": "Manual legal review required",
+      "last_verified": "2026-11-25",
+      "note": "New Delhi consular section covers Sri Lanka; D visa appointments are requested by email. The Embassy says D visa submission in Sri Lanka is outsourced to VFS Colombo."
+    },
+    {
+      "country": "Hungary",
+      "name": "Embassy of Hungary in New Delhi — D Type long-term residence permit application",
+      "url": "https://newdelhi.mfa.gov.hu/en/3-d-type-long-term-resident-permit-application",
+      "source_owner": "Ministry of Foreign Affairs and Trade of Hungary — Embassy in New Delhi",
+      "jurisdiction": "Consular — Sri Lanka",
+      "category": "National D visa submission route",
+      "source_type": "Official government consular guidance",
+      "verification_mode": "Manual legal review required",
+      "last_verified": "2026-11-25",
+      "note": "D visa appointment instructions for Sri Lankan applicants and VFS Colombo lodgement; confirm current procedure and interview requirements."
+    },
+    {
+      "country": "Hungary",
+      "name": "VFS Global — Hungary visa information for Sri Lanka (Study / D visa)",
+      "url": "https://www.vfsglobal.com/one-pager/hungary/srilanka/english/index.html",
+      "source_owner": "VFS Global under authorisation of Embassy of Hungary",
+      "jurisdiction": "Visa application centre — Sri Lanka",
+      "category": "Study visa fee, Colombo submission and biometrics",
+      "source_type": "Official visa application centre guidance",
+      "verification_mode": "Manual review required; fees change",
+      "last_verified": "2026-11-25",
+      "note": "Published study visa fee LKR 39,560 and VFS service charges LKR 29,490 without biometrics / LKR 33,180 with biometrics; appointment arranged by Embassy; verify amounts on application date."
+    },
+    {
+      "country": "Hungary",
+      "name": "Embassy of Hungary — Sri Lanka study residence permit supporting-document list (PDF)",
+      "url": "https://delhi.mfa.gov.hu/asset/view/98425/List%20of%20supporting%20documents_Sri%20Lanka.pdf",
+      "source_owner": "Ministry of Foreign Affairs and Trade of Hungary — Embassy in New Delhi",
+      "jurisdiction": "Consular — Sri Lanka",
+      "category": "Student D visa checklist",
+      "source_type": "Official government document checklist",
+      "verification_mode": "Manual review required; confirm latest revision",
+      "last_verified": "2026-11-25",
+      "note": "Sri Lanka-specific checklist: sponsor bank statements/income, admission, accommodation, insurance, legalised education/family documents, police clearance, CV and motivation letter."
     }
   ]
 }
