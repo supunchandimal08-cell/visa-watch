@@ -1017,6 +1017,78 @@
       "source_type": "Official government immigration / education guidance",
       "verification_mode": "Availability-only automated check; manual legal review required",
       "last_verified": "2026-11-25"
+    },
+    {
+      "country": "Norway",
+      "name": "UDI — Study permit (Sri Lankan applicants)",
+      "url": "https://www.udi.no/en/want-to-apply/studies/studietillatelse/?c=lka",
+      "compare_text": false,
+      "note": "Personalised study permit requirements for Sri Lankan citizens: full-time accredited admission, 2026/27 funds, tuition, accommodation, work rights and family.",
+      "source_owner": "Norwegian Directorate of Immigration (UDI)",
+      "jurisdiction": "National — Norway",
+      "source_type": "Official government immigration / education guidance",
+      "verification_mode": "Availability-only automated check; manual legal review required",
+      "last_verified": "2026-11-25"
+    },
+    {
+      "country": "Norway",
+      "name": "Study in Norway — Cost and requirements",
+      "url": "https://studyinnorway.no/cost-and-requirements",
+      "compare_text": false,
+      "note": "Official tuition, 2026/27 living-cost and semester fee information.",
+      "source_owner": "Norwegian Ministry of Foreign Affairs",
+      "jurisdiction": "National — Norway",
+      "source_type": "Official government immigration / education guidance",
+      "verification_mode": "Availability-only automated check; manual legal review required",
+      "last_verified": "2026-11-25"
+    },
+    {
+      "country": "Norway",
+      "name": "UDI — Fees",
+      "url": "https://www.udi.no/en/word-definitions/fees/",
+      "compare_text": false,
+      "note": "Official study residence application fees: adult NOK 5,400; under 18 NOK 2,700.",
+      "source_owner": "Norwegian Directorate of Immigration (UDI)",
+      "jurisdiction": "National — Norway",
+      "source_type": "Official government immigration / education guidance",
+      "verification_mode": "Availability-only automated check; manual legal review required",
+      "last_verified": "2026-11-25"
+    },
+    {
+      "country": "Norway",
+      "name": "Norway in Sri Lanka — Residence permit",
+      "url": "https://www.norway.no/en/sri-lanka/services-info/visitors-visa-res-permit/res-permit/",
+      "compare_text": false,
+      "note": "Sri Lanka residence permit application route through Norway VFS Colombo and Norwegian Embassy New Delhi; service/courier charges.",
+      "source_owner": "Norwegian Ministry of Foreign Affairs",
+      "jurisdiction": "National — Norway",
+      "source_type": "Official government immigration / education guidance",
+      "verification_mode": "Availability-only automated check; manual legal review required",
+      "last_verified": "2026-11-25"
+    },
+    {
+      "country": "Norway",
+      "name": "UDI — Job seeker after graduation (Sri Lankan applicants)",
+      "url": "https://www.udi.no/en/want-to-apply/work-immigration/job-seekers/?c=lka",
+      "compare_text": false,
+      "note": "Graduate job-seeker eligibility, NOK 28,448/month own-funds requirement and maximum one-year permit.",
+      "source_owner": "Norwegian Directorate of Immigration (UDI)",
+      "jurisdiction": "National — Norway",
+      "source_type": "Official government immigration / education guidance",
+      "verification_mode": "Availability-only automated check; manual legal review required",
+      "last_verified": "2026-11-25"
+    },
+    {
+      "country": "Norway",
+      "name": "Study in Norway — Study opportunities and admission",
+      "url": "https://studyinnorway.no/study-opportunities",
+      "compare_text": false,
+      "note": "Official course directory and entry requirement guidance; check GSU and institution-specific criteria.",
+      "source_owner": "Norwegian Ministry of Foreign Affairs",
+      "jurisdiction": "National — Norway",
+      "source_type": "Official government immigration / education guidance",
+      "verification_mode": "Availability-only automated check; manual legal review required",
+      "last_verified": "2026-11-25"
     }
   ]
 }
