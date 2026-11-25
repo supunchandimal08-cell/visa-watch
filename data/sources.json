@@ -22,7 +22,13 @@
       "country": "Australia",
       "name": "Department of Home Affairs — Student visa subclass 500",
       "url": "https://immi.homeaffairs.gov.au/visas/getting-a-visa/visa-listing/student-500",
-      "note": "Manual counsellor review required. Verify exact CRICOS provider/course/campus and valid CoE for every intended course; CoE must remain valid at lodgement and decision. Check Genuine Student criterion and 150-word online responses, academic history, course rationale, home-country ties/economic circumstances, employment and immigration history. Run the personalised Home Affairs Document Checklist Tool using passport country and principal provider; attach financial/English evidence if listed. Published 12-month living costs: AUD 29,710 student, AUD 10,394 partner, AUD 4,449 child; add first 12 months tuition, travel, and applicable schooling costs (published guide AUD 13,502 per school-age child/year); check pro-rata method and current amounts before lodgement. Evidence must show genuine access and source of funds; one-day balance alone may be insufficient. Maintain OSHC for all applicants unless exempt. English scores/exemptions depend on current test-date rules and individual checklist. Most students may work 48 hours/fortnight while course in session; research master's/doctoral students and family may have no cap after course begins; verify VEVO/grant conditions. Since 2 Oct 2026, most applications must be lodged offshore unless applicant meets an eligible onshore category; family inclusion rules changed and need individual review. Do not guarantee work, approval, processing time or post-study outcomes. Detection is not legal interpretation."
+      "note": "Manual counsellor review required. Verify exact CRICOS provider/course/campus and valid CoE for every intended course; CoE must remain valid at lodgement and decision. Check Genuine Student criterion and 150-word online responses, academic history, course rationale, home-country ties/economic circumstances, employment and immigration history. Run the personalised Home Affairs Document Checklist Tool using passport country and principal provider; attach financial/English evidence if listed. Published 12-month living costs: AUD 29,710 student, AUD 10,394 partner, AUD 4,449 child; add first 12 months tuition, travel, and applicable schooling costs (published guide AUD 13,502 per school-age child/year); check pro-rata method and current amounts before lodgement. Evidence must show genuine access and source of funds; one-day balance alone may be insufficient. Maintain OSHC for all applicants unless exempt. English scores/exemptions depend on current test-date rules and individual checklist. Most students may work 48 hours/fortnight while course in session; research master's/doctoral students and family may have no cap after course begins; verify VEVO/grant conditions. Since 2 Oct 2026, most applications must be lodged offshore unless applicant meets an eligible onshore category; family inclusion rules changed and need individual review. Do not guarantee work, approval, processing time or post-study outcomes. Detection is not legal interpretation.",
+      "source_owner": "Australian Department of Home Affairs",
+      "jurisdiction": "Federal — Australia",
+      "category": "Student visa subclass 500 — eligibility and evidence",
+      "source_type": "Official government guidance",
+      "verification_mode": "Availability-only automated check; manual legal review required",
+      "last_verified": "2026-11-25"
     },
     {
       "country": "New Zealand",
@@ -57,13 +63,25 @@
       "country": "Australia",
       "name": "Department of Home Affairs — Student visa application rule changes (subclasses 500 & 590)",
       "url": "https://immi.homeaffairs.gov.au/visas/getting-a-visa/visa-listing/changes-to-student-visa-application-rules-500-590",
-      "note": "Official change notice. Review the 2 October 2026 commencement date, onshore application eligibility, subsequent Student visa applications and family-member inclusion rules. Detection is not legal interpretation; verify affected applicant category and exceptions against the current legislation before counselling."
+      "note": "Official change notice. Review the 2 October 2026 commencement date, onshore application eligibility, subsequent Student visa applications and family-member inclusion rules. Detection is not legal interpretation; verify affected applicant category and exceptions against the current legislation before counselling.",
+      "source_owner": "Australian Department of Home Affairs",
+      "jurisdiction": "Federal — Australia",
+      "category": "Student visa reforms — lodgement location and family",
+      "source_type": "Official government guidance",
+      "verification_mode": "Availability-only automated check; manual legal review required",
+      "last_verified": "2026-11-25"
     },
     {
       "country": "Australia",
       "name": "Federal Register — Migration Amendment (Student Visa Reform) Regulations 2026 (F2026L01347)",
       "url": "https://www.legislation.gov.au/F2026L01347/latest/details",
-      "note": "Primary legislative instrument registered 1 October 2026; commenced 2 October 2026. Review exact scope, application dates, exceptions and transitional provisions."
+      "note": "Primary legislative instrument registered 1 October 2026; commenced 2 October 2026. Review exact scope, application dates, exceptions and transitional provisions.",
+      "source_owner": "Federal Register of Legislation",
+      "jurisdiction": "Federal — Australia",
+      "category": "Primary legislation — Student Visa Reform 2026",
+      "source_type": "Primary legislative instrument",
+      "verification_mode": "Availability-only automated check; manual legal review required",
+      "last_verified": "2026-11-25"
     },
     {
       "country": "UAE / Dubai",
@@ -92,7 +110,13 @@
       "name": "Department of Home Affairs — Student visa condition 8105 (work limitation)",
       "url": "https://immi.homeaffairs.gov.au/visas/already-have-a-visa/check-visa-details-and-conditions/see-your-visa-conditions?cno=8105&product=500",
       "compare_text": true,
-      "note": "Primary official condition page. Verify the visa grant notice and VEVO for the individual applicant; current published guidance describes the 48-hours-per-fortnight limit, exceptions and course-session rules. Detection is not legal interpretation."
+      "note": "Primary official condition page. Verify the visa grant notice and VEVO for the individual applicant; current published guidance describes the 48-hours-per-fortnight limit, exceptions and course-session rules. Detection is not legal interpretation.",
+      "source_owner": "Australian Department of Home Affairs",
+      "jurisdiction": "Federal — Australia",
+      "category": "Work limitation — condition 8105",
+      "source_type": "Official government guidance",
+      "verification_mode": "Automated text comparison plus manual legal review",
+      "last_verified": "2026-11-25"
     },
     {
       "country": "Canada",
@@ -212,7 +236,13 @@
       "name": "Australian Government — CRICOS registration",
       "url": "https://www.education.gov.au/esos-framework/registration-cricos",
       "compare_text": false,
-      "note": "Availability-only automated check. Verify provider and exact course CRICOS registration, campus/location, course code and registration dates; provider registration alone does not establish every course/campus is registered."
+      "note": "Availability-only automated check. Verify provider and exact course CRICOS registration, campus/location, course code and registration dates; provider registration alone does not establish every course/campus is registered.",
+      "source_owner": "Australian Department of Home Affairs",
+      "jurisdiction": "Federal — Australia",
+      "category": "CRICOS provider and course register",
+      "source_type": "Official government guidance",
+      "verification_mode": "Availability-only automated check; manual legal review required",
+      "last_verified": "2026-11-25"
     },
     {
       "country": "New Zealand",
@@ -316,14 +346,26 @@
       "name": "Department of Home Affairs — Student visa family-member inclusion and subsequent entrants (2026 rules)",
       "url": "https://immi.homeaffairs.gov.au/visas/getting-a-visa/visa-listing/changes-to-student-visa-application-rules-500-590/family-members",
       "compare_text": false,
-      "note": "Availability-only automated check. Manually verify exemptions, same-time/same-location requirements, transitional cases and the restriction on adding subsequent entrants after grant. Changes effective 2 October 2026. Detection is not legal interpretation."
+      "note": "Availability-only automated check. Manually verify exemptions, same-time/same-location requirements, transitional cases and the restriction on adding subsequent entrants after grant. Changes effective 2 October 2026. Detection is not legal interpretation.",
+      "source_owner": "Australian Department of Home Affairs",
+      "jurisdiction": "Federal — Australia",
+      "category": "Family-member inclusion rules",
+      "source_type": "Official government guidance",
+      "verification_mode": "Availability-only automated check; manual legal review required",
+      "last_verified": "2026-11-25"
     },
     {
       "country": "Australia",
       "name": "Department of Home Affairs — What applicants and education agents must do under 2026 Student visa application changes",
       "url": "https://immi.homeaffairs.gov.au/visas/getting-a-visa/visa-listing/changes-to-student-visa-application-rules-500-590/what-you-need-to-do",
       "compare_text": false,
-      "note": "Availability-only automated check. Verify onshore/offshore lodgement eligibility, offshore grant-location rule, invalid application risks and transition for applications lodged before 2 October 2026. Detection is not legal interpretation."
+      "note": "Availability-only automated check. Verify onshore/offshore lodgement eligibility, offshore grant-location rule, invalid application risks and transition for applications lodged before 2 October 2026. Detection is not legal interpretation.",
+      "source_owner": "Australian Department of Home Affairs",
+      "jurisdiction": "Federal — Australia",
+      "category": "Applicant and agent lodgement instructions",
+      "source_type": "Official government guidance",
+      "verification_mode": "Availability-only automated check; manual legal review required",
+      "last_verified": "2026-11-25"
     },
     {
       "country": "New Zealand",
@@ -721,6 +763,19 @@
       "category": "Work rights / student employment",
       "note": "Official Dubai student guidance distinguishes Student Training and Work Permit (students aged 15+ enrolled in a UAE educational institution; institution NOC for training; employer applies) from the separate Part-time Work Permit (age 18+ and only some students may qualify; sponsor/employer NOC may be required; hiring company applies). It says student work requires valid residence visa and the necessary MoHRE permit. Internship availability does not guarantee paid employment or placement. Confirm exact eligibility, employer licensing jurisdiction, permit category, NOC and conditions with MoHRE and the institution before work begins. Do not promise jobs, fixed hours or earnings. Detection is not legal interpretation.",
       "country": "UAE / Dubai"
+    },
+    {
+      "country": "Australia",
+      "name": "Department of Home Affairs — Genuine Student requirement",
+      "url": "https://immi.homeaffairs.gov.au/visas/getting-a-visa/visa-listing/student-500/genuine-student-requirement",
+      "compare_text": false,
+      "note": "Availability-only automated check. GS applies to applications lodged on or after 23 March 2024; online responses are in English with 150-word limit per response. Review supporting evidence, current circumstances, course/provider rationale, course benefit, study/employment history, home-country ties and immigration history. Detection is not legal interpretation.",
+      "source_owner": "Australian Department of Home Affairs",
+      "jurisdiction": "Federal — Australia",
+      "category": "Genuine Student criterion",
+      "source_type": "Official government guidance",
+      "verification_mode": "Availability-only automated check; manual legal review required",
+      "last_verified": "2026-11-25"
     }
   ]
 }
