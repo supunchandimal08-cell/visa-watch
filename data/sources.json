@@ -884,6 +884,19 @@
       "source_type": "Official government consular guidance",
       "verification_mode": "Availability-only automated check; manual review required",
       "last_verified": "2026-11-25"
+    },
+    {
+      "country": "Finland",
+      "name": "Finnish Government — Proposed reforms for international students (10 September 2026)",
+      "url": "https://valtioneuvosto.fi/-/1410877/hallitus-esittaa-kansainvalisten-opiskelijoiden-perheenyhdistamiseen-vuoden-odotusaika?languageId=en_US",
+      "compare_text": false,
+      "note": "Government proposal submitted to Parliament: proposed one-year family-reunification waiting period from 5 April 2027; other proposed language and financial rule changes from October 2027. Not current law as at 25 November 2026; verify enactment and transitional provisions.",
+      "source_owner": "Finnish Government — Ministry of Economic Affairs and Employment",
+      "jurisdiction": "National — Finland",
+      "category": "Proposed student immigration reform",
+      "source_type": "Official government proposal announcement",
+      "verification_mode": "Manual legislative monitoring required; not an in-force rule",
+      "last_verified": "2026-11-25"
     }
   ]
 }
