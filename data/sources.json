@@ -2299,6 +2299,114 @@
       "verification_mode": "Context only; do not use as student residence threshold",
       "last_verified": "2026-11-25",
       "note": "Lists CHF 30/day for a student with valid student ID for border crossing; explicitly not a long-stay study residence amount."
+    },
+    {
+      "country": "Lithuania",
+      "name": "European Commission — Student in Lithuania (EU Immigration Portal)",
+      "url": "https://home-affairs.ec.europa.eu/policies/migration-and-asylum/eu-immigration-portal/student-lithuania_en",
+      "source_owner": "European Commission, DG Migration and Home Affairs",
+      "jurisdiction": "EU institutional overview — Lithuania",
+      "category": "Study eligibility, permit validity, insurance, work, post-study and family overview",
+      "source_type": "Official EU institutional guidance",
+      "verification_mode": "Older summary last updated 1 April 2025; reconcile with 2026 national law",
+      "last_verified": "2026-11-25",
+      "note": "Useful overview but blanket 20-hour work summary is superseded by newer 2026 Lithuanian Migration Department notice."
+    },
+    {
+      "country": "Lithuania",
+      "name": "Migration Department — Temporary residence permit and national visa services / Singapore",
+      "url": "https://migracija.lrv.lt/en/structure-and-contacts/information-for-visitors/services-for-persons-abroad/temporary-residence-permit-and-national-visa-services/republic-of-singapore-1/",
+      "source_owner": "Lithuanian Migration Department",
+      "jurisdiction": "Overseas application services — Singapore",
+      "category": "Current external provider address, TRP and national visa acceptance, MIGRIS booking",
+      "source_type": "Official government service page",
+      "verification_mode": "Checked 25 November 2026",
+      "last_verified": "2026-11-25",
+      "note": "Singapore service location accepts TRP and national visa applications; appointments booked through MIGRIS."
+    },
+    {
+      "country": "Lithuania",
+      "name": "Migration Department — Sri Lanka TRP application centre closure notice",
+      "url": "https://migracija.lrv.lt/en/news/it-will-not-be-possible-to-apply-for-temporary-residence-permits-in-lebanon-jordan-and-sri-lanka-india-only-in-exceptional-cases/",
+      "source_owner": "Lithuanian Migration Department",
+      "jurisdiction": "Consular / Sri Lanka",
+      "category": "Closure of VFS Sri Lanka TRP/national visa application centre from 1 March 2024",
+      "source_type": "Official government notice",
+      "verification_mode": "Historical closure notice; verify current service-centre list",
+      "last_verified": "2026-11-25",
+      "note": "Sri Lanka VFS branch stopped accepting TRP/national visa applications from 1 March 2024; do not rely on outdated local listings."
+    },
+    {
+      "country": "Lithuania",
+      "name": "Vilnius University — Visa and Residence Permit guidance",
+      "url": "https://www.vu.lt/en/admissions/visa-and-residence-permit",
+      "source_owner": "Vilnius University",
+      "jurisdiction": "Institutional — Lithuania",
+      "category": "Current student TRP funds, documents, fees, insurance and 12-month graduate route",
+      "source_type": "Official university guidance",
+      "verification_mode": "Checked 25 November 2026; university guidance not a substitute for Migration Department",
+      "last_verified": "2026-11-25",
+      "note": "Publishes indicative EUR 577/month plus EUR 1,153 return funds; graduate route EUR 1,245/month; verify live statutory amount."
+    },
+    {
+      "country": "Lithuania",
+      "name": "Migration Department — 2026 Bachelor student work-hour restriction",
+      "url": "https://migracija.lrv.lt/lt/naujienos/migracijos-departamentas-primena-bakalauro-studiju-1-ir-2-kurso-uzsienieciai-studentai-dirbti-gali-20-valandu-per-savaite-J3b/",
+      "source_owner": "Lithuanian Migration Department",
+      "jurisdiction": "National — Lithuania",
+      "category": "22 May 2026 student work restriction, exceptions and 8-year study permit cap",
+      "source_type": "Official government notice",
+      "verification_mode": "Checked 25 November 2026",
+      "last_verified": "2026-11-25",
+      "note": "First/second-year Bachelor students with TRPs issued after 22 May 2026 capped at 20h/week; third/fourth-year Bachelor, Master's and doctoral up to 40h/week per notice."
+    },
+    {
+      "country": "Lithuania",
+      "name": "Migration Department — 2026 application-location changes effective 1 November",
+      "url": "https://migracija.lrv.lt/en/news/conditions-for-submitting-applications-for-temporary-residence-permits-and-national-d-visas-change-from-november-1/",
+      "source_owner": "Lithuanian Migration Department",
+      "jurisdiction": "National — Lithuania",
+      "category": "In-country application eligibility for Bachelor study TRP after 1 November 2026",
+      "source_type": "Official government notice",
+      "verification_mode": "Checked 25 November 2026",
+      "last_verified": "2026-11-25",
+      "note": "Short-stay visa holders and holders of another country's national visa cannot use the in-country first-cycle Bachelor TRP filing route after 1 November 2026."
+    },
+    {
+      "country": "Lithuania",
+      "name": "Migration Department — Services for persons abroad / MIGRIS appointment process",
+      "url": "https://migracija.lrv.lt/en/structure-and-contacts/information-for-visitors/services-for-persons-abroad/",
+      "source_owner": "Lithuanian Migration Department",
+      "jurisdiction": "Overseas application procedure — Lithuania",
+      "category": "MIGRIS application status and appointment booking procedure",
+      "source_type": "Official government service page",
+      "verification_mode": "Last updated 5 February 2026; confirm current branch availability",
+      "last_verified": "2026-11-25",
+      "note": "Appointments are booked exclusively through MIGRIS after the application status becomes Submitted to external service provider."
+    },
+    {
+      "country": "Lithuania",
+      "name": "Migration Department — Graduate work and job-search permit notice",
+      "url": "https://migracija.lrv.lt/en/news/after-completing-their-studies-foreigners-will-be-able-not-only-to-look-for-a-job-but-also-to-start-working/",
+      "source_owner": "Lithuanian Migration Department",
+      "jurisdiction": "National — Lithuania",
+      "category": "Graduate job-search/self-employment residence permit and work rights",
+      "source_type": "Official government notice",
+      "verification_mode": "Historical notice; verify current law and MIGRIS checklist",
+      "last_verified": "2026-11-25",
+      "note": "Describes up to one-year graduate job-search route and work/self-employment permission."
+    },
+    {
+      "country": "Lithuania",
+      "name": "Republic of Lithuania Law on the Legal Status of Foreigners",
+      "url": "https://e-seimas.lrs.lt/portal/legalActPrint/lt?category=TAD&csrt=10826096267229404562&documentId=f97267229a8b11eea70ce7cabd08f150&jfwid=16mqsk734g",
+      "source_owner": "Lithuanian Parliament / Seimas",
+      "jurisdiction": "National legislation — Lithuania",
+      "category": "Residence permit application, sufficient means and general legal basis",
+      "source_type": "Official legislation",
+      "verification_mode": "Consolidated legal text should be checked for later amendments",
+      "last_verified": "2026-11-25",
+      "note": "Article 27 delegates sufficient subsistence amount to minister; Article 28 addresses applications and filing location."
     }
   ]
 }
