@@ -1711,6 +1711,114 @@
       "verification_mode": "Official source monitoring; manual legal review required",
       "last_verified": "2026-11-25",
       "note": "EU country profile gives indicative annual tuition ranges and EUR 500–900/month living-cost estimate; these are planning ranges, not immigration minimums or guaranteed university fees."
+    },
+    {
+      "country": "Estonia",
+      "name": "Estonian Ministry of Foreign Affairs — Long-stay (D) visa",
+      "url": "https://vm.ee/en/consular-visa-and-travel-information/visa-information/application-long-stay-d-visa",
+      "source_owner": "Estonian Ministry of Foreign Affairs",
+      "jurisdiction": "National — Estonia",
+      "category": "National visa / financial means",
+      "source_type": "Official government / EU institutional source",
+      "verification_mode": "Official source monitoring; manual legal review required",
+      "last_verified": "2026-11-25",
+      "note": "D visa up to 365 days within 12 consecutive months; study-purpose means currently listed at EUR 880/month; personal application at a representation handling D visas or at PPA in Estonia. Confirm latest checklist and fees."
+    },
+    {
+      "country": "Estonia",
+      "name": "Estonian Police and Border Guard Board — Study residence permit",
+      "url": "https://www.politsei.ee/en/instructions/residence-permit-for-study",
+      "source_owner": "Estonian Police and Border Guard Board",
+      "jurisdiction": "National — Estonia",
+      "category": "Student residence permit",
+      "source_type": "Official government / EU institutional source",
+      "verification_mode": "Official source monitoring; manual legal review required",
+      "last_verified": "2026-11-25",
+      "note": "National PPA instructions for student residence permits, application, sponsor/institution invitation, documents and processing. Recheck live checklist and fees before filing."
+    },
+    {
+      "country": "Estonia",
+      "name": "Estonian Aliens Act — study residence permit and work",
+      "url": "https://www.riigiteataja.ee/en/tolge/pdf/506012026003",
+      "source_owner": "Riigi Teataja — Estonian State Gazette",
+      "jurisdiction": "National — Estonia",
+      "category": "Legal basis / eligibility / work rights",
+      "source_type": "Official government / EU institutional source",
+      "verification_mode": "Official source monitoring; manual legal review required",
+      "last_verified": "2026-11-25",
+      "note": "Official consolidated English translation. Sections 162–175 cover eligible study categories, institution invitation, permit requirements, expiry and unrestricted student employment if work does not interfere with studies."
+    },
+    {
+      "country": "Estonia",
+      "name": "European Commission — Student in Estonia",
+      "url": "https://home-affairs.ec.europa.eu/policies/migration-and-asylum/eu-immigration-portal/student-estonia_en",
+      "source_owner": "European Commission",
+      "jurisdiction": "National — Estonia",
+      "category": "EU immigration portal / permit duration",
+      "source_type": "Official government / EU institutional source",
+      "verification_mode": "Official source monitoring; manual legal review required",
+      "last_verified": "2026-11-25",
+      "note": "Student route overview, duration, work rights and post-expiry stay. Cross-check national law and PPA for current case details."
+    },
+    {
+      "country": "Estonia",
+      "name": "Estonian Ministry of Foreign Affairs — Visa representation for Sri Lanka",
+      "url": "https://www.vm.ee/en/consular-visa-and-travel-information/visa-information/countries-where-estonia-represented-another",
+      "source_owner": "Estonian Ministry of Foreign Affairs",
+      "jurisdiction": "National — Estonia",
+      "category": "Sri Lanka short-stay representation",
+      "source_type": "Official government / EU institutional source",
+      "verification_mode": "Official source monitoring; manual legal review required",
+      "last_verified": "2026-11-25",
+      "note": "Germany represents Estonia in Colombo for Schengen short-stay visa applications only. The page explicitly says long-stay visa applicants must contact the nearest Estonian foreign mission; do not use Germany representation as a D-visa route."
+    },
+    {
+      "country": "Estonia",
+      "name": "Estonian Ministry of Foreign Affairs — Representations handling visa applications",
+      "url": "https://vm.ee/en/consular-visa-and-travel-information/visa-information/estonian-representations-which-are-handling",
+      "source_owner": "Estonian Ministry of Foreign Affairs",
+      "jurisdiction": "National — Estonia",
+      "category": "Sri Lanka D-visa filing location",
+      "source_type": "Official government / EU institutional source",
+      "verification_mode": "Official source monitoring; manual legal review required",
+      "last_verified": "2026-11-25",
+      "note": "Lists Estonian Embassy New Delhi among representations handling visa applications. Sri Lankan D-visa applicants must contact New Delhi or the nearest Estonian mission and obtain confirmation before travel."
+    },
+    {
+      "country": "Estonia",
+      "name": "Study in Estonia — Working during studies and after graduation",
+      "url": "https://studyinestonia.ee/working",
+      "source_owner": "Study in Estonia — official national study portal",
+      "jurisdiction": "National — Estonia",
+      "category": "Student work / post-study",
+      "source_type": "Official government / EU institutional source",
+      "verification_mode": "Official source monitoring; manual legal review required",
+      "last_verified": "2026-11-25",
+      "note": "Official national study portal: no separate work permit or fixed weekly cap for full-time students if work does not interfere with studies; passing grades/full study load required; non-EU graduates may stay nine additional months to seek work."
+    },
+    {
+      "country": "Estonia",
+      "name": "Study in Estonia — Living costs",
+      "url": "https://www.studyinestonia.ee/living/living-costs",
+      "source_owner": "Study in Estonia — official national study portal",
+      "jurisdiction": "National — Estonia",
+      "category": "Cost planning",
+      "source_type": "Official government / EU institutional source",
+      "verification_mode": "Official source monitoring; manual legal review required",
+      "last_verified": "2026-11-25",
+      "note": "Official study portal gives indicative student monthly living costs around EUR 300–500 excluding housing, dormitory EUR 150–350 and private flats EUR 350–750. Planning estimates only, not immigration funds threshold."
+    },
+    {
+      "country": "Estonia",
+      "name": "Study in Estonia — Visa and residence permit",
+      "url": "https://studyinestonia.ee/index.php/visa-and-residence-permit",
+      "source_owner": "Study in Estonia — official national study portal",
+      "jurisdiction": "National — Estonia",
+      "category": "Student route / process",
+      "source_type": "Official government / EU institutional source",
+      "verification_mode": "Official source monitoring; manual legal review required",
+      "last_verified": "2026-11-25",
+      "note": "National student portal explains D visa for non-EU students and residence permit for programmes lasting longer than one year; university sends admission documents. Confirm current official PPA/MFA requirements."
     }
   ]
 }
