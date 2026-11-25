@@ -26,8 +26,8 @@ For non-EU/EEA applicants who intend to study in Finland. A stay of more than 90
 
 ## 4. Application route, documents and fee
 - Submit the first application online through Enter Finland, upload required documents and pay the processing fee. Then book an appointment at the Finnish mission or authorised service provider designated for the applicant's country to prove identity and give fingerprints. The application is processed after identity verification.
-- Sri Lankan applicants must use the Finnish mission / service provider designated by Finland's Ministry for Foreign Affairs for their country of residence. Do not guess a VFS centre or mission from another country; confirm the current location and appointment channel on Finland Abroad before the client books travel.
-- Common attachments: valid passport, recent passport photo, colour copy of passport bio page, acceptance/attendance certificate, six-month bank statement, proof of tuition payment or scholarship, insurance certificate, and any case-specific supporting documents. Non-Finnish/Swedish/English documents may need authorised translation and legalisation.
+- Finland has no mission in Sri Lanka; the Embassy of Finland in New Delhi serves Sri Lanka. Finland Abroad's country-specific residence-permit page directs applicants to the Finland Residence Permit Application Centre in New Delhi. Submit in Enter Finland first, then book the VFS identity appointment. Confirm current appointment availability, fees and travel requirements before booking.
+- Common attachments: valid passport, recent passport photo, colour copy of passport bio page, acceptance/attendance certificate, six-month bank statement, proof of tuition payment or scholarship, insurance certificate, and any case-specific supporting documents. Non-Finnish/Swedish/English documents may need authorised translation and legalisation. A Finland Abroad notice says specified Sri Lankan-origin family-status documents (including birth, marriage, divorce, death and bachelorhood/spinsterhood certificates) requiring Embassy legalisation must first be verified by VFS Global; the notice states approximately 45 working days. Complete this before the residence-permit identity appointment and verify current scope/procedure.
 - Current adult first-application fee displayed by Migri: €600 online / €750 paper. Fees can change; verify at filing. A 100-day D visa can be requested alongside the residence permit in qualifying cases, but only if the applicant can travel within two weeks after the permit is granted because the residence card must be collected in Finland.
 - Apply early after acceptance. Do not promise a processing time or buy non-refundable flights before a decision/card and entry arrangements are confirmed.
 
@@ -62,6 +62,8 @@ For non-EU/EEA applicants who intend to study in Finland. A stay of more than 90
 - Migri — Insurance: https://migri.fi/en/insurance
 - Migri — Working and internships during studies: https://migri.fi/en/working-and-internships-during-studies
 - Migri — Residence permit to look for work or start a business: https://migri.fi/en/application-for-students-and-researchers-residence-permit-to-look-for-work
-- Finland Abroad — Sri Lanka: https://finlandabroad.fi/web/lka/frontpage
+- Finland Abroad — Residence permits to Finland (Sri Lanka): https://finlandabroad.fi/web/lka/residence-permits-to-finland
+- Finland Abroad — Embassy of Finland, New Delhi: https://finlandabroad.fi/fi/web/lka/mission
+- Finland Abroad — Verification of Sri Lankan documents: https://finlandabroad.fi/web/lka/current-affairs/-/asset_publisher/h5w4iTUJhNne/content/verification-of-srilankan-and-bangladeshi-documents-required-from-3rd-of-november-onwards-in-vfs-new-delhi/384951
 
 Review date: 25 November 2026. Confirm current application location, fees, insurance policy, funding evidence and programme eligibility before counselling.
