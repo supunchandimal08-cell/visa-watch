@@ -5,7 +5,8 @@ This review covers non-EEA applicants seeking full-time higher education in Belg
 
 ## 1. Correct route: long-stay visa D
 - Most non-EEA nationals who intend to study in Belgium for more than 90 days need a long-stay visa D before travel. A short-stay Schengen C visa is not the correct route for a normal long-term degree programme.
-- Start the application through the Belgian embassy/consulate responsible for the applicant's country of residence. Applicants should check the competent mission's live checklist, appointment system and supplementary administrative fee.
+- **Sri Lanka-specific application channel:** the Belgian Embassy's page for people living in Sri Lanka states Belgium has no visa section in Sri Lanka. Switzerland's representation in Colombo applies only to specified short-stay C visas and does not cover long-stay student visas. Long-stay D applications, including student visas, must be lodged at VFS New Delhi. For procedural clarification, the Embassy lists newdelhi.visa@diplobel.fed.be.
+- The Embassy's Sri Lanka page (updated 30 June 2026) lists a **€250 handling fee** for a long-stay D visa. Certain D applications also require a separate additional contribution paid according to Immigration Office instructions. These are distinct charges; verify the live amount, payment method and whether the additional contribution applies before quoting.
 - Study in Flanders indicates that normal processing can take six to eight weeks; this is not a guaranteed decision time. Apply early and do not book non-refundable travel based on an assumed date.
 - For the standard higher-education route under the Belgian Immigration Act, the institution/programme and the legal basis must be checked. A private institution or non-recognised programme may follow a different route (for example, Article 9 rather than the standard Article 58 higher-education route). Do not assume that admission to any private college automatically qualifies for the standard student residence status.
 
@@ -37,14 +38,16 @@ A qualifying graduate may request authorisation to extend their stay for up to *
 ## Counsellor checklist
 1. Confirm nationality, legal residence, course level, exact institution, campus, programme duration and region (Flanders, Wallonia, Brussels or German-speaking Community).
 2. Verify whether the institution/programme qualifies for the standard higher-education student residence route; distinguish public/recognised higher education from private/non-standard institutions.
-3. Confirm the correct Belgian mission for a Sri Lanka-resident applicant and the live Type D checklist, appointment, fee and document legalisation rules.
-4. Calculate 12 months of funds at €1,062/month for 2026–2027; keep tuition and other expenses separate. Confirm accepted proof route with the Immigration Office and institution.
-5. Explain the 20-hour term-time work rule and school-holiday exception; clarify that work is not guaranteed and must not interfere with studies.
-6. Explain municipal registration and A-card formalities after arrival.
-7. Explain renewal and post-study search-year eligibility as conditional, not automatic.
-8. Record official source, check date, reviewer and approval. Keep all rules Pending human review until authorised approval.
+3. For Sri Lanka residents, direct long-stay D student applicants to the VFS New Delhi channel specified by the Belgian Embassy. Do not confuse this with Switzerland's short-stay C-visa representation in Colombo.
+4. Confirm the €250 D-visa handling fee and whether a separate additional contribution applies; recheck payment instructions before filing.
+5. Calculate 12 months of funds at €1,062/month for 2026–2027; keep tuition and other expenses separate. Confirm accepted proof route with the Immigration Office and institution.
+6. Explain the 20-hour term-time work rule and school-holiday exception; clarify that work is not guaranteed and must not interfere with studies.
+7. Explain municipal registration and A-card formalities after arrival.
+8. Explain renewal and post-study search-year eligibility as conditional, not automatic.
+9. Record official source, check date, reviewer and approval. Keep all rules Pending human review until authorised approval.
 
 ## Official sources
+- Belgian Embassy New Delhi — Visa for Belgium if you live in Sri Lanka: https://india.diplomatie.belgium.be/en/travel-belgium/visa-belgium/visa-belgium-if-you-live-sri-lanka
 - Belgian Immigration Office — Sufficient means of subsistence: https://dofi.ibz.be/en/themes/ressortissants-dun-pays-tiers/etudes/favoris/sufficient-means-subsistence
 - European Commission — EU Immigration Portal, Student in Belgium: https://home-affairs.ec.europa.eu/policies/migration-and-asylum/eu-immigration-portal/student-belgium_en
 - Study in Flanders — Visa requirements: https://www.studyinflanders.be/practical-information/visa-requirements
