@@ -21,11 +21,25 @@ Current Ministry Sheet 4 bis states that study-stay work may not exceed 30 hours
 ## 6. Post-study
 Eligible graduates who completed studies at an authorised Spanish higher-education institution and achieved at least EQF level 6 (degree level) may apply for a job-search/business-project residence authorisation for up to 24 months, non-extendable. It does not authorise work during its validity. A suitable job/business requires a subsequent appropriate authorisation. [Ministry Sheet 20](https://www.inclusion.gob.es/web/migraciones/w/20.-autorizacion-de-residencia-para-busqueda-de-empleo-o-inicio-de-proyecto-empresarial)
 
-## 7. Sri Lankan consular route
-Sri Lanka is within the Spanish Embassy in New Delhi's consular district. Colombo has an Honorary Consulate. BLS's national-visa page lists Sri Lanka within New Delhi jurisdiction and shows a general student visa over 90 days category. Confirm current BLS Colombo submission arrangements, appointment, fees, personal appearance and residence conditions directly before advising. [Embassy consular districts](https://www.exteriores.gob.es/Embajadas/nuevadelhi/es/Embajada/Paginas/Consulados.aspx) · [BLS national visas](https://india.blsspainvisa.com/national_visa.php/index.php)
+## 7. Sri Lankan consular route and local checklist
+Sri Lanka is within the Spanish Embassy in New Delhi's consular district. Colombo has an Honorary Consulate, not a career consular mission. The Embassy's current study-visa page directs applicants to submit at a BLS Visa Application Centre with a prior appointment; BLS's national-visa information lists Sri Lanka under New Delhi jurisdiction and includes the study visa over 90 days category. Confirm the currently designated Colombo centre, appointment route, fee, biometrics/personal appearance and document-return arrangements before every application. The New Delhi page's 2026 checklist states the student financial reference is EUR600/month (100% IPREM), EUR450/month for the first family member and EUR300/month for each additional family member; it also asks for the sponsor's original bank statements for the previous six months, signed and stamped by the bank. This is the more relevant consular checklist for Sri Lankan applicants than a different mission's local checklist. [Embassy consular districts](https://www.exteriores.gob.es/Embajadas/nuevadelhi/en/Embajada/Paginas/Consulados.aspx) · [New Delhi study visa](https://www.exteriores.gob.es/Embajadas/nuevadelhi/en/ServiciosConsulares/Paginas/Consular/Visado-de-estudios.aspx) · [BLS national visas](https://india.blsspainvisa.com/national_visa.php/index.php)
 
 ## Dashboard records added
 - 8 Spain-specific rule records.
 - 8 official source-register records (`es1`–`es8`).
 - All rules remain **Pending human review**.
 - `data/sources.json` was not changed; it remains the separate automated monitoring list.
+## 8. Family accompaniment
+The New Delhi Embassy's study-visa guidance lists the spouse or unmarried partner and children who are minors or who have a disability or serious disease as eligible accompanying family categories. Family-member applications are made after the student obtains the study visa. A family-member study visa does not itself authorise employment. Check relationship evidence, eligibility, funds and the current individual checklist. [New Delhi study visa](https://www.exteriores.gob.es/Embajadas/nuevadelhi/en/ServiciosConsulares/Paginas/Consular/Visado-de-estudios.aspx)
+
+## 9. Student work — geographical condition
+The Ministry's Sheet 4 bis confirms a maximum of 30 hours per week, compatible with studies. It also says the work authorisation is geographically limited to the autonomous community where the study centre is located, with an exception for localities in a neighbouring autonomous community that border it. Higher-education study authorisation may automatically permit employed or self-employed work; other study categories may need a separate authorisation. Curriculum internships are treated separately. [Ministry Sheet 4 bis — English](https://ciudadaniaexterior.inclusion.gob.es/en/web/migraciones/w/hoja-4-bis-acceso-al-empleo-de-las-personas-titulares-de-una-autorizacion-de-estancia-de-larga-duracion-por-estudios-movilidad-de-alumnos-servicios-de-voluntariado-o-actividades-formativas)
+
+## 10. Decision period and practical timing
+The New Delhi Embassy page states a legal decision period of one month from the day after submission; this can be extended where an interview or further documents are requested. This is not a guaranteed completion date. Apply at least two months before the programme starts and allow additional time for BLS appointment availability, document legalisation/translation and case-specific checks. [New Delhi study visa](https://www.exteriores.gob.es/Embajadas/nuevadelhi/en/ServiciosConsulares/Paginas/Consular/Visado-de-estudios.aspx)
+
+## Dashboard update
+- Three additional Spain rules added: family eligibility/no work right, geographic limit on student work, and consular decision-period caveat.
+- Spain dashboard rules now total 11; all remain **Pending human review**.
+- Added official sources es9–es11; the existing Spain source IDs es1–es8 are retained.
+- Existing rules and source links must be checked against the live official pages again before individual client advice.
