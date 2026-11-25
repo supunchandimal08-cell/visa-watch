@@ -34,7 +34,13 @@
       "country": "New Zealand",
       "name": "Immigration New Zealand — Fee Paying Student Visa",
       "url": "https://www.immigration.govt.nz/visas/fee-paying-student-visa/",
-      "note": "Manual counsellor review required. Verify current approved provider and NZQA Code signatory status, exact course/campus/NZQCF level and offer of place. Tuition evidence generally required for 1 year or programme (shorter); tuition is additional to maintenance. Tertiary/English/non-compulsory study funds: NZD 20,000/year or NZD 1,667/month for shorter study; school students NZD 17,000/year or NZD 1,417/month. Also prove outward travel. Primary evidence may include 3 months of bank transactions, term deposit held 3 months, scholarship or qualifying education loan; explain deposits over NZD 2,000 and source of funds. Sri Lankan nationals may be eligible for Funds Transfer Scheme if INZ directs. Check health, character, insurance and individual checklist. Genuine intentions include course rationale, prior study, funding, immigration history and future plans. From 27 Oct 2026 eligible student work up to 25 hours/week; new master's-by-research applications on/after that date no longer have unlimited work. Relevant student visa expiry is generally 2 months after course end instead of 1 month; 31 March expiry remains unchanged. Check eVisa. PSWV depends on exact NZQCF level and study length; degree level 7+ usually 30 weeks full-time in NZ; eligible non-degree L4-7 only on INZ list and work related to study; PSWV requires at least NZD 5,000 and deadlines usually 3 months (doctoral 6 months; specific cases 12). Verify current announcements and application dates; no guaranteed job, visa or residence."
+      "note": "Manual counsellor review required. Verify current approved provider and NZQA Code signatory status, exact course/campus/NZQCF level and offer of place. Tuition evidence generally required for 1 year or programme (shorter); tuition is additional to maintenance. Tertiary/English/non-compulsory study funds: NZD 20,000/year or NZD 1,667/month for shorter study; school students NZD 17,000/year or NZD 1,417/month. Also prove outward travel. Primary evidence may include 3 months of bank transactions, term deposit held 3 months, scholarship or qualifying education loan; explain deposits over NZD 2,000 and source of funds. Sri Lankan nationals may be eligible for Funds Transfer Scheme if INZ directs. Check health, character, insurance and individual checklist. Genuine intentions include course rationale, prior study, funding, immigration history and future plans. From 27 Oct 2026 eligible student work up to 25 hours/week; new master's-by-research applications on/after that date no longer have unlimited work. Relevant student visa expiry is generally 2 months after course end instead of 1 month; 31 March expiry remains unchanged. Check eVisa. PSWV depends on exact NZQCF level and study length; degree level 7+ usually 30 weeks full-time in NZ; eligible non-degree L4-7 only on INZ list and work related to study; PSWV requires at least NZD 5,000 and deadlines usually 3 months (doctoral 6 months; specific cases 12). Verify current announcements and application dates; no guaranteed job, visa or residence.",
+      "source_owner": "Immigration New Zealand (INZ)",
+      "jurisdiction": "National — New Zealand",
+      "category": "Fee Paying Student Visa — eligibility",
+      "source_type": "Official government immigration guidance",
+      "verification_mode": "Availability-only automated check; manual legal review required",
+      "last_verified": "2026-11-25"
     },
     {
       "country": "USA",
@@ -156,14 +162,26 @@
       "name": "Immigration New Zealand — Working on a student visa",
       "url": "https://www.immigration.govt.nz/study/once-you-have-a-student-visa/working-on-a-student-visa/",
       "compare_text": true,
-      "note": "Official student work eligibility and conditions; 25-hour limit applies only where the student's visa and course conditions permit it. Verify eVisa/visa letter."
+      "note": "Official student work eligibility and conditions; 25-hour limit applies only where the student's visa and course conditions permit it. Verify eVisa/visa letter.",
+      "source_owner": "Immigration New Zealand (INZ)",
+      "jurisdiction": "National — New Zealand",
+      "category": "Student work rights",
+      "source_type": "Official government immigration guidance",
+      "verification_mode": "Automated text comparison plus manual legal review",
+      "last_verified": "2026-11-25"
     },
     {
       "country": "New Zealand",
       "name": "Immigration New Zealand — Changes to student visas (27 October 2026)",
       "url": "https://www.immigration.govt.nz/about-us/news-centre/changes-to-student-visas/",
       "compare_text": true,
-      "note": "Official INZ announcement of changes effective 27 October 2026: master's-by-research work-rights change for new applications, English-language ability as a key factor, broader processing suspension grounds, and extension of relevant post-course expiry period from 1 month to 2 months. Check application-date scope and current visa conditions; detection is not legal interpretation."
+      "note": "Official INZ announcement of changes effective 27 October 2026: master's-by-research work-rights change for new applications, English-language ability as a key factor, broader processing suspension grounds, and extension of relevant post-course expiry period from 1 month to 2 months. Check application-date scope and current visa conditions; detection is not legal interpretation.",
+      "source_owner": "Immigration New Zealand (INZ)",
+      "jurisdiction": "National — New Zealand",
+      "category": "Student visa policy changes — 27 October 2026",
+      "source_type": "Official government immigration guidance",
+      "verification_mode": "Automated text comparison plus manual legal review",
+      "last_verified": "2026-11-25"
     },
     {
       "country": "Canada",
@@ -249,7 +267,13 @@
       "name": "Immigration New Zealand — Rules for approved education providers and Code signatories",
       "url": "https://www.immigration.govt.nz/assist-migrants-and-students/assist-students/understand-your-obligations/",
       "compare_text": false,
-      "note": "Availability-only automated check. Verify provider's current Code of Practice signatory status through NZQA and exact programme/campus; international students cannot study at a non-signatory institution. Provider status is not visa approval."
+      "note": "Availability-only automated check. Verify provider's current Code of Practice signatory status through NZQA and exact programme/campus; international students cannot study at a non-signatory institution. Provider status is not visa approval.",
+      "source_owner": "Immigration New Zealand (INZ)",
+      "jurisdiction": "National — New Zealand",
+      "category": "Approved education provider / Code signatory status",
+      "source_type": "Official government immigration guidance",
+      "verification_mode": "Availability-only automated check; manual legal review required",
+      "last_verified": "2026-11-25"
     },
     {
       "country": "UAE / Dubai",
@@ -372,35 +396,65 @@
       "name": "Immigration New Zealand — Student fund requirements",
       "url": "https://www.immigration.govt.nz/process-to-apply/applying-for-a-visa/providing-evidence-and-documents-to-support-your-visa-application/student-fund-requirements/",
       "compare_text": false,
-      "note": "Official student maintenance funds, outward travel, tuition payment, sponsorship/financial undertaking and source-of-funds evidence. Tertiary/English/non-compulsory study: NZD 20,000 per year or NZD 1,667 per month for shorter study; verify live rates and applicant-specific sponsor rules."
+      "note": "Official student maintenance funds, outward travel, tuition payment, sponsorship/financial undertaking and source-of-funds evidence. Tertiary/English/non-compulsory study: NZD 20,000 per year or NZD 1,667 per month for shorter study; verify live rates and applicant-specific sponsor rules.",
+      "source_owner": "Immigration New Zealand (INZ)",
+      "jurisdiction": "National — New Zealand",
+      "category": "Student funds, tuition and evidence",
+      "source_type": "Official government immigration guidance",
+      "verification_mode": "Availability-only automated check; manual legal review required",
+      "last_verified": "2026-11-25"
     },
     {
       "country": "New Zealand",
       "name": "Immigration New Zealand — Post-Study Work Visa",
       "url": "https://www.immigration.govt.nz/visas/post-study-work-visa/",
       "compare_text": false,
-      "note": "Official PSWV requirements, duration, application deadline, NZD 5,000 living funds, online-only application from 16 November 2026, and new Graduate Diploma eligibility. Check exact qualification, time studied in New Zealand, visa history and current instructions."
+      "note": "Official PSWV requirements, duration, application deadline, NZD 5,000 living funds, online-only application from 16 November 2026, and new Graduate Diploma eligibility. Check exact qualification, time studied in New Zealand, visa history and current instructions.",
+      "source_owner": "Immigration New Zealand (INZ)",
+      "jurisdiction": "National — New Zealand",
+      "category": "Post-Study Work Visa eligibility",
+      "source_type": "Official government immigration guidance",
+      "verification_mode": "Availability-only automated check; manual legal review required",
+      "last_verified": "2026-11-25"
     },
     {
       "country": "New Zealand",
       "name": "Immigration New Zealand — Qualifications needed for a Post-Study Work Visa",
       "url": "https://www.immigration.govt.nz/study/after-you-finish-your-study/qualifications-needed-for-a-post-study-work-visa/",
       "compare_text": false,
-      "note": "Official eligible qualification categories and non-degree Level 4–7 qualification list. Verify exact NZQCF level, full-time study duration and whether employment must be related to the qualification."
+      "note": "Official eligible qualification categories and non-degree Level 4–7 qualification list. Verify exact NZQCF level, full-time study duration and whether employment must be related to the qualification.",
+      "source_owner": "Immigration New Zealand (INZ)",
+      "jurisdiction": "National — New Zealand",
+      "category": "PSWV qualification list",
+      "source_type": "Official government immigration guidance",
+      "verification_mode": "Availability-only automated check; manual legal review required",
+      "last_verified": "2026-11-25"
     },
     {
       "country": "New Zealand",
       "name": "Immigration New Zealand — New and updated post-study work visa options (16 November 2026)",
       "url": "https://www.immigration.govt.nz/about-us/news-centre/new-and-updated-post-study-work-visa-options/",
       "compare_text": false,
-      "note": "Official announcement: new 6-month Short-Term Graduate Work Visa from 16 November 2026 for eligible Level 5–7 graduates; PSWV extension to Level 7 Graduate Diploma holders who also hold a bachelor's degree; online-only PSWV applications from 16 November. Treat as future-dated until commencement; check exact conditions and transition."
+      "note": "Official announcement: new 6-month Short-Term Graduate Work Visa from 16 November 2026 for eligible Level 5–7 graduates; PSWV extension to Level 7 Graduate Diploma holders who also hold a bachelor's degree; online-only PSWV applications from 16 November. Treat as future-dated until commencement; check exact conditions and transition.",
+      "source_owner": "Immigration New Zealand (INZ)",
+      "jurisdiction": "National — New Zealand",
+      "category": "PSWV policy changes — 16 November 2026",
+      "source_type": "Official government immigration guidance",
+      "verification_mode": "Availability-only automated check; manual legal review required",
+      "last_verified": "2026-11-25"
     },
     {
       "country": "New Zealand",
       "name": "Immigration New Zealand — Short-Term Graduate Work Visa",
       "url": "https://www.immigration.govt.nz/visas/short-term-graduate-work-visa/",
       "compare_text": false,
-      "note": "Official new visa page; applications open 16 November 2026. Verify NZQCF Level 5–7 qualification, full-time 24-week in-country study, exclusion of English/foundation/bridging/micro-credentials and PSWV-eligible qualifications, 3-month application window, NZD 5,000 funds, no previous PSWV/short-term graduate visa, health/character and employer-only work conditions."
+      "note": "Official new visa page; applications open 16 November 2026. Verify NZQCF Level 5–7 qualification, full-time 24-week in-country study, exclusion of English/foundation/bridging/micro-credentials and PSWV-eligible qualifications, 3-month application window, NZD 5,000 funds, no previous PSWV/short-term graduate visa, health/character and employer-only work conditions.",
+      "source_owner": "Immigration New Zealand (INZ)",
+      "jurisdiction": "National — New Zealand",
+      "category": "Short-Term Graduate Work Visa",
+      "source_type": "Official government immigration guidance",
+      "verification_mode": "Availability-only automated check; manual legal review required",
+      "last_verified": "2026-11-25"
     },
     {
       "country": "Ireland",
