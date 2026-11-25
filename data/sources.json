@@ -70,6 +70,30 @@
       "name": "Department of Home Affairs — Student visa work condition 8105",
       "url": "https://immi.homeaffairs.gov.au/visas/already-have-a-visa/check-visa-details-and-conditions/see-your-visa-conditions?cno=8105",
       "note": "Official condition 8105 source for student visa work limits. Automated check detects page availability only; counsellor must verify current legal instrument, individual visa grant/VEVO conditions and exemptions. Detection is not legal interpretation."
+    },
+    {
+      "country": "Canada",
+      "name": "IRCC — Work off campus as an international student",
+      "url": "https://www.canada.ca/en/immigration-refugees-citizenship/services/study-canada/work/work-off-campus.html",
+      "note": "Official IRCC guidance on eligibility and off-campus work-hour limits. Automated monitoring checks page availability/text only; counsellor must verify current study-permit conditions and term/scheduled-break status."
+    },
+    {
+      "country": "Canada",
+      "name": "IRCC — Proof of financial support for study permit",
+      "url": "https://www.canada.ca/en/immigration-refugees-citizenship/services/study-canada/study-permit/get-documents/financial-support.html",
+      "note": "Official IRCC financial-support evidence and amounts. Check current annual living-cost amount, tuition, travel costs, family size and application date; detection is not legal interpretation."
+    },
+    {
+      "country": "New Zealand",
+      "name": "Immigration New Zealand — Working on a student visa",
+      "url": "https://www.immigration.govt.nz/study/once-you-have-a-student-visa/working-on-a-student-visa/",
+      "note": "Official INZ student work-rights guidance. Verify the exact eVisa conditions, eligible course and commencement date; monitoring detects changes only."
+    },
+    {
+      "country": "Germany",
+      "name": "Make it in Germany — Visa for studying",
+      "url": "https://www.make-it-in-germany.com/en/visa-recognition/visa-types/studying",
+      "note": "Official German government portal study visa/residence information, financial proof and student employment. Verify current statutory amounts and permit-specific conditions; detection is not legal interpretation."
     }
   ]
 }
