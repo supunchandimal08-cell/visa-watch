@@ -1,13 +1,20 @@
 {
-  "last_checked_at": "2026-11-25T10:54:11.280689+00:00",
+  "last_checked_at": "2026-11-25T11:00:46.374001+00:00",
   "content_hashes": {
-    "https://icp.gov.ae/en/services-details/?serviceid=64afe3c1035448005bd52e66": "9a192270511ffd4e8c5875978be5daf55894e6a7f4f26d4eacc080ca9c24d678",
-    "https://www.gov.uk/guidance/immigration-rules/immigration-rules-appendix-student": "5782b4b32a88073e8f7a0535cfa12e4163b12981975a0951231204d8295c953e",
     "https://www.immigration.govt.nz/visas/fee-paying-student-visa/": "8be1dd6edf470ea32f25a2ec2b07bbadce648021c44ba954c4b725ae9c3dbcb9",
-    "https://immi.homeaffairs.gov.au/visas/getting-a-visa/visa-listing/student-500": "c5609e0c62aa19507d1d02e931fd363d4d9873c7c345effb9a951bfacd5d4fc0",
-    "https://gdrfad.gov.ae/en/services/f52024e0-b812-11ed-5210-4cd98f768936": "a56db2e87a70bdda95ebb99e0c16b846caee252f37f032806c6587a2d21cf5ea",
+    "https://icp.gov.ae/en/services-details/?serviceid=64afe3c1035448005bd52e66": "9a192270511ffd4e8c5875978be5daf55894e6a7f4f26d4eacc080ca9c24d678",
     "https://home-affairs.ec.europa.eu/policies/migration-and-asylum/eu-immigration-portal/who-does-what_en": "e36bc2c8967d94e81e2c709ed5cd6217d3eeb3a5d834298d52a3ee71a9c4cc37",
-    "https://immi.homeaffairs.gov.au/visas/already-have-a-visa/check-visa-details-and-conditions/see-your-visa-conditions?cno=8105": "39a15e73223aadbbb8b268dd4a64b168412a4c28d8c9f15ae2f71d9031f47e8f"
+    "https://immi.homeaffairs.gov.au/visas/getting-a-visa/visa-listing/student-500": "c5609e0c62aa19507d1d02e931fd363d4d9873c7c345effb9a951bfacd5d4fc0",
+    "https://www.gov.uk/guidance/immigration-rules/immigration-rules-appendix-student": "5782b4b32a88073e8f7a0535cfa12e4163b12981975a0951231204d8295c953e",
+    "https://gdrfad.gov.ae/en/services/f52024e0-b812-11ed-5210-4cd98f768936": "a56db2e87a70bdda95ebb99e0c16b846caee252f37f032806c6587a2d21cf5ea",
+    "https://immi.homeaffairs.gov.au/visas/already-have-a-visa/check-visa-details-and-conditions/see-your-visa-conditions?cno=8105": "39a15e73223aadbbb8b268dd4a64b168412a4c28d8c9f15ae2f71d9031f47e8f",
+    "https://www.immigration.govt.nz/study/once-you-have-a-student-visa/working-on-a-student-visa/": "753371fb68310d4e1a2ed8b43bf48262eda1098942b993c69209b7eeb6c321f3",
+    "https://www.make-it-in-germany.com/en/visa-recognition/visa-types/studying": "765b92ca661d784aeb6cfc5ec464c165efbbcf0440b33c072c107167be6cee95",
+    "https://ind.nl/en/required-amounts-income-requirements": "ec2648bc17816dd6a959b78900651f85048972f2c7a48a534e45f4f7cb234d37",
+    "https://ind.nl/en/residence-permits/study/student-residence-permit-for-university-or-higher-professional-education": "9603b437818f87e99028b729ce20e9ad50dcef610b2580463c6a548c339eaca0",
+    "https://www.irishimmigration.ie/coming-to-study-in-ireland/what-are-my-study-options/planning-to-study-in-ireland/": "e42318d59c9191c8ba04a3990e782397bad9c3406ae6d53e1d151f80a7839ed3",
+    "https://www.irishimmigration.ie/coming-to-study-in-ireland/what-are-my-study-options/a-fee-paying-private-primary-or-secondary-school/information-on-student-finances/": "5f6d3f08fd833115c44c1527f9248e59a7328f1f42a9c3ff4ccf1f9c5cc84f57",
+    "https://www.irishimmigration.ie/registering-your-immigration-permission/information-on-registering/immigration-permission-stamps/": "ea6f67311e807073da462c8be53418f1bde84e431ea3609425f7d6be996e33e7"
   },
   "sources": {
     "https://www.gov.uk/guidance/immigration-rules/immigration-rules-appendix-student": "reachable",
@@ -18,6 +25,15 @@
     "https://gdrfad.gov.ae/en/services/f52024e0-b812-11ed-5210-4cd98f768936": "reachable",
     "https://home-affairs.ec.europa.eu/policies/migration-and-asylum/eu-immigration-portal/who-does-what_en": "reachable",
     "https://icp.gov.ae/en/services-details/?serviceid=64afe3c1035448005bd52e66": "reachable",
-    "https://immi.homeaffairs.gov.au/visas/already-have-a-visa/check-visa-details-and-conditions/see-your-visa-conditions?cno=8105": "reachable"
+    "https://immi.homeaffairs.gov.au/visas/already-have-a-visa/check-visa-details-and-conditions/see-your-visa-conditions?cno=8105": "reachable",
+    "https://www.canada.ca/en/immigration-refugees-citizenship/services/study-canada/work/work-off-campus.html": "unreachable",
+    "https://www.canada.ca/en/immigration-refugees-citizenship/services/study-canada/study-permit/get-documents/financial-support.html": "unreachable",
+    "https://www.immigration.govt.nz/study/once-you-have-a-student-visa/working-on-a-student-visa/": "reachable",
+    "https://www.make-it-in-germany.com/en/visa-recognition/visa-types/studying": "reachable",
+    "https://ind.nl/en/required-amounts-income-requirements": "reachable",
+    "https://ind.nl/en/residence-permits/study/student-residence-permit-for-university-or-higher-professional-education": "reachable",
+    "https://www.irishimmigration.ie/coming-to-study-in-ireland/what-are-my-study-options/planning-to-study-in-ireland/": "reachable",
+    "https://www.irishimmigration.ie/coming-to-study-in-ireland/what-are-my-study-options/a-fee-paying-private-primary-or-secondary-school/information-on-student-finances/": "reachable",
+    "https://www.irishimmigration.ie/registering-your-immigration-permission/information-on-registering/immigration-permission-stamps/": "reachable"
   }
 }
