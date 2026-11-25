@@ -2107,6 +2107,90 @@
       "verification_mode": "Manual review required",
       "last_verified": "2026-11-25",
       "note": "Visa-required applicants must remain outside Iceland during application processing; students cannot start work until permit is issued."
+    },
+    {
+      "country": "Latvia",
+      "name": "PMLP — Necessary subsistence",
+      "url": "https://www.pmlp.gov.lv/en/necessary-subsistence-0",
+      "note": "Updated 16 March 2026: EUR 780/month general amount in cases not otherwise specified from 1 April 2026, EUR 234/month minor child. Conflicts with legacy study page showing EUR 620; confirm student-specific amount.",
+      "source_owner": "Latvian competent authority / official information portal",
+      "jurisdiction": "National — Latvia",
+      "category": "Student immigration guidance",
+      "source_type": "Official government or EU guidance",
+      "verification_mode": "Availability-only automated check; manual legal review required",
+      "last_verified": "2026-11-25"
+    },
+    {
+      "country": "Latvia",
+      "name": "PMLP — Studies at accredited higher educational establishment",
+      "url": "https://www.pmlp.gov.lv/en/studies-accredited-higher-educational-establishment",
+      "note": "Legacy study residence permit document list still shows EUR 620/month; preserve as official-source discrepancy, not confirmed current threshold.",
+      "source_owner": "Latvian competent authority / official information portal",
+      "jurisdiction": "National — Latvia",
+      "category": "Student immigration guidance",
+      "source_type": "Official government or EU guidance",
+      "verification_mode": "Availability-only automated check; manual legal review required",
+      "last_verified": "2026-11-25"
+    },
+    {
+      "country": "Latvia",
+      "name": "EU Immigration Portal — Student in Latvia",
+      "url": "https://home-affairs.ec.europa.eu/policies/migration-and-asylum/eu-immigration-portal/student-latvia_en",
+      "note": "Official EU summary of student route, invitation, fees, permit duration, work and post-study; verify against Latvian law.",
+      "source_owner": "Latvian competent authority / official information portal",
+      "jurisdiction": "National — Latvia",
+      "category": "Student immigration guidance",
+      "source_type": "Official government or EU guidance",
+      "verification_mode": "Availability-only automated check; manual legal review required",
+      "last_verified": "2026-11-25"
+    },
+    {
+      "country": "Latvia",
+      "name": "Embassy of Latvia New Delhi — Students / long-stay visa",
+      "url": "https://www2.mfa.gov.lv/en/newdelhi/consular-section/applying-for-a-long-stay-visa/students",
+      "note": "Sri Lanka-specific Hello Verify and VFS Colombo D-visa instructions; URL redirected to temporary MFA notice during retrieval; reconfirm live route.",
+      "source_owner": "Latvian competent authority / official information portal",
+      "jurisdiction": "National — Latvia",
+      "category": "Student immigration guidance",
+      "source_type": "Official government or EU guidance",
+      "verification_mode": "Availability-only automated check; manual legal review required",
+      "last_verified": "2026-11-25"
+    },
+    {
+      "country": "Latvia",
+      "name": "Study in Latvia — Live in Latvia",
+      "url": "https://studyinlatvia.lv/latvia/live",
+      "note": "National study portal work, post-study and insurance guidance; reconcile work limits with current law.",
+      "source_owner": "Latvian competent authority / official information portal",
+      "jurisdiction": "National — Latvia",
+      "category": "Student immigration guidance",
+      "source_type": "Official government or EU guidance",
+      "verification_mode": "Availability-only automated check; manual legal review required",
+      "last_verified": "2026-11-25"
+    },
+    {
+      "country": "Latvia",
+      "name": "Study in Latvia — Visa and residence permit FAQ",
+      "url": "https://www.studyinlatvia.lv/faq/visa-and-residence-permit",
+      "note": "Official national FAQ on student visa/residence, family invitation and Master's/doctoral extension.",
+      "source_owner": "Latvian competent authority / official information portal",
+      "jurisdiction": "National — Latvia",
+      "category": "Student immigration guidance",
+      "source_type": "Official government or EU guidance",
+      "verification_mode": "Availability-only automated check; manual legal review required",
+      "last_verified": "2026-11-25"
+    },
+    {
+      "country": "Latvia",
+      "name": "PMLP — Residence permits",
+      "url": "https://www.pmlp.gov.lv/en/residence-permits",
+      "note": "Official residence permit overview.",
+      "source_owner": "Latvian competent authority / official information portal",
+      "jurisdiction": "National — Latvia",
+      "category": "Student immigration guidance",
+      "source_type": "Official government or EU guidance",
+      "verification_mode": "Availability-only automated check; manual legal review required",
+      "last_verified": "2026-11-25"
     }
   ]
 }
