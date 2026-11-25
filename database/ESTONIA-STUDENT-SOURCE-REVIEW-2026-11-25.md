@@ -11,7 +11,7 @@ For a non-EU student on a full degree programme, the usual route is a temporary 
 Aliens Act §162 defines eligible education institutions and higher-education study categories. At higher-education level, the permit route applies to full-time first- or second-cycle curricula and doctoral studies at institutionally accredited institutions. Official EU guidance describes validity up to the nominal study period, with a maximum of five years. Study interruption or failure to meet the required study volume can cause the permit to expire 30 days after the relevant event. Confirm the current consolidated law and the student's course load with PPA and the institution.
 
 ## 3. Financial requirements
-The Estonian MFA D-visa page currently lists **EUR 880 per month** for study-purpose financial means. Treat this as the published D-visa financial-means figure, not as tuition or a complete living-cost budget. Confirm the required duration, accepted bank/sponsor evidence and current figure at the time of filing. Do not count anticipated student employment as proof of funds.
+The Estonian MFA D-visa page currently lists **EUR 880 per month** for the student and a **EUR 120 D-visa state fee**. The page requires evidence of income for the three months immediately before application, showing amount, regularity and sources. This is the published D-visa financial-means figure, not tuition or a complete living-cost budget. Do not automatically apply it as the study residence-permit funds formula; confirm the PPA/TRP calculation and accepted bank/sponsor evidence separately. Do not count anticipated student employment as proof of funds.
 
 ## 4. Work during studies
 A student holding a study residence permit may work without a separate work permit if the employment does not interfere with studies (Aliens Act §175). Study in Estonia says there is no fixed weekly cap, but students must pass their courses, maintain a full study load and finish within the nominal time. This is not a guarantee of a job, income or unrestricted work regardless of academic progress.
@@ -20,7 +20,7 @@ A student holding a study residence permit may work without a separate work perm
 Study in Estonia states that non-EU graduates may remain for an additional **nine months** after graduation to look for employment and, if they find qualifying work, apply for a work-based temporary residence permit. The EU Immigration Portal describes a 270-day post-expiry stay in the study-permit context. These periods are broadly aligned, but the legal trigger, expiry date and any notification/application steps must be confirmed with PPA for the individual graduate. It is not an automatic work permit.
 
 ## 6. Health insurance and documents
-Prepare the live PPA/MFA checklist. Common evidence includes passport, application, biometric data, university invitation/admission confirmation, sufficient legal income, accommodation/contact details and valid health insurance. The European Education Area profile says non-EU students need private health insurance before applying for a visa or residence permit. Confirm coverage scope, validity dates, translations and legalisation for the individual case.
+Prepare the live PPA/MFA checklist. Common evidence includes passport, completed application, biometric data, university invitation/admission confirmation, sufficient legal income, valid health insurance, purpose-of-travel evidence and state-fee payment. The D-visa checklist requires foreign public documents to be legalised or apostilled and translated into Estonian or English. It requires a passport issued within the previous 10 years, with at least two blank pages and validity at least three months beyond the visa expiry. Confirm insurance coverage scope and validity dates and the current PPA residence-permit checklist for the individual case.
 
 ## 7. Sri Lanka application route — critical distinction
 The Estonian MFA says Germany represents Estonia in Colombo for **Schengen short-stay visa applications only**; applicants for long-stay visas must contact the nearest Estonian foreign mission. The Estonian Embassy in New Delhi is listed among the representations handling visa applications. Therefore, do not advise a Sri Lankan student to submit an Estonian D-visa application at the German Embassy in Colombo or a local Schengen VFS centre. Contact the Estonian Embassy in New Delhi before travel to confirm appointment availability, personal appearance, documents, fee, payment method and passport return.
@@ -28,7 +28,10 @@ The Estonian MFA says Germany represents Estonia in Colombo for **Schengen short
 ## 8. Tuition and living-cost planning
 Study in Estonia gives indicative monthly living costs of EUR 300–500 excluding housing, dormitories EUR 150–350 and private flats EUR 350–750. These are planning estimates only, not immigration funds thresholds. Tuition varies by institution, programme, language and study level. Use the exact university fee schedule, offer letter, accommodation quotation and refund terms for client budgets.
 
-## 9. Counsellor verification checklist
+## 9. Family members
+Study in Estonia guidance says a child may apply for a temporary residence permit where the student parent holds a residence permit. A spouse may apply under the student family route only after the student has lived in Estonia on a temporary residence permit for at least two years. Confirm the current PPA family route and all dependency, accommodation and financial conditions; do not promise immediate spouse reunification.
+
+## 10. Counsellor verification checklist
 - Verify exact institution recognition/accreditation and full-time programme eligibility.
 - Choose the correct route: D visa for temporary stay up to 365 days, or study residence permit for longer full-degree study.
 - Check the current EUR 880/month D-visa means figure and accepted evidence with the Estonian MFA.
@@ -38,7 +41,7 @@ Study in Estonia gives indicative monthly living costs of EUR 300–500 excludin
 - For Sri Lankan applicants, contact the Estonian Embassy in New Delhi for D-visa arrangements; Germany in Colombo handles short-stay representation only.
 - Keep all legal interpretations **Pending human review** until an authorised human reviewer approves them.
 
-## 10. Official sources
+## 11. Official sources
 1. Estonian MFA — D visa: https://vm.ee/en/consular-visa-and-travel-information/visa-information/application-long-stay-d-visa
 2. Estonian PPA — Study residence permit: https://studyinestonia.ee/index.php/visa-and-residence-permit
 3. Estonian Aliens Act (official English translation): https://www.riigiteataja.ee/public-api/api/v1/en/akt/501092026001/blob-html
@@ -47,6 +50,9 @@ Study in Estonia gives indicative monthly living costs of EUR 300–500 excludin
 6. Estonian MFA — Representations handling visa applications: https://vm.ee/en/consular-visa-and-travel-information/visa-information/estonian-representations-which-are-handling
 7. Study in Estonia — Work: https://studyinestonia.ee/working
 8. Study in Estonia — Living costs: https://www.studyinestonia.ee/living/living-costs
+9. Estonian MFA — D visa detailed checklist, income and fee: https://www.vm.ee/en/consular-visa-and-travel-information/visa-information/application-long-stay-d-visa
+10. Estonian MFA — Representations handling visa applications (New Delhi): https://www.vm.ee/en/consular-visa-and-travel-information/visa-information/estonian-representations-which-are-handling
+11. Estonian MFA — Countries represented for short-stay visas only: https://www.vm.ee/en/consular-visa-and-travel-information/visa-information/countries-where-estonia-represented-another
 9. Study in Estonia — Visa and residence permit: https://studyinestonia.ee/index.php/visa-and-residence-permit
 
-**Limitations:** The EUR 880/month figure is the current published D-visa study figure; the residence-permit evidence calculation and accepted sponsor/bank documentation require confirmation with PPA. The New Delhi D-visa appointment route must be confirmed directly. Living-cost estimates are not fixed budgets. This review is not legal advice or an approval to advise a client.
+**Limitations:** The EUR 880/month and EUR 120 fee are the current published D-visa page figures; the residence-permit evidence calculation and accepted sponsor/bank documentation require confirmation with PPA. The New Delhi D-visa appointment route must be confirmed directly. Living-cost estimates are not fixed budgets. This review is not legal advice or an approval to advise a client.
