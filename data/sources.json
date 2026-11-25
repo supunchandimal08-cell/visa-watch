@@ -1603,6 +1603,114 @@
       "source_type": "Official government source",
       "verification_mode": "Official-source monitoring for availability only; manual legal review required",
       "last_reviewed": "2026-11-25"
+    },
+    {
+      "country": "Bulgaria",
+      "name": "European Commission — Student in Bulgaria",
+      "url": "https://home-affairs.ec.europa.eu/policies/migration-and-asylum/eu-immigration-portal/student-bulgaria_en",
+      "source_owner": "Bulgarian Ministry of Interior / competent national authority",
+      "jurisdiction": "National — Bulgaria",
+      "category": "Student route / eligibility / application",
+      "source_type": "Official government / EU institutional source",
+      "verification_mode": "Official source monitoring; manual legal review required",
+      "last_verified": "2026-11-25",
+      "note": "Official EU Immigration Portal overview: full-time higher-education study, Type D visa and residence permit; use Bulgarian national law where more current or specific."
+    },
+    {
+      "country": "Bulgaria",
+      "name": "Bulgarian Ministry of Interior — Foreigners in the Republic of Bulgaria Act (English text)",
+      "url": "https://www.postedworkers.gli.government.bg/en/14/laws/?p=72_foreigners-in-the-republic-of-bulgaria-act",
+      "source_owner": "Bulgarian Ministry of Interior / competent national authority",
+      "jurisdiction": "National — Bulgaria",
+      "category": "Residence permit / duration / post-study",
+      "source_type": "Official government / EU institutional source",
+      "verification_mode": "Official source monitoring; manual legal review required",
+      "last_verified": "2026-11-25",
+      "note": "Article 24c: full-time higher-education students with Type D visa may receive residence up to one year; 18 months for last study year; qualifying graduates may apply for up to nine-month job-search residence subject to statutory conditions."
+    },
+    {
+      "country": "Bulgaria",
+      "name": "Bulgarian General Labour Inspectorate — Labour Migration and Labour Mobility Act, Article 38",
+      "url": "https://www.postedworkers.gli.government.bg/en/14/laws/?p=3_labour-migration-and-labour-mobility-act",
+      "source_owner": "Bulgarian General Labour Inspectorate",
+      "jurisdiction": "National — Bulgaria",
+      "category": "Student work rights",
+      "source_type": "Official government / EU institutional source",
+      "verification_mode": "Official source monitoring; manual legal review required",
+      "last_verified": "2026-11-25",
+      "note": "Full-time third-country higher-education students may work up to 20 hours/week during the school year and during officially declared university vacations; employer must register employment with Employment Agency within seven days."
+    },
+    {
+      "country": "Bulgaria",
+      "name": "Bulgarian Ministry of Labour and Social Policy — 2026 minimum wage decree",
+      "url": "https://www.mlsp.government.bg/uploads/67/zhrdpsi/acrobat-document.pdf",
+      "source_owner": "Bulgarian Ministry of Labour and Social Policy",
+      "jurisdiction": "National — Bulgaria",
+      "category": "Financial requirements / subsistence benchmark",
+      "source_type": "Official government / EU institutional source",
+      "verification_mode": "Official source monitoring; manual legal review required",
+      "last_verified": "2026-11-25",
+      "note": "Council of Ministers Decree 243/2025 sets minimum monthly wage at EUR 620.20 from 1 January 2026. Foreigners Act requires sufficient means at least the national minimum monthly wage/minimum scholarship/minimum pension for each period of residence; calculate against actual permit period and confirm evidence format."
+    },
+    {
+      "country": "Bulgaria",
+      "name": "Bulgarian Ministry of Foreign Affairs — Visa fees",
+      "url": "https://www.mfa.bg/en/services-travel/consular-services/fees",
+      "source_owner": "Bulgarian Ministry of Foreign Affairs",
+      "jurisdiction": "National — Bulgaria",
+      "category": "Visa fees",
+      "source_type": "Official government / EU institutional source",
+      "verification_mode": "Official source monitoring; manual legal review required",
+      "last_verified": "2026-11-25",
+      "note": "Long-stay Type D visa under Article 15(1) currently listed at EUR 100; fees are generally non-refundable and exemptions/treaty rules may apply."
+    },
+    {
+      "country": "Bulgaria",
+      "name": "Bulgarian Ministry of Foreign Affairs — Sri Lanka consular information",
+      "url": "https://www.mfa.bg/en/embassyinfo/sri%2Blanka",
+      "source_owner": "Bulgarian Ministry of Foreign Affairs",
+      "jurisdiction": "National — Bulgaria",
+      "category": "Sri Lanka application jurisdiction",
+      "source_type": "Official government / EU institutional source",
+      "verification_mode": "Official source monitoring; manual legal review required",
+      "last_verified": "2026-11-25",
+      "note": "Bulgaria has no functioning embassy in Sri Lanka; Embassy in New Delhi is accredited to Sri Lanka. Consular appointment is by email. Confirm current student Type D submission, interview and document logistics directly; honorary consulate is not assumed to issue visas."
+    },
+    {
+      "country": "Bulgaria",
+      "name": "Bulgarian Ministry of Interior — student residence legal conditions",
+      "url": "https://www.postedworkers.gli.government.bg/en/14/laws/?p=72_foreigners-in-the-republic-of-bulgaria-act",
+      "source_owner": "Bulgarian Ministry of Interior / competent national authority",
+      "jurisdiction": "National — Bulgaria",
+      "category": "Residence application documents",
+      "source_type": "Official government / EU institutional source",
+      "verification_mode": "Official source monitoring; manual legal review required",
+      "last_verified": "2026-11-25",
+      "note": "Article 24c lists passport, accommodation, health insurance where required, sufficient means, initial criminal-record certificate, Ministry of Education admission certificate and university confirmation; paid enrolment fee evidence is presented after entry on Type D visa."
+    },
+    {
+      "country": "Bulgaria",
+      "name": "Bulgarian Ministry of Education and Science — Higher Education Act",
+      "url": "https://mon.bg/regulation/zakon-za-vissheto-obrazovanie/",
+      "source_owner": "Bulgarian Ministry of Education and Science",
+      "jurisdiction": "National — Bulgaria",
+      "category": "Education framework / admissions law",
+      "source_type": "Official government / EU institutional source",
+      "verification_mode": "Official source monitoring; manual legal review required",
+      "last_verified": "2026-11-25",
+      "note": "National higher-education legal framework; check current amendments, recognition, admission route and programme-specific requirements with the competent university and Ministry."
+    },
+    {
+      "country": "European Union",
+      "name": "European Education Area — Study in Bulgaria",
+      "url": "https://education.ec.europa.eu/sk/study-in-europe/country-profiles/bulgaria",
+      "source_owner": "European Commission",
+      "jurisdiction": "European Union — country profile",
+      "category": "Tuition / living-cost context",
+      "source_type": "Official government / EU institutional source",
+      "verification_mode": "Official source monitoring; manual legal review required",
+      "last_verified": "2026-11-25",
+      "note": "EU country profile gives indicative annual tuition ranges and EUR 500–900/month living-cost estimate; these are planning ranges, not immigration minimums or guaranteed university fees."
     }
   ]
 }
