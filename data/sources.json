@@ -933,6 +933,90 @@
       "source_type": "Official government / admissions guidance",
       "verification_mode": "Availability-only automated check; manual legal review required",
       "last_verified": "2026-11-25"
+    },
+    {
+      "country": "Denmark",
+      "name": "SIRI — Higher educational programmes",
+      "url": "https://www.nyidanmark.dk/en-GB/You-want-to-apply/Study/Higher-Education",
+      "compare_text": false,
+      "note": "Primary higher-education residence permit rules: admission, state approval, full-time study, language, application, fee and processing.",
+      "source_owner": "Danish Agency for International Recruitment and Integration (SIRI)",
+      "jurisdiction": "National — Denmark",
+      "source_type": "Official government immigration / education guidance",
+      "verification_mode": "Availability-only automated check; manual legal review required",
+      "last_verified": "2026-11-25"
+    },
+    {
+      "country": "Denmark",
+      "name": "SIRI — Financial self-support",
+      "url": "https://www.nyidanmark.dk/en-GB/Words-and-concepts/SIRI/Self-support---SIRI",
+      "compare_text": false,
+      "note": "2026 self-support DKK 7,426/month and tuition-paid full-degree exception; exchange and tuition-waived rules.",
+      "source_owner": "Danish Agency for International Recruitment and Integration (SIRI)",
+      "jurisdiction": "National — Denmark",
+      "source_type": "Official government immigration / education guidance",
+      "verification_mode": "Availability-only automated check; manual legal review required",
+      "last_verified": "2026-11-25"
+    },
+    {
+      "country": "Denmark",
+      "name": "SIRI — Work permits for students in higher educational programmes",
+      "url": "https://www.nyidanmark.dk/en-GB/Words-and-concepts/SIRI/Work-permits-for-students-in-higher-educational-programmes",
+      "compare_text": false,
+      "note": "State-approved higher-education students: 90 hours/month and full-time June-August; category-specific conditions.",
+      "source_owner": "Danish Agency for International Recruitment and Integration (SIRI)",
+      "jurisdiction": "National — Denmark",
+      "source_type": "Official government immigration / education guidance",
+      "verification_mode": "Availability-only automated check; manual legal review required",
+      "last_verified": "2026-11-25"
+    },
+    {
+      "country": "Denmark",
+      "name": "SIRI — New rules for third-country students from 1 October 2026",
+      "url": "https://www.nyidanmark.dk/en-GB/News-Front-Page/2026/09/SIRI---Nye-regler-for-studerende",
+      "compare_text": false,
+      "note": "2026 transition rules for post-study job-search permits and accompanying family for certain applications on/after 1 October.",
+      "source_owner": "Danish Agency for International Recruitment and Integration (SIRI)",
+      "jurisdiction": "National — Denmark",
+      "source_type": "Official government immigration / education guidance",
+      "verification_mode": "Availability-only automated check; manual legal review required",
+      "last_verified": "2026-11-25"
+    },
+    {
+      "country": "Denmark",
+      "name": "Danish MFA — Applicants from Sri Lanka",
+      "url": "https://um.dk/indien/en/travel-and-residence/information-for-bhutanese-maldivians-and-sri-lankans/",
+      "compare_text": false,
+      "note": "Sri Lanka residence permit applications represented by Norway; lodged at Norwegian VFS Colombo, processed by Norwegian Embassy New Delhi.",
+      "source_owner": "Ministry of Foreign Affairs of Denmark",
+      "jurisdiction": "Sri Lanka consular jurisdiction — Norwegian Embassy, New Delhi / Norwegian VFS Colombo",
+      "source_type": "Official government immigration / education guidance",
+      "verification_mode": "Availability-only automated check; manual legal review required",
+      "last_verified": "2026-11-25"
+    },
+    {
+      "country": "Denmark",
+      "name": "SIRI — 2026 fee rates",
+      "url": "https://nyidanmark.dk/en-GB/News-Front-Page/2026/01/New-fee-rates-2026",
+      "compare_text": false,
+      "note": "2026 SIRI study case fee DKK 3,060.",
+      "source_owner": "Danish Agency for International Recruitment and Integration (SIRI)",
+      "jurisdiction": "National — Denmark",
+      "source_type": "Official government immigration / education guidance",
+      "verification_mode": "Availability-only automated check; manual legal review required",
+      "last_verified": "2026-11-25"
+    },
+    {
+      "country": "Denmark",
+      "name": "Study in Denmark — New rules from 1 October 2026",
+      "url": "https://studyindenmark.dk/news/new-residence-permit-rules-for-non-eu-eea-students-from-1-october-2026",
+      "compare_text": false,
+      "note": "Official summary of 2026 changes to post-study job-seeking period and accompanying family.",
+      "source_owner": "Danish Agency for Higher Education and Science",
+      "jurisdiction": "National — Denmark",
+      "source_type": "Official government immigration / education guidance",
+      "verification_mode": "Availability-only automated check; manual legal review required",
+      "last_verified": "2026-11-25"
     }
   ]
 }
