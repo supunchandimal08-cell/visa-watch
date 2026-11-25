@@ -46,7 +46,13 @@
       "country": "USA",
       "name": "U.S. Department of State — Student Visa (F/M categories, SEVIS and Form I-20)",
       "url": "https://travel.state.gov/content/travel/en/us-visas/study/student-visa.html",
-      "note": "Manual counsellor review required. Verify correct F-1 or M-1 category, SEVP-certified school/programme, SEVIS registration and signed Form I-20, DS-160, academic preparation, credible funds based on the school's I-20 estimate, intent to depart after authorised study, and current Colombo post instructions. Current published fees: USD 185 nonimmigrant visa application fee (DOS) plus separate USD 350 I-901 SEVIS fee for F/M students; recheck official fee pages before payment and match the I-901 receipt to the current I-20 SEVIS ID. New F/M visas may be issued up to 365 days before course start, but new students may not enter more than 30 days before start. Visa issuance does not guarantee admission at the port of entry. Sri Lankan residents should follow current post-location guidance for their country of nationality or residence. No universal government bank-balance amount. Detection is not legal interpretation."
+      "note": "Manual counsellor review required. Verify correct F-1 or M-1 category, SEVP-certified school/programme, SEVIS registration and signed Form I-20, DS-160, academic preparation, credible funds based on the school's I-20 estimate, intent to depart after authorised study, and current Colombo post instructions. Current published fees: USD 185 nonimmigrant visa application fee (DOS) plus separate USD 350 I-901 SEVIS fee for F/M students; recheck official fee pages before payment and match the I-901 receipt to the current I-20 SEVIS ID. New F/M visas may be issued up to 365 days before course start, but new students may not enter more than 30 days before start. Visa issuance does not guarantee admission at the port of entry. Sri Lankan residents should follow current post-location guidance for their country of nationality or residence. No universal government bank-balance amount. Detection is not legal interpretation.",
+      "source_owner": "U.S. Department of State",
+      "jurisdiction": "Federal — United States",
+      "category": "F-1/M-1 student visa",
+      "source_type": "Official government guidance",
+      "verification_mode": "Availability-only automated check; manual legal review required",
+      "last_verified": "2026-11-25"
     },
     {
       "country": "UAE / Dubai",
@@ -124,6 +130,30 @@
       "name": "Irish Immigration Service — Immigration permission stamps",
       "url": "https://www.irishimmigration.ie/registering-your-immigration-permission/information-on-registering/immigration-permission-stamps/",
       "note": "Official immigration permission stamp conditions, including student permission work restrictions. Verify stamp type and current conditions."
+    },
+    {
+      "country": "USA",
+      "name": "U.S. Embassy Colombo — Nonimmigrant visa instructions",
+      "url": "https://travel.state.gov/content/travel/en/us-visas/Supplements/Supplements_by_Post/CLM-Colombo.html",
+      "note": "Manual review required. Confirm current appointment, document-delivery registration, designated medical examination and 221(g) instructions for Sri Lankan applicants. Embassy page last updated 1 September 2026 when checked. Availability-only monitoring does not confirm current appointment slots or interpret individual instructions.",
+      "source_owner": "U.S. Department of State — U.S. Embassy Colombo",
+      "jurisdiction": "Sri Lanka — U.S. consular post",
+      "category": "Local interview and medical process",
+      "source_type": "Official government post instructions",
+      "verification_mode": "Availability-only automated check; manual review required",
+      "last_verified": "2026-11-25"
+    },
+    {
+      "country": "USA",
+      "name": "ICE — I-901 SEVIS Fee",
+      "url": "https://www.ice.gov/sevis/i901",
+      "note": "Manual review required. Verify current F/M student SEVIS fee, exemption/re-payment cases, payment timing and matching SEVIS ID on the current Form I-20. Fee is separate from the Department of State visa application fee. Availability-only monitoring is not fee validation.",
+      "source_owner": "U.S. Immigration and Customs Enforcement (ICE), DHS",
+      "jurisdiction": "Federal — United States",
+      "category": "SEVIS fee",
+      "source_type": "Official government guidance",
+      "verification_mode": "Availability-only automated check; manual review required",
+      "last_verified": "2026-11-25"
     }
   ]
 }
