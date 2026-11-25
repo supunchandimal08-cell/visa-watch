@@ -2191,6 +2191,114 @@
       "source_type": "Official government or EU guidance",
       "verification_mode": "Availability-only automated check; manual legal review required",
       "last_verified": "2026-11-25"
+    },
+    {
+      "country": "Liechtenstein",
+      "name": "Migration and Passport Office — Short-term residence permit for study / training (L)",
+      "url": "https://www.llv.li/en/national-administration/migration-and-passport-office/residence-in-liechtenstein-without-employment/short-stay-permit-for-study-education-l-",
+      "source_owner": "Liechtenstein Migration and Passport Office",
+      "jurisdiction": "National — Liechtenstein",
+      "category": "Study eligibility, L permit validity, 14-day filing deadline and work restriction",
+      "source_type": "Official government immigration guidance",
+      "verification_mode": "Current page checked; manual legal review required",
+      "last_verified": "2026-11-25",
+      "note": "Non-EEA/non-Swiss University of Liechtenstein students may work up to 35% in study-related employment only with authorisation; L permit max 12 months."
+    },
+    {
+      "country": "Liechtenstein",
+      "name": "Foreign Nationals Act (AuG), Article 19 — consolidated 12 June 2026",
+      "url": "https://www.gesetze.li/konso/pdf/2008311000?version=25",
+      "source_owner": "Liechtenstein National Law Gazette",
+      "jurisdiction": "National legislation — Liechtenstein",
+      "category": "Statutory study permit requirements: recognised institution, language, funds, insurance, accommodation, criminal record and departure",
+      "source_type": "Official consolidated legislation",
+      "verification_mode": "Manual legal review required",
+      "last_verified": "2026-11-25",
+      "note": "Article 19 is the statutory basis for study/training short-term residence permit."
+    },
+    {
+      "country": "Liechtenstein",
+      "name": "National Administration — Visa and Swiss representation route",
+      "url": "https://www.llv.li/en/national-administration/migration-and-passport-office/visa",
+      "source_owner": "Liechtenstein Migration and Passport Office",
+      "jurisdiction": "Consular / entry — Liechtenstein",
+      "category": "Visa requirement and Swiss representation process",
+      "source_type": "Official government guidance",
+      "verification_mode": "Manual review required",
+      "last_verified": "2026-11-25",
+      "note": "Liechtenstein generally applies Swiss entry and visa rules; visa-required applicants apply at Swiss representation responsible for residence."
+    },
+    {
+      "country": "Liechtenstein",
+      "name": "National Administration — Residing in Liechtenstein / third-country nationals",
+      "url": "https://www.llv.li/en/national-administration/migration-and-passport-office/residing-in-liechtenstein",
+      "source_owner": "Liechtenstein National Administration",
+      "jurisdiction": "National — Liechtenstein",
+      "category": "Third-country residence permit policy and family context",
+      "source_type": "Official government guidance",
+      "verification_mode": "Manual legal review required",
+      "last_verified": "2026-11-25",
+      "note": "Third-country residence permits are restrictive and not an automatic entitlement."
+    },
+    {
+      "country": "Liechtenstein",
+      "name": "University of Liechtenstein — Studying and Working",
+      "url": "https://www.uni.li/en/studies/plan-your-studies/studying-and-working",
+      "source_owner": "University of Liechtenstein",
+      "jurisdiction": "Institutional — Liechtenstein",
+      "category": "Student employment conditions and academic workload",
+      "source_type": "Official university guidance",
+      "verification_mode": "Manual review required",
+      "last_verified": "2026-11-25",
+      "note": "Prior authorisation required; university describes up to 35% during lecture period and full-time during semester breaks."
+    },
+    {
+      "country": "Liechtenstein",
+      "name": "University of Liechtenstein — Housing and Residence",
+      "url": "https://www.uni.li/en/studies/plan-your-studies/housing-and-residence",
+      "source_owner": "University of Liechtenstein",
+      "jurisdiction": "Institutional — Liechtenstein",
+      "category": "Third-country student bank guarantee, CHF 3,000 deposit, residence and registration",
+      "source_type": "Official university guidance",
+      "verification_mode": "Manual review required",
+      "last_verified": "2026-11-25",
+      "note": "University says it provides a bank guarantee and requires a CHF 3,000 deposit; verify applicability and refund terms."
+    },
+    {
+      "country": "Liechtenstein",
+      "name": "University of Liechtenstein — Application and Admission",
+      "url": "https://www.uni.li/en/studies/application-and-admission",
+      "source_owner": "University of Liechtenstein",
+      "jurisdiction": "Institutional — Liechtenstein",
+      "category": "Programme admission and visa-required applicant deadlines",
+      "source_type": "Official university guidance",
+      "verification_mode": "Manual review required",
+      "last_verified": "2026-11-25",
+      "note": "Programme-specific requirements and earlier deadlines apply to applicants requiring a visa; verify current intake."
+    },
+    {
+      "country": "Liechtenstein",
+      "name": "Swiss Embassy Colombo — 2026 Student Visa checklist for Switzerland and Liechtenstein",
+      "url": "https://www.bundesreisezentrale.admin.ch/content/dam/countries/countries-content/sri-lanka/en/2026-visa-checklist/2026_STUDENT_Visarequirements.pdf",
+      "source_owner": "Swiss Federal Department of Foreign Affairs — Embassy of Switzerland to Sri Lanka and Maldives",
+      "jurisdiction": "Consular — Sri Lanka",
+      "category": "National D visa checklist, appointment, document copies and translation",
+      "source_type": "Official embassy checklist PDF",
+      "verification_mode": "Manual review required; confirm live appointment and fee",
+      "last_verified": "2026-11-25",
+      "note": "Dedicated student D-visa checklist for Switzerland and Liechtenstein; personal appearance and two A4 copy sets."
+    },
+    {
+      "country": "Liechtenstein",
+      "name": "European Commission — Liechtenstein short-stay border reference amounts",
+      "url": "https://home-affairs.ec.europa.eu/document/download/97f68496-caf8-47b0-8017-bdd4aad90303_en",
+      "source_owner": "European Commission, DG Migration and Home Affairs",
+      "jurisdiction": "EU institutional reference — short-stay border",
+      "category": "Short-stay means of subsistence only; not long-term student permit threshold",
+      "source_type": "Official EU institutional document",
+      "verification_mode": "Context only; do not use as student residence threshold",
+      "last_verified": "2026-11-25",
+      "note": "Lists CHF 30/day for a student with valid student ID for border crossing; explicitly not a long-stay study residence amount."
     }
   ]
 }
