@@ -94,6 +94,36 @@
       "name": "Make it in Germany — Visa for studying",
       "url": "https://www.make-it-in-germany.com/en/visa-recognition/visa-types/studying",
       "note": "Official German government portal study visa/residence information, financial proof and student employment. Verify current statutory amounts and permit-specific conditions; detection is not legal interpretation."
+    },
+    {
+      "country": "Netherlands",
+      "name": "IND — Required amounts and income requirements",
+      "url": "https://ind.nl/en/required-amounts-income-requirements",
+      "note": "Official Dutch Immigration and Naturalisation Service income and study funds amounts. Check current academic-year figure and application date; automated detection is not legal interpretation."
+    },
+    {
+      "country": "Netherlands",
+      "name": "IND — Student residence permit for university or higher professional education",
+      "url": "https://ind.nl/en/residence-permits/study/student-residence-permit-for-university-or-higher-professional-education",
+      "note": "Official IND student residence permit conditions, sponsor and study progress requirements. Confirm current conditions for each institution and applicant."
+    },
+    {
+      "country": "Ireland",
+      "name": "Irish Immigration Service — Planning to study in Ireland",
+      "url": "https://www.irishimmigration.ie/coming-to-study-in-ireland/what-are-my-study-options/planning-to-study-in-ireland/",
+      "note": "Official Irish immigration study options and course eligibility guidance. Check current ILEP/TrustEd Ireland status and programme duration."
+    },
+    {
+      "country": "Ireland",
+      "name": "Irish Immigration Service — Information on student finances",
+      "url": "https://www.irishimmigration.ie/coming-to-study-in-ireland/what-are-my-study-options/a-fee-paying-private-primary-or-secondary-school/information-on-student-finances/",
+      "note": "Official student financial evidence guidance. Verify current amount, access to funds, tuition payment and exemptions before advising."
+    },
+    {
+      "country": "Ireland",
+      "name": "Irish Immigration Service — Immigration permission stamps",
+      "url": "https://www.irishimmigration.ie/registering-your-immigration-permission/information-on-registering/immigration-permission-stamps/",
+      "note": "Official immigration permission stamp conditions, including student permission work restrictions. Verify stamp type and current conditions."
     }
   ]
 }
