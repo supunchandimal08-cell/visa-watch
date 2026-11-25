@@ -860,6 +860,30 @@
       "source_type": "Official government guidance",
       "verification_mode": "Availability-only automated check; manual legal review required",
       "last_verified": "2026-11-25"
+    },
+    {
+      "country": "Finland",
+      "name": "Finland Abroad — Residence permits to Finland (Sri Lanka)",
+      "url": "https://finlandabroad.fi/web/lka/residence-permits-to-finland",
+      "note": "Country-specific Sri Lanka application route: Finland has no mission in Sri Lanka; Embassy New Delhi serves Sri Lanka and residence-permit applicants are directed to the Finland Residence Permit Application Centre in New Delhi.",
+      "compare_text": false,
+      "source_owner": "Ministry for Foreign Affairs of Finland",
+      "jurisdiction": "Sri Lanka consular jurisdiction — Embassy of Finland, New Delhi",
+      "source_type": "Official government consular guidance",
+      "verification_mode": "Availability-only automated check; manual review required",
+      "last_verified": "2026-11-25"
+    },
+    {
+      "country": "Finland",
+      "name": "Finland Abroad — Verification of Sri Lankan documents for legalisation",
+      "url": "https://finlandabroad.fi/web/lka/current-affairs/-/asset_publisher/h5w4iTUJhNne/content/verification-of-srilankan-and-bangladeshi-documents-required-from-3rd-of-november-onwards-in-vfs-new-delhi/384951",
+      "note": "Official notice for specified Sri Lankan-origin family-status documents requiring legalisation: VFS verification first; notice states approximately 45 working days. Confirm current scope and procedure.",
+      "compare_text": false,
+      "source_owner": "Ministry for Foreign Affairs of Finland",
+      "jurisdiction": "Sri Lanka consular jurisdiction — Embassy of Finland, New Delhi",
+      "source_type": "Official government consular guidance",
+      "verification_mode": "Availability-only automated check; manual review required",
+      "last_verified": "2026-11-25"
     }
   ]
 }
