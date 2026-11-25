@@ -38,7 +38,7 @@ For Sri Lankan non-EU/EEA applicants seeking higher education in Denmark. Denmar
 
 ## 6. Post-study pathway
 - Completion of an entire state-approved higher educational programme in Denmark may qualify for a job-seeking residence permit. For applications from 1 October 2026, relevant academy profession, professional bachelor's, bachelor's and master's degree graduates generally receive 6 months or 1 year depending on the category. PhD graduates generally receive 3 years.
-- The job-seeking permit and its duration are category-specific; do not promise a 3-year post-study stay to a new Bachelor's/Master's applicant. The student work permit may continue during the job-seeking period, but the residence card and exact conditions control.
+- The job-seeking permit and its duration are category-specific; do not promise a 3-year post-study stay to a new Bachelor's/Master's applicant. The student work permit normally continues during the job-seeking period: 90 hours/month from September to May and full-time June–August. Eligible graduates of state-approved professional bachelor's, bachelor's, part-time master's and master's degrees may apply for a work permit without limitations after completing the programme; this is not automatic. PhD and other categories require separate checking.
 - This is not a job guarantee. A later employment-based residence/work permit requires meeting the relevant Danish scheme and conditions.
 
 ## Counsellor checklist
@@ -62,3 +62,16 @@ For Sri Lankan non-EU/EEA applicants seeking higher education in Denmark. Denmar
 - SIRI — 2026 fee rates: https://nyidanmark.dk/en-GB/News-Front-Page/2026/01/New-fee-rates-2026
 
 Review date: 25 November 2026. Verify programme approval, filing-date transition, current local VFS arrangements, fees and evidence before client advice.
+
+## 10. Residence maintenance, extension and internships
+- A student permit normally covers the nominal duration of the programme if the student actively participates. If studies run late, an extension may be granted for up to one additional year in ordinary cases; pregnancy/parental leave can allow up to two years total. Apply no earlier than four months before expiry and no later than the expiry date.
+- The student must maintain a Danish address and must not stay outside Denmark for more than six consecutive months, or the permit may lapse (special joint-programme exceptions apply).
+- A mandatory internship included in the programme can carry a full-time work permit for the internship period; if not initially granted, apply and wait for approval before starting full-time work.
+- Students must support themselves and must not receive prohibited public benefits; this can affect the student's and family's permits.
+- Official source: SIRI Higher educational programmes, https://www.nyidanmark.dk/en-GB/You-want-to-apply/Study/Higher-Education (checked 25 November 2026).
+
+## 11. Sri Lanka representation — dual application warning
+The Danish MFA states that the Norwegian Embassy in New Delhi represents Denmark for all residence-permit applications from Sri Lanka. The Norwegian Embassy's Sri Lanka page states that applications are lodged at Norway VFS Colombo and forwarded to the Norwegian Embassy in New Delhi. It further states that applicants for Danish residence permits must complete residence-permit applications for both Norway and Denmark and pay the respective applicable fee. Confirm current application forms, fees, appointment slots, photo/biometric instructions and document checklist directly with VFS/Embassy before the applicant attends:
+- Danish MFA — Sri Lanka representation: https://um.dk/indien/en/travel-and-residence/information-for-bhutanese-maldivians-and-sri-lankans/
+- Royal Norwegian Embassy — Residence permit from Sri Lanka: https://www.norway.no/en/sri-lanka/services-info/visitors-visa-res-permit/res-permit/
+- Royal Norwegian Embassy — Danish representation details: https://www.norway.no/en/india/services-info/visitors-visa-res-permit/
