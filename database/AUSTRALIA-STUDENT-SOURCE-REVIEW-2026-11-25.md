@@ -13,6 +13,8 @@
 5. [Home Affairs — Document Checklist Tool](https://immi.homeaffairs.gov.au/visas/web-evidentiary-tool) — applicant-specific evidence checklist.
 6. [Australian Government — CRICOS registration](https://www.education.gov.au/esos-framework/registration-cricos) — provider/course registration.
 7. [Home Affairs — visa condition 8105](https://immi.homeaffairs.gov.au/visas/already-have-a-visa/check-visa-details-and-conditions/see-your-visa-conditions?cno=8105&product=500) — work limitation; confirm grant notice and VEVO.
+8. [Home Affairs — Temporary Graduate visa 485, Post-Higher Education Work stream](https://immi.homeaffairs.gov.au/visas/getting-a-visa/visa-listing/temporary-graduate-485/post-higher-education-work) — age, recent Student visa, Australian study, English, health cover and post-study stay.
+9. [Study Australia — Student visa subclass 500 guide](https://www.studyaustralia.gov.au/en/plan-your-move/your-guide-to-visas/student-visa-subclass-500) — practical current guidance on work, CoE, OSHC, conditions and 2 October 2026 reforms.
 
 ## Rule notes for counsellors
 
@@ -67,3 +69,18 @@ The 2026 amendment regulations commenced on 2 October 2026. The reforms narrow w
 - [ ] Reviewer verifies OSHC coverage and exemption route.
 - [ ] Reviewer tests sample cases with different passports, providers, course types and application locations using the Document Checklist Tool.
 - [ ] Reviewer records name, date, evidence and approval in the dashboard audit trail.
+
+
+## 6. Current work-rights and Temporary Graduate cross-check — 25 November 2026
+
+- The current Home Affairs / Study Australia guidance confirms the general cap is **48 hours per fortnight** while the course is in session. Students generally cannot work before their course starts. Unlimited work may apply during scheduled course breaks and, after course commencement, to master's by research and doctoral students. Family work rights differ; confirm condition 8105 and VEVO for each person.
+- The Post-Higher Education Work stream of subclass 485 is a separate application, not an automatic student-visa extension. Home Affairs currently states applicants generally must be 35 or under, be in Australia at application, have held a Student visa in the previous six months, and have completed an eligible CRICOS-registered degree within six months. Exceptions apply to specified research Masters/doctoral graduates and Hong Kong/BNO passport holders.
+- Current indicative stay periods: Bachelor 2 years; Masters coursework/extended 2 years; Masters research 3 years; Doctoral 3 years. The page currently lists the charge from AUD5,750. Applicants must also meet the Australian study requirement, English, health insurance, AFP check and all other stream requirements.
+- The subclass 500 page currently lists the main applicant visa charge from **AUD2,500**, with extra charges for family members and possible additional medical, police and biometrics costs. Always use the live Visa Pricing Estimator; fees change.
+- Study Australia says processing-time tools are indicative only and are based on recently decided applications, not a promise for the applicant.
+
+## Updated VisaWatch implementation
+
+- Added official sources au9 (subclass 485 Post-Higher Education Work) and au10 (Study Australia current subclass 500 guide).
+- Added rules for condition 8105 / 48-hour work cap, subclass 485 eligibility and duration, and live visa fee / processing-time quoting.
+- All Australia rules remain **Pending human review**. This research note does not approve legal advice.
