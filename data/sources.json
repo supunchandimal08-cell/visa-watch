@@ -1726,8 +1726,8 @@
     },
     {
       "country": "Estonia",
-      "name": "Estonian Police and Border Guard Board — Study residence permit",
-      "url": "https://www.politsei.ee/en/instructions/residence-permit-for-study",
+      "name": "Study in Estonia — Visa and residence permit / PPA student guide",
+      "url": "https://studyinestonia.ee/index.php/visa-and-residence-permit",
       "source_owner": "Estonian Police and Border Guard Board",
       "jurisdiction": "National — Estonia",
       "category": "Student residence permit",
@@ -1739,7 +1739,7 @@
     {
       "country": "Estonia",
       "name": "Estonian Aliens Act — study residence permit and work",
-      "url": "https://www.riigiteataja.ee/en/tolge/pdf/506012026003",
+      "url": "https://www.riigiteataja.ee/public-api/api/v1/en/akt/501092026001/blob-html",
       "source_owner": "Riigi Teataja — Estonian State Gazette",
       "jurisdiction": "National — Estonia",
       "category": "Legal basis / eligibility / work rights",
