@@ -86,7 +86,7 @@ jobs:
           assert "Detection is not confirmation" in html, "Required monitoring disclaimer is missing"
           assert "Pending human review" in html, "Human-review status language is missing"
           assert "raw.githubusercontent.com/supunchandimal08-cell/visa-watch/main/data/updates.json" not in html, "Website still depends on GitHub raw JSON"
-          source_ids = re.findall(r'\{id:"([^"]+)"', html)
+          source_ids = re.findall(r'\{\s*"?id"?\s*:\s*"([^"]+)"', html)
           assert len(source_ids) == len(set(source_ids)), "Official source IDs must be unique"
           rule_sources = re.findall(r'\{topic:[\s\S]*?\}', html)
           rule_source_ids = {source_id for block in rule_sources for source_id in re.findall(r'source:"([^"]+)"', block)}
