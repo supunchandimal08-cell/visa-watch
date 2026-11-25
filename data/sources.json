@@ -64,6 +64,12 @@
       "name": "Federal ICP — Renewal of residence permits (includes student and sponsor/host grace-period categories)",
       "url": "https://icp.gov.ae/en/services-details/?serviceid=64afe3c1035448005bd52e66",
       "note": "Official ICP renewal service page. It lists a 180-day grace period for students after completing their studies and a 60-day grace period for residence permits issued with a guarantor or host. The page displays a last-updated date of 11 December 2024. GDRFA Dubai's student-residence service page separately states 60 days after expiry/cancellation, while ICP's student-specific issuance page states 180 days after study completion. This is an apparent official-source discrepancy: do not quote a grace period to a client until GDRFA/ICP confirms the exact permit category, emirate and circumstances in writing. Detection is not legal interpretation."
+    },
+    {
+      "country": "Australia",
+      "name": "Department of Home Affairs — Student visa work condition 8105",
+      "url": "https://immi.homeaffairs.gov.au/visas/already-have-a-visa/check-visa-details-and-conditions/see-your-visa-conditions?cno=8105",
+      "note": "Official condition 8105 source for student visa work limits. Automated check detects page availability only; counsellor must verify current legal instrument, individual visa grant/VEVO conditions and exemptions. Detection is not legal interpretation."
     }
   ]
 }
