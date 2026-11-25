@@ -232,7 +232,7 @@ begin
   if tg_op = 'INSERT' then
     v_id := new.id;
     select coalesce(array_agg(key order by key), '{}')
-      into v_fields from jsonb_object_keys(to_jsonb(new)) as key;
+      into v_fields from jsonb_object_keys(to_jsonb(new)) as fields(key);
   elsif tg_op = 'UPDATE' then
     v_id := new.id;
     select coalesce(array_agg(n.key order by n.key), '{}')
@@ -243,7 +243,7 @@ begin
   else
     v_id := old.id;
     select coalesce(array_agg(key order by key), '{}')
-      into v_fields from jsonb_object_keys(to_jsonb(old)) as key;
+      into v_fields from jsonb_object_keys(to_jsonb(old)) as fields(key);
   end if;
 
   insert into public.client_record_audit(table_name, record_id, action, actor_user_id, changed_fields)
