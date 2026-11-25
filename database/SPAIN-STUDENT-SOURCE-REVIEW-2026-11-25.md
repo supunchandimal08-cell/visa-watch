@@ -41,5 +41,5 @@ The New Delhi Embassy page states a legal decision period of one month from the 
 ## Dashboard update
 - Three additional Spain rules added: family eligibility/no work right, geographic limit on student work, and consular decision-period caveat.
 - Spain dashboard rules now total 11; all remain **Pending human review**.
-- Added official sources es9–es11; the existing Spain source IDs es1–es8 are retained.
+- Reused the existing official source records es1–es11; no duplicate source IDs were created.
 - Existing rules and source links must be checked against the live official pages again before individual client advice.
