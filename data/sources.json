@@ -897,6 +897,42 @@
       "source_type": "Official government proposal announcement",
       "verification_mode": "Manual legislative monitoring required; not an in-force rule",
       "last_verified": "2026-11-25"
+    },
+    {
+      "country": "Sweden",
+      "name": "Sweden Abroad — Residence permit (Sri Lanka)",
+      "url": "https://www.swedenabroad.se/en/about-sweden-non-swedish-citizens/sri-lanka/going-to-sweden/residence-permit/",
+      "compare_text": false,
+      "note": "Sri Lanka-specific consular instructions: biometrics at Embassy of Sweden New Delhi; permit card collection at Swedish Consulate Colombo by appointment.",
+      "source_owner": "Swedish Migration Agency / Ministry for Foreign Affairs of Sweden",
+      "jurisdiction": "Sri Lanka consular jurisdiction — Embassy of Sweden, New Delhi",
+      "source_type": "Official government / admissions guidance",
+      "verification_mode": "Availability-only automated check; manual legal review required",
+      "last_verified": "2026-11-25"
+    },
+    {
+      "country": "Sweden",
+      "name": "Swedish Migration Agency — New family rules from 1 October 2026",
+      "url": "https://www.migrationsverket.se/en/newsarchive/newrulesforfamilymembersaccompanyingstudents.5.15b2309e1a04e5ed2071cb4.html",
+      "compare_text": false,
+      "note": "From 1 October 2026 family members staying up to one year need comprehensive insurance; family maintenance amounts unchanged; legal-guardian requirements for certain children.",
+      "source_owner": "Swedish Migration Agency / Ministry for Foreign Affairs of Sweden",
+      "jurisdiction": "National — Sweden",
+      "source_type": "Official government / admissions guidance",
+      "verification_mode": "Availability-only automated check; manual legal review required",
+      "last_verified": "2026-11-25"
+    },
+    {
+      "country": "Sweden",
+      "name": "University Admissions — Application fee for non-EU/EEA applicants",
+      "url": "https://www.universityadmissions.se/en/apply-to-masters/pay-your-application-fee-non-eueea-masters/",
+      "compare_text": false,
+      "note": "Application fee SEK 900 per semester for most non-EU/EEA/Swiss applicants; separate from tuition and Migration Agency residence permit fee.",
+      "source_owner": "University Admissions in Sweden",
+      "jurisdiction": "National — Sweden",
+      "source_type": "Official government / admissions guidance",
+      "verification_mode": "Availability-only automated check; manual legal review required",
+      "last_verified": "2026-11-25"
     }
   ]
 }
