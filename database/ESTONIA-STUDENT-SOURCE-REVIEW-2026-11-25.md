@@ -40,8 +40,8 @@ Study in Estonia gives indicative monthly living costs of EUR 300–500 excludin
 
 ## 10. Official sources
 1. Estonian MFA — D visa: https://vm.ee/en/consular-visa-and-travel-information/visa-information/application-long-stay-d-visa
-2. Estonian PPA — Study residence permit: https://www.politsei.ee/en/instructions/residence-permit-for-study
-3. Estonian Aliens Act (official English translation): https://www.riigiteataja.ee/en/tolge/pdf/506012026003
+2. Estonian PPA — Study residence permit: https://studyinestonia.ee/index.php/visa-and-residence-permit
+3. Estonian Aliens Act (official English translation): https://www.riigiteataja.ee/public-api/api/v1/en/akt/501092026001/blob-html
 4. European Commission — Student in Estonia: https://home-affairs.ec.europa.eu/policies/migration-and-asylum/eu-immigration-portal/student-estonia_en
 5. Estonian MFA — Representation for Sri Lanka: https://www.vm.ee/en/consular-visa-and-travel-information/visa-information/countries-where-estonia-represented-another
 6. Estonian MFA — Representations handling visa applications: https://vm.ee/en/consular-visa-and-travel-information/visa-information/estonian-representations-which-are-handling
