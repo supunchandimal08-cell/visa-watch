@@ -62,9 +62,11 @@ Before using a source in a client consultation:
 ## Important limitations in the current inventory
 
 - `data/sources.json` contains URLs and notes, with optional monitoring settings such as `compare_text`. It is a source inventory, not a complete legal rules database.
+- All 8 Canada entries now include structured source owner, jurisdiction, category, source type, verification mode and last-verified date fields (reviewed 25 November 2026). Their `compare_text: false` setting is intentional: they are availability-only checks and require manual legal-content review.
+- Other entries still have inconsistent structured metadata. Do not assume the Canada metadata migration has been applied to the full 99-entry inventory.
 - Some entries are availability-only checks; automated reachability does not mean the page's legal content was compared.
 - The monitor detects page changes or availability only. It does not interpret legislation, establish legal effect or approve client advice.
-- Source owner, jurisdiction, visa category, last-verified date, publication date, effective date and reviewer are not consistently stored as structured fields for every entry yet. These should be normalised in a later reviewed data migration, not guessed.
+- Publication date, legal effective date and named human reviewer are not yet consistently stored as structured fields across the inventory. Add them only after checking the actual official source and reviewer record; never infer them from a crawl date.
 - A source may cover only one emirate, province, state, consular post, course type or permit class. Confirm the precise scope before applying it.
 - The current inventory contains multiple European national authorities. Do not describe all European student residence rules as one uniform Schengen student visa.
 
