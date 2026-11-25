@@ -106,12 +106,12 @@ def check_source(source, previous):
             if status_code < 200 or status_code >= 300:
                 return {**source, "checked_at": datetime.now(timezone.utc).isoformat(),
                         "status": "http_error", "http_status": status_code,
-                        "change_detected": False,
+                        "content_compared": False, "change_detected": False,
                         "note": "Official page returned an HTTP response that needs manual review."}
             if "html" not in content_type.lower() and body[:100].lstrip().startswith(b"%PDF"):
                 return {**source, "checked_at": datetime.now(timezone.utc).isoformat(),
                         "status": "reachable", "http_status": status_code,
-                        "change_detected": False,
+                        "content_compared": False, "change_detected": False,
                         "note": "Source reachable, but content was not compared because it is not an HTML page."}
             decoded = body.decode("utf-8", errors="replace")
             parser = VisibleTextParser()
@@ -131,7 +131,7 @@ def check_source(source, previous):
                 note = "No page-text change detected since the previous successful check. This does not guarantee that every policy detail was checked."
             return {**source, "checked_at": datetime.now(timezone.utc).isoformat(),
                     "status": "reachable", "http_status": status_code,
-                    "content_hash": digest, "change_detected": changed,
+                    "content_hash": digest, "content_compared": True, "change_detected": changed,
                     "baseline_created": first_check, "note": note}
         except HTTPError as e:
             # Some UAE Government portal pages are indexed as current official
@@ -141,7 +141,7 @@ def check_source(source, previous):
             if e.code == 404 and "u.ae/" in source.get("url", ""):
                 return {**source, "checked_at": datetime.now(timezone.utc).isoformat(),
                         "status": "manual_review", "http_status": e.code,
-                        "change_detected": False,
+                        "content_compared": False, "change_detected": False,
                         "note": "The automated checker received HTTP 404 for this UAE Government page. The official source is indexed, but the live page must be opened and verified manually; this is not confirmation that the guidance or URL has been withdrawn."}
             if e.code == 403:
                 return {**source, "checked_at": datetime.now(timezone.utc).isoformat(),
@@ -150,7 +150,7 @@ def check_source(source, previous):
                         "note": "Automated access was denied (HTTP 403). This does not prove the official URL is broken. Open the official page in a browser and verify manually; no page comparison was possible."}
             return {**source, "checked_at": datetime.now(timezone.utc).isoformat(),
                     "status": "http_error", "http_status": e.code,
-                    "change_detected": False,
+                    "content_compared": False, "change_detected": False,
                     "note": "Official source returned HTTP " + str(e.code) + "; review manually. No page comparison was possible."}
         except (URLError, TimeoutError, OSError, ValueError) as e:
             if source.get("compare_text") is False:
@@ -164,7 +164,7 @@ def check_source(source, previous):
     note = ("Failed after 2 attempts: " + str(last_error or "unknown connection error"))[:250]
     result = {**source, "checked_at": datetime.now(timezone.utc).isoformat(),
               "status": "unreachable", "http_status": None,
-              "change_detected": False, "note": note}
+              "content_compared": False, "change_detected": False, "note": note}
     # For sources that block automated requests or intermittently time out,
     # keep the official link visible and explicitly direct staff to manual review.
     if source["country"] == "USA" and "403" in note:
