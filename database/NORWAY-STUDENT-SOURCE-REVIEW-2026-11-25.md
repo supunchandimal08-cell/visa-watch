@@ -52,6 +52,12 @@ Sri Lankan citizens seeking full-time higher education in Norway for more than 9
 - Gather the UDI-generated checklist. Common documents include passport, signed cover letter, admission confirmation, proof of accommodation, funds evidence, tuition payment/exemption evidence and any institution-specific forms. Additional documents/interview may be requested.
 - Do not travel before decision if an entry visa is required. After approval, the applicant may need an entry visa sticker to travel; follow the Embassy/UDI instruction.
 
+## 8. After-arrival residence card
+- Once the student knows the arrival date, they should book the police appointment for the residence card. The Norway in Sri Lanka mission says the appointment should normally be within the first seven days after arrival or the first available appointment.
+- Follow the exact instruction in the UDI decision letter and attend the correct police/SUA office. Keep passport, entry visa (if required) and permit decision available.
+- This is a post-arrival step and is separate from the initial VFS Colombo application.
+- UDI confirms that part-time work, including remote work, cannot begin until the study permit has been granted.
+
 ## Counsellor checklist
 1. Verify institution accreditation, full-time admission, course mode, GSU country requirements, academic prerequisites and English/Norwegian language proof.
 2. Calculate NOK 170,368 for a full 2026/27 academic year (or relevant semester amount); keep tuition and semester fee separate.
@@ -61,14 +67,20 @@ Sri Lankan citizens seeking full-time higher education in Norway for more than 9
 6. Explain NOK 5,400 adult UDI fee separately from VFS service/courier fees; verify live amounts.
 7. Direct Sri Lankan applicants to VFS Colombo; processing is through Norwegian Embassy New Delhi and UDI. Book appointment and submit UDI checklist.
 8. For post-study plans, explain maximum one-year job-seeker route, skilled-job focus and separate NOK 28,448/month maintenance requirement.
-9. Keep every legal rule Pending human review until an authorised reviewer approves it.
+9. Explain the police residence-card appointment after arrival; follow the decision letter and book within the first seven days or first available slot.
+10. Keep every legal rule Pending human review until an authorised reviewer approves it.
 
 ## Official sources
 - UDI — Study permit, personalised for Sri Lankan citizens: https://www.udi.no/en/want-to-apply/studies/studietillatelse/?c=lka
 - UDI — Fees (study permit adult NOK 5,400; under 18 NOK 2,700): https://www.udi.no/en/word-definitions/fees/
 - UDI — Job seekers, personalised for Sri Lankan citizens: https://www.udi.no/en/want-to-apply/work-immigration/job-seekers/?c=lka
+- UDI — Study permit frequently asked questions (work cannot start before permit grant): https://www.udi.no/en/answer-pages/answers-study-permits/
 - Norway in Sri Lanka — Residence permit and VFS Colombo process: https://www.norway.no/en/sri-lanka/services-info/visitors-visa-res-permit/res-permit/
 - Study in Norway — Cost and requirements, 2026/2027 living costs and tuition: https://studyinnorway.no/cost-and-requirements
 - Study in Norway — Admission requirements / GSU: https://studyinnorway.no/study-opportunities
 
 Review date: 25 November 2026. Verify current UDI requirements, GSU, course accreditation, tuition, funds, fees and VFS arrangements before advising a client.
+## Dashboard update (25 November 2026)
+- Added UDI source record `no7` and one new rule covering the post-arrival police appointment for the residence card.
+- Norway rules now total 7; all remain **Pending human review**.
+- Existing core details rechecked: 2026/27 student funds NOK 170,368/year; work up to 20 hours/week during term and full-time during holidays after permit grant; UDI fee NOK 5,400 for adults; VFS Colombo submission and New Delhi/UDI processing; eligible graduate job-seeker route up to one year with separate funds NOK 28,448/month.
