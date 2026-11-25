@@ -2515,6 +2515,138 @@
       "verification_mode": "Checked 25 November 2026",
       "last_verified": "2026-11-25",
       "note": "Long-stay applications must not be sent to Swiss Embassy Colombo."
+    },
+    {
+      "country": "Malta",
+      "name": "Identità — Central Visa Unit: Student Visa, courses exceeding 90 days",
+      "url": "https://identita.gov.mt/central-visa-unit-student-visa-courses-exceeding-90-days/",
+      "source_owner": "Identità Malta — Central Visa Unit",
+      "jurisdiction": "National — Malta",
+      "category": "National D visa for courses over 90 days",
+      "source_type": "Official government immigration guidance",
+      "verification_mode": "Checked 25 November 2026",
+      "last_verified": "2026-11-25",
+      "note": "Third-country students attending courses exceeding 90 days require National Long-Stay D visa; authorised external service provider."
+    },
+    {
+      "country": "Malta",
+      "name": "VFS Global — Malta Long Stay Student Visa, Sri Lanka",
+      "url": "https://www.vfsglobal.com/one-pager/malta-extended-services/srilanka/english/index.html",
+      "source_owner": "VFS Global for Malta Central Visa Unit",
+      "jurisdiction": "Consular — Sri Lanka",
+      "category": "Sri Lankan student D visa application, fees and processing",
+      "source_type": "Authorised external service provider",
+      "verification_mode": "Checked 25 November 2026",
+      "last_verified": "2026-11-25",
+      "note": "Student visa Standard EUR100 + VFS EUR100; Extended EUR150 + VFS EUR150; 6–8 week minimum long-stay processing estimate on page."
+    },
+    {
+      "country": "Malta",
+      "name": "Identità — Expatriates Unit: Study, Research, Trainees, Volunteers and Interns",
+      "url": "https://identita.gov.mt/expatriates-unit-main-page/noneu-nationals/non-employment-permits/study-research-trainees-volunteers-interns/",
+      "source_owner": "Identità Malta — Expatriates Unit",
+      "jurisdiction": "National — Malta",
+      "category": "Study residence permit eligibility, portal, fee and insurance exceptions",
+      "source_type": "Official government immigration guidance",
+      "verification_mode": "Checked 25 November 2026",
+      "last_verified": "2026-11-25",
+      "note": "Full-time licensed institution; MQRIC Level 5+ qualification; online portal; study application fee EUR50; certain public institutions exempt from health insurance."
+    },
+    {
+      "country": "Malta",
+      "name": "Identità — Central Visa Unit: Student Visa Employment",
+      "url": "https://identita.gov.mt/central-visa-unit-student-visa-employment/",
+      "source_owner": "Identità Malta — Central Visa Unit",
+      "jurisdiction": "National — Malta",
+      "category": "20h/week work rights and Jobsplus employment licence",
+      "source_type": "Official government immigration guidance",
+      "verification_mode": "Checked 25 November 2026",
+      "last_verified": "2026-11-25",
+      "note": "MQF-recognised full-time higher education students may work max 20h/week from first year with licence; other study courses have separate three-month rule."
+    },
+    {
+      "country": "Malta",
+      "name": "Identità — Student National Visa required documents checklist",
+      "url": "https://identita.gov.mt/wp-content/uploads/2025/08/03a.-List-of-Required-Documents-Student_National_Visa.pdf",
+      "source_owner": "Identità Malta — Central Visa Unit",
+      "jurisdiction": "National — Malta",
+      "category": "Student D visa document, funds, sponsor and insurance checklist",
+      "source_type": "Official government PDF checklist",
+      "verification_mode": "Published August 2025; recheck current version",
+      "last_verified": "2026-11-25",
+      "note": "Passport 10 months; apply at least 9 weeks before course; funds 75% of national minimum wage per month; EUR30,000 insurance with different duration by MQF level."
+    },
+    {
+      "country": "Malta",
+      "name": "DIER — National Minimum Wage 2026",
+      "url": "https://dier.gov.mt/en/services/employment-conditions/wages/national-minimum-wage/",
+      "source_owner": "Department for Industrial and Employment Relations, Malta",
+      "jurisdiction": "National — Malta",
+      "category": "2026 national minimum wage used in student funds formula",
+      "source_type": "Official government wage guidance",
+      "verification_mode": "Current 2026 rate checked 25 November 2026",
+      "last_verified": "2026-11-25",
+      "note": "Adult national minimum wage EUR229.44 per week; student visa funds calculation in Identità checklist uses 75% per month."
+    },
+    {
+      "country": "Malta",
+      "name": "Identità — Student Visa Extension of Stay in Malta",
+      "url": "https://identita.gov.mt/central-visa-student-visa-extension-of-stay-in-malta/",
+      "source_owner": "Identità Malta — Central Visa Unit",
+      "jurisdiction": "National — Malta",
+      "category": "Visa extension timing and satisfactory attendance/progress evidence",
+      "source_type": "Official government immigration guidance",
+      "verification_mode": "Checked 25 November 2026",
+      "last_verified": "2026-11-25",
+      "note": "Some student visa extensions require contact 30 to 21 days before expiry and evidence of satisfactory performance and attendance; MQF5+ higher education students apply for residence permit."
+    },
+    {
+      "country": "Malta",
+      "name": "Identità — Rights and Obligations of Student Residence Permit Holders",
+      "url": "https://identita.gov.mt/wp-content/uploads/2024/03/Rights-and-Obligations.pdf",
+      "source_owner": "Identità Malta",
+      "jurisdiction": "National — Malta",
+      "category": "Attendance, academic progress and no work without employment licence",
+      "source_type": "Official government PDF",
+      "verification_mode": "Checked 25 November 2026",
+      "last_verified": "2026-11-25",
+      "note": "Regular attendance and sufficient progress are required; permits may be withdrawn; Jobsplus licence required before employment."
+    },
+    {
+      "country": "Malta",
+      "name": "Identità — Study FAQ: 9-month post-study residence permit",
+      "url": "https://identita.gov.mt/frequently-asked-questions/expatriates/non-eu-non-employment/study/",
+      "source_owner": "Identità Malta — Expatriates Unit",
+      "jurisdiction": "National — Malta",
+      "category": "MQF Level 5+ graduate post-study permit and transition",
+      "source_type": "Official government FAQ",
+      "verification_mode": "Checked 25 November 2026",
+      "last_verified": "2026-11-25",
+      "note": "One-time 9-month permit for eligible MQF5+ graduates; apply before study permit expiry; not itself full-time work permission."
+    },
+    {
+      "country": "Malta",
+      "name": "Servizz.gov.mt — Residence Permit for Non-EU or EEA Citizen",
+      "url": "https://www.servizz.gov.mt/en/services/web-00080",
+      "source_owner": "Government of Malta — Servizz.gov.mt",
+      "jurisdiction": "National — Malta",
+      "category": "Residence permit application and renewal timing",
+      "source_type": "Official government service information",
+      "verification_mode": "Updated 5 November 2026",
+      "last_verified": "2026-11-25",
+      "note": "Renewal should ideally be filed about 3 months before current permit expiry."
+    },
+    {
+      "country": "Malta",
+      "name": "EU Immigration Portal — Student in Malta",
+      "url": "https://home-affairs.ec.europa.eu/policies/migration-and-asylum/eu-immigration-portal/student-malta_en",
+      "source_owner": "European Commission — DG Migration and Home Affairs",
+      "jurisdiction": "EU institutional overview — Malta",
+      "category": "Secondary overview of student eligibility, employment and post-study",
+      "source_type": "Official EU institutional guidance",
+      "verification_mode": "Last updated 1 April 2025; use national Identità pages for current detail",
+      "last_verified": "2026-11-25",
+      "note": "Older overview includes MQF distinctions and 20h work; national Identità pages are primary where wording differs."
     }
   ]
 }
