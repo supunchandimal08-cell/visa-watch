@@ -1,6 +1,18 @@
 name: VisaWatch Live Website Smoke Test
 
 on:
+  push:
+    branches: [main]
+    paths:
+      - "index.html"
+      - "client-guide.html"
+      - "country-rules-review.html"
+      - "dubai-budget.html"
+      - "country-budget.html"
+      - "training.html"
+      - "worker.js"
+      - "data/**"
+      - ".github/workflows/live-smoke-test.yml"
   workflow_dispatch:
 
 permissions:
