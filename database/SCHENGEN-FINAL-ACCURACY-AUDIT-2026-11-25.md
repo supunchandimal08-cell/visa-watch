@@ -94,3 +94,29 @@ This follow-up is a repository/data-integrity check, not a legal opinion or appr
 **Technical website deployment: passed for the above commit. Legal/content release: not yet approved.** Before presenting the Rules Library as verified advice, a designated senior reviewer must resolve the 11 country-verification items, review the 229 pending rules and the special-status entries, confirm the underlying official URLs and effective dates, and record reviewer/date/decision in the system. In particular, conflicting or time-sensitive items identified in the country review files (including Latvia funds/work/post-study, Lithuania insurance and Sri Lanka application route, Romania student work hours, Slovenia funds, and Croatia's 2026 amendment) require explicit source-level sign-off.
 
 **Client records: not released.** The company has no approved client-record system yet. The documented workflow remains a proposal; do not store real client data until management/privacy approval, authentication, database row-level security, role-based security tests, backup/restore tests, staff training and written release sign-off are complete.
+
+
+## 8. Targeted official-source recheck — 26 November 2026
+
+The following live official pages were reopened after the structural audit. These findings refine the unresolved-risk list; they do not approve the dashboard entries.
+
+### Romania — student work-hours discrepancy can be narrowed
+- The Romanian General Inspectorate for Immigration (IGI) current dedicated “Studies” page states that a foreign student holding temporary residence for study may work under an individual part-time employment contract for **up to 6 hours per day without a separate work permit**. It also describes the long-stay study visa, visa-stage funds at the national gross minimum salary for the visa period, EUR 30,000 medical insurance, residence-stage funds for at least six months, and a 9-month post-graduation job-search / employment / business-formalities extension.
+- Official page: https://igi.mai.gov.ro/en/studies/
+- The older alternate IGI English page still contains a 4-hour statement, so the country review should retain the discrepancy note and direct counsellors to recheck the current dedicated Studies page and current legal text at the client's filing date. Do not use the old 4-hour text as the current rule without explaining the conflict.
+
+### Latvia — current general residence subsistence table
+- PMLP's “The necessary subsistence” page is updated **16 March 2026** and says that from **1 April 2026** the general amount for cases not otherwise specified is **EUR 780/month**, with EUR 234/month for a minor child. The page sets out different amounts for employment and other categories.
+- Official page: https://www.pmlp.gov.lv/en/necessary-subsistence-0
+- This strengthens the basis for using EUR 780 as a cautious planning reference, but does **not by itself establish that this is the student-specific legal threshold or the required evidence period**. Keep the dashboard rule marked for official-country verification until PMLP confirms the student category and calculation in writing or the primary legal provision is mapped.
+
+### Slovenia — student-specific guidance remains lower and conflicts with general minimum-income figures
+- The Study in Slovenia student permit page currently displays **EUR 484.88/month** as the student financial-means figure and lists the student permit fee / application fee / card printing fee. Official page: https://studyinslovenia.si/live/visa-and-residence-permit/temporary-residence-permit-for-studies/
+- The broader Study in Slovenia guide still displays EUR 494.09/month in its FAQ. The two national student-information pages are inconsistent, and a higher general minimum-income amount should not automatically be substituted for a student-specific threshold without confirming the applicable statutory calculation. Keep funds unresolved and request written confirmation from the competent Administrative Unit / InfoTujci.
+
+### Lithuania — remain unresolved
+- The current review's key risks remain: Singapore as the listed overseas TRP / national visa service point for a Sri Lankan applicant (individual eligibility must be confirmed), different insurance figures on EU and university pages, and 2026 work-hour changes by Bachelor year and TRP issue date. No change to the release decision is justified from this targeted search alone.
+
+### Release effect
+
+The Romania evidence is now stronger for the 6-hour-per-day rule on the current IGI Studies page, but should still be signed off by a reviewer. Latvia's EUR 780 and Slovenia's student-specific EUR 484.88 are recorded as evidence, not universal guaranteed visa-fund requirements. All affected dashboard records remain in human-review status. No immigration rule is marked legally approved by this follow-up.
