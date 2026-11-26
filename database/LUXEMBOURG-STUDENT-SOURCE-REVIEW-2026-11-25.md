@@ -43,7 +43,7 @@ Luxembourg changed its first-residence procedure on 1 October 2026. New third-co
 - No employment is guaranteed.
 
 ## 6. Post-study route
-- Current Guichet page permits eligible students to apply for a 9-month residence permit to seek employment or create a business after successfully completing the final year of a Master's degree in Luxembourg or defending a doctoral thesis for research carried out in Luxembourg.
+- Current Guichet page permits eligible students to apply for a non-renewable 12-month residence permit to seek employment or create a business after successfully completing the final year of a Master's degree in Luxembourg or defending a doctoral thesis for research carried out in Luxembourg.
 - Application must be submitted before the student permit expires.
 - Evidence includes passport, recent Luxembourg criminal-record extract, Master's completion/doctoral thesis defence, comprehensive health insurance and sufficient resources at 80% of current REVIS plus return travel.
 - The current official page does not extend this graduate job-search route to ordinary Bachelor's graduates. Do not promise it to Bachelor-only clients.
