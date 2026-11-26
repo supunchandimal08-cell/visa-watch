@@ -41,3 +41,29 @@ The Embassy checklist instructs registration with the residents' registration of
 5. [SEM — FAQ Working](https://www.sem.admin.ch/en/faq-working)
 6. [SEM — FAQ Free Movement / residence without gainful activity](https://www.sem.admin.ch/en/faq-free-movement-of-persons)
 7. [Canton of Zurich — Students and interns](https://www.zh.ch/en/wirtschaft-arbeit/erwerbstaetigkeit-auslaender/studierende-und-praktikanten.html)
+
+
+## 9. Current Embassy / SEM source recheck — 26 November 2026
+
+### National visa and Sri Lankan submission route
+- The current Embassy of Switzerland in Sri Lanka national-visa landing page and jurisdiction page were rechecked. The jurisdiction page, published 31 August 2026, expressly says Sri Lanka residents submit national visa applications to the Embassy of Switzerland in Colombo (the Maldives are also covered).
+- The current national-visa document page, also published 31 August 2026, says the student checklist PDF is listed as updated 9 June 2026 and that the application is forwarded to the competent cantonal authority. The Embassy can issue the visa only after cantonal approval.
+- The actual student PDF is printed 02/2026. It requires personal attendance by prior appointment; three signed D forms; four identical photos; current and previous passport evidence; academic records, CV and employment history; a signed personal statement covering study rationale, future plans and intention to leave after studies; admission/registration confirmation and tuition-payment proof; sponsor undertaking and six months of bank movements/balance evidence; sponsor ID and relationship proof; language-test evidence; and official translations of Sinhala/Tamil/Dhivehi documents into English, German, French or Italian. Two A4 photocopy sets are required. Originals are shown and returned. The Embassy may request further documents. The listed visa processing fee is free of charge.
+- The printed checklist states passport validity of at least three months beyond intended departure, at least two blank pages and previous passport evidence (or police report if lost). Apply the checklist literally but reconfirm current version and individual exceptions before filing.
+
+### Processing-time discrepancy
+- The current Embassy national-visa web page (published 31 August 2026) gives an approximate total processing time of 8–12 weeks and warns that it may vary considerably by canton and application.
+- The student PDF printed 02/2026 instead says approximately three months for the cantonal decision and a further five days for visa issuance after authorisation.
+- Retain this as a source discrepancy; do not promise either timeline. Obtain the latest case-specific estimate from the Embassy and competent canton, and do not recommend non-refundable travel before visa issuance.
+
+### Funds, work and post-study route — rechecked
+- The Embassy checklist requires a written sponsor undertaking accepting responsibility for living and study costs, six months of bank-account movements and a bank balance letter, sponsor passport/ID, and relationship proof (including parents' birth certificate where parents sponsor). The checklist does not state a universal CHF minimum.
+- Federal SEM guidance requires sufficient resources to avoid reliance on social assistance. A single nationwide student amount was not found in the current official sources checked. The exact calculation period, amount, account ownership, sponsor structure and acceptable evidence remain canton-specific; never quote CHF 21,000 or CHF 30,000 as a universal legal threshold.
+- For non-EU/EFTA students at a university or university of applied sciences, the canton may authorise supplementary employment no earlier than six months after the course starts, generally up to 15 hours/week outside holidays. The university must confirm compatibility and that work will not delay completion; the employer submits the application. Written authorisation is required before work begins. Holiday rules and other institution categories must be confirmed with the canton.
+- Eligible third-country graduates of recognised Swiss higher-education institutions may have up to six months to seek work matching their qualifications. Employment is not automatic; SEM describes the overriding scientific or economic interest test. Do not extend this pathway to every private college or language-course graduate.
+- After entry, the printed checklist says registration with the residents' registration office within 14 days. Swiss health insurance is generally required for residence over three months, subject to statutory rules and recognised exemptions; confirm local registration and insurance with the canton/commune.
+
+### Dashboard quality controls
+- Updated Switzerland source notes to reflect the current Embassy national-visa pages and the printed checklist version.
+- Updated the processing-time rule to record the 8–12 week web-page estimate versus the PDF's three months plus five days, as an unresolved discrepancy.
+- All Switzerland rules remain **Pending human review**. No universal financial amount, job entitlement, fixed processing guarantee or legal approval is implied.
