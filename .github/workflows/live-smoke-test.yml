@@ -32,6 +32,10 @@ jobs:
           done
           curl --fail --silent --show-error --location --retry 5 --retry-delay 10 --retry-all-errors "$BASE/country-rules-review.html" -o /tmp/country-rules-review.html
           grep -Fqi "Country Rules Review" /tmp/country-rules-review.html
+          grep -Fqi "HUMAN REVIEW REQUIRED" /tmp/country-rules-review.html
+          for expected in "United Kingdom" "Canada" "Australia" "New Zealand" "UAE / DUBAI" "UNITED STATES" "EUROPE / SCHENGEN" "Japan" "South Korea" "China" "Malaysia" "Thailand" "Ireland" "France" "Germany" "Italy" "Spain" "Portugal" "Poland" "Romania" "Bulgaria" "Croatia" "Slovakia" "Slovenia" "Latvia" "Lithuania" "Estonia" "Finland" "Sweden" "Switzerland" "Iceland" "Before marking any country rule"; do
+            grep -Fqi "$expected" /tmp/country-rules-review.html || { echo "FAIL: country rules page missing $expected"; exit 1; }
+          done
           curl --fail --silent --show-error --location --retry 5 --retry-delay 10 --retry-all-errors "$BASE/training.html" -o /tmp/training.html
           grep -Fqi "Student Visa Counselling Foundations" /tmp/training.html
           grep -Fqi "Knowledge check" /tmp/training.html
