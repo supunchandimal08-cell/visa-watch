@@ -259,3 +259,15 @@ Poland now has a dedicated source review file. No Poland rule has been marked le
 - Fees: VFS Standard EUR 100 + EUR 100 service fee; Extended EUR 150 + EUR 150 service fee. Residence permit fee EUR 50. Recheck live fees.
 - One-time post-study route: up to 9 months for eligible MQF 5+ graduates, apply before student permit expiry; it is not a work permit.
 - All Malta rules remain Pending human review.
+
+
+## 17. Netherlands official-source recheck — 26 November 2026
+
+- 2026 IND study norm for university/HBO: EUR 1,130.77/month; 12-month arithmetic EUR 13,569.24. Tuition is excluded. MBO norm EUR 928.58/month. Amount changes annually.
+- Student residence route requires accredited full-time programme and an IND-recognised sponsor; institution submits the application and MVV where required. Minimum study progress generally 50% of annual credits. IND fee EUR 254 and 60-day decision period, subject to extensions.
+- Work: TWV required for employment; student chooses up to 16h/week during academic year or full-time June–August. Study-related internship exemption requires the prescribed agreement. No job guarantee.
+- Sri Lanka: if IND decision letter directs MVV collection in Sri Lanka, appointment at Dutch Embassy Colombo within 3 months; passport valid at least 6 months and 2 blank pages; sticker may take up to 10 working days.
+- Study-only students generally need private/home-country cover, not Dutch public basic insurance. Paid work triggers Dutch basic health-insurance obligation; self-employed students should seek SVB Wlz assessment.
+- Orientation year: eligible graduates/researchers may receive a non-renewable 1-year permit; detailed Dutch-degree / designated foreign-institution criteria and 3-year application window apply. It allows work without TWV.
+- IND says a student's institution can apply for family-member residence permits; family members under this student route are not allowed to work. Do not promise automatic family approval.
+- All Netherlands rules remain Pending human review.
