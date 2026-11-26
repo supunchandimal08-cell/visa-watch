@@ -68,3 +68,12 @@ For non-EU/EEA applicants who intend to study in Finland. A stay of more than 90
 - Finland Abroad — 2026 service fees (Sri Lanka): https://finlandabroad.fi/web/lka/types-of-passport-and-processing-fees
 
 Review date: 25 November 2026. Confirm current application location, fees, insurance policy, funding evidence and programme eligibility before counselling. Current source refresh: 2026 Finland Abroad fee table checked 25 November 2026; fee amounts are not guaranteed beyond the published schedule.
+
+## 8. Official Migri income-page recheck — 26 November 2026
+- Rechecked the live Migri English income requirement page on 26 November 2026. It continues to state EUR 800/month, or EUR 9,600 for a stay of one year or longer; for a shorter stay, EUR 800 per month.
+- The same page explicitly sets lower amounts only where the educational institution provides support: EUR 400/month with free accommodation, and EUR 270/month with both free accommodation and free meals. VisaWatch now records these as conditional exceptions and requires written institutional confirmation.
+- The page requires the student's own personal-use bank account and a six-month statement. A private sponsorship agreement/promise alone is not accepted. Where parents or relatives transfer funds, Migri may request evidence of the origin, including sponsor bank statements or tax documents.
+- Unpaid first-year tuition must be covered separately at application; funds needed for living expenses cannot also be counted for tuition. Evidenced grants/scholarships for living costs may reduce the personal funds requirement.
+- Dashboard source `fi2` and the Finland living-funds rule were refreshed to reflect these points. Rule status remains **Pending human review**; this source check is not legal approval.
+
+Official source rechecked: https://migri.fi/en/income-requirement-for-students
