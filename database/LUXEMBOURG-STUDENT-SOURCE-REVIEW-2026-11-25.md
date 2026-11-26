@@ -84,3 +84,40 @@ The current student Visa D page does not itself establish an automatic spouse/ch
 
 ---
 Automated monitoring detects page changes only; it does not confirm legal interpretation. All rules remain Pending human review until approved by a qualified reviewer.
+
+
+## 10. Critical official-source corrections — 26 November 2026
+
+This section supersedes conflicting details in the 25 November draft above.
+
+### Funds — corrected REVIS arithmetic; threshold still needs Immigration confirmation
+- The Guichet student Visa D page requires monthly resources of at least 80% of current REVIS plus return travel. It does not publish a single fixed EUR student threshold.
+- The official National Solidarity Fund REVIS table at index 992.24 (June 2026) lists a maximum gross inclusion allowance for a one-adult household of **EUR 1,944.40/month**, comprising EUR 972.20 adult base plus EUR 972.20 common household expense component. 80% of that one-adult total is **EUR 1,555.52/month**.
+- The previous EUR 777.76 calculation used only 80% of the adult base component and should not be used as the full single-adult REVIS reference. However, the student Visa D page does not expressly say which household composition/REVIS component the Immigration Directorate uses for a foreign student's calculation. Treat EUR 1,555.52 as a transparent arithmetic planning reference only and obtain written confirmation of the applicable calculation before quoting a legal minimum to clients.
+- Sources: FNS https://fns.public.lu/en/revis/montant.html ; IGSS June 2026 social parameters https://igss.gouvernement.lu/dam-assets/publications/param%C3%A8tres-sociaux/2026/par-soc-202606.pdf ; Guichet student page.
+
+### Sri Lanka national Visa D — fee and processing-time scope
+- The Luxembourg Embassy in New Delhi's page (updated 23 November 2026) says Sri Lankan long-stay D applications are processed by the Embassy in New Delhi and must be couriered through the Honorary Consulate in Colombo. The page lists a EUR 50 fee under the new Visa D process.
+- The same Embassy page's 25–30 working-day recommendation is placed in the section for applicants who submitted an AST application before 1 October 2026. It must not be represented as a current new-procedure processing guarantee. For new applications, contact the Embassy/Honorary Consulate for the exact checklist, courier and payment process before sending originals.
+- Swiss Embassy Colombo handles Luxembourg short-stay representation, not the Sri Lankan long-stay D-visa decision.
+
+### Post-arrival formalities — precise 2026 deadlines
+- The first residence card page was updated 1 October 2026 (French page; English translation not yet available). It states that the student must declare arrival at the commune within **3 days** of arrival, with passport and valid Visa D; legal address proof is required.
+- Complete the medical examination and tuberculosis screening as soon as possible. The first student residence permit application in the same category must be filed **no later than 3 months before Visa D expiry**. The page requires full passport copy, commune arrival declaration and suitable accommodation proof unless already submitted with the visa application.
+- After approval, pay **EUR 80** for the residence card, attend biometric capture and collect the card about one week later. This is separate from the EUR 50 Visa D fee.
+- The Guichet medical page confirms TB screening and that the certificate is required before the residence application can be processed.
+
+### Work during study
+- The current 1 October 2026 Guichet student Visa D page authorises paid work up to an average of 15 hours per week over a month, outside study time. The limit does not apply to paid work during school holidays, doctoral research at the higher-education institution/accredited research institute, or University of Luxembourg assistant contracts.
+- The employer must file a written declaration with the General Department of Immigration before hiring or changing the contract and must notify the start of the working relationship within 3 working days. No job is guaranteed.
+- An older EU Immigration Portal summary states a restriction for Bachelor/BTS students during the first two semesters. The current Guichet page does not repeat that restriction. Keep the discrepancy flagged and request written confirmation for first-year Bachelor cases rather than applying the older rule as current law.
+
+### Post-study — 12 months, not 9
+- The current Guichet post-study page (updated 1 October 2026) grants eligible Master's graduates who complete the final year in Luxembourg and doctoral graduates who successfully defend a Luxembourg research thesis access to a **non-renewable 12-month** job-search/business-creation residence permit.
+- Application deadline: at least **30 days before** the student/researcher permit expires. Requirements include passport, Luxembourg criminal-record extract less than 3 months old, Master's/Doctorate completion evidence, comprehensive health insurance covering all risks in Luxembourg, and resources of at least 80% REVIS plus return travel.
+- The current page does not list ordinary Bachelor's graduates as eligible. Do not promise this route to Bachelor-only graduates.
+- A separate renewal-page provision describes a simplified direct salaried/self-employed permit route for a graduate who completed a Luxembourg university course of at least 5 years, with the proposed work directly related to academic training and additional employer/contract or business-plan evidence. This is distinct from the 12-month job-search permit; confirm the exact qualification and legal basis before counselling.
+
+### Renewal
+- Student residence permit renewal must be filed at least **2 months before expiry**. The renewal checklist includes full passport, enrolment, financial evidence including six-month bank statements/parent solvency or Luxembourg guarantor, and recent Luxembourg criminal-record extract. The card issuance fee is EUR 80.
+- All Luxembourg rules remain **Pending human review**.
