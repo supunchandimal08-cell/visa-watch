@@ -55,3 +55,28 @@ An eligible graduate/researcher may apply for a one-year orientation-year reside
 - NetherlandsWorldwide: https://www.netherlandsworldwide.nl/
 
 Review date: 25 November 2026. Recheck all amounts, fees, sponsor status, procedures and thresholds at application date.
+
+## 7. Sri Lanka MVV and arrival procedure — 26 November 2026
+- For the higher-education student route, the recognised educational institution submits the residence permit application and, where required, the MVV application to the IND. The student should not assume they can self-file a separate student MVV application outside the sponsor process.
+- If the positive IND decision letter says the MVV sticker can be collected in Sri Lanka, the student books an appointment at the Dutch Embassy in Colombo. NetherlandsWorldwide states the appointment must be made within **3 months** after the IND positive decision.
+- Bring passport, passport photograph, copy of the IND approval/decision letter or the institution's email containing the V-number, and all documents specified in the IND letter. Passport must be valid for at least **6 months** from appointment and have at least **2 blank pages**. The Embassy may take up to **10 working days** to return the passport with the MVV sticker.
+- The MVV sticker is the entry document; the student residence card is collected separately after arrival when the IND notifies the institution/student.
+- Official Sri Lanka process: https://www.netherlandsworldwide.nl/visa-the-netherlands/mvv-long-stay/apply-sri-lanka
+
+## 8. Health insurance — study-only versus employment
+- Study in NL guidance says a student who is in the Netherlands for study purposes only generally cannot take out Dutch public basic health insurance; the student needs suitable private or home-country medical cover valid in the Netherlands.
+- Once the student takes a paid job, Dutch basic health insurance is required; international student insurance is not sufficient while employed. For self-employment, the student should ask the Sociale Verzekeringsbank (SVB) for an assessment of their Wlz insurance position.
+- Paid internships can have a separate insurance result depending on remuneration and social-insurance status. Confirm the student's exact position with SVB before work starts.
+- Official guidance: https://www.studyinnl.org/plan-your-stay/healthcare-insurance ; Government.nl https://www.government.nl/themes/migration-and-travel/immigration-to-the-netherlands/question-and-answer/health-insurance/when-do-i-need-to-take-out-health-insurance-if-i-come-to-live-in-the-netherlands
+
+## 9. Family members
+- The IND student residence page says the recognised educational institution can also submit residence applications for a student's family members. The family members need their own residence permissions and must meet the applicable requirements; the student remains responsible for their lawful stay.
+- The IND page states that family members under the student route are **not allowed to work**. Do not promise automatic approval or work rights. Confirm each dependant's requirements and financial evidence with the institution/IND.
+
+## 10. Reconfirmed 2026 financial and study conditions
+- The IND 2026 study norm for university/HBO is **EUR 1,130.77/month**, or **EUR 13,569.24 for 12 months**. The amount excludes tuition. The MBO amount is EUR 928.58/month; do not use it for university/HBO applicants.
+- The study norm is updated annually. The student must prove the amount for 12 months and repeat the income evidence each study year as required by the institution.
+- For university/HBO, the study permit requires full-time accredited programme, IND-recognised sponsor and at least **50% of annual credits** (subject to the institution's assessment of valid personal circumstances).
+- The IND lists the student application fee at **EUR 254** and a **60-day** decision period, which can be extended if the application is incomplete.
+- Student work: up to **16 hours/week** during the year or full-time in June, July and August, not both; employer must obtain a TWV. A qualifying study-related internship can be exempt when the required agreement is signed by student, institution and employer.
+- The orientation-year permit is valid for one year, cannot be extended, and allows work without a TWV. Eligibility must be checked under the IND's detailed criteria and application window (generally within 3 years of qualifying graduation/research).
