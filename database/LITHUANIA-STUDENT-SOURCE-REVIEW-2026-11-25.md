@@ -85,3 +85,21 @@ A person who entered on a Lithuanian/other Schengen short-stay visa or another c
 
 ---
 Automated monitoring detects page changes only; it does not confirm legal interpretation. Every rule remains Pending human review until a qualified reviewer approves it.
+
+## 10. Official-source recheck and dashboard reference correction — 26 November 2026
+
+- Rechecked the Migration Department's 10 September 2026 notice: first- and second-year Bachelor students whose study TRPs were issued after 22 May 2026 may work no more than 20 hours/week; institution-set holidays and curricular practice are excluded. Third-/fourth-year Bachelor, Master's, doctoral and medical-residency students may work up to 40 hours/week. The notice also states an eight-year combined study-TRP duration cap; verify the exact statutory transition and scope against the consolidated law for the individual permit.
+- Rechecked the Migration Department's notice effective 1 November 2026: an in-country first-cycle Bachelor study TRP application can be lodged directly only where the applicant has one of the specified bases (valid Lithuanian TRP, Lithuanian national D visa, another Schengen/EU residence permit, or lawful visa-free stay). A person relying only on a Lithuanian/other Schengen short-stay visa or another country's national visa must use an eligible external service provider abroad. Do not generalise this Bachelor-specific rule to Master's/doctoral studies or other education grounds.
+- Rechecked the overseas-services booking instructions: appointment slots are booked exclusively through MIGRIS after the application shows “Submitted to the external service provider”. Sri Lanka long-stay TRP/national visa VFS closure remains in force from 1 March 2024; Singapore is listed as a service location, but eligibility for a Sri Lankan applicant must be confirmed before travel or payment.
+- Corrected the dashboard source registry: the previous lt2, lt4, lt5, lt7 and lt8 URLs were incorrectly pointing to the EU Immigration Portal. Replaced them with the official Migration Department / Vilnius University pages; added missing lt3 (Sri Lanka closure) and lt6 (2026 legal amendments) source records. Corrected the source mapping so post-study points to lt7 and the 1 November filing change points to lt8. EU portal source lt1 remains only a dated secondary overview and is explicitly labelled outdated for current work-hour advice.
+- All Lithuania rules remain **Pending human review**. The dashboard source references were checked programmatically for resolution after these changes; no unresolved source IDs or duplicate source IDs were found in the current registry.
+
+Official references rechecked 26 November 2026:
+1. Migration Department, student work hours: https://migracija.lrv.lt/lt/naujienos/migracijos-departamentas-primena-bakalauro-studiju-1-ir-2-kurso-uzsienieciai-studentai-dirbti-gali-20-valandu-per-savaite-J3b/
+2. Migration Department, 1 November in-country filing change: https://migracija.lrv.lt/lt/naujienos/keiciasi-prasymu-isduoti-leidima-laikinai-gyventi-darbo-ir-studiju-pagrindais-priemimo-tvarka-QJL/
+3. Migration Department, MIGRIS overseas appointment process: https://migracija.lrv.lt/en/structure-and-contacts/information-for-visitors/services-for-persons-abroad/
+4. Migration Department, Singapore service location: https://migracija.lrv.lt/en/structure-and-contacts/information-for-visitors/services-for-persons-abroad/temporary-residence-permit-and-national-visa-services/republic-of-singapore-1/
+5. Migration Department, Sri Lanka long-stay centre closure: https://migracija.lrv.lt/en/news/it-will-not-be-possible-to-apply-for-temporary-residence-permits-in-lebanon-jordan-and-sri-lanka-india-only-in-exceptional-cases/
+6. Migration Department, 2026 legal amendments summary: https://migracija.lrv.lt/lt/naujienos/aktualiausi-uzsienieciu-teises-padieties-istatymo-pasikeitimai-mGl/
+7. Migration Department, graduate work/job-search route: https://migracija.lrv.lt/en/news/after-completing-their-studies-foreigners-will-be-able-not-only-to-look-for-a-job-but-also-to-start-working/
+8. Vilnius University, visa and residence permit guidance: https://www.vu.lt/en/admissions/visa-and-residence-permit
