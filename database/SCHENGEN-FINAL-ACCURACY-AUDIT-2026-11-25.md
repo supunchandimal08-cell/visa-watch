@@ -154,3 +154,18 @@ Official source URLs are recorded in the Poland review document. All Poland entr
 
 ### Release effect
 Poland now has a dedicated source review file. No Poland rule has been marked legally approved, and no dashboard change is claimed in this section. This is a research/documentation improvement only. Website validation and Pages deployment status must be checked for the latest repository commit before describing any new content as live.
+
+
+## 9. Portugal targeted official-source recheck — 26 November 2026
+
+- Existing Portugal review file was re-opened and checked against current AIMA, Diário da República and gov.pt pages.
+- AIMA's means-of-subsistence page still displays the 2025 minimum wage (€870). The 2026 statutory minimum wage is €920 under Decreto-Lei n.º 139/2025; use the latter for 2026 calculations and flag AIMA's annual figure as stale.
+- Portaria n.º 1563/2007 Article 5(4) requires means for 12 months (or exchange-programme duration), calculated by reference to minimum wage. The amount may be reduced by half where accommodation is provided, or up to 90% where both accommodation and food are provided, subject to acceptable evidence and assessment.
+- AIMA Article 91 confirms higher-education permit requirements, three-year validity (or programme duration if shorter), and work rights for the relevant permit category under Article 97. The current consolidated Article 97 does not set a general weekly-hour cap in paragraph 1.
+- Lei n.º 62/2026 is effective 11 September 2026 and revoked Article 91(4). Do not advise the former in-country higher-education conversion route without a prior residence visa.
+- gov.pt's D4 page warns it may be outdated; use current MNE / Embassy instructions for filing. For Sri Lankan applicants, confirm New Delhi filing and VFS residence eligibility directly before booking or legalising originals.
+- Dashboard source pt11 now records the primary Portaria legal text. Source pt2 explicitly warns that AIMA's page still displays the 2025 wage figure. Existing Portugal rules remain Pending human review.
+
+### Portugal release status
+
+**Research refresh completed; legal approval not granted.** The 2026 funds benchmark is €11,040 for one adult over 12 months before any evidence-based reduction; it is a calculation from the statutory €920 monthly minimum wage, not a universally published fixed bank-balance requirement. The Article 91 work rule must not be extended to secondary students, unpaid trainees or volunteers. Embassy/VFS filing eligibility for Sri Lankan residents remains a live operational confirmation.
