@@ -246,3 +246,16 @@ Poland now has a dedicated source review file. No Poland rule has been marked le
 
 ### Medical screening source
 - The current Guichet medical page confirms that third-country nationals staying over 3 months generally need a medical examination and tuberculosis screening; the health certificate is required before the residence-permit application can be processed. Official page: https://guichet.public.lu/en/citoyens/immigration/vivre/luxembourg/autres/controle-medical.html
+
+
+## 16. Malta official-source recheck — 26 November 2026
+
+- Separate the visa-stage Student National Visa checklist funds (75% of national minimum wage per study month; 2026 arithmetic reference EUR 745.68/month) from the post-arrival study residence FAQ funds (60% of annual minimum wage or poverty line, whichever higher, adjusted for household and duration). The exact poverty-line amount and case calculation require Identità confirmation.
+- Visa-stage MQF 5+ travel insurance in the August 2025 checklist is at least EUR 30,000 for 91 consecutive days; the current residence FAQ describes full-study-period private insurance of at least EUR 100,000, with University of Malta/MCAST/ITS exemption. Do not conflate these.
+- Residence accommodation evidence can include registered lease/Housing Authority approval and a Lease Agreement Attestation Form; institution accommodation/free host evidence differs.
+- Current Identità Expatriates Unit page confirms full-time MQRIC-recognised MQF 5+ qualification at MFHEA-licensed institution; EUR 50 study residence application fee.
+- Current Identità work page: qualifying MQF 5+ full-time higher-education students may work up to 20 hours/week from first year after residence permit and Jobsplus licence. Other >90-day courses not under S.L. 217.22 may be considered only after 3 months, subject to Jobsplus conditions and sectors.
+- Timing: Identità FAQ says up to 8 weeks and apply at least 8 weeks before course; VFS Sri Lanka says minimum 6–8 weeks; August 2025 checklist says 9 weeks. Use 9 weeks as conservative planning, not a guarantee.
+- Fees: VFS Standard EUR 100 + EUR 100 service fee; Extended EUR 150 + EUR 150 service fee. Residence permit fee EUR 50. Recheck live fees.
+- One-time post-study route: up to 9 months for eligible MQF 5+ graduates, apply before student permit expiry; it is not a work permit.
+- All Malta rules remain Pending human review.
