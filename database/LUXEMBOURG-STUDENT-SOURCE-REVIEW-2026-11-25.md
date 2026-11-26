@@ -121,3 +121,12 @@ This section supersedes conflicting details in the 25 November draft above.
 ### Renewal
 - Student residence permit renewal must be filed at least **2 months before expiry**. The renewal checklist includes full passport, enrolment, financial evidence including six-month bank statements/parent solvency or Luxembourg guarantor, and recent Luxembourg criminal-record extract. The card issuance fee is EUR 80.
 - All Luxembourg rules remain **Pending human review**.
+
+
+### Family reunification — do not state a blanket refusal or entitlement
+- The current Guichet family Visa D page (updated 1 October 2026) lists a spouse/registered partner aged over 18 and unmarried children under 18 as potential family-reunification applicants joining a third-country sponsor. The sponsor must show stable and sufficient resources (assessed against the average monthly social minimum wage over 12 months), suitable accommodation and health-insurance coverage for the family.
+- The student Visa D page does not expressly confirm whether every student permit holder may sponsor dependants or whether additional conditions apply. The correct counselling status is **case-specific / unconfirmed**, not "automatic entitlement" and not a categorical "not eligible". Obtain written confirmation from Immigration before promising spouse/child applications.
+- Official page: https://guichet.public.lu/en/citoyens/immigration/vivre/non-luxembourg/immigration/pays-tiers/membre-famille/regroupement-familial.html
+
+### Medical screening source
+- The current Guichet medical page confirms that third-country nationals staying over 3 months generally need a medical examination and tuberculosis screening; the health certificate is required before the residence-permit application can be processed. Official page: https://guichet.public.lu/en/citoyens/immigration/vivre/luxembourg/autres/controle-medical.html
