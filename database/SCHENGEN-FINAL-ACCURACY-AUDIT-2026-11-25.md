@@ -213,3 +213,15 @@ Poland now has a dedicated source review file. No Poland rule has been marked le
 - The checklist contains no universal CHF amount. Federal and cantonal sources require sufficient means but the amount/evidence must be confirmed for the intended canton. Do not quote CHF 21,000/30,000 as a national student threshold.
 - Non-EU/EFTA university/UAS students may seek cantonal work approval no earlier than six months after course start, generally max 15 hours/week outside holidays, with university compatibility confirmation and employer application. Work is not automatic. Eligible Swiss higher-education graduates may have up to six months to seek qualified work, subject to the overriding scientific/economic interest test.
 - All Switzerland rules remain **Pending human review**; no job, visa or processing outcome is guaranteed.
+
+
+## 14. Liechtenstein official-source recheck — 26 November 2026
+
+- Rechecked the Liechtenstein Migration and Passport Office study L-permit page, general third-country residence page, University of Liechtenstein FAQ/housing guidance and the joint 2026 Swiss Embassy Colombo student D-visa checklist.
+- The Article 19 study L-permit is expressly described as available to all nationalities; max 12 months at a time, renewable before expiry if studies continue. Full application due at least 14 days before study/training starts; visa-required applicants should apply earlier. Third-country applicants must wait abroad for visa assurance/issuance.
+- The general third-country residence page's discretionary permit policy must not be misrepresented as a student L-permit quota. The special Article 19 route must be assessed on its own requirements and the exact programme.
+- Work: non-EEA/non-Swiss students at the University of Liechtenstein may work up to 35% only where work is study-related, and all employment requires prior authorisation. The University says the employer submits the employment-commencement request. Do not promise unrestricted holiday work.
+- University admission as a guest student is insufficient for residence. Published non-EU tuition is CHF 1,250/semester for degree programmes; estimated living costs CHF 1,500/month; dormitory rooms around CHF 400–600/month. These are budgeting references, not a statutory maintenance amount. University CHF 3,000 deposit/bank guarantee is a separate institution arrangement, not a government fee.
+- Joint Colombo D-visa checklist requires three D forms, four photos, academic/CV evidence, personal study/future/departure letter, admission and tuition payment, sponsor undertaking and six-month bank evidence, sponsor ID/relationship, language-test proof (with stated scholarship exception), family-bond evidence, two A4 copy sets and official translations.
+- CHF 30/day is a short-stay student border reference only, not a long-stay L-permit funds rule. No official universal student maintenance amount was located.
+- All Liechtenstein rules remain **Pending human review**; do not promise visa, work, or post-study outcomes.
