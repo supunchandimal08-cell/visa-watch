@@ -75,3 +75,22 @@ The 29 Schengen countries are 25 EU countries — Austria, Belgium, Bulgaria, Cr
 
 ---
 This is an operational data-quality audit, not legal approval. National legal sources and Sri Lanka consular instructions must be rechecked at each client's intended filing date.
+
+
+## 7. Follow-up structural verification — 26 November 2026
+
+This follow-up is a repository/data-integrity check, not a legal opinion or approval of immigration rules.
+
+- The current `index.html` contains **279 unique source IDs**. No duplicate IDs were found.
+- The dashboard contains **244 rule objects** across **35 country/jurisdiction labels** (including the Europe / Schengen overview and Ireland, which is not in Schengen).
+- The 244 rule objects use **153 distinct primary source references**; every referenced ID resolves to a source ID present in the deployed HTML. No missing primary source references were found.
+- Rule-status labels currently include: **229 Pending human review**, **11 Needs official-country verification**, **2 Country-specific**, **1 Scope check**, and **1 Proposed — not yet in force**. The remaining entries use computed/derived status labels. Do not convert any of these to approved merely because the structural validation passes.
+- `data/sources.json` contains **20 unique HTTPS monitoring URLs**. This is the monitor list, not the complete Rules Library source register. This check confirms URL shape and uniqueness, not live reachability or legal currency.
+- The repository contains country review documents for the main destinations and Schengen countries, plus Ireland and a separate USA F-1 review. The detailed review files are supporting research records; they do not replace a qualified human review of each rule.
+- GitHub Actions for commit `75a32ed8f5f741fe27e07cd763199f7893048569` completed successfully: Website Validation, Daily Monitoring, and GitHub Pages build/deployment. This confirms those workflows completed for that commit; it does not certify legal accuracy or the separate Cloudflare Worker deployment.
+
+### Release decision
+
+**Technical website deployment: passed for the above commit. Legal/content release: not yet approved.** Before presenting the Rules Library as verified advice, a designated senior reviewer must resolve the 11 country-verification items, review the 229 pending rules and the special-status entries, confirm the underlying official URLs and effective dates, and record reviewer/date/decision in the system. In particular, conflicting or time-sensitive items identified in the country review files (including Latvia funds/work/post-study, Lithuania insurance and Sri Lanka application route, Romania student work hours, Slovenia funds, and Croatia's 2026 amendment) require explicit source-level sign-off.
+
+**Client records: not released.** The company has no approved client-record system yet. The documented workflow remains a proposal; do not store real client data until management/privacy approval, authentication, database row-level security, role-based security tests, backup/restore tests, staff training and written release sign-off are complete.
