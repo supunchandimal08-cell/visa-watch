@@ -47,7 +47,7 @@ Sri Lankan citizens seeking full-time higher education in Norway for more than 9
 - UDI fee for first-time study permit for an applicant over 18: NOK 5,400. Under 18: NOK 2,700. Confirm the live fee page before payment.
 - Register the application online in UDI's Application Portal and pay the UDI fee before the appointment. Print and sign the application summary/signature letter and attach the payment receipt.
 - For Sri Lanka, applications are lodged at Norway Visa Application Centre (VFS Global), Browns Capital Building, 3rd Floor, No. 19 Dudley Senanayake Mawatha, Colombo 08. Appointment required. VFS forwards the application to the Norwegian Embassy in New Delhi for screening/forwarding to UDI.
-- Published VFS charges on Norway in Sri Lanka page: EUR 17 service fee (approx. LKR 6,550 as of July 2026) plus EUR 5.50 courier fee. Fees may change; check live VFS before booking.
+- The Norway in Sri Lanka mission page still lists older charges of EUR 17 service fee plus EUR 5.50 courier (July 2026). The current VFS Norway Sri Lanka page lists EUR 20 service fee (LKR 7,080), EUR 18 passport-resubmission fee if requested, and LKR 4,950 mandated fee for Sri Lankan passport holders. This is a source discrepancy; verify exact live charges at booking and do not add optional passport resubmission automatically.
 - Applicant must be a Sri Lankan citizen or hold a Sri Lankan residence permit. The Norway in Sri Lanka page also states a Sri Lankan residence permit must have been held for at least six months before applying for a Schengen permit; confirm applicability if applicant is not a Sri Lankan citizen.
 - Gather the UDI-generated checklist. Common documents include passport, signed cover letter, admission confirmation, proof of accommodation, funds evidence, tuition payment/exemption evidence and any institution-specific forms. Additional documents/interview may be requested.
 - Do not travel before decision if an entry visa is required. After approval, the applicant may need an entry visa sticker to travel; follow the Embassy/UDI instruction.
@@ -84,3 +84,26 @@ Review date: 25 November 2026. Verify current UDI requirements, GSU, course accr
 - Added UDI source record `no7` and one new rule covering the post-arrival police appointment for the residence card.
 - Norway rules now total 7; all remain **Pending human review**.
 - Existing core details rechecked: 2026/27 student funds NOK 170,368/year; work up to 20 hours/week during term and full-time during holidays after permit grant; UDI fee NOK 5,400 for adults; VFS Colombo submission and New Delhi/UDI processing; eligible graduate job-seeker route up to one year with separate funds NOK 28,448/month.
+
+
+## 11. Official-source recheck — 26 November 2026
+
+### 2026/2027 university funds and tuition
+- UDI's Sri Lanka-personalised study permit page currently states **NOK 15,488/month / NOK 170,368/year** for university/university college study. One semester is NOK 77,440 (autumn) or NOK 92,928 (spring). Funds can be grants, loans, own funds in a Norwegian bank account or an institution deposit account; a confirmed part-time job offer may be counted where UDI allows it, but never budget expected or hoped-for work income.
+- The Study in Norway national portal confirms the 2026/27 living-cost amount, the approximate NOK 1,000 semester fee, and that non-EU/EEA/Swiss degree-seeking students normally pay tuition fees that vary by institution and programme. Exchange students, doctoral candidates and specified scholarship/exchange schemes may be exempt at public institutions.
+- The personalised UDI page still contains an old reference to tuition fees for academic year 2025/26. For a 2026/27 application, obtain the current invoice or written tuition exemption from the institution and keep tuition separate from living funds.
+
+### Application fee and VFS fee discrepancy
+- UDI fee page: study permit adult applicant NOK 5,400; under-18 applicant NOK 2,700.
+- Norway in Sri Lanka official page still shows EUR 17 VFS service fee plus EUR 5.50 courier (July 2026). The current VFS Norway Sri Lanka page lists EUR 20 service fee (shown as LKR 7,080), EUR 18 passport resubmission fee if requested, and LKR 4,950 mandated fee for Sri Lankan passport holders.
+- Treat the VFS fee discrepancy as unresolved and confirm the live checkout amount before payment. Do not automatically add optional passport resubmission fee if it is not requested.
+
+### Post-study job seeker route
+- UDI's current job-seeker page confirms eligible graduates who completed their education in Norway on a qualifying study permit must apply before the current permit expires; UDI advises at least one month before expiry.
+- 2026 requirement is NOK 28,448/month or NOK 341,373/year. Funds must be the applicant's own and are usually required in a Norwegian bank account. A qualifying job offer/income may be included under UDI's rules.
+- Maximum permit duration is one year; the graduate may work full-time or part-time while seeking relevant skilled employment, but cannot be self-employed or run a business on this permit.
+
+### Sri Lanka route and after-arrival appointment
+- Sri Lankan residence-permit applications are submitted at VFS Colombo and forwarded to the Norwegian Embassy in New Delhi, which screens/forwards to UDI. Applicants should use the current UDI checklist generated for their own case.
+- After approval, a student who needs an entry visa must wait for the decision and entry sticker. On arrival, book the police appointment for the residence card, normally within the first 7 days or the first available appointment, following the decision letter.
+- All Norway rules remain **Pending human review**.
