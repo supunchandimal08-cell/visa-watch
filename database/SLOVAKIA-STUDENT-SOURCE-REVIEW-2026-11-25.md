@@ -56,3 +56,24 @@ The Slovak MFA foreign-student page states that the Foreign Police decides on a 
 10. European Commission — Student in Slovakia: https://home-affairs.ec.europa.eu/policies/migration-and-asylum/eu-immigration-portal/student-slovakia_en
 
 **Limitations:** Embassy instructions and application jurisdiction can change. The Colombo Italian representation applies to short-stay Schengen visa issuance only on the cited page; it must not be assumed to cover Slovak national D visas or temporary residence. Financial figures are indexed annually; check the effective amount on the filing date.
+
+
+
+## 8. Targeted official-source recheck — 26 November 2026
+
+- Reopened the Slovak MFA residence guidance (updated 16 August 2026). It confirms Section 24 study temporary residence, a maximum six-year duration, official Slovak translations for foreign documents, criminal-record extracts for nationality and qualifying recent residence countries, and the general financial-means rule. For university students, the current study-specific checklist does not require accommodation evidence; the general accommodation rule should not be mechanically copied into the university-student checklist. Secondary-school students have separate accommodation and age/course requirements.
+- Rechecked the Ministry of Labour official subsistence-minimum table effective 1 July 2026: EUR 295.22/month for one adult. The general residence means formula is the amount for each month of stay, capped at 12 months in advance for stays over one year; the one-adult 12-month figure is EUR 3,542.64. This is a statutory residence-means test, not a complete cost-of-living estimate or tuition amount.
+- Reopened the Embassy of Slovakia in New Delhi current National D visa for Study page. For university study, the checklist specifies EUR 90, passport valid at least 90 days beyond intended departure, the national visa and temporary-residence forms, Slovak-language admission decision, criminal-record extract(s) with legalisation and Slovak translation, flight reservation and health insurance from entry until visa expiry (the page specifies 120 days). The university checklist does not list the EUR 56/day amount; that figure is expressly for language-school applications. Do not transfer it to university applicants.
+- New operational warning from the Embassy appointment notice updated 10 August 2026 for academic year 2025/2026: the admitted institution must submit the appointment request; students and agents cannot request it directly. After submission at BLS/VFS, the applicant must attend a mandatory personal interview at the Embassy the following day. The 2025/2026 notice is time-bound; the 2026/2027 schedule must be confirmed before lodging. RegVIS/institution registration does not guarantee a specific appointment.
+- New Delhi Embassy residence instructions explicitly say Sri Lankan documents must be legalised by the relevant Sri Lankan Ministry of Foreign Affairs and then superlegalised by the Slovak Embassy in New Delhi before other steps. The same page lists Italy's Colombo role only for short-stay Schengen visa representation; it is not proof that Italy accepts Slovak national D visas or residence applications.
+- Slovak MFA student guidance says university students with study-purpose temporary residence may work up to 80 hours per month without an employment permit; work beyond that requires the relevant employment-purpose route. The European Commission describes the university limit as 20 hours per week and other student categories as 10 hours per week. Keep category distinctions and do not promise employment or income.
+- Official guidance continues to state a nine-month extension for eligible university graduates seeking work or starting a business, subject to proof of completion and financial coverage. This is not a job guarantee.
+
+### Dashboard action
+- Added source sk10 for the New Delhi academic-year appointment instructions.
+- Updated source sk3 to cross-reference the appointment notice and mandatory interview requirement.
+- Added a Slovakia rule for institution-controlled appointment requests and the mandatory next-day Embassy interview. All Slovakia rules remain **Pending human review**.
+
+### Outstanding operational verification
+- Obtain the Embassy 2026/2027 appointment calendar and confirm whether the 2025/2026 email request procedure remains in force.
+- Confirm acceptance of Sri Lankan applicants and the current BLS/VFS centre, document legalisation chain, fee/payment method and interview scheduling directly with the Embassy before taking client fees or booking travel.
