@@ -44,7 +44,7 @@
       <p style="font-size:12px;color:var(--muted)">Sign in with your team account to save and view records shared through the secured database. The publishable key is public; never enter a secret/service_role key here.</p>
       <div class="filterbar"><input id="vwProjectUrl" type="url" placeholder="Supabase Project URL (https://....supabase.co)" autocomplete="url"><input id="vwPublishableKey" type="password" placeholder="Supabase publishable key (sb_publishable_…)" autocomplete="off"></div>
       <div class="filterbar"><input id="vwEmail" type="email" placeholder="Work email" autocomplete="username"><input id="vwPassword" type="password" placeholder="Password" autocomplete="current-password"></div>
-      <div style="display:flex;gap:8px;flex-wrap:wrap"><button class="smallbtn" id="vwConnect" type="button">Connect project</button><button class="smallbtn" id="vwSignIn" type="button">Sign in</button><button class="smallbtn" id="vwSignUp" type="button">Create account</button><button class="smallbtn" id="vwSignOut" type="button">Sign out</button><button class="smallbtn" id="vwFillDemo" type="button">Fill demo test fields</button><button class="smallbtn" id="vwSaveShared" type="button">Save current record to shared database</button><button class="smallbtn" id="vwLoadShared" type="button">Refresh shared records</button></div>
+      <div style="display:flex;gap:8px;flex-wrap:wrap"><button class="smallbtn" id="vwConnect" type="button">Connect project</button><button class="smallbtn" id="vwSignIn" type="button">Sign in</button><button class="smallbtn" id="vwSignOut" type="button">Sign out</button><button class="smallbtn" id="vwFillDemo" type="button">Fill demo test fields</button><button class="smallbtn" id="vwSaveShared" type="button">Save current record to shared database</button><button class="smallbtn" id="vwLoadShared" type="button">Refresh shared records</button></div>
       <p id="vwSharedStatus" role="status" aria-live="polite" style="font-size:12px;margin:12px 0 6px">Not connected. Enter your project URL and publishable key.</p>
       <div id="vwSharedList"></div>
     `;
@@ -54,7 +54,7 @@
     $("vwPublishableKey").value = cfg.key || "";
     $("vwConnect").onclick = connect;
     $("vwSignIn").onclick = () => authenticate(false);
-    $("vwSignUp").onclick = () => authenticate(true);
+    
     $("vwSignOut").onclick = signOut;
     $("vwSaveShared").onclick = saveShared;
     $("vwFillDemo").onclick = fillDemo;
@@ -82,22 +82,16 @@
       }).catch(e => status("Could not check session: " + e.message, true));
     } catch (e) { status("Could not connect: " + e.message, true); }
   }
-  async function authenticate(signUp) {
+  async function authenticate() {
     if (!client) { status("First click Connect project.", true); return; }
     const email = $("vwEmail").value.trim(), password = $("vwPassword").value;
     if (!email || password.length < 8) { status("Enter your work email and a password with at least 8 characters.", true); return; }
     try {
-      const result = signUp
-        ? await client.auth.signUp({email, password})
-        : await client.auth.signInWithPassword({email, password});
+      const result = await client.auth.signInWithPassword({email, password});
       if (result.error) throw result.error;
       currentUser = result.data.user || result.data.session?.user || null;
-      if (signUp && !result.data.session) {
-        status("Account request created. Check your email for the Supabase confirmation link, then sign in.");
-      } else {
-        status("Signed in as " + (currentUser?.email || email));
-        await loadShared();
-      }
+      status("Signed in as " + (currentUser?.email || email));
+      await loadShared();
     } catch (e) { status("Login error: " + e.message, true); }
   }
   async function signOut() {
