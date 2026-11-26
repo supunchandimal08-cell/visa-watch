@@ -295,3 +295,18 @@ Poland now has a dedicated source review file. No Poland rule has been marked le
 - Sri Lankan applicants: Cyprus High Commission New Delhi has parallel accreditation; VFS contract from 21 July 2026 includes Sri Lanka but lists India centres only. Institution submits entry-permit application. Exact passport endorsement/VFS route must be confirmed directly with university and High Commission.
 - University of Cyprus documents (criminal record, health tests, insurance, local bank balance, certified housing) are institution-specific examples, not universal national requirements.
 - All Cyprus rules remain **Pending human review**.
+
+
+## 20. Europe dashboard country-rule gap remediation — 26 November 2026
+
+A final dashboard review found that several country research files existed while the dashboard still showed only a generic "Needs official-country verification" placeholder. The following entries have now been replaced with country-specific rules and linked to the existing official source registry:
+
+- **Bulgaria:** Type D / Article 24c study residence; 2026 EUR 620.20 minimum-wage funds benchmark; 20-hour work rule and employer registration; nine-month eligible graduate route; New Delhi Sri Lanka jurisdiction.
+- **Latvia:** OCMA invitation / D visa / VFS Colombo and Hello Verify route; EUR 780 general subsistence amount flagged as not confirmed student-specific; Bachelor versus Master's/doctoral work discrepancy; conditional post-study extension.
+- **Poland:** 27 April 2026 MOS e-filing; current PLN 1,010 / PLN 823 funds and PLN 2,500 Sri Lanka return funds; full-time work exemption; nine-month graduate route; New Delhi D-visa/VFS process.
+- **Romania:** D/SD visa and Letter of Acceptance; separate visa and residence funds; current IGI six-hours/day work rule with older four-hour source conflict; nine-month graduate extension; Colombo Embassy route.
+- **Slovakia:** up-to-six-year university study residence; EUR 295.22 monthly statutory subsistence minimum; 80-hours/month versus 20-hours/week work discrepancy; nine-month graduate extension; New Delhi national D-visa route.
+- **Slovenia:** study residence up to one year; EUR 484.88 student page versus EUR 507.43 general basic-income discrepancy and un-enacted EUR 1,014.86 proposal; student-service versus ordinary employment distinction; nine-month job-search route; New Delhi national D visa.
+- **Switzerland:** Colombo national D visa and cantonal authorisation; no universal national student funds figure; 15-hours/week after six months with cantonal approval; six-month qualified job-search period; 14-day registration and health insurance.
+
+All added dashboard rules remain **Pending human review**. Existing country research documents remain the supporting detailed record; this remediation does not constitute legal approval. The automated source validator confirms unique source IDs and all rule-source references resolve.
