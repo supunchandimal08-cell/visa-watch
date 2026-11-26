@@ -77,3 +77,20 @@ This review is for non-EU/EEA/Swiss applicants resident in Sri Lanka seeking ful
 - Confirm current residence visa validity, appointment scheduling and AIMA process for the actual case.
 - Family reunification after the 2026 law changes needs separate case-specific legal review.
 - No legal rule is approved by this research note. All dashboard records remain Pending human review.
+
+
+## 11. Targeted official-source recheck — 26 November 2026
+
+- Reopened AIMA's live Article 91 page and the AIMA means-of-subsistence page. The Article 91 page confirms the higher-education permit conditions, three-year validity (or programme duration if shorter), and that holders of an Article 91 study residence permit may work as employees or self-employed under Article 97. It also notes that the digital filing platform for residence-visa holders is still being implemented; do not promise a fully online filing route.
+- Important data-quality warning: AIMA's means page still displays the 2025 minimum wage of €870, even though Decreto-Lei n.º 139/2025 fixes the 2026 minimum wage at €920 from 1 January 2026. Keep the two sources distinct: use the 2026 statutory decree for the €920 calculation and label the AIMA means page as framework guidance with stale annual wage text until AIMA refreshes it.
+- Reopened Portaria n.º 1563/2007. Article 5(4) explicitly sets 12 months (or exchange-programme duration) and allows a reduction of half when accommodation is provided, or up to 90% when both accommodation and food are provided. These reductions require evidence and must not be treated as automatic.
+- Reopened the consolidated Lei n.º 23/2007: Article 91(1) requires enrolment, tuition payment if applicable, means and health cover; Article 91(2) sets three-year validity (or programme duration if shorter). Article 97 authorises employee or self-employed activity for holders of the relevant study residence permit. The current text does not set a general weekly-hour cap in Article 97(1).
+- Reopened Lei n.º 62/2026 and confirmed its amendment is effective from 11 September 2026. Article 91(4) was revoked; do not advise higher-education applicants to rely on the former in-country no-residence-visa conversion route.
+- Current gov.pt D4 service page is dated 19 October 2026 but expressly warns that it may be outdated. Use it as a broad document-category checklist only; the current Embassy/MNE instructions control filing details.
+- AIMA's Article 122(1)(p) post-study route remains limited to eligible second-/third-cycle graduates and research-permit holders, up to one year; do not market it as a universal graduate work visa.
+- Sri Lankan consular jurisdiction and VFS India eligibility remain operational checks: confirm directly with the Embassy of Portugal in New Delhi before booking, paying or legalising original documents.
+
+### Dashboard action
+- Added source-register record pt11 for the primary legal text, Portaria n.º 1563/2007.
+- Updated pt2 source note to warn that AIMA's page still shows the 2025 €870 figure; the 2026 €920 calculation is sourced separately to Decreto-Lei n.º 139/2025 (pt3).
+- Existing Portugal rule entries remain **Pending human review**. No legal approval is implied by this source recheck.
