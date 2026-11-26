@@ -104,6 +104,8 @@ jobs:
           required = [
               'id="caRef"',
               'id="caAge"',
+              "DEMO ONLY — NOT CONNECTED TO THE COMPANY CLIENT DATABASE",
+              "Use fictional test data only",
               'id="clientDocumentTracker"',
               'id="dtFollowDate"',
               'id="dtFollowNote"',
