@@ -137,3 +137,20 @@ The Romania evidence is now stronger for the 6-hour-per-day rule on the current 
 - Added three country-specific recheck records to `index.html`, all marked **Pending human review** and linked to existing national sources: Latvia funds/work, Slovenia funds discrepancy, Romania 6-hour work rule.
 - No rule was marked legally approved. No final Slovenia student-funds threshold was asserted. No Latvia EUR 780 student-specific legal conclusion was asserted.
 - Website validation and Pages deployment for the new commit must complete successfully before treating this dashboard revision as published.
+
+
+## 10. Poland official-source research — 26 November 2026
+
+A dedicated Poland student-route review was added at `database/POLAND-STUDENT-SOURCE-REVIEW-2026-11-26.md`. This closes the missing-document gap identified in section 4, but does not certify Poland's dashboard entries.
+
+Key evidence and controls:
+- Current MOS / Office for Foreigners study guidance gives PLN 1,010 per month for a single applicant and PLN 823 for the applicant and each dependant, with actual housing costs and return funds assessed separately. The older EU Immigration Portal page dated 16 September 2025 displays PLN 776 / PLN 600; retain this as a documented discrepancy and do not quote the older figures as current without authority confirmation.
+- The government-supported study.gov.pl page says that from 27 April 2026, study-purpose temporary residence applications are submitted electronically through MOS. This must not be confused with initial national D-type visa filing.
+- Study.gov.pl guidance describes a work-permit exemption for eligible non-EU full-time students whose stay is based on a Polish study D visa or study residence permit; part-time / other residence categories may differ. Studies remain the main purpose; no expected wages are to be counted as proof of funds.
+- Study.gov.pl describes a possible one-time nine-month graduate temporary residence permit for job-search / business purposes, subject to eligibility. A work-permit exemption after graduation does not itself extend lawful stay.
+- The official Poland-in-India D-study visa page lists Sri Lanka within the New Delhi Embassy's jurisdiction and gives e-Konsulat / in-person VAC instructions. Recheck current appointment and VAC details before advising or payment.
+
+Official source URLs are recorded in the Poland review document. All Poland entries must remain **Pending human review** until a senior reviewer confirms the current law, programme eligibility, funds calculation, insurance checklist, consular route and exact work conditions.
+
+### Release effect
+Poland now has a dedicated source review file. No Poland rule has been marked legally approved, and no dashboard change is claimed in this section. This is a research/documentation improvement only. Website validation and Pages deployment status must be checked for the latest repository commit before describing any new content as live.
