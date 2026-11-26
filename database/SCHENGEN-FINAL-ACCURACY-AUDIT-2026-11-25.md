@@ -169,3 +169,14 @@ Poland now has a dedicated source review file. No Poland rule has been marked le
 ### Portugal release status
 
 **Research refresh completed; legal approval not granted.** The 2026 funds benchmark is €11,040 for one adult over 12 months before any evidence-based reduction; it is a calculation from the statutory €920 monthly minimum wage, not a universally published fixed bank-balance requirement. The Article 91 work rule must not be extended to secondary students, unpaid trainees or volunteers. Embassy/VFS filing eligibility for Sri Lankan residents remains a live operational confirmation.
+
+
+
+## 10. Slovakia targeted official-source recheck — 26 November 2026
+
+- Rechecked Slovak MFA residence guidance and Ministry of Labour indexation. Section 24 study residence may cover the expected study duration up to six years; university study has a separate checklist. The one-adult subsistence minimum effective 1 July 2026 is EUR 295.22/month, making EUR 3,542.64 the 12-month statutory means calculation. This is not tuition or a realistic all-in living-cost budget.
+- Rechecked the New Delhi Embassy university D visa checklist: EUR 90 administrative fee, passport, admission decision in Slovak, criminal records with required legalisation/translation, flight reservation and 120-day health cover. The EUR 56/day amount belongs to the separate language-school checklist, not the university D visa checklist.
+- Added a source record for the Embassy 10 August 2026 academic-year 2025/2026 appointment notice. Institution submits appointment request; applicants/agents cannot request directly. After BLS/VFS submission, mandatory Embassy interview is scheduled for the following day. Confirm the 2026/2027 procedure before filing.
+- Sri Lankan public documents require relevant Sri Lankan MFA legalisation followed by Slovak Embassy New Delhi superlegalisation. Italy representation in Colombo applies to short-stay Schengen visa applications only; it does not establish Slovak national D visa handling.
+- University students holding study-purpose temporary residence may work up to 80 hours/month without an employment permit. Eligible university graduates may apply for a nine-month job-search/business extension subject to requirements. Neither work nor post-study extension guarantees employment.
+- Slovakia dashboard remains **Pending human review**. The current academic-year appointment schedule and applicant-specific consular acceptance remain operational checks.
