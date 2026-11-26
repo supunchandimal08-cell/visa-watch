@@ -78,3 +78,30 @@ Family reunification rules for third-country nationals are restrictive and are n
 
 ---
 Prepared for internal counselling research. Automated monitoring can detect page changes but cannot confirm legal interpretation. A qualified human reviewer must approve every rule before client-facing use.
+
+
+## 9. Official-source recheck — 26 November 2026
+
+### Study residence and third-country scope
+- The Migration and Passport Office study/training L-permit page was rechecked. It expressly says the route applies to all nationalities seeking education/study in Liechtenstein; Article 19 of the Foreign Nationals Act applies to non-EEA/non-Swiss nationals. The L permit may cover the education period but is issued for no more than 12 months at a time; a further L permit may be requested before expiry if study continues.
+- The complete application must reach the Migration and Passport Office at least 14 days before the planned training start. Visa-required applicants are advised to apply earlier so that entry can occur on time. No residence or employment may begin before the relevant permit/visa is issued; third-country applicants must await visa assurance abroad.
+- The general third-country residence page separately says Liechtenstein is not obliged to grant residence permits to third-country nationals and that general permits are discretionary / guided by national economic considerations. Do not confuse those general residence categories with the specific Article 19 study L-permit route; confirm the applicant's programme and case directly with the Migration Office.
+
+### Work rights — precise scope
+- The current Migration Office page says non-EEA/non-Swiss students at the University of Liechtenstein may work up to 35% of their studies/workload if the activity is related to their studies. Authorisation is required in all cases.
+- The University FAQ confirms prior approval from the Immigration and Passport Office is required before any employment; the employer must submit the employment-commencement application. It warns of a possible fine up to CHF 400 if the application is submitted too late.
+- The Migration Office page does not expressly state a general full-time semester-break entitlement for third-country students. The University housing/residence and FAQ information does not override the authority's permit conditions. Do not promise holiday full-time work without written confirmation for the exact permit and dates.
+
+### University-specific costs and admission
+- The University FAQ says admission as a guest student is not sufficient for a residence permit; a proper degree-programme admission is needed. Third-country students generally require a visa, applied for at the Swiss Embassy in their home country, while the Liechtenstein residence permit must be applied for with the Migration and Passport Office before study begins.
+- Published University tuition for Bachelor's, Master's and doctoral degree programmes is CHF 1,250 per semester for students from outside EU/EEA/Switzerland (other fees may apply). Its indicative living-cost estimate is CHF 1,500/month. The University housing page lists dormitory rooms around CHF 400–600/month. These are University planning estimates, not the statutory immigration funds threshold.
+- The University states it provides a bank guarantee for third-country students in return for a CHF 3,000 deposit, refundable only upon completion of the degree programme. Confirm the specific programme's applicability, refund conditions and timing directly; this is not a government visa fee.
+
+### Sri Lanka national D-visa checklist
+- The Embassy's joint 2026 student D-visa checklist for Switzerland and Liechtenstein requires personal attendance by appointment, three signed D-visa application forms, four identical colour photos, current and previous passport evidence, academic certificates and CV, signed personal letter covering study rationale/future plans/departure after study, official admission/registration and tuition-paid evidence, sponsor's written undertaking, six months of bank movements and balance evidence, sponsor ID and relationship proof, language-test evidence (compulsory except for Swiss Federal Government scholarship recipients), and family-bond evidence. Two A4 photocopy sets are required. Sinhala/Tamil/Dhivehi documents need official translation into English, German, French or Italian.
+- Reconfirm the latest PDF, appointment availability, authority assurance and fees directly before filing.
+
+### Financial evidence
+- Article 19 requires sufficient resources for living and study without social assistance, health insurance covering all risks in Liechtenstein, suitable accommodation and credible departure assurance. No official fixed long-stay student monthly figure was found.
+- The European Commission's CHF 30/day student reference is for short-stay external-border checks only. It is not the L-permit maintenance threshold. Do not use it as proof-of-funds guidance for a long-term student.
+- All Liechtenstein rules remain **Pending human review**.
