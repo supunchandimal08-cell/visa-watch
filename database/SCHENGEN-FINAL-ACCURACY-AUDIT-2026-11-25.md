@@ -225,3 +225,15 @@ Poland now has a dedicated source review file. No Poland rule has been marked le
 - Joint Colombo D-visa checklist requires three D forms, four photos, academic/CV evidence, personal study/future/departure letter, admission and tuition payment, sponsor undertaking and six-month bank evidence, sponsor ID/relationship, language-test proof (with stated scholarship exception), family-bond evidence, two A4 copy sets and official translations.
 - CHF 30/day is a short-stay student border reference only, not a long-stay L-permit funds rule. No official universal student maintenance amount was located.
 - All Liechtenstein rules remain **Pending human review**; do not promise visa, work, or post-study outcomes.
+
+
+## 15. Luxembourg official-source corrections — 26 November 2026
+
+- **Funds correction:** the current FNS table at June 2026 index 992.24 gives a one-adult maximum REVIS inclusion allowance of EUR 1,944.40 (adult base EUR 972.20 + household common-cost component EUR 972.20). 80% arithmetic reference = EUR 1,555.52/month. The old EUR 777.76 figure was only 80% of the adult base component and must not be used as the single-adult total. Guichet does not define the REVIS household base for foreign students, so no fixed threshold is certified; obtain Immigration confirmation.
+- **Sri Lanka route:** New Delhi Embassy updated 23 November 2026 says Sri Lankan long-stay D applications are processed by New Delhi and couriered through Honorary Consulate Colombo. EUR 50 fee is listed for new D process. The 25–30 working-day recommendation is under the old AST transitional section only, not a new-route service guarantee.
+- **Arrival:** first residence card page updated 1 October 2026 requires commune arrival declaration within 3 days, medical/TB screening and first residence permit filing no later than 3 months before Visa D expiry. Residence card issuance fee EUR 80; biometrics and suitable accommodation evidence required.
+- **Work:** current Guichet page sets average 15 hours/week over a month outside studies; paid school-holiday work, doctoral research and University of Luxembourg assistant contracts are exceptions. Employer must submit declaration before hiring/contract changes and notify start within 3 working days. Older EU Portal first-two-semester Bachelor restriction remains an unresolved discrepancy; no automatic harmonisation.
+- **Post-study:** current Guichet page states a non-renewable 12-month job-search/business-creation permit for eligible Luxembourg Master's graduates and doctoral graduates. Apply at least 30 days before expiry; funds at 80% REVIS and comprehensive insurance. This supersedes the 9-month statement in the prior draft. Ordinary Bachelor's graduates are not listed.
+- **Separate graduate work route:** current student renewal page describes a simplified salaried/self-employed route for graduates completing a university course of at least 5 years, with work directly related to academic training. Keep separate from the 12-month search permit.
+- **Renewal:** student permit renewal due at least 2 months before expiry; EUR 80 card fee.
+- All Luxembourg rules remain Pending human review.
