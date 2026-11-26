@@ -92,3 +92,36 @@ The checklist PDF was published August 2025; recheck for a newer version before 
 
 ---
 Automated monitoring detects page changes only; it does not confirm legal interpretation. All rules remain Pending human review until approved by a qualified reviewer.
+
+
+## 10. Official-source recheck and important clarifications — 26 November 2026
+
+### Separate visa-stage and residence-permit funds tests
+- The **Student National Visa checklist** (Identità PDF published August 2025) requires funds of at least **75% of the national minimum wage for every month of study**, supported by the applicant's last 3 months of bank statements and a recent bank certificate; sponsor evidence includes bank statements, signed declaration and ID/passport.
+- DIER's current 2026 adult whole-time minimum wage is **EUR 229.44/week**. Annualised monthly equivalent: EUR 229.44 × 52 ÷ 12 = **EUR 994.24/month**. 75% arithmetic reference = **EUR 745.68/month**. This is a visa-checklist calculation, not the separate residence-card funds test.
+- Identità's current Study FAQ describes the **post-arrival study residence permit** financial test as **60% of Malta's annual national minimum wage or the poverty line, whichever is higher**, adjusted for household size and pro-rated to the study duration. It requires recent bank statements (last 3 months), evidence that foreign funds can be accessed in Malta, and sponsor declaration/ID plus proof the funds are available to the student.
+- Do not conflate the 75% monthly visa checklist formula with the 60% annual wage/poverty-line residence FAQ formula. The current FAQ does not publish one universal EUR threshold for all applicants; verify the poverty-line comparison and household calculation with Identità before quoting a fixed residence-stage amount.
+
+### Insurance and accommodation — visa stage versus residence stage
+- The August 2025 Student National Visa checklist states for MQF 5+ a Schengen-valid travel/medical insurance policy with at least **EUR 30,000** cover for at least **91 consecutive days** from first Schengen entry; MQF 4 and below require coverage for the whole stay. Check whether a newer checklist has superseded this PDF.
+- Identità's current Study FAQ describes private health insurance of at least **EUR 100,000** for medical treatment/hospitalisation for the full study period, except students at University of Malta, MCAST and ITS who are listed as exempt. This is the residence-stage requirement and should not be assumed satisfied by a short visa-stage travel policy.
+- Residence-stage rented accommodation evidence may include the signed lease, Housing Authority registration/approval and a Lease Agreement Attestation Form for a new lease/address. University accommodation and free host arrangements use different documents. Confirm current checklist for the student's exact accommodation.
+
+### Course and residence route
+- Current Identità Expatriates Unit page confirms the main study residence route under S.L. 217.22 for full-time courses leading to an MQRIC-recognised qualification at MQF Level 5 or above at an MFHEA-licensed institution. Application is online through the Expatriates Unit Portal; the student must be in Malta and complete biometrics/card collection. Current listed study application fee: **EUR 50**.
+- Identità's Study FAQ also says courses below MQF 5 may be pursued after a one-year national D visa or with an existing EU residence permit, followed by the applicable residence formalities. Do not assume the MQF 5+ student work and post-study benefits apply to these lower-level courses.
+- Full-time course evidence should specify the MQF level, exact course dates, at least 15 hours of study/contact per week, course details and, where relevant, ECTS. Confirm the exact current requirement with Identità and MFHEA.
+
+### Work during study
+- Identità's current Central Visa Unit employment page states that full-time students pursuing an MQRIC-recognised higher-education qualification may work up to **20 hours/week from the first year**, after issuance of the student residence permit and with the required Jobsplus employment licence.
+- Students on courses exceeding 90 days who do not qualify under S.L. 217.22 may be granted access to work up to **20 hours/week only after the first 3 months**, subject to Jobsplus conditions and sector restrictions.
+- Do not start work before the Jobsplus licence is issued. No job is guaranteed.
+
+### Visa processing and appointment timing
+- Identità's current Visa FAQ says the Malta D-visa process may take **up to 8 weeks** and recommends submitting at least **8 weeks before course start**. The VFS Sri Lanka page currently states a minimum **6–8 weeks**. The August 2025 checklist says at least **9 weeks** before the course start. Use 9 weeks as a cautious planning target, not as a guaranteed legal deadline; check current appointment availability and checklist.
+- VFS Sri Lanka page lists Student Visa Standard **EUR 100 + EUR 100 VFS fee** and Extended **EUR 150 + EUR 150 VFS fee**, payable in local currency at current exchange rate. Identità lists **EUR 50** for the study residence permit. Keep these charges separate and recheck live fee tables.
+
+### Renewal and post-study
+- Identità's Study FAQ says renewals should be filed before the current card expires and suggests starting about one month ahead; the general Servizz.gov.mt guidance recommends planning around 3 months ahead. Prepare early and follow the exact portal deadline and current checklist.
+- The current Identità Study FAQ confirms the one-time **up to 9-month** post-study permit for MQF 5+ graduates who held a valid study residence permit at completion. Apply while still legally in Malta and before the student permit expires. It is a job-search/business setup stay, not a work permit; appropriate Jobsplus/Single Permit or other work authorisation is still required before working.
+- All Malta rules remain **Pending human review**. The August 2025 visa checklist and dynamic Identità FAQ should be checked again immediately before each filing.
