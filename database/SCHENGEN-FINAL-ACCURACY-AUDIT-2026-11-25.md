@@ -286,7 +286,7 @@ Poland now has a dedicated source review file. No Poland rule has been marked le
 
 ## 19. Cyprus official-source review — 26 November 2026 (EU, non-Schengen)
 
-- Cyprus is an EU member but is **not part of Schengen**. The student route is a Cyprus national entry permit and temporary residence permit, not a Schengen student visa.
+- Cyprus is an EU/euro-area member but is **not yet fully applying the Schengen acquis** and does not issue Schengen visas. The student route is a Cyprus national entry permit and temporary residence permit, not a Schengen student visa; Cyprus residence documents do not themselves provide visa-free Schengen travel.
 - The Migration Department states that a recognised higher-education institution submits the entry-permit application; the application must be lodged while the student is outside Cyprus or holds a valid residence permit, not while in Cyprus as a tourist. After arrival, register in the Aliens Register and apply for the temporary residence permit within 7 days. Permit is up to one year, renewable annually subject to study progress.
 - General Government student page does not publish a single universal financial threshold. University of Cyprus requires EUR 7,000 (reduced to EUR 5,000 for 50%+ scholarship; waived for full scholarship) as an institution-specific example. Do not generalise to all institutions.
 - Work under 2026 Decree KDP 126/2026: eligible full-time students must complete first academic semester and enrol in second (not Foundation/high-school); only specified occupations/sectors; maximum 20h/week in classes and 38h/week in breaks; employer contract and Department of Labour approval required.
