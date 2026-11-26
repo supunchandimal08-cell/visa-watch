@@ -1,7 +1,7 @@
 # Cyprus Student Entry Permit and Residence — Official Source Review (26 November 2026)
 
 ## Scope and classification
-Cyprus is an EU member state but is **not part of the Schengen Area**. A Cyprus student entry permit / temporary residence permit is a national Cyprus immigration route. It is not a Schengen student visa and does not itself provide Schengen travel rights.
+Cyprus is an EU and euro-area member but is **not yet fully applying the Schengen acquis** and does not issue Schengen visas. A Cyprus student entry permit / temporary residence permit is a national Cyprus immigration route. Cyprus residence documents do not themselves exempt third-country nationals from Schengen visa requirements.
 
 This review is for third-country nationals seeking full-time higher education in Cyprus for more than 90 days, with specific notes for Sri Lankan applicants. All VisaWatch rules remain **Pending human review**.
 
@@ -53,7 +53,7 @@ The Migration Department fee schedule lists:
 - The High Commission's published page states a VFS Global service contract effective **21 July 2026** includes Sri Lanka among parallel-accreditation countries. The listed VFS centres are in India; the page does not list a Colombo VFS centre.
 - The Migration Department says the higher-education institution submits the student entry-permit application. The student must get written instructions from the admitting institution and the High Commission about whether a passport visa sticker/endorsement or VFS appointment is required for the Sri Lankan applicant and where to submit it.
 - Do not send original documents or pay optional VFS services before the competent office confirms the exact student entry-permit process.
-- This is a Cyprus national entry/residence process, not a Schengen C-visa application.
+- This is a Cyprus national entry/residence process, not a Schengen C-visa application. Cyprus residence documents do not themselves grant visa-free travel to the Schengen Area; check the traveller's nationality and Schengen visa requirement separately.
 
 ## 7. Documents, medical screening and accommodation
 - The Migration Department requires supporting documents to be officially translated and duly certified.
@@ -82,6 +82,8 @@ The Migration Department fee schedule lists:
 - Cyprus Government — Employment of third-country students: https://www.gov.cy/service/apascholisi-foititon-triton-choron/
 - Cyprus Department of Labour — Student employment guidance / Decree KDP 126/2026: https://www.mlsi.gov.cy/mlsi/dl/dl.nsf/page5h_gr/page5h_gr?OpenDocument
 - Cyprus High Commission New Delhi — Visa information / Sri Lanka parallel accreditation: https://www.gov.cy/mfa-highcomnewdelhi/en/consular-services/visa-information/
+- EU country profile — Cyprus and Schengen status: https://european-union.europa.eu/principles-countries-history/eu-countries/cyprus_en
+- Cyprus Government — EU member state not yet fully applying Schengen acquis: https://www.gov.cy/media/sites/19/2026/01/The-attached-PDF-contains-information-on-EU-member-states-and-associated-countries-that-have-abolished-internal-border-controls-and-fully-implement-Schengen-rule.pdf
 - University of Cyprus — Entry permit for non-EU students: https://www.ucy.ac.cy/internationalsupport/non-eu-citizens/entry-permit/students/
 - University of Cyprus — Student residence permit after arrival: https://www.ucy.ac.cy/internationalsupport/non-eu-citizens/residence-permit/students-permit/
 
