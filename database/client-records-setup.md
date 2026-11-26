@@ -27,9 +27,10 @@ These policies are a starting point and must be tested in the actual project. Th
 2. Review the provider's current terms, data-processing terms, available hosting region, subprocessors, backup options and incident process. Confirm the selected hosting location is acceptable for the company's legal obligations, including applicable Sri Lankan data-protection requirements. Get qualified legal advice where needed.
 3. Create a company-owned Supabase project with MFA enabled for project administrators. Do not use a personal employee account as the sole owner.
 4. In SQL Editor, review and run `client-records-schema.sql` in that project. This creates the active staff allow-list and helper functions. Do not run it in the public GitHub repository or paste client data into SQL.
-5. Run `supabase-schema.sql` to create the shared course-research table, then run `course-records-access-hardening.sql` to restrict it to active allow-listed VisaWatch members and make deletion admin-only. The hardening migration depends on the client-record schema having been run first.
-6. In Supabase Authentication settings, disable public sign-up. The website's shared course panel now offers sign-in only; staff accounts must be provisioned through the approved admin process. Do not rely on hiding a sign-up button as a security control.
-7. Bootstrap the first admin from the SQL Editor using the exact Auth user UUID after the admin account has been created:
+5. Run `client-records-hardening.sql` to validate active staff assignment, prevent counsellor reassignment, and protect creator identity. This migration depends on the client-record schema having been run first.
+6. Run `supabase-schema.sql` to create the shared course-research table, then run `course-records-access-hardening.sql` to restrict it to active allow-listed VisaWatch members and make deletion admin-only. The course-record hardening migration also depends on the client-record schema having been run first.
+7. In Supabase Authentication settings, disable public sign-up. The website's shared course panel now offers sign-in only; staff accounts must be provisioned through the approved admin process. Do not rely on hiding a sign-up button as a security control.
+8. Bootstrap the first admin from the SQL Editor using the exact Auth user UUID after the admin account has been created:
 
    ```sql
    insert into public.team_members (user_id, role, is_active)
@@ -37,9 +38,9 @@ These policies are a starting point and must be tested in the actual project. Th
    ```
 
    Only an existing admin should add other staff. Never allow users to set their own role. Keep a controlled record of who approved each access grant.
-8. Add each authorised counsellor as `role = 'counsellor'`. Deactivate access promptly when staff leave or change roles.
-9. Test with at least: an admin account, two counsellors assigned different cases, and a signed-out/incognito browser. Confirm the signed-out user sees no client data; counsellor A cannot read counsellor B's unassigned case; counsellors cannot manage members or delete cases; only admins can read audit entries.
-10. Arrange and test backups and restoration, account recovery, MFA, session expiry, incident response, retention/deletion, and periodic access reviews before launch.
+9. Add each authorised counsellor as `role = 'counsellor'`. Deactivate access promptly when staff leave or change roles.
+10. Test with at least: an admin account, two counsellors assigned different cases, and a signed-out/incognito browser. Confirm the signed-out user sees no client data; counsellor A cannot read counsellor B's unassigned case; counsellors cannot manage members or delete cases; only admins can read audit entries.
+11. Arrange and test backups and restoration, account recovery, MFA, session expiry, incident response, retention/deletion, and periodic access reviews before launch.
 
 ## Data minimisation rules
 
@@ -51,6 +52,8 @@ These policies are a starting point and must be tested in the actual project. Th
 - Define a retention period and secure deletion process. Do not keep cases indefinitely by default.
 
 ## Shared course-record access hardening
+
+The client records table must use `database/client-records-hardening.sql` immediately after its base schema. It protects creator identity, prevents counsellors from changing case assignment, and requires assignments to point to active team members.
 
 The shared course research table must use `database/course-records-access-hardening.sql` after both schemas above. Active allow-listed staff can read and update shared course records; inserts must identify the signed-in creator; only admins can delete. The browser panel no longer offers account creation. Public sign-up must also be disabled in Supabase settings, and actual role/RLS tests remain mandatory.
 
