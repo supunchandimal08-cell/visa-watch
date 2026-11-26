@@ -20,10 +20,18 @@ Use synthetic names and references such as TEST-001 only. Do not use real passpo
 | Authenticated user not on active team allow-list reads client_records | Denied / no rows |
 | Counsellor A creates a case assigned to self | Allowed |
 | Counsellor A creates a case assigned to Counsellor B | Denied |
+| Counsellor A tries to reassign an existing case to B | Denied |
+| Admin assigns a case to an active counsellor | Allowed |
+| Admin assigns a case to a disabled/non-member account | Denied |
+| Counsellor tries to change created_by on an existing case | Denied |
 | Counsellor A reads a case created by or assigned to A | Allowed |
 | Counsellor A reads B's unrelated case | Denied |
 | Counsellor B reads B's own/assigned case | Allowed |
 | Counsellor tries to change team_members role | Denied |
+| Authenticated account not in active team_members allow-list reads shared course records | Denied |
+| Active counsellor reads and updates shared course records | Allowed |
+| Active counsellor deletes shared course records | Denied |
+| Active admin deletes shared course records | Allowed |
 | Counsellor tries to delete a client record | Denied |
 | Counsellor tries to read client_record_audit | Denied |
 | Admin reads all cases and audit rows | Allowed |
@@ -34,7 +42,7 @@ Use synthetic names and references such as TEST-001 only. Do not use real passpo
 
 ## Additional checks before any production launch
 
-1. Verify RLS is enabled on all three client tables and inspect every policy in the Supabase dashboard.
+1. Verify RLS is enabled on all three client tables and the shared course table; inspect every policy and both hardening triggers in the Supabase dashboard.
 2. Test the policies through the actual browser client using the publishable key, not only the SQL Editor (SQL Editor commonly runs with elevated privileges and does not prove browser restrictions).
 3. Confirm there is no public sign-up, no anonymous read/write policy, and no secret/service-role key in website files, GitHub history, browser bundles, or logs.
 4. Confirm the first admin bootstrap procedure is controlled and independently approved. Do not share admin credentials.
