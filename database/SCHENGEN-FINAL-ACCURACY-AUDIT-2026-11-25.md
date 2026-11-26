@@ -120,3 +120,20 @@ The following live official pages were reopened after the structural audit. Thes
 ### Release effect
 
 The Romania evidence is now stronger for the 6-hour-per-day rule on the current IGI Studies page, but should still be signed off by a reviewer. Latvia's EUR 780 and Slovenia's student-specific EUR 484.88 are recorded as evidence, not universal guaranteed visa-fund requirements. All affected dashboard records remain in human-review status. No immigration rule is marked legally approved by this follow-up.
+
+## 9. Targeted official-source recheck — 26 November 2026
+
+### Latvia
+- Rechecked PMLP's necessary-subsistence page: updated 16 March 2026; from 1 April 2026 it states EUR 780/month in cases not otherwise specified and EUR 234/month for a minor child. This is not an explicit student-specific determination. Retain EUR 780 as a cautious planning reference only; request written PMLP confirmation of the student calculation, evidence period and accepted sponsor/bank evidence.
+- Rechecked the Integration and Inclusion Agency's international-student guidance: full-time Bachelor's students may work up to 20 hours/week during studies and 40 hours/week during study holidays; full-time Master's and PhD students may work without an hours restriction. Confirm programme status, permit conditions and current law. Do not include assumed wages in proof-of-funds calculations.
+
+### Slovenia
+- Rechecked the Study in Slovenia student-permit page: it still displays EUR 484.88/month. GOV.SI's 2026 basic minimum-income table states EUR 507.43 from 1 March 2026. The available official material does not reconcile the student-specific test. The October 2026 proposal to increase general sufficient means is not proof of enactment. No definitive amount is approved; obtain the competent Administrative Unit's written calculation, evidence period and sponsor rules.
+
+### Romania
+- Rechecked the current dedicated IGI Studies page and Study in Romania government work page: both state up to 6 hours/day for a non-EU student holding study residence, under the applicable individual part-time employment contract without a separate work permit. An older/alternate IGI English page has displayed 4 hours; retain the discrepancy and request IGI confirmation where material. This does not authorise full-time work, self-employment or guarantee a job.
+
+### Dashboard changes
+- Added three country-specific recheck records to `index.html`, all marked **Pending human review** and linked to existing national sources: Latvia funds/work, Slovenia funds discrepancy, Romania 6-hour work rule.
+- No rule was marked legally approved. No final Slovenia student-funds threshold was asserted. No Latvia EUR 780 student-specific legal conclusion was asserted.
+- Website validation and Pages deployment for the new commit must complete successfully before treating this dashboard revision as published.
