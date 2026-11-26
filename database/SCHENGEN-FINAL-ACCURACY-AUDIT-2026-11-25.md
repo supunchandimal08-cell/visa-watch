@@ -202,3 +202,14 @@ Poland now has a dedicated source review file. No Poland rule has been marked le
 - From 1 October 2026, accompanying family members staying up to one year need comprehensive health insurance; the legal-guardian condition applies to specified children. Student-family maintenance amounts remain unchanged.
 - Sri Lanka biometrics must be submitted at the Embassy of Sweden in New Delhi. The Sweden Abroad Sri Lanka page lists Colombo permit-card collection by appointment Tue–Thu, 10:00–12:00; confirm card arrival and appointment before travel.
 - Sweden dashboard source notes and financial rule updated; expected future part-time earnings and job offers are expressly excluded from proof-of-funds calculations. All Sweden rules remain **Pending human review**.
+
+
+## 13. Switzerland targeted official-source recheck — 26 November 2026
+
+- Rechecked the Embassy of Switzerland in Sri Lanka national-visa landing page and jurisdiction page (both published 31 August 2026), the student D-visa checklist (printed 02/2026; the current document page lists the PDF as updated 9 June 2026), SEM FAQ Working / Entry and the cantonal student guidance.
+- Sri Lankan residents apply for national visas at the Embassy of Switzerland in Colombo. Student applications are forwarded to the competent canton; the Embassy may issue the visa only after cantonal approval.
+- The checklist requires personal appearance by prior appointment, three signed D forms, four photos, academic/CV evidence, study rationale and future plan, admission and tuition-payment proof, sponsor undertaking, six months of bank movements and balance proof, sponsor ID and relationship proof, language test and official translations. Sinhala/Tamil/Dhivehi documents need official translation into English, German, French or Italian. Two A4 copy sets are required. Listed visa fee is free.
+- Processing-time discrepancy: the current Embassy web page estimates 8–12 weeks total, varying by canton and case; the PDF printed 02/2026 says approximately three months for cantonal decision plus up to five further days for visa after authorisation. Neither is a guarantee; confirm directly before client commitments.
+- The checklist contains no universal CHF amount. Federal and cantonal sources require sufficient means but the amount/evidence must be confirmed for the intended canton. Do not quote CHF 21,000/30,000 as a national student threshold.
+- Non-EU/EFTA university/UAS students may seek cantonal work approval no earlier than six months after course start, generally max 15 hours/week outside holidays, with university compatibility confirmation and employer application. Work is not automatic. Eligible Swiss higher-education graduates may have up to six months to seek qualified work, subject to the overriding scientific/economic interest test.
+- All Switzerland rules remain **Pending human review**; no job, visa or processing outcome is guaranteed.
