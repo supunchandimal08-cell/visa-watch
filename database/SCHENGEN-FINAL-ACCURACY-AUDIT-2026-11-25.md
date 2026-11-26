@@ -271,3 +271,14 @@ Poland now has a dedicated source review file. No Poland rule has been marked le
 - Orientation year: eligible graduates/researchers may receive a non-renewable 1-year permit; detailed Dutch-degree / designated foreign-institution criteria and 3-year application window apply. It allows work without TWV.
 - IND says a student's institution can apply for family-member residence permits; family members under this student route are not allowed to work. Do not promise automatic family approval.
 - All Netherlands rules remain Pending human review.
+
+
+## 18. Norway official-source recheck — 26 November 2026
+
+- UDI Sri Lanka-personalised university/higher-education study route: NOK 15,488/month or NOK 170,368/year for 2026/27; semester funds NOK 77,440 autumn / NOK 92,928 spring. Tuition is separate and current 2026/27 invoice or exemption must be obtained; UDI's personalised page still has a 2025/26 tuition reference.
+- UDI adult study-permit fee NOK 5,400; under 18 NOK 2,700.
+- Work permission attached to granted study permit: up to 20 hours/week during study, full-time during holidays; no self-employment; no work, including remote work, before permit grant.
+- Eligible graduate job-seeker permit: apply before current student permit expiry, at least one month before expiry; funds NOK 28,448/month or NOK 341,373/year; own funds, usually Norwegian bank account; max one year; may work full-time/part-time while seeking skilled work; no self-employment.
+- Sri Lanka residence permit submissions through VFS Colombo, forwarded to Norwegian Embassy New Delhi and UDI. Police residence-card appointment after arrival, normally within 7 days or first available.
+- Fee discrepancy: Norway in Sri Lanka mission page still lists EUR 17 service + EUR 5.50 courier (July 2026), while current VFS page lists EUR 20 service, EUR 18 passport resubmission if requested, and LKR 4,950 mandated fee for Sri Lankan passport holders. Verify live VFS checkout and do not treat optional charges as automatic.
+- All Norway rules remain Pending human review.
