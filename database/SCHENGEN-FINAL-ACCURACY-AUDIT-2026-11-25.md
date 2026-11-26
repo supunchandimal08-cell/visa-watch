@@ -282,3 +282,16 @@ Poland now has a dedicated source review file. No Poland rule has been marked le
 - Sri Lanka residence permit submissions through VFS Colombo, forwarded to Norwegian Embassy New Delhi and UDI. Police residence-card appointment after arrival, normally within 7 days or first available.
 - Fee discrepancy: Norway in Sri Lanka mission page still lists EUR 17 service + EUR 5.50 courier (July 2026), while current VFS page lists EUR 20 service, EUR 18 passport resubmission if requested, and LKR 4,950 mandated fee for Sri Lankan passport holders. Verify live VFS checkout and do not treat optional charges as automatic.
 - All Norway rules remain Pending human review.
+
+
+## 19. Cyprus official-source review — 26 November 2026 (EU, non-Schengen)
+
+- Cyprus is an EU member but is **not part of Schengen**. The student route is a Cyprus national entry permit and temporary residence permit, not a Schengen student visa.
+- The Migration Department states that a recognised higher-education institution submits the entry-permit application; the application must be lodged while the student is outside Cyprus or holds a valid residence permit, not while in Cyprus as a tourist. After arrival, register in the Aliens Register and apply for the temporary residence permit within 7 days. Permit is up to one year, renewable annually subject to study progress.
+- General Government student page does not publish a single universal financial threshold. University of Cyprus requires EUR 7,000 (reduced to EUR 5,000 for 50%+ scholarship; waived for full scholarship) as an institution-specific example. Do not generalise to all institutions.
+- Work under 2026 Decree KDP 126/2026: eligible full-time students must complete first academic semester and enrol in second (not Foundation/high-school); only specified occupations/sectors; maximum 20h/week in classes and 38h/week in breaks; employer contract and Department of Labour approval required.
+- Post-study residence permit up to 12 months only for EQF level 7 (Master's or higher), with proposed work/business corresponding to study level. Not a general Bachelor's graduate route.
+- Fees: entry+residence EUR 70; with ARC EUR 140; residence issuance/renewal EUR 55; first Aliens Register registration EUR 70. Complete entry-permit target one month; residence-permit target three months.
+- Sri Lankan applicants: Cyprus High Commission New Delhi has parallel accreditation; VFS contract from 21 July 2026 includes Sri Lanka but lists India centres only. Institution submits entry-permit application. Exact passport endorsement/VFS route must be confirmed directly with university and High Commission.
+- University of Cyprus documents (criminal record, health tests, insurance, local bank balance, certified housing) are institution-specific examples, not universal national requirements.
+- All Cyprus rules remain **Pending human review**.
